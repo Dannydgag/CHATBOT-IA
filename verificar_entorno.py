@@ -19,8 +19,8 @@ if all(resultados):
     print("\n🎉 ¡Entorno configurado correctamente!")
 else:
     print("\n⚠️  Algunas librerías faltan. Ejecuta: pip install -r requirements.txt")
-```
-
+###```
+"""
 ## 📊 Tu estructura ideal debería ser:
 ```
 CHATBOT-IA/
@@ -38,4 +38,4 @@ CHATBOT-IA/
 ├── 📄 README.md        ✅ Ya tienes
 ├── 📄 requirements.txt ✅ Ya tienes
 ├── 📄 importante.txt   ✅ Ya tienes
-└── 📄 verificar_entorno.py  ⭐ AGREGAR (verificación)
+└── 📄 verificar_entorno.py  ⭐ AGREGAR (verificación)"""
