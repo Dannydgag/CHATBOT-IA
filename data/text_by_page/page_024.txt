@@ -1,0 +1,39 @@
+introdujo la prueba de Turing, el aprendizaje autónomo, los algoritmos genéticos y el 
+aprendizaje por refuerzo, sentando las bases conceptuales para que los científicos 
+comenzaran a explorar cómo crear programas capaces de resolver problemas ellos 
+mismos, sin la intervención humana. Este artículo es considerado el punto de partida que 
+impulsó la investigación formal en inteligencia artificial, dando origen a una nueva 
+disciplina dedicada a replicar la inteligencia humana en las máquinas. El legado de Turing 
+ha inspirado décadas de avances en aprendizaje automático, procesamiento de lenguaje 
+natural y otros campos clave de la IA. 
+En 1956, el informático John McCarthy (1927-2011) acuñó 
+el término "Inteligencia Artificial" y organizó el influyente 
+proyecto de investigación Dartmouth Summer Research 
+Project on Artificial Intelligence, en el que participaron 
+varios 
+científicos 
+estadounidenses 
+de 
+matemáticas, 
+psicología, ciencias de la computación y teoría de la 
+información como Marvin Minsky, Allen Newell, Arthur 
+Samuel y Herbert Simon. En aquella época, las 
+computadoras se utilizaban para tareas aritméticas con 
+herramientas de programación muy primitivas. El entusiasmo y esfuerzo pionero de 
+McCarthy y sus colegas en Dartmouth sentaron las bases conceptuales y metodológicas 
+para el nacimiento de la IA como campo formal. Su trabajo en esas primitivas condiciones 
+informáticas es digno de reconocimiento por impulsar una disciplina que décadas después 
+tendría aplicaciones transformadoras. McCarthy se refiere a esa época como la era de 
+"¡Mira mamá, ahora sin manos!".  
+Desde sus inicios, la Inteligencia Artificial (IA) ha tenido como objetivo replicar 
+y ampliar las capacidades humanas mediante la imitación y expansión de la inteligencia 
+humana mediante medios y técnicas artificiales. Para lograr este propósito, la IA se ha 
+centrado en el desarrollo de modelos computacionales que abordan el comportamiento 
+inteligente. Su enfoque se centra en la creación de sistemas informáticos capaces de 
+realizar actividades como la percepción, el razonamiento, el aprendizaje, la asociación, la 
+toma de decisiones y la resolución de problemas complejos.  
+El progreso que se ha alcanzado en la actualidad en IA ha permitido automatizar 
+actividades que antes solo los expertos humanos podían realizar debido a su complejidad 
+Figura 1.1 John 
+McCarthy 
+Fuente: Wikipedia

@@ -1,0 +1,32 @@
+Las redes neuronales y los algoritmos de aprendizaje automático son modelos 
+matemáticos que permiten a las máquinas aprender de los datos y realizar inferencias 
+complejas para tomar decisiones o realizar acciones basadas en la información procesada.  
+La teoría de la computación proporciona el marco teórico y los principios que 
+guían la creación y el funcionamiento de algoritmos que minimicen el uso de recursos, 
+tiempo de computación y memoria; mientras que los fundamentos matemáticos aportan 
+las herramientas y técnicas necesarias para formular y resolver problemas de manera 
+lógica y precisa (Domkin, 2021). 
+La psicología tiene gran importancia en el estudio y entendimiento de la mente 
+humana, al ser una ciencia, se enfoca en explorar y comprender los procesos cognitivos 
+(como el pensamiento, la memoria, la percepción y la toma de decisiones) y emocionales 
+(los sentimientos y las emociones) que caracterizan el comportamiento humano. 
+La idea de que los humanos procesan información ha contribuido a modelar los 
+sistemas de inteligencia artificial, inspirándose en la forma en que los humanos pensamos 
+y tomamos decisiones. Los enfoques teóricos y conceptuales de la psicología sobre el 
+procesamiento del lenguaje natural, la percepción visual y la toma de decisiones, han 
+influido en el diseño de algoritmos y modelos utilizados en los sistemas de la inteligencia 
+artificial. 
+La IA no se centra exclusivamente en imitar la mente humana. También incorpora 
+elementos de matemáticas, estadística e informática, lo que permite a las máquinas 
+realizar tareas cognitivas específicas y tomar decisiones en diversos contextos, a veces de 
+manera diferente a como lo haría un ser humano. La lingüística es importante en la 
+inteligencia artificial al proporcionar teorías y herramientas para comprender la estructura 
+y el significado del lenguaje humano. El lenguaje es un componente fundamental de la 
+comunicación y su comprensión y generación son elementos esenciales en muchos 
+sistemas de inteligencia artificial. 
+La lingüística es la ciencia del lenguaje que posee un enfoque sistemático para el 
+análisis de la gramática (estructura y reglas del lenguaje), semántica (significado de las 
+palabras y frases) y pragmática (uso del lenguaje en contextos específicos) del lenguaje. 
+El estudio detallado de las reglas y patrones lingüísticos, ha permitido los avances 
+tecnológicos en el campo de la inteligencia artificial y la computación, permitiendo a las 
+máquinas entender y generar lenguaje, así como para producir texto comprensible para

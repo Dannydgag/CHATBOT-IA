@@ -1,0 +1,26 @@
+Figura 3.15 Árbol de decisión binario 
+Elaborado por los Autores 
+3.4.1 Estructura de los árboles de clasificación 
+Los árboles de decisión son una herramienta poderosa para tareas de clasificación 
+y regresión. Permiten modelar decisiones complejas de una manera que es fácilmente 
+interpretable. Existen los siguientes elementos: 
+Nodo Raíz: Es el punto de partida para cualquier nueva instancia de datos que se 
+evalúa en el árbol. Este nodo contiene una condición basada en una característica o 
+atributo del conjunto de datos, que guía el flujo de la decisión hacia uno de los nodos 
+hijos. 
+El Nodo Raíz se selecciona típicamente para maximizar la diferencia o pureza 
+entre los subconjuntos de datos resultantes. Esto se hace utilizando criterios como la 
+ganancia de información, el índice de Gini, o la reducción de la entropía. Estos métodos 
+buscan identificar la característica que mejor divide el conjunto de datos en grupos 
+homogéneos en relación con la variable objetivo. Un Nodo Raíz bien elegido facilita la 
+creación de un árbol de decisión más eficiente y preciso, debido a que cada división 
+posterior se construye sobre esta decisión inicial. 
+Nodos Internos o Splits: Cada uno de estos nodos contiene una condición o 
+pregunta basada en una característica específica del conjunto de datos. Esta condición se 
+diseña para dividir el conjunto de datos en dos o más subconjuntos, de acuerdo con los 
+valores que toma la característica en cuestión. 
+La selección de las condiciones en los Nodos Internos es un proceso estratégico, 
+donde se busca maximizar la claridad y la distinción entre los subconjuntos resultantes. 
+Esto se logra mediante criterios como la ganancia de información, el índice de Gini, o la 
+entropía, que determinan qué característica y qué valor de corte generan la división más 
+eficaz en términos de homogeneidad respecto a la variable objetivo.

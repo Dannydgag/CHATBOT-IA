@@ -1,0 +1,25 @@
+El nuevo árbol de búsqueda tiene 3 
+nodos y empieza en el nodo A que al 
+no ser el nodo objetivo se procede a 
+bajar al siguiente nivel, por el enlace 
+que está más a la izquierda.  
+En el nivel 1 se encuentra el nodo B que 
+no es el nodo objetivo por lo que se 
+regresa al nodo padre que es el nodo A. 
+El nodo siguiente a visitar es el nodo C, 
+que es el sucesor del nodo A pero no 
+constituye el nodo objetivo, por lo tanto 
+se regresa al nodo padre que es el nodo 
+A y al no tener más sucesores, se 
+procede a aumentar el límite = 2  (1+1). 
+El nuevo árbol de búsqueda 
+muestra 
+los 
+niveles 
+correspondientes, 
+en 
+el 
+nivel = 0 el nodo A raíz no 
+es el nodo objetivo por lo 
+cual se procede a descender 
+hacia uno de sus sucesores.

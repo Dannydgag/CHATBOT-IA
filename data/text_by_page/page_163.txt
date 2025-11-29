@@ -1,0 +1,22 @@
+cuál es el estado actual, mientras que en otros se tiene que comenzar seleccionando uno 
+aleatoriamente. Luego, se repite las siguientes acciones: se evalúa a los vecinos, 
+seleccionando el de mejor valor. Luego, se compara el valor de este vecino con el valor 
+del estado actual, si el vecino es mejor, se cambia el estado actual al estado vecino y luego 
+se repite el proceso. El proceso finaliza cuando se compara el mejor vecino con el estado 
+actual y el estado actual es mejor que el estado vecino. Luego, se devuelve el estado 
+actual. 
+3.3.2.1 Mínimos y máximos locales y globales 
+Figura 3.5 Máximo global y Máximo local 
+Elaborado por los Autores 
+Un algoritmo de escalada puede quedarse atascado en máximos o mínimos 
+locales. Un máximo global (figura 3.5) es un estado que tiene el valor más alto de todos 
+los estados en el espacio de estado. Un máximo local (figura 3.5) es un estado que tiene 
+un valor más alto que sus estados vecinos, pero más bajo que el máximo global.   
+Figura 3.6 Mínimo global y Mínimo local 
+Elaborado por los Autores 
+Un mínimo global (figura 3.6) es un estado que tiene el valor más bajo de todos 
+los estados en el espacio de estado. Un mínimo local (figura 3.6) es un estado que tiene 
+un valor más bajo que sus estados vecinos.  
+El problema con los algoritmos de escalada de colinas es que pueden terminar en 
+mínimos y máximos locales. Una vez que el algoritmo alcanza un punto cuyos vecinos 
+son peores, para el propósito de la función, que el estado actual, el algoritmo se detiene.

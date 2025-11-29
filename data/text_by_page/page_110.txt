@@ -1,0 +1,72 @@
+P 
+Q 
+R 
+KB 
+verdadero 
+falso 
+Falso 
+verdadero 
+falso 
+verdadero 
+verdadero 
+verdadero 
+Falso 
+Falso 
+verdadero 
+verdadero 
+verdadero 
+Falso 
+Elaborado por los Autores 
+Finalmente, nos quedamos con dos modelos. En ambos, P es verdadera y Q es 
+falsa. En un modelo R es verdadero y en el otro R es falso. Debido a que (P ∧ ¬Q) → R 
+está en nuestra KB, sabemos que en el caso de que P sea verdadera y Q sea falsa, R debe 
+ser verdadera. Por lo tanto, decimos que nuestro KB es falso para el modelo donde R es 
+falso y verdadero para el modelo donde R es verdadero. 
+Tabla 2-6 Base de conocimiento en base a R 
+P 
+Q 
+R 
+KB 
+Falso 
+falso 
+Falso 
+Falso 
+Falso 
+falso 
+verdadero 
+Falso 
+Falso 
+verdadero 
+Falso 
+Falso 
+Falso 
+verdadero 
+verdadero 
+Falso 
+verdadero 
+falso 
+Falso 
+Falso 
+verdadero 
+falso 
+verdadero 
+Verdadero 
+verdadero 
+verdadero 
+Falso 
+Falso 
+verdadero 
+verdadero 
+verdadero 
+Falso 
+Elaborado por los Autores 
+Mirando esta tabla, solo hay un modelo donde nuestra base de conocimiento es 
+verdadera. En este modelo, se ve que R también es verdadero. Según nuestra definición 
+de vinculación, si r es verdadera en todos los modelos donde KB es verdadera, entonces 
+KB ⊨ R. 
+2.1.2 Lógica de primer orden 
+La lógica de primer orden o lógica proposicional, aunque eficaz para representar 
+conocimientos simples y manejar proposiciones aisladas, enfrenta limitaciones 
+significativas en escenarios más complejos. Su estructura binaria y la falta de conexiones 
+entre proposiciones restringen su capacidad para capturar relaciones y matices detallados 
+en el conocimiento.

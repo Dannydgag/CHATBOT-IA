@@ -1,0 +1,32 @@
+2. Procesamiento del Lenguaje Natural (PLN): Se enfoca en la comprensión y 
+generación de lenguaje humano mediante reglas gramaticales y semánticas. 
+3. Robótica Cognitiva: Los robots son capaces de interpretar su entorno y reconocer 
+los objetos y situaciones que encuentran, tienen la capacidad de interactuar 
+físicamente con su entorno, tomando o moviendo los objetos (Franceschetti, 
+2018).  
+4. Razonamiento Automatizado: Las máquinas o sistemas informáticos son capaces 
+de pensar y llegar a conclusiones de manera similar a como lo haría un ser 
+humano, proceso que lo realizan de manera automática y estructurada mediante 
+un programa o algoritmo. 
+5. Interacción Hombre-Máquina: Es el estudio y la parte práctica de cómo las 
+personas se comunican o interactúan con las computadoras y otros dispositivos 
+tecnológicos, buscando que sea fluido y sencillo como hablar o interactuar con 
+otro ser humano. 
+6. Ontologías y Representación del Conocimiento: Se trata de crear modelos que 
+puedan representar el conocimiento de manera que las computadoras lo entiendan 
+y lo manejen eficientemente, utilizando entidades, atributos, y relaciones 
+simbólicas (Poole & Mackworth, 2010). 
+Representación No-Simbólica: 
+1. Aprendizaje Automático: Se tienen los siguientes tipos de aprendizaje. 
+a) Aprendizaje Supervisado: Estos modelos de inteligencia artificial se utilizan para 
+realizar tareas de clasificación o regresión, se entrenan usando un conjunto de 
+datos que han sido etiquetados con anterioridad (Xiao, 2022). 
+b) Aprendizaje No Supervisado: Los modelos trabajan identificando patrones en 
+datos que no han sido etiquetados, para locual usan técnicas de grupamiento o 
+reducción de dimensionalidad. 
+c) Aprendizaje por Refuerzo: Son modelos (agentes) que aprenden a tomar 
+decisiones mediante experimentación e interacción con el medio ambiente, 
+reciben recompensas o penalizaciones en función de las acciones que realizan.  
+2. Redes Neuronales y Aprendizaje Profundo: Es un tipo de tecnología que intenta 
+imitar la forma en que el cerebro humano procesa la información. Las redes 
+neuronales son sometidas a un proceso llamado "entrenamiento", durante el cual

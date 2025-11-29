@@ -1,0 +1,36 @@
+Figura 1.4 Esquema de un agente 
+Elaborado por los Autores 
+La Inteligencia Artificial se enfoca en el desarrollo de programas que puedan 
+mostrar un comportamiento racional, utilizando una pequeña cantidad de código en lugar 
+de tener una tabla con un gran número de entradas. Un ejemplo de esto es el cálculo de 
+las raíces cuadradas, en el pasado, las personas utilizaban tablas con los resultados de las 
+raíces cuadradas para diferentes números. Sin embargo, con el avance de la IA, se ha 
+logrado reemplazar estas tablas por programas que tienen unas pocas líneas en las 
+calculadoras electrónicas, lo que permite calcular fácilmente la raíz cuadrada de cualquier 
+número. 
+Este enfoque basado en programas más compactos y generales es un objetivo de 
+la IA. En lugar de tener que almacenar y consultar una gran cantidad de datos específicos, 
+se busca desarrollar algoritmos que puedan inferir y generalizar patrones a partir de 
+información limitada. Esto permite que los programas de IA sean más flexibles y capaces 
+de abordar una amplia gama de situaciones sin requerir una lista exhaustiva de casos 
+específicos. 
+1.7 
+Diseño del agente 
+El agente racional se esfuerza por tomar decisiones acertadas en el momento 
+oportuno, con el objetivo de lograr resultados óptimos. Para evaluar el desempeño de un 
+agente en su entorno, es fundamental medir su éxito en función de la secuencia de 
+acciones realizadas y las percepciones recibidas. Un estado se refiere a una configuración 
+particular del agente en su entorno, mientras que el estado inicial indica el punto de 
+partida del agente. 
+Las acciones que toma el agente conducen a una secuencia de estados a medida 
+que interactúa con su medio ambiente, si la secuencia coincide con la secuencia deseada, 
+se considera que el agente ha actuado correctamente. Las acciones son simplemente 
+Agente 
+Sensores 
+Actuadores 
+Sist
+Percepciones 
+Acciones 
+Medio 
+A
+mbiente

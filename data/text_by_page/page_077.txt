@@ -1,0 +1,23 @@
+agente es maximizar la acumulación de estas recompensas a lo largo del tiempo. 
+En el aprendizaje por refuerzo, surge un desafío fundamental: encontrar el 
+equilibrio adecuado entre la exploración de nuevas acciones y la explotación de aquellas 
+acciones que han demostrado producir recompensas significativas. El agente (figura 1.12) 
+debe aprender a explorar lo suficiente para descubrir estrategias efectivas y luego 
+aprovechar esas estrategias para maximizar sus recompensas. 
+Figura 1.12 Arquitectura de agente de reforzamiento 
+Elaborado por los Autores 
+El agente utiliza una política para determinar qué acción tomar en función de su 
+estado actual y de su conocimiento. La política puede ser determinista o estocástica, 
+dependiendo de si siempre elige la misma acción en un estado dado o si toma decisiones 
+basadas en probabilidades. 
+El núcleo fundamental del aprendizaje por refuerzo radica en la habilidad de 
+aprender de manera progresiva a largo tiempo, a medida que se actualizan valores 
+denominados valores de acción o funciones de valor. Estos valores proporcionan una 
+estimación de la utilidad prevista al ejecutar una acción específica en un estado particular. 
+Dentro del campo del aprendizaje por refuerzo, se encuentran diversos algoritmos 
+destacados, como Q-learning, SARSA, DDPG (Deep Deterministic Policy Gradients) y 
+A3C (Asynchronous Advantage Actor-Critic). Cada uno de estos algoritmos se 
+especializa en abordar aspectos específicos del aprendizaje por refuerzo, como la 
+exploración, la estimación de valores y política de actualización. 
+f) Arquitectura de agente de aprendizaje profundo 
+Esta arquitectura (figura 1.13) representa una categoría avanzada de enfoques en

@@ -1,0 +1,36 @@
+(reforzando la consistencia del arco), se puede tener un algoritmo más eficiente. Este 
+algoritmo se denomina algoritmo de mantenimiento de la consistencia del arco. Este 
+algoritmo hará cumplir la consistencia de arco después de cada nueva asignación de la 
+búsqueda de retroceso. Específicamente, después de realizar una nueva asignación a X, 
+llamaremos al algoritmo PM y lo iniciaremos con una cola de todos los arcos (Y,X) donde 
+Y es un vecino de X (y no una cola de todos los arcos en el problema). A continuación, 
+se muestra un algoritmo de retroceso revisado que mantiene la consistencia del arco, con 
+las nuevas incorporaciones en negrita. 
+función Retroceder (asignación, psr): 
+• si la asignación está completa: 
+o retorne la asignacción 
+• var = Seleccionar-Sin asignar-Var(asignación, psr) 
+• para valor en Dominio-Valores (var, asignación, psr): 
+o si el valor es consistente con la asignación: 
+▪ agregar {var = valor} a la asignación 
+▪ inferencias = Inferencia (asignación, psr) 
+▪ si inferencias ≠ falla: 
+                      adicionar inferencias a la asignación 
+▪ resultado = Retroceder (asignación, psr) 
+▪ si resultado ≠ falla: 
+                        retornar resultado  
+▪ eliminar {var = valor} y inferencias de la asignación 
+• retornar error 
+La función de inferencia ejecuta el algoritmo PM como se describe. Su salida son 
+todas las inferencias que se pueden hacer mediante la aplicación de la consistencia de 
+arco. Literalmente, estas son las nuevas asignaciones que se pueden deducir de las 
+asignaciones anteriores y la estructura del problema de satisfacción de restricciones. 
+Hay formas adicionales de hacer que el algoritmo sea más eficiente. Hasta ahora, 
+se selecciona aleatoriamente una variable no asignada. Sin embargo, es más probable que 
+algunas opciones lleven a una solución más rápida que otras. Esto requiere el uso de 
+heurísticas. Una heurística es una regla empírica, lo que significa que, la mayoría de las 
+veces, dará un mejor resultado que seguir un enfoque ingenuo, pero no se garantiza que 
+así sea. 
+Los valores mínimos restantes (VMR) son una de esas heurísticas. La idea aquí 
+es que, si el dominio de una variable se restringió por inferencia, y ahora solo le queda un 
+valor (o incluso si son dos valores), al hacer esta asignación se reduce la cantidad de

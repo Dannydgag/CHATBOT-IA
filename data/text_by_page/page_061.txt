@@ -1,0 +1,67 @@
+realizar 
+un 
+mapeo 
+detallado 
+y 
+sistemático de todas las posibles 
+combinaciones, lo que permite una 
+planificación precisa y una evaluación 
+completa de las estrategias del agente. 
+   La naturaleza discreta de los entornos 
+proporciona una base sólida para la 
+aplicación de técnicas matemáticas, 
+algoritmos de búsqueda, optimización 
+y aprendizaje. Esto incluye métodos 
+como 
+los 
+árboles 
+de 
+búsqueda, 
+algoritmos de programación dinámica 
+y técnicas de aprendizaje automático 
+basadas en modelos discretos. 
+de producción 
+Continuo 
+   En los entornos continuos, el número 
+de estados posibles es extremadamente 
+amplio e incluso infinito. En el 
+transcurso del tiempo, los estados del 
+medio ambiente experimentan cambios 
+continuos, esto hace que la percepción 
+del agente en cada instante sea única y 
+varíe 
+de 
+forma 
+continua. 
+En 
+consecuencia, el agente se ve obligado 
+tomar decisiones y acciones continuas 
+para adaptarse y responder a estos 
+cambios dinámicos. 
+   Dado que el número de estados es 
+extenso, resulta imposible mapear y 
+explorar exhaustivamente todas las 
+posibilidades. Para poder abordar 
+problemas en entornos continuos es 
+necesario utilizar enfoques basados en 
+o Robot que juega al 
+futbol. 
+o Robot clasificador 
+de baldosas. 
+o Sistema de control 
+de vuelo de un avión 
+o Brazo robótico 
+o Sistema 
+de 
+navegación 
+autónoma 
+de 
+vehículos 
+o Simulaciones 
+de 
+física 
+o Control de procesos 
+industriales 
+o Gestión de carteras 
+de inversión 
+o Control de sistemas

@@ -1,0 +1,20 @@
+retrocesos que se podría necesitar hacer más adelante. 
+ Es decir, se tendrá que hacer esta asignación tarde o temprano, debido a que se 
+deduce de la aplicación de la consistencia de arco. Si esta tarea fracasa, es mejor averiguar 
+lo antes posible y no retroceder más tarde.  
+Figura 3.12 Uso de la heurística VMR 
+Elaborado por los Autores 
+Por ejemplo, después de haber acotado los dominios de las variables dada la 
+asignación actual, utilizando la heurística VMR, elegiremos la variable C a continuación 
+y le asignaremos el valor Miércoles (figura 3.12). 
+Figura 3.13 Heurística de grado 
+Elaborado por los Autores 
+La heurística de Grado (figura 3.13) se basa en los grados de las variables, donde 
+un grado es cuántos arcos conectan una variable con otras variables. Al elegir la variable 
+con el grado más alto, con una asignación, se restringen muchas otras variables, lo que 
+acelera el proceso del algoritmo. 
+Por ejemplo, al analizar se debe escoger la variable E porque tiene el grado más 
+alto de todas las variables. 
+Estas heurísticas no siempre son aplicables. Por ejemplo, cuando varias variables 
+tienen el mismo número mínimo de valores en su dominio, o cuando varias variables 
+tienen el mismo grado más alto.

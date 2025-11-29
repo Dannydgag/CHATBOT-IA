@@ -1,0 +1,32 @@
+En 1961, Marvin Minsky publicó el artículo "Pasos hacia la Inteligencia 
+Artificial", estableciendo una terminología unificada para la investigación en inteligencia 
+artificial. En 1962, Frank Rosenblatt desarrolló el Perceptrón, una red neuronal utilizada 
+para el reconocimiento visual de patrones, aunque tuvo un impacto limitado en ese 
+momento. 
+En 1965, Edward Feigenbaum, Bruce Buchanan, Joshua Lederberg y Carl 
+Djerassi desarrollaron el primer sistema experto llamado DENDRAL, utilizado para el 
+análisis químico. Ese mismo año, Alan Robinson propuso el principio de la Resolución. 
+En 1968, Ross Quillian introdujo la Red Semántica como una representación del 
+conocimiento. En 1969, se fundó la Conferencia Conjunta Internacional de Inteligencia 
+Artificial (IJCAI), que comenzó a celebrarse cada dos años y, a partir de 2016, se lleva a 
+cabo anualmente. La revista Intelligence Artificial se publica bajo los auspicios de la 
+IJCAI desde 1970.  
+Después de la década de 1970, cuando las redes neuronales no cumplieron sus 
+promesas, época conocida como el "AI hype", la financiación y las actividades de 
+investigación se redujeron drásticamente. Esto se conocio como el "invierno de la IA". A 
+principios de la década de 1970, el campo de la inteligencia artificial se enfocó hacia el 
+estudio y la comprensión del lenguaje natural, así como a la representación avanzada del 
+conocimiento. Durante este período, se observaron progresos significativos en diversas 
+ramas de la IA, marcando un hito en su desarrollo. 
+En 1972, un avance fundamental fue la publicación de Terry Winograd sobre el 
+programa SHRDLU. Este programa se distinguió por su habilidad pionera en comprender 
+el lenguaje natural, específicamente el inglés, demostrando una comprensión profunda y 
+contextual de las interacciones lingüísticas. SHRDLU no solo representó un logro técnico 
+importante, sino que también estableció un marco conceptual crítico para las 
+investigaciones futuras en la comprensión del lenguaje dentro del campo de la inteligencia 
+artificial. Alain Colmerauer, en la Universidad de Marsella en Francia, desarrolló el 
+lenguaje de programación Prolog en el mismo año. Prolog se convirtió en un lenguaje 
+ampliamente utilizado en la programación de IA debido a su capacidad para trabajar con 
+la lógica y el razonamiento (Colmerauer & Roussel, 1996). 
+En 1973, Roger Schank propuso la teoría de la dependencia conceptual, que se 
+centraba en la comprensión del lenguaje natural basada en el conocimiento y la

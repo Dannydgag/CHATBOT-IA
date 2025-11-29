@@ -1,0 +1,32 @@
+agentes son capaces de mantener conversaciones con usuarios y proporcionar respuestas 
+adecuadas en función de los patrones de entrada definidos en las categorías. 
+Agentes móviles: Son agentes que tienen la capacidad de moverse o migrar de un 
+host a otro en un entorno distribuido, poseen autonomía, tienen la capacidad de aprender, 
+de percibir su entorno y responder de forma oportuna (Eze, 2022). Estos agentes pueden 
+ejecutarse en diferentes máquinas sin necesidad de llevar consigo su propio código, lo 
+que les permite aprovechar recursos distribuidos de manera eficiente. 
+Los agentes móviles son capaces de gestionar grandes volúmenes de información 
+y facilitar la comunicación en tiempo real, esto hace que sean adecuados para aplicaciones 
+que requieren interacciones dinámicas y respuestas rápidas. Estos agentes se utilizan en 
+diversos contextos, como: supervisión y optimización de tráfico en las redes, sistemas de 
+monitoreo y control, optimización de recursos, distribución de tareas, aplicaciones de 
+colaboración, motores de búsqueda, asistentes personales, aprendizaje en la nube. 
+Agentes reactivos simples: Estos agentes toman decisiones basándose únicamente 
+en la percepción actual del entorno, sin mantener un estado interno. Su comportamiento 
+se basa en respuestas directas a los estímulos del entorno en tiempo real, sin considerar el 
+pasado ni planificar el futuro de manera explícita. Estos agentes se centran en generar 
+respuestas rápidas y efectivas a situaciones presentes, sin tener en cuenta el historial. 
+Estos agentes son adecuados en casos donde el estado actual del entorno 
+proporciona suficiente información para tomar decisiones inmediatas. Son eficientes en 
+términos de tiempo de respuesta y recursos computacionales, debido a que no requieren 
+mantener un modelo interno ni realizar un procesamiento exhaustivo de la información. 
+Ejemplos de agentes reactivos simples son: un termostato inteligente que toma 
+decisiones basándose únicamente en la información actual de la temperatura ambiente, 
+un robot seguidor de línea que utiliza sensores para detectar una línea en el suelo y tomar 
+decisiones en tiempo real para seguir la línea. 
+Agentes reactivos basados en modelos: Estos agentes mantienen un modelo 
+interno del mundo que utilizan para tomar decisiones. Este modelo es una representación 
+interna del estado del entorno y cómo evoluciona en respuesta a las acciones del agente. 
+Estos agentes tienen la capacidad de anticipar los efectos de sus acciones y 
+planificar a corto plazo. Utilizan su modelo interno para simular diferentes secuencias de 
+acciones posibles y evaluar los resultados esperados antes de tomar una decisión, esto les

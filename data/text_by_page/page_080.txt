@@ -1,0 +1,26 @@
+conocimiento particular y objetivos individuales, contribuyendo así a la eficacia y 
+adaptabilidad del sistema en su conjunto. 
+Figura 1.14 Arquitectura de agente multiagente 
+Elaborado por los Autores 
+Teniendo los agentes objetivos individuales pueden al mismo tiempo trabajar 
+juntos para lograr objetivos colectivos. Esta dualidad permite una amplia gama de 
+aplicaciones, desde sistemas de control de tráfico aéreo, donde los aviones individuales 
+buscan sus rutas óptimas mientras evitan colisiones, hasta sistemas de recomendación en 
+línea, donde los agentes (en calidad de algoritmos de recomendación) trabajan juntos para 
+brindar recomendaciones personalizadas a los usuarios. 
+La comunicación entre agentes es esencial, pueden comunicarse directa o 
+indirectamente para compartir información relevante, coordinar acciones y tomar 
+decisiones informadas. La comunicación puede ser unidireccional o bidireccional y puede 
+implicar intercambios de datos, mensajes, señales, eventos o incluso lenguaje natural en 
+sistemas más avanzados. La elección de cómo se implementa la comunicación entre 
+agentes depende de la aplicación específica y de los requisitos del sistema. En muchas 
+arquitecturas multiagente, se utilizan múltiples formas de comunicación en combinación 
+para permitir una interacción efectiva entre los agentes. La comunicación efectiva es 
+esencial para lograr la colaboración y la coordinación entre los agentes y para alcanzar 
+los objetivos individuales o colectivos en un sistema multiagente. 
+En una arquitectura multiagente, la toma de decisiones distribuida es una 
+característica clave, pueden tomar decisiones de manera independiente y cooperativa. 
+Esto a menudo involucra la coordinación de acciones para evitar conflictos o 
+redundancias y para lograr objetivos comunes (Shi, 2019). 
+Los agentes pueden aprender y adaptarse a lo largo del tiempo, utilizando técnicas 
+de aprendizaje automático y algoritmos de refuerzo para mejorar sus estrategias y tomar

@@ -1,0 +1,23 @@
+y el estado actual del entorno. Para esto, el agente recopila y analiza tanto la información 
+sobre la evolución del entorno como las posibles consecuencias de sus acciones. 
+Figura 1.9 Arquitectura Deliberante 
+Elaborado por los Autores 
+El proceso de selección de acción en un agente de IA puede implementarse a 
+través de reglas de producción o mediante el empleo de redes neuronales, dependiendo 
+de la complejidad del problema y la disponibilidad de información. Las reglas de 
+producción proporcionan un marco lógico y estructurado para evaluar opciones y tomar 
+decisiones, mientras que las redes neuronales, con su capacidad de aprendizaje profundo 
+y adaptativo, permiten al agente analizar y procesar una gama más amplia y compleja de 
+datos para seleccionar la acción más pertinente que le permita alcanzar sus objetivos. 
+La arquitectura deliberante, es particularmente valiosa en el manejo de problemas 
+complejos y en la realización de tareas de planificación avanzada. En esta arquitectura, el 
+agente es capaz de ejecutar secuencias de acciones de forma estratégica y calculada, con 
+el fin de lograr objetivos específicos dentro de su entorno. Esta capacidad para deliberar 
+y planificar a largo plazo es un aspecto importante en el diseño de agentes inteligentes 
+destinados a resolver tareas que requieren un nivel superior de cognición y adaptación 
+(Gelfond & Kahl, 2014). 
+c) Arquitectura por finalidad 
+La arquitectura por finalidad, representada en la figura 1.10, es una estructura que 
+se basa en la idea de que el agente debe tener una comprensión clara de su objetivo final 
+para tomar decisiones efectivas en cada estado del entorno. Además de la percepción del 
+mundo en cada nuevo estado, es necesario tener información sobre la dirección en la que

@@ -1,0 +1,32 @@
+• Una Restricción Binaria es una restricción que involucra dos variables. Este es 
+el tipo de restricción que usamos en el ejemplo, se dice que dos cursos no pueden tener el 
+mismo valor {A ≠ B} con respecto al día del examen. 
+3.3.6.1 Consistencia de nodo 
+En el ámbito de la programación de restricciones, la "consistencia del nodo" se 
+refiere a la condición en la que todos los valores en el dominio de una variable particular 
+cumplen con las restricciones unarias asociadas a esa variable (Russell & Norvig, 2021). 
+En otras palabras, cada valor que la variable puede tomar es viable según las restricciones 
+impuestas sobre ella. 
+Para que un nodo (variable) sea consistente: 
+1. Todos los valores dentro de su dominio deben cumplir cualquier restricción unaria 
+que se aplique a esa variable. 
+2. Si un valor en el dominio de una variable no cumple con la restricción unaria, ese 
+valor se excluye del dominio. 
+Continuando con el ejemplo anterior, se tiene dos cursos, A y B. El dominio de 
+cada curso es {lunes, martes, miércoles} y las restricciones son {A ≠ lunes, B ≠ martes, 
+B ≠ lunes, A ≠ B}. Ahora, ni A ni B son consistentes, porque las restricciones existentes 
+les impiden tomar todos los valores que están en su dominio. Sin embargo, si eliminamos 
+el lunes del dominio de A, tendrá consistencia de nodo. Para lograr la consistencia del 
+nodo en B, se tendrá que eliminar tanto el lunes como el martes de su dominio. 
+La verificación de la consistencia del nodo es un paso importante en algoritmos 
+de programación de restricciones como el backtracking, debido a que ayuda a reducir el 
+espacio de búsqueda y a eliminar asignaciones que no conducirán a una solución válida, 
+optimizando así el proceso de resolución del problema (Shi, 2019). 
+3.3.6.2 Consistencia del arco 
+La consistencia de arco es cuando todos los valores en el dominio de una variable 
+satisfacen las restricciones binarias de la variable. Por lo que se debe verificar y asegurar 
+de que, para cada valor en el dominio de una variable, exista algún valor en el dominio 
+de otra variable que satisface la restricción binaria entre ambas variables. En otras 
+palabras, para hacer que X sea coherente con el arco con respecto a Y, elimine elementos 
+del dominio de X hasta que cada opción para X tenga una opción posible para Y. 
+Para que un arco (una restricción binaria entre dos variables) sea consistente:

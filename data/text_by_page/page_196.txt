@@ -1,0 +1,32 @@
+ganancia de información por debajo del cual no se realizarán más divisiones. 
+Criterio de Selección: Se refiere a cómo se elige qué nodo (o característica) 
+dividir en cada paso al construir el árbol, generalmente, se selecciona el nodo que ofrece 
+la mayor ganancia de información o la mayor reducción en la impureza (como el índice 
+de Gini o la entropía que cuantifican cuán mezcladas están las clases en un conjunto de 
+datos) para ser dividido a continuación. Este criterio asegura que las divisiones más 
+"informativas" se realicen primero. 
+Criterio de Clasificación: Una vez que se alcanza un nodo hoja, este criterio se 
+utiliza para asignar una clase al nodo, y determinar la salida final. Esto se realiza 
+generalmente en los árboles de clasificación, tomando la clase mayoritaria de las muestras 
+que llegan a ese nodo; meintras que en los árboles de regresión se utiliza el promedio de 
+los valores. 
+Criterio de Partición: Este criterio establece cómo se realizará la división del 
+nodo seleccionado. En árboles binarios, cada nodo se divide generalmente en dos 
+subnodos basados en un valor umbral de un atributo específico. Sin embargo, también 
+existen árboles que permiten divisiones múltiples. 
+Estos criterios trabajan en conjunto para construir un árbol de decisión que sea 
+tanto preciso como generalizable. Es un equilibrio delicado que a menudo requiere ajustes 
+y validación cruzada para optimizar el rendimiento del modelo. 
+En la construcción de los modelos de árboles de clasificación se debe considerar: 
+✓ Preparar los Datos: Antes de entrenar cualquier modelo, es importante que los 
+datos estén en un formato adecuado. Esto puede implicar la eliminación de 
+valores nulos, vacíos, blancos. Se debe seleccionar las tablas, las columnas o 
+variables que se desean que entren al modelo. La calidad de los datos es 
+fundamental para el rendimiento del modelo.   
+✓ Entrenar los Datos: Este es el núcleo del proceso de modelado. Se utiliza un 
+conjunto de datos de entrenamiento para ajustar el modelo. Durante esta fase, el 
+algoritmo aprende a hacer predicciones o decisiones basadas en los datos. Los 
+árboles de decisión, por ejemplo, aprenden a hacer divisiones basadas en los 
+valores de las características que resultan en la mayor ganancia de información o 
+reducción de impureza. 
+✓ Probar el Modelo: Una vez que el modelo ha sido entrenado, se debe probar con

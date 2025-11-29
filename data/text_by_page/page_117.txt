@@ -1,0 +1,32 @@
+En este caso, la afirmación condicional establece que si estudias para el examen 
+(p), entonces obtendrás una buena calificación (q). La premisa 2 nos dice que estás 
+estudiando para el examen, lo que significa que p es verdadero. Según el Modus Ponens, 
+podemos concluir que obtendrás una buena calificación (q es verdadero) debido a que se 
+cumple la condición establecida en la premisa 1. 
+b) Modus tollens.- Es una regla de inferencia lógica que opera de manera contraria 
+al Modus Ponens. En el Modus Tollens, se parte de una afirmación condicional (p 
+→ q), se sabe que la afirmación consecuente (q) es falsa, entonces se puede 
+concluir que la afirmación antecedente (p) también debe ser falsa. 
+El Modus Tollens es una herramienta importante en la lógica y el razonamiento 
+deductivo para evaluar las consecuencias de afirmaciones condicionales y su negación. 
+Ejemplo1 
+Retomando el ejemplo anterior en el cual se dice que hay luz en la lámpara y el 
+interruptor está encendido. Si se expresa el condicional la lámpara está apagada por lo 
+tanto el interruptor está apagado, esto es verdadero, para nuestra forma lógica de pensar, 
+pero para el caso que estamos tratando q “el interruptor está apagado” es falso, por lo 
+tanto, la premisa p “la lámpara está apagada” también es falsa. Se puede observar que es 
+el enfoque contradictorio del Modus Ponens. 
+Ejemplo 2 
+Premisa 1: Si llueve, la calle estará mojada (p → q). 
+Premisa 2: La calle no está mojada (¬q). 
+Conclusión: Por lo tanto, no está lloviendo (¬p). 
+En este caso, se sabe que la calle no está mojada (¬q), se concluye que no está 
+lloviendo (¬p) utilizando el Modus Tollens, debido a que la premisa inicial establece que 
+si llueve (p), la calle estará mojada (q). Dado que la calle no está mojada (¬q), podemos 
+inferir que no está lloviendo (¬p). 
+Ejemplo 3 
+Premisa 1: Si el estudiante estudia para el examen, aprobará (p → q). 
+Premisa 2: El estudiante no aprobó el examen (¬q). 
+Conclusión: Por lo tanto, el estudiante no estudió para el examen (¬p). 
+En este caso, si se sabe que el estudiante no aprobó el examen (¬q), se puede 
+concluir que el estudiante no estudió para el examen (¬p) utilizando el Modus Tollens.

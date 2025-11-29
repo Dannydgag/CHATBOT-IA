@@ -1,0 +1,32 @@
+implicaciones a largo plazo y las probabilidades asociadas a cada posible resultado (Das, 
+2008). Para ello, aplican modelos avanzados o funciones de utilidad que les permiten 
+calcular la utilidad esperada de cada opción de acción, seleccionando aquella que 
+maximice su valor global. 
+La función de utilidad incorpora una variedad de factores, incluyendo los 
+objetivos específicos del agente, los costes asociados a cada acción, los riesgos e 
+incertidumbres presentes en el entorno, así como las preferencias propias del agente. 
+Utilizando esta función, el agente es capaz de asignar valores numéricos a diferentes 
+acciones y realizar comparaciones objetivas entre ellas, lo que le facilita la toma de la 
+decisión más óptima y estratégica dentro del contexto en el que trabaja. 
+Un ejemplo de aplicación de agentes basados en utilidad es en sistemas de 
+recomendación, donde el agente busca maximizar la utilidad del usuario ofreciendo 
+recomendaciones personalizadas que se ajusten a sus preferencias y necesidades. 
+Agentes basados en conocimiento: Estos agentes utilizan conocimiento experto 
+o reglas específicas para tomar decisiones, basándose en una base de conocimientos 
+previamente definida. Se trata de agentes que aplican razonamiento lógico y utilizan 
+reglas o algoritmos específicos para resolver problemas o responder preguntas. 
+El conocimiento experto proveniente de expertos humanos en un dominio 
+específico se captura y codifica en forma de reglas o declaraciones lógicas. Este 
+conocimiento incluye hechos, reglas, relaciones y restricciones relevantes para el dominio 
+en cuestión. 
+Los agentes basados en conocimiento utilizan su acervo de información 
+especializada para realizar inferencias complejas y tomar decisiones informadas. 
+Emplean técnicas sofisticadas como la lógica proposicional, la lógica de predicados o 
+sistemas avanzados basados en reglas para procesar y razonar sobre el conocimiento 
+acumulado, conduciéndoles a conclusiones lógicas y fundamentadas. 
+El proceso de toma de decisiones en estos agentes implica una búsqueda 
+meticulosa en su base de conocimientos para identificar reglas o hechos pertinentes a la 
+situación específica. Luego, aplican razonamiento lógico detallado para derivar 
+conclusiones coherentes. Estas conclusiones son trascendentales, debido a que guían al 
+agente en la selección de acciones más adecuadas o en la generación de respuestas 
+precisas a los desafíos que enfrentan.

@@ -1,0 +1,31 @@
+capacidad para manejar diferentes tipos de instancias y su habilidad para evitar errores 
+críticos. 
+La evaluación del modelo va más allá de la mera medición de su precisión; implica 
+una comprensión profunda de cómo y por qué el modelo toma ciertas decisiones. Esto es 
+especialmente importante en aplicaciones donde las consecuencias de los errores pueden 
+ser significativas, como en el diagnóstico médico o en la toma de decisiones financieras. 
+Por lo tanto, un modelo debe ser evaluado no solo por su capacidad para predecir 
+correctamente, sino también por su habilidad para equilibrar diferentes tipos de errores y 
+su adaptabilidad a diversas condiciones de datos. 
+Los modelos de aprendizaje automático raramente alcanzan una precisión del 
+100%. Por lo general, se espera que un modelo tenga un cierto nivel de exactitud, y es 
+precisamente esta métrica la que se evalúa para determinar la eficacia del modelo. 
+Para llevar a cabo esta evaluación, se emplean herramientas como la matriz de 
+confusión, también conocida como matriz de contingencia o matriz de errores. Esta matriz 
+ofrece una representación visual de cómo el modelo de clasificación se desempeña al 
+diferenciar entre las diversas clases en el conjunto de datos de prueba. No solo muestra 
+los aciertos del modelo, sino también los tipos de errores que comete, lo que facilita una 
+comprensión más profunda de su rendimiento. 
+La matriz de confusión es, en esencia, un instrumento gráfico que permite evaluar 
+de manera cuantitativa y cualitativa el nivel de precisión de un modelo predictivo. A 
+través de ella, se pueden calcular métricas adicionales como la sensibilidad, la 
+especificidad y la precisión, que proporcionan una visión más completa del rendimiento 
+del modelo (Géron, 2022). 
+La matriz de confusión (figura 3.17) tiene los siguientes componentes que son la 
+clase verdadera y la clase predicha donde encontramos los verdaderos positivos que son 
+aquellos ítems de los datos de la tabla que realmente llevan un elemento de verdad por 
+ejemplo que son hombres y adultos, luego tenemos los falsos positivos que se predice que 
+son hombres y adultos, pero no es verdad en realidad son hombres niños. Los falsos 
+negativos son aquellos casos en los que la predicción me dice que no son hombres adultos, 
+pero revisando la tabla si lo son, y por último los verdaderos negativos son aquellos casos 
+en que se predijo que no son hombres adultos y es verdad.

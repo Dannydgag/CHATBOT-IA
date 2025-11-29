@@ -1,0 +1,33 @@
+El conocimiento declarativo puede representarse mediante modelos relacionales 
+en forma de árboles, grafos o redes semánticas y esquemas basados en lógica que 
+incluyen la lógica proposicional y lógica de predicados.  
+El conocimiento procedimental puede ser representado para su almacenamiento 
+mediante gramáticas formales implementadas a través de sistemas o lenguajes 
+procedimentales, sistemas basados en reglas (sistemas de producción), diagramas de 
+flujo, máquinas de estado, script. 
+El conocimiento heurístico puede ser representado mediante sistemas basados en 
+reglas, árboles de decisión, redes neuronales, algoritmos genéticos, sistemas expertos, 
+funciones heurísticas, agentes basados en conocimiento, mapas cognitivos (Edelkamp & 
+Schrödl, 2011). 
+Las representaciones prácticas incluyen 
+elementos tanto declarativos, 
+procedimentales y en ocasiones heurísticos. 
+1.10 Agente basado en conocimiento 
+Los agentes basados en conocimiento tienen la capacidad de utilizar el 
+conocimiento expresado en formas altamente genéricas, combinando y recombinando la 
+información para adaptarse a diferentes objetivos. Pueden fusionar el conocimiento 
+general con las percepciones en tiempo real para inferir aspectos ocultos del estado del 
+mundo antes de tomar una decisión sobre cualquier acción. 
+Se puede establecer una analogía entre un agente basado en conocimiento y un 
+médico que realiza un diagnóstico en un paciente, deduciendo una enfermedad que no es 
+directamente evidente antes de decidir un curso de tratamiento. El médico utiliza su 
+conocimiento, que está representado en forma de reglas adquiridas a partir de libros y la 
+enseñanza de sus profesores, así como patrones de asociación que no puede describir 
+explícitamente. 
+Los agentes basados en conocimiento son flexibles y pueden asumir nuevas tareas 
+en forma de objetivos explícitamente definidos. Tienen la capacidad de adquirir 
+competencias de manera eficiente al acceder y aprender rápidamente del conocimiento 
+disponible en su entorno. Además, son capaces de adaptarse a cambios en su entorno al 
+actualizar el conocimiento relevante de manera oportuna. 
+El componente principal de un agente basado en conocimiento es su base de 
+conocimiento o KB(Knowledge Based), que es un conjunto de sentencias que representan

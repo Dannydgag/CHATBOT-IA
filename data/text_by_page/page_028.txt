@@ -1,0 +1,32 @@
+pedidos de clientes, facilitando la selección de componentes adecuados para sistemas 
+informáticos. Este logro no solo demostró la utilidad práctica de los sistemas expertos, 
+sino que también abrió camino para su aplicación en el mundo empresarial. 
+Posteriormente, a mediados de la década de 1980, se produjeron avances 
+importantes en el algoritmo de aprendizaje por retroalimentación, originalmente 
+desarrollado por Bryson y Ho en 1969. Estas mejoras fueron importantes para el progreso 
+de los métodos de aprendizaje automático, potenciando significativamente el rendimiento 
+y la eficiencia en el entrenamiento de sistemas basados en IA, lo que representó un avance 
+clave en la evolución de las técnicas de inteligencia artificial. 
+Durante los años 80, la Inteligencia Artificial se consolida como una ciencia en sí 
+misma. Judea Pearl en 1982 promueve la idea de los sistemas expertos normativos que se 
+basan en normas y principios de racionalidad formal, los cuales actúan racionalmente de 
+acuerdo con las leyes de la teoría de la decisión, sin intentar replicar directamente el 
+proceso de razonamiento humano. En 1986, Eric Horvitz y David Heckerman que han 
+realizado contribuciones significativas en áreas como el aprendizaje automático, la toma 
+de decisiones basada en datos y la bioinformática, respaldaron la idea de Pearl.  
+En ese mismo año, Rumelhart y McClelland publicaron aplicaciones de 
+algoritmos de aprendizaje en informática y psicología, lo que dio lugar al establecimiento 
+del enfoque del conexionismo basado en redes neuronales. Este enfoque revivió el interés 
+en las redes neuronales como una herramienta poderosa para el aprendizaje automático y 
+estableció una nueva dirección en la investigación y desarrollo de IA. 
+En 1988, Judea Pearl publica el influyente texto "Probabilistic Reasoning in 
+Intelligent Systems", que incorpora conceptos de probabilidades y teoría de decisiones en 
+el campo de la inteligencia artificial. Este trabajo fue fundamental para avanzar en el uso 
+de modelos probabilísticos en la toma de decisiones en sistemas inteligentes. 
+En 1995, Russell y Norvig retomaron el trabajo en agentes totales, sistemas que 
+buscan encontrar soluciones a partir de información de entrada continua. En 1997, la 
+computadora Deep Blue de IBM venció al ajedrecista ruso Garry Kasparov considerado 
+uno de los mejores jugadores de ajedrez, este hecho situó a la inteligencia artificial como 
+protagonista en el ámbito tecnológico y demostró el potencial que tiene al desafiar a 
+expertos humanos en juegos complejos. 
+En el año 2000, se construyó el robot ASIMO, que era capaz de desplazarse en

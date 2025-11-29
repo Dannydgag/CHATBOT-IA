@@ -1,0 +1,31 @@
+3.2.2 Búsqueda A* 
+Esta búsqueda es conocida como A estrella la cual evalúa los nodos bajo la 
+fórmula f(n) = g(n) + h(n), donde g(n) se utiliza para evaluar el costo de ir por el camino 
+de un nodo hacia su sucesor y h(n) para ir del sucesor hacia el nodo objetivo utilizando la 
+heurística, la suma da el valor de la función f(n) que constituye el costo más barato de ir 
+hacia el objetivo. Al combinar estos dos valores, el algoritmo tiene una forma más precisa 
+de determinar el costo de la solución y optimizar sus opciones sobre la marcha. El 
+algoritmo realiza un seguimiento de costo (costo de la ruta hasta ahora + costo estimado 
+hasta el objetivo), y una vez que excede el costo estimado de alguna opción anterior, el 
+algoritmo abandonará la ruta actual y volverá a la opción anterior, evitando así ir por un 
+camino largo e ineficiente que h(n) marcó erróneamente como el mejor. Este algoritmo 
+al basarse en una heurística, es tan bueno como la heurística que emplea, para que la 
+búsqueda A* sea óptima, la función heurística, h(n) para cada nodo n y nodo sucesor n’ 
+con costo de paso c, h(n) ≤ h(n’) + c (Russell & Norvig, 2012). 
+El algoritmo de búsqueda A* es una de las estrategias más reconocidas y efectivas 
+en el ámbito de la inteligencia artificial para encontrar el camino más corto en un espacio 
+de búsqueda. Su eficacia radica en su capacidad para combinar información sobre los 
+costos ya conocidos y las estimaciones heurísticas de los costos futuros. 
+La fórmula que guía esta búsqueda es f(n)=g(n)+h(n): 
+g(n) representa el costo real desde el nodo de inicio hasta el nodo actual n. 
+h(n) es una función heurística que estima el costo desde el nodo n hasta el nodo 
+objetivo. 
+La suma de estos dos valores, f(n), proporciona una estimación del costo total 
+desde el nodo de inicio hasta el objetivo pasando por el nodo. 
+La magia del algoritmo A* radica en cómo utiliza esta información. En cada paso, 
+el algoritmo expande el nodo con el valor f(n) más bajo, asegurando que siempre esté 
+explorando el camino más prometedor hacia el objetivo. Si, en algún momento, el costo 
+acumulado de un camino supera una estimación previa, A* descarta ese camino, evitando 
+así exploraciones innecesarias y optimizando el proceso de búsqueda. 
+Para que A* garantice encontrar la solución más óptima, es importante que la 
+función heurística h(n) no sobreestime el costo real para llegar al objetivo.

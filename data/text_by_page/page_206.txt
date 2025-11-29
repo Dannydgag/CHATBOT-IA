@@ -1,0 +1,32 @@
+Markman, A. B. (2013). Knowledge representation. Psychology Press. 
+Martinsanz, G. P., & Peñas, M. S. (2005). Inteligencia artificial e ingeniería del 
+conocimiento. Ra-Ma. 
+McCarthy, J. (1956). The inversion of functions defined by Turing machines. Automata 
+studies, 34, 177–181. 
+McCarthy, J. (1960). Recursive functions of symbolic expressions and their computation 
+by machine, part I. Communications of the ACM, 3(4), 184–195. 
+McCarthy, J. (1981). Epistemological problems of artificial intelligence. En Readings in 
+artificial intelligence (pp. 459–465). Elsevier. 
+McCarthy, J. (1990). Artificial intelligence, logic, and formalising common sense. 
+Machine Learning and the City: Applications in Architecture and Urban Design, 
+69–90. 
+McDermott, D. (2007). Artificial intelligence and consciousness. The Cambridge 
+handbook of consciousness, 117–150. 
+Michiels, W., Aarts, E., & Korst, J. (2007). Theoretical aspects of local search (Vol. 25). 
+Springer. 
+Minsky, M. (1961). Steps toward artificial intelligence. Proceedings of the IRE, 49(1), 8–
+30. 
+Minsky, M., & others. (1974). A framework for representing knowledge. Massachusetts 
+Institute of Technology AI Laboratory Cambridge. 
+Pham, D., & Karaboga, D. (2012). Intelligent optimisation techniques: genetic 
+algorithms, tabu search, simulated annealing and neural networks. Springer Science 
+& Business Media. 
+Poole, D. L., & Mackworth, A. K. (2010). Artificial Intelligence: foundations of 
+computational agents. Cambridge University Press. 
+Ramirez, C. (2012). Advances in knowledge representation. BoD–Books on Demand. 
+Russell, S., & Norvig, P. (2012). Artificial intelligence—a modern approach 3rd Edition. 
+The Knowledge Engineering Review. https://doi.org/10.1017/S0269888900007724 
+Russell, S., & Norvig, P. (2021). Artificial intelligence: a modern approach, 4th US ed. 
+Pearson Education. 
+Samuel, A. L. (1959). Some studies in machine learning using the game of checkers. IBM 
+Journal of research and development, 3(3), 210–229.

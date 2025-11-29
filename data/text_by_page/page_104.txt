@@ -1,0 +1,32 @@
+Esto significa que el algoritmo de inferencia considerará todas las posibles derivaciones 
+lógicas y no dejará ninguna sin explorar, asegurando que las conclusiones sean 
+exhaustivas y coherentes. 
+La denotación es esencial para establecer la conexión entre los procesos de 
+razonamiento lógico y el entorno real en el que se encuentra un agente o sistema. En el 
+ejemplo que se menciona, la afirmación de que "Juan es el padre de Alfonso" y "Alfonso 
+es el padre de Ximena" tiene una denotación en la vida real, lo que significa que existe 
+una familia en la que estas afirmaciones son verdaderas y reflejan relaciones familiares 
+reales. 
+La denotación asegura que las inferencias y conclusiones que se hacen en el 
+contexto del razonamiento lógico sean aplicables y relevantes en el mundo real. Esto 
+garantiza que los sistemas de inteligencia artificial puedan tomar decisiones y realizar 
+acciones basadas en un conocimiento que refleja de manera precisa el entorno en el que 
+operan. 
+2.1.1 Lógica proposicional 
+La lógica proposicional es un sistema formal en el que el conocimiento se 
+representa mediante proposiciones, que son afirmaciones o declaraciones que pueden ser 
+verdaderas o falsas. Estas proposiciones pueden combinarse de diversas maneras 
+utilizando operadores lógicos como "y" (conjunción), "o" (disyunción) y "no" 
+(negación). 
+Las expresiones resultantes en la lógica proposicional pueden interpretarse como 
+reglas de inferencia que preservan la verdad, lo que significa que se pueden utilizar para 
+deducir nuevas afirmaciones verdaderas a partir del conocimiento existente o para 
+evaluar la validez de las afirmaciones existentes.  
+Este enfoque formal es importante en la representación del conocimiento y el 
+razonamiento en la inteligencia artificial, donde se utilizan lógicas proposicionales para 
+modelar y resolver problemas de manera lógica y coherente. 
+Una proposición es una declaración o una oración declarativa simple que puede 
+ser evaluada como verdadera o falsa. Por ejemplo, la proposición "el carro es lujoso" 
+puede ser verdadera o falsa según las características del carro en cuestión y cómo se 
+defina "lujoso". Además, una proposición puede negarse, lo que daría como resultado la 
+proposición opuesta, en este caso, "el carro no es lujoso".

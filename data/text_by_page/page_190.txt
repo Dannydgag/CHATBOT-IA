@@ -1,0 +1,32 @@
+diagnóstico médico, y muchos otros. 
+Los árboles de decisión también son útiles en sectores como el financiero y el de 
+seguros, donde se utilizan para tomar decisiones sobre la aprobación de créditos o la 
+determinación de las tarifas de las pólizas. Estos modelos permiten identificar qué 
+características de los usuarios están asociadas con niveles más altos o más bajos de riesgo, 
+facilitando la personalización en función de las necesidades y riesgos específicos de cada 
+grupo de clientes. 
+Estos árboles son muy utilizados en tareas de clasificación debido a su capacidad 
+de predecir la categoría o clase de un dato nuevo de forma eficaz, la estructura que utiliza 
+es semejante a una serie de preguntas y respuestas que conducen a una conclusión.   
+Los modelos de árboles de decisión ayudan a visualizar cómo se toman las 
+decisiones, a través de utilizar una representación que facilitan el análisis de las distintas 
+variables involucradas. Si un nodo en el árbol contiene datos de múltiples clases, se 
+subdivide en grupos más específicos y manejables, hasta que cada región (o nodo final) 
+represente una sola categoría o clase.  
+La creación de un modelo predictivo con árboles de decisión implica varias etapas 
+que deben llevarse a cabo de manera ordenada, como el diseño del modelo (selección de 
+las características que se utilizarán en la toma de decisiones, y la construcción de la 
+estructura del árbol), su evaluación (verificar qué tan bien el modelo predice o clasifica 
+nuevos datos) y finalmente su implementación (integrarlo en un sistema de software 
+existente, usarlo para tomar decisiones en tiempo real, o aplicarlo en un proceso de 
+negocio). Para cada una de estas etapas se utiliza software o herramientas especializadas 
+que son altamente beneficiosas, debido a que optimizan el proceso, evita errores y ahorran 
+tiempo. 
+Los árboles de decisión se dividen principalmente en dos categorías: árboles de 
+clasificación y árboles de regresión. Los árboles de clasificación se utilizan para 
+categorizar datos en función de una variable clasificadora que es categórica, es decir, que 
+toma un número limitado de valores posibles, como “sí” o “no”, “amarillo” o “azul”. Este 
+tipo de árboles es útil en situaciones donde la variable objetivo es discreta y se quiere 
+clasificar en categorías específicas. Por otro lado, los árboles de regresión se emplean 
+cuando la variable clasificadora es continua, por lo que puede tomar cualquier valor 
+dentro de un rango, ejemplos: peso de una persona, precio de un terreno, la temperatura

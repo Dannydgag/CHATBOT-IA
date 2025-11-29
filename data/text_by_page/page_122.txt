@@ -1,0 +1,32 @@
+hipótesis posibles incluyen: 
+Hipótesis 1: Un ladrón entró por la ventana rota. 
+Hipótesis 2: El propietario perdió las joyas y forzó la puerta y revolvió el escritorio 
+para hacer que pareciera un robo. 
+Hipótesis 3: Hubo un terremoto que causó la ventana rota, la puerta forzada y el 
+escritorio revuelto. 
+Dado que está buscando una explicación como detective podría usar la 
+hipótesis más probable, para abducir lo siguiente: 
+Es probable que un ladrón (H1) haya entrado a la casa por la ventana rota 
+(O1), forzado la puerta (O2) y revuelto el escritorio (O3) en busca de las joyas 
+(O4) que luego se llevó. 
+En este caso, la abducción le ayuda a generar la hipótesis más probable 
+basada en las observaciones en la escena del crimen. Sin embargo, es importante 
+recordar que la abducción no garantiza la verdad absoluta, solo identifica una 
+explicación probable dadas las observaciones disponibles. 
+f) Inducción.- La inducción representa un proceso de razonamiento que parte de 
+observaciones específicas para alcanzar conclusiones de carácter más general. En 
+el vasto y complejo campo de la inteligencia artificial, este enfoque se emplea de 
+manera estratégica para elaborar modelos, patrones y reglas, todos ellos 
+fundamentados en datos concretos y observaciones detalladas.  
+Esta metodología no solo facilita la creación de sistemas predictivos 
+robustos, sino que también dota a las máquinas de la capacidad de tomar 
+decisiones informadas y precisas en escenarios futuros que presenten similitudes 
+con las situaciones observadas. Así, la inducción se convierte en una herramienta 
+esencial para la extracción de conocimiento y aprendizaje automático, 
+permitiendo a los sistemas de IA adaptarse y responder de manera efectiva ante 
+una variedad de situaciones y contextos. 
+             La forma del método inductivo es la siguiente: 
+             Si se conoce que P(a), P(b),....... P(n) son verdaderos, 
+                  entonces se puede concluir que ∀x, P(x) es también verdadero. 
+Se emplea para los estudios experimentales, por ejemplo, cuando se 
+prueban las medicinas se hace en un grupo que tiene ciertas características y luego

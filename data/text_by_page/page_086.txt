@@ -1,0 +1,33 @@
+En el contexto de la Inteligencia Artificial, las heurísticas son igualmente 
+significativas. Los sistemas de IA pueden incorporar técnicas heurísticas para 
+optimizar la búsqueda de soluciones en escenarios complejos, como en el desarrollo 
+de algoritmos de búsqueda o planificación. En el aprendizaje automático, los modelos 
+de IA a menudo aplican heurísticas para mejorar su rendimiento y eficiencia en el 
+tratamiento de datos. 
+Sin embargo, es necesario reconocer que el conocimiento heurístico, aunque 
+provechoso en numerosas situaciones, puede conducir a sesgos y errores en la toma 
+de decisiones. Por ello, se recomienda combinar el uso de heurísticas con un enfoque 
+analítico y metódico cuando sea necesario, buscando un equilibrio entre rapidez y 
+precisión en el proceso de decisión. 
+1.9 
+Representación del conocimiento 
+La representación del conocimiento en IA y su relación con la ciencia cognitiva 
+es profunda y multifacética. Los seres humanos procesan y almacenan información de 
+diversas maneras: mediante imágenes mentales, lenguaje (oral o escrito), 
+representaciones gráficas, y más. Este conocimiento puede manifestarse de distintas 
+formas, como cadenas de caracteres, o como señales eléctricas o magnéticas en 
+computadoras. 
+En el contexto de la IA, el desafío radica en la transformación de este 
+conocimiento, naturalmente comprensible para los humanos, en un formato accesible y 
+utilizable por sistemas de inteligencia artificial. Esto implica codificar el conocimiento 
+de tal manera que permita a la IA reconocerlo, procesarlo y, cuando sea necesario, inferir 
+nuevo conocimiento a partir de él. 
+La representación del conocimiento en IA típicamente se concreta a través de 
+formatos escritos y estructuras de datos específicas, como bases de datos, árboles de 
+decisión o redes semánticas, que facilitan su almacenamiento en sistemas informáticos y 
+su manipulación mediante software. La elección de la forma de representación y las 
+estructuras de datos depende tanto del tipo de problema a abordar como de las técnicas 
+de inferencia que se utilizarán para resolverlo (Ramirez, 2012). 
+El propósito principal de esta representación es dotar a entidades inteligentes, tales 
+como programas con bases de conocimientos, de la capacidad para tomar decisiones 
+informadas y adaptativas en su entorno. Esta capacidad no se limita a la mera acumulación

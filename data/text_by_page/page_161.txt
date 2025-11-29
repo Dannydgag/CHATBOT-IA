@@ -1,0 +1,32 @@
+cercanos o relacionados con el estado actual. En términos prácticos, un estado vecino se 
+obtiene realizando pequeñas modificaciones al estado actual. Estos estados ofrecen 
+alternativas ligeramente diferentes y son esenciales para la exploración y optimización en 
+la búsqueda local. 
+El mecanismo fundamental de los algoritmos de búsqueda local radica en iniciar 
+con un estado actual y evaluar sus vecinos para determinar cuál de ellos ofrece una mejor 
+solución, ya sea maximizando la función objetivo o minimizando la función de costo. El 
+algoritmo se desplaza iterativamente hacia el mejor estado vecino y repite el proceso hasta 
+que se cumpla un criterio de parada, como encontrar una solución que no pueda ser 
+mejorada o alcanzar un número máximo de iteraciones. 
+Esta metodología permite explorar de manera eficiente el espacio de soluciones, 
+especialmente en problemas complejos donde una búsqueda exhaustiva sería 
+computacionalmente costosa. 
+Un ejemplo clásico de búsqueda local en inteligencia artificial es el problema del 
+Viajante de Comercio (TSP, por sus siglas en inglés). En este problema, un viajante debe 
+visitar una serie de ciudades exactamente una vez y regresar al punto de partida, 
+minimizando la distancia total recorrida. 
+Supóngase que se tienen 4 ciudades (A, B, C, D) y las distancias entre ellas son 
+las siguientes: 
+A-B: 10 km 
+A-C: 15 km 
+A-D: 20 km 
+B-C: 35 km 
+B-D: 20 km 
+C-D: 30 km 
+Pasos: 
+1) Inicialización: Se elige una ruta inicial aleatoria, por ejemplo, A -> B -> C -> D 
+-> A. 
+2) Función de Costo: La suma de las distancias entre las ciudades en la ruta. 
+Estado Actual: A -> B -> C -> D -> A con un costo de 10 (A-B) + 35 (B-
+C) + 30 (C-D) + 20 (D-A) = 95 km. 
+3) Estados Vecinos: Se genera rutas vecinas intercambiando dos ciudades en la ruta

@@ -1,0 +1,32 @@
+Existen diversos métodos de aprendizaje utilizados por agentes basados en el 
+aprendizaje, cada uno con características y aplicaciones distintas. En el aprendizaje 
+supervisado, los agentes trabajan con conjuntos de datos etiquetados, aprendiendo a 
+clasificar o predecir nuevos datos basándose en ejemplos previos (Xiao, 2022). Por otro 
+lado, en el aprendizaje no supervisado, los agentes exploran datos sin etiquetar para 
+descubrir patrones y estructuras ocultas por sí mismos. Mientras tanto, en el aprendizaje 
+por refuerzo, los agentes mejoran su rendimiento interactuando directamente con el 
+entorno, siendo recompensados o penalizados según las consecuencias de sus acciones. 
+Los agentes basados en aprendizaje tienen la notable capacidad de adaptarse y 
+perfeccionar su desempeño con la exposición a más datos y experiencias. Estos sistemas 
+ajustan continuamente sus modelos internos y estrategias, optimizando su 
+comportamiento para alcanzar los objetivos. 
+Estos agentes encuentran aplicación en una amplia gama de campos, incluyendo 
+reconocimiento de voz, visión por computadora, recomendación de productos, análisis de 
+grandes conjuntos de datos y toma de decisiones en tiempo real. Mediante el uso del 
+aprendizaje automático, estos agentes pueden procesar y aprender eficientemente de 
+grandes volúmenes de datos, adaptándose a entornos y requerimientos en constante 
+cambio. 
+Agentes basados en reglas: Son sistemas inteligentes que utilizan un conjunto de 
+reglas predefinidas para tomar decisiones y realizar acciones en función de la información 
+disponible. Estas reglas pueden estar basadas en conocimiento experto o en reglas lógicas, 
+y son diseñadas por expertos en el dominio específico del problema. 
+El funcionamiento de estos agentes se basa en la evaluación de condiciones y la 
+aplicación de acciones correspondientes. Cada regla consta de una condición o conjunto 
+de condiciones que deben ser satisfechas para que la regla se aplique, y una acción que se 
+llevará a cabo si se cumplen las condiciones. 
+Cuando un agente recibe información del entorno, evalúa las reglas una por una 
+en orden y verifica si las condiciones de cada regla se cumplen. Si encuentra una regla 
+cuyas condiciones se satisfacen, el agente ejecuta la acción asociada a esa regla. Si 
+ninguna regla se cumple, el agente puede tener una regla predeterminada o una acción 
+por defecto a realizar. 
+Los agentes basados en reglas son especialmente útiles cuando el dominio del

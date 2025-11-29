@@ -1,0 +1,32 @@
+algoritmos (velocidad y uso de recursos) y la gestión de grandes volúmenes de 
+información (procesar y analizar grandes conjuntos de datos).  
+La neurociencia se centra en entender el funcionamiento del cerebro humano a 
+niveles: molecular, celular y de comportamiento. Este estudio permite desarrollar 
+modelos y principios que son aplicados en la creación de inteligencia artificial. También, 
+proporciona información valiosa sobre cómo se procesa el lenguaje en el cerebro humano, 
+que es utilizado en el procesamiento de lenguaje natural dentro de la inteligencia artificial. 
+La neurociencia ha permitido obtener un conocimiento más profundo de la 
+funcionalidad cerebral y de los procesos de procesamiento de información dentro del 
+cerebro. Este conocimiento es valioso para los expertos en inteligencia artificial, debido 
+a que les ofrece inspiración basada en los mecanismos y procesos cerebrales reales para 
+desarrollar algoritmos y modelos en el campo del aprendizaje automático. 
+La neurociencia ha revelado principios fundamentales sobre cómo funcionan las 
+redes neuronales en el cerebro y cómo este tiene la capacidad de cambiar y adaptarse a 
+través del aprendizaje (plasticidad cerebral). Estos descubrimientos son importantes para 
+el diseño de algoritmos en el aprendizaje automático, especialmente en el desarrollo de 
+redes neuronales artificiales. Estos algoritmos buscan imitar los principios biológicos del 
+cerebro humano para mejorar la eficiencia y capacidad de procesamiento en la 
+inteligencia artificial. 
+La ciencia cognitiva es decisiva en el estudio de las actividades mentales 
+humanas, como la percepción, el aprendizaje, la memoria, el pensamiento y la conciencia. 
+Esta disciplina integra conocimientos de varias áreas de estudio como la psicología que 
+contribuye con la comprensión del comportamiento y los procesos mentales; la lingüística 
+que aporta conocimientos sobre el lenguaje y su relación con el pensamiento; la filosofía 
+que ofrece marcos conceptuales y éticos; la neurociencia que brinda información sobre la 
+estructura y función del cerebro; y la inteligencia artificial que ayuda a modelar y simular 
+procesos cognitivos. Juntas, estas disciplinas permiten una comprensión más completa de 
+cómo se desarrollan y trabajan las actividades mentales en los seres humanos. 
+ La investigación en ciencia cognitiva busca descubrir cómo funcionan 
+internamente los procesos a través de los cuales los seres humanos reciben, procesan y 
+comprenden la información que obtienen de su entorno para desarrollar máquinas que 
+puedan procesar e interpretar información sensorial (como imágenes, sonidos, texturas)

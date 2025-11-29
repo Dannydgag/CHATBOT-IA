@@ -1,0 +1,31 @@
+los aspectos más eficientes de la búsqueda primero en profundidad y la búsqueda de 
+profundidad limitada. Esta técnica se basa en la realización de una serie de búsquedas en 
+profundidad, cada una con un límite de profundidad que se incrementa de manera iterativa 
+en cada ciclo. 
+El proceso comienza con un límite de profundidad inicial fijado en 0, explorando 
+solo el nodo raíz. Si el nodo objetivo no se encuentra en este nivel superficial, el límite se 
+aumenta en una unidad y se procede con una nueva búsqueda en profundidad, esta vez 
+extendiéndose hasta el siguiente nivel. Este enfoque iterativo se repite, incrementando el 
+límite en cada ciclo, hasta encontrar el nodo objetivo o haber recorrido completamente la 
+estructura del árbol. 
+Una ventaja significativa de la búsqueda por profundización iterativa es su 
+eficiencia al explorar árboles de búsqueda extensos. Esta metodología es especialmente 
+útil cuando se desconoce la profundidad exacta del nodo objetivo. En lugar de 
+comprometerse a una búsqueda de toda la profundidad del árbol desde el comienzo, que 
+puede ser costosa en términos de tiempo y memoria, esta estrategia adopta un enfoque 
+más controlado y escalonado, examinando cada nivel de manera secuencial. 
+Este método combina la eficiencia de la búsqueda primero en profundidad con 
+respecto al uso de memoria, con la garantía de la búsqueda por amplitud de encontrar la 
+solución óptima sin incurrir en altos costos asociados con la memoria. Es efectivo en 
+situaciones donde el árbol de búsqueda es muy amplio o en situaciones en las cuales la 
+ubicación del nodo objetivo es incierta; garantiza una exploración sistemática y 
+minuciosa, sin la sobrecarga de revisar innecesariamente nodos profundos desde el inicio. 
+Por lo tanto, la búsqueda por profundización iterativa se posiciona como una 
+herramienta poderosa en la resolución de problemas de inteligencia artificial, ofreciendo 
+un equilibrio óptimo entre eficiencia y exhaustividad, adecuado para una amplia gama de 
+aplicaciones donde la estructura del problema es compleja y la ubicación del objetivo no 
+es predecible. 
+ Para ejemplo que se utiliza el proceso sería el siguiente: 
+En el límite = 0 se tiene un solo nodo sin sucesores. El objetivo es 
+el nodo F, como el nodo raíz es el nodo A y no constituye el nodo 
+objetivo se procede a aumentar el límite en 1 (0 +1).

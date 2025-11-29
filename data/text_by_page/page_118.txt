@@ -1,0 +1,32 @@
+La premisa inicial establece que si el estudiante estudia para el examen (p), aprobará (q). 
+Dado que el estudiante no aprobó (¬q), puede inferir que no estudió para el examen (¬p). 
+c) Resolución.- Esta regla permite la creación de una contradicción a través de la 
+negación de la sentencia original, que permite demostrar que la sentencia original 
+es verdadera. La resolución es un método de inferencia utilizado en lógica para 
+determinar la verdad o falsedad de una afirmación basándose en un conjunto de 
+cláusulas de conocimiento y una consulta 
+Ejemplo 1 
+Si (A v B) es verdadero y (¬B v C) es verdadero, entonces (A v C) también es 
+verdadero. 
+Las sentencias expresan lo siguiente: A = “la lámpara está apagada”, B = “el 
+interruptor está apagado”, C = “el enchufe está desconectado”. Si se niega B = “el 
+interruptor no está apagado”. Entonces A es verdadero, y B es falso, entonces C es 
+verdadero. 
+Ejemplo 2  
+Premisa 1: Si llueve, entonces la calle estará mojada (p → q). 
+Premisa 2: La calle no está mojada (¬q). 
+Consulta: ¿Está lloviendo? (¬p) 
+Para resolver esto, primero convertimos las premisas a cláusulas: 
+Premisa 1 (Cláusula 1): ¬p ∨ q 
+Premisa 2 (Cláusula 2): ¬q 
+Ahora, aplicamos la resolución: 
+(¬p ∨ q) ∧ (¬q)             [Conjuntamos las cláusulas] 
+(¬p ∧ ¬q) ∨ (q ∧ ¬q)    [Distribución] 
+(¬p ∧ ¬q) ∨ F               [q ∧ ¬q es F (falso)] 
+(¬p ∧ ¬q)                     [Identidad ((¬p ∧ ¬q) ∨ F = (¬p ∧ ¬q))] 
+La resolución nos lleva a la conclusión de que ¬p es verdadero, lo que significa 
+que no está lloviendo. 
+Ejemplo 3 
+Premisa 1: Si el estudiante estudia para el examen, aprobará (p → q). 
+Premisa 2: El estudiante no aprobó el examen (¬q). 
+Consulta: ¿El estudiante estudió para el examen? (¬p)

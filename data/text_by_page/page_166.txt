@@ -1,0 +1,35 @@
+2) Evaluar la función de evaluación (o función de costo) del estado actual. 
+3) Generar y evaluar todos los vecinos del estado actual. 
+4) Seleccionar el vecino que tiene el mayor incremento en la función de evaluación 
+en comparación con el estado actual. 
+5) Si este vecino mejor tiene una evaluación más alta que el estado actual, moverse 
+a ese estado y repetir desde el paso 2. 
+6) Si ningún vecino tiene una evaluación más alta que el estado actual, se ha 
+encontrado un máximo local y el algoritmo termina. 
+Pseudocódigo: 
+Función AscensoMásPronunciado(estadoInicial): 
+    estadoActual = estadoInicial 
+    mientras no se alcance un máximo local o se alcance el número máximo 
+    de iteraciones: 
+        vecinos = generarVecinos(estadoActual) 
+        mejorVecino = seleccionarMejorVecino(vecinos) 
+        si el mejorVecino tiene un valor de función objetivo mayor que el 
+        estadoActual: 
+            estadoActual = mejorVecino 
+        sino: 
+               detenerse  #Alcanzamos un máximo local o una meseta 
+   devolver estadoActual 
+El pseudocódigo presentado ilustra el núcleo del proceso de Ascenso más 
+pronunciado. Empieza con un estado inicial y, en cada ciclo, examina los estados 
+circundantes para determinar si alguno supera la función objetivo. Si identifica un vecino 
+más óptimo, el algoritmo se desplaza hacia ese estado y continua el proceso. Esta 
+dinámica persiste hasta que se llega a un máximo local (donde no existe vecinos mejores) 
+o se cumple un límite preestablecido de iteraciones. 
+• Estocástico: Se elije aleatoriamente entre los vecinos de mayor valor. Al hacer 
+esto, se prefiere ir a cualquier dirección que mejore nuestro valor. Esto tiene sentido si, 
+por ejemplo, el vecino de mayor valor conduce a un máximo local mientras que otro 
+vecino conduce a un máximo global. Esto introduce un elemento de aleatoriedad que 
+puede ayudar a escapar de óptimos locales. La escalada de colinas estocástica puede ser 
+especialmente útil en búsquedas que tienen muchos máximos locales. 
+Funcionamiento: 
+1) Comenzar con un estado inicial.

@@ -1,0 +1,32 @@
+padecer una enfermedad considerando diversos síntomas presentes. En el campo de la 
+genética, permiten descifrar las interacciones entre genes y determinar cómo éstos 
+pueden estar relacionados con determinadas enfermedades. Estas redes son esenciales 
+en la detección de anomalías y en sistemas avanzados de reconocimiento facial.  
+Gracias a su capacidad de análisis, pueden ofrecer recomendaciones personalizadas de 
+productos o contenidos a los usuarios, tomando en cuenta sus historiales y 
+preferencias. Además, son herramientas valiosas para prever y diagnosticar fallos en 
+sistemas complejos, tales como redes eléctricas o maquinarias industriales. En 
+robótica, apoyan en la percepción sensorial y en la toma de decisiones cuando los 
+robots se enfrentan a situaciones inciertas. Finalmente, son fundamentales en la 
+predicción meteorológica y en la simulación de la propagación de enfermedades 
+contagiosas. 
+g) Los Modelos de Markov, son modelos estocásticos matemáticos que representan 
+sistemas que evolucionan a lo largo del tiempo donde la probabilidad de transición de 
+un estado a otro solo depende del estado actual y no de cómo llegó a ese estado, por lo 
+que se utilizan para predecir estados futuros basados en estados actuales, sin tener en 
+cuenta su historia pasada. Su característica principal es la "falta de memoria". 
+Cuando se lanza una moneda, tiene una probabilidad del 50% de caer en cara y 
+una probabilidad del 50% de caer en cruz. Si se decide jugar un juego en el que se 
+lanza la moneda repetidamente y se registra la secuencia de resultados. Al usar un 
+Modelo de Markov para predecir el resultado del próximo lanzamiento, solo se basaría 
+en el resultado del último lanzamiento. No importaría si, en los últimos 12 
+lanzamientos, se obtuvo 9 caras y 3 cruz. Suponga que el último lanzamiento fue cara. 
+Según el modelo, la probabilidad de que el próximo lanzamiento sea una cara sigue 
+siendo del 50%, y la probabilidad de que sea cruz también es del 50%. El modelo no 
+"recuerda" los lanzamientos anteriores. En situaciones reales, los Modelos de Markov 
+pueden abordar sistemas con múltiples estados y con probabilidades de transición entre 
+ellos mucho más elaboradas. 
+En el ámbito del procesamiento de lenguaje natural, los modelos de Markov son 
+empleados para construir y perfeccionar modelos de n-gramas, que son esenciales para 
+prever la siguiente palabra en una secuencia textual, basándose en la probabilidad de 
+aparición de ciertas palabras consecutivas. Estos modelos son igualmente valiosos en

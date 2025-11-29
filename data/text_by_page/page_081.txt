@@ -1,0 +1,33 @@
+decisiones más efectivas. Este aprendizaje puede ser individual o colectivo, donde los 
+agentes comparten conocimientos. 
+Estas arquitecturas son adecuadas para modelar entornos dinámicos donde las 
+situaciones cambian constantemente. Los agentes deben adaptarse y reaccionar en tiempo 
+real a nuevas circunstancias. 
+La escalabilidad es un reto importante en sistemas con un gran número de agentes, 
+la arquitectura debe ser eficiente para manejar múltiples agentes y garantizar un 
+rendimiento adecuado. 
+1.8 
+El conocimiento 
+El razonamiento humano, que se fundamenta en el conocimiento acumulado para 
+derivar conclusiones, sirve como base para el desarrollo de sistemas en el campo de la 
+Inteligencia Artificial. En IA, la investigación se puede dividir en dos corrientes 
+principales: la inteligencia simbólica y la inteligencia computacional. 
+La inteligencia simbólica, también conocida como IA tradicional, se enfoca en la 
+resolución de problemas mediante un razonamiento basado en conocimientos explícitos. 
+Esta vertiente utiliza representaciones simbólicas y reglas lógicas para procesar 
+información y deducir soluciones. Este enfoque se caracteriza por la programación de 
+algoritmos complejos y la manipulación de símbolos para emular tareas cognitivas. 
+Por otro lado, la inteligencia computacional aborda la resolución de problemas a 
+partir de la conexión y análisis de datos. Esta corriente incluye técnicas avanzadas como 
+redes neuronales artificiales, algoritmos genéticos, sistemas difusos (fuzzy logic), 
+programación evolutiva y vida artificial (Martinsanz & Peñas, 2005). Estas técnicas se 
+inspiran en el funcionamiento de sistemas biológicos y tienen como objetivo replicar su 
+capacidad innata de aprendizaje y adaptación, permitiendo a los sistemas de IA mejorar 
+y evolucionar de forma autónoma. 
+Ambas categorías de investigación en IA tienen sus propias fortalezas y 
+aplicaciones. La inteligencia simbólica es efectiva para problemas que se pueden expresar 
+en términos lógicos y que requieren razonamiento basado en reglas y conocimiento 
+explícito. Por otro lado, la inteligencia computacional es útil en problemas donde los datos 
+son complejos y se requiere un enfoque más basado en el aprendizaje y la adaptación. 
+La Inteligencia Artificial (IA) se puede entender como la ciencia que se ocupa de 
+la ingeniería del conocimiento, abordando la representación, adquisición y aplicación del

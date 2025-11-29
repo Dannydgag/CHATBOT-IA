@@ -1,0 +1,39 @@
+de proposiciones. En este caso, teníamos 2 proposiciones, entonces 2²=4 modelos 
+posibles. 
+La base de conocimiento KB es un conjunto de sentencias conocidas por un agente 
+basado en conocimiento. Este es el conocimiento que la IA proporciona sobre el mundo 
+en forma de sentencias de lógica proposicional que se pueden usar para hacer inferencias 
+adicionales sobre el mundo. 
+En el caso de la vinculación (⊨), si α ⊨ β (α vincula β), entonces en cualquier 
+mundo donde α sea verdadero, β también lo será (García Serrano, 2012). Por ejemplo, si 
+α: “Es un martes de enero” y β: “Es un martes”, entonces sabemos que α ⊨ β. Si es cierto 
+que es un martes de enero, también sabemos que es martes. La vinculación es diferente 
+de la implicación. La implicación es un conector lógico entre dos proposiciones. La 
+vinculación, por otro lado, es una relación que significa qué si toda la información en α 
+es verdadera, entonces toda la información en β es verdadera. 
+La inferencia es el proceso de derivar nuevas oraciones a partir de las antiguas. 
+Existen múltiples formas de inferir nuevos conocimientos basados en el conocimiento 
+existente. Primero, considérese el algoritmo de verificación de modelo (Model 
+Checking). 
+• Para determinar si KB ⊨ α (en otras palabras, responde a la pregunta: “¿se puede 
+concluir que α es cierto en base a nuestra base de conocimientos”) 
+  1. Se debe enumerar todos los modelos posibles. 
+  2. Si en todos los modelos donde KB es verdadero, α también lo es, entonces KB 
+vincula α (KB ⊨ α). 
+Considérese el siguiente ejemplo: 
+P: Es un miércoles. Q: Está lloviendo. R: Patricio irá a correr. KB: (P ∧ ¬Q) → R 
+(en palabras, P y no Q implica R) P (P es verdadera) ¬Q (Q es falsa) Consulta: R 
+(Queremos saber si R es verdadera o falsa; ¿KB ⊨ R?) 
+Para responder a la consulta utilizando el algoritmo de verificación de modelos, 
+enumeramos todos los modelos posibles (Tabla 2-3). 
+Tabla 2-3 Modelos posibles 
+P 
+Q 
+R 
+KB 
+Falso 
+Falso 
+Falso 
+Falso 
+Falso 
+verdadero

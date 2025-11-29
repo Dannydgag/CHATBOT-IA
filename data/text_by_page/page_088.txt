@@ -1,0 +1,32 @@
+Las redes semánticas se emplean en bases de datos y la web semánticas para 
+representar y consultar información (Weller, 2010). Sirven como entrada para 
+algoritmos de aprendizaje automático, facilitando que las máquinas entiendan 
+relaciones entre conceptos. Se puede también utilizar para comprender la relación 
+entre diferentes productos o contenidos, por ejemplo, pueden las redes relacionar 
+películas según género, actores y directores. Además, los robots pueden usarlas para 
+entender el mundo que los rodea, reconociendo objetos y comprendiendo las 
+relaciones entre ellos. 
+b) Los marcos se especializan en describir las propiedades y relaciones de un concepto 
+específico. Piense en los marcos como "fichas de información" de un objeto o concepto 
+específico. Un marco es esencialmente una estructura de datos que representa un 
+concepto estereotipado. Por ejemplo, un marco para "automóvil" podría contener 
+atributos como "año", "color", "modelo" y "fabricante", y especificar relaciones como 
+"Propietario: quien posee el automóvil" o "clases de automóvil: sedan, suv, deportivo, 
+hatchback, crossover, familiar".  
+Si tomamos como ejemplo el concepto de "edificio", un marco relacionado con 
+este término podría incluir aspectos específicos como "cantidad de niveles", "material 
+predominante" y "fecha de construcción", y podría formar vínculos como "ubicado en" 
+para señalar una localización o "diseñado por" para mencionar al arquitecto 
+responsable. En contraste, una red semántica enfatizaría las relaciones del concepto 
+"edificio" con otros términos vinculados, tales como "ciudad", "estilo arquitectónico" 
+o "uso residencial". Es decir, mientras el marco se enfoca en profundizar en las 
+características particulares de un concepto, la red semántica ilustra las interacciones 
+de este concepto con otros en un contexto más global. 
+Los sistemas expertos utilizan marcos para organizar el conocimiento de un área 
+determinada. Por ejemplo, en el ámbito médico, el marco "Enfermedad" podría 
+contener atributos como síntomas, causas y tratamientos. Dentro del Procesamiento 
+del Lenguaje Natural, los marcos facilitan la comprensión de enunciados; como en 
+"Xavier compró un automóvil", donde se identifican roles semánticos: comprador 
+(Xavier), objeto (automóvil) y acción (comprar). En el diseño de videojuegos, un 
+marco podría caracterizar entidades como "Personaje", definiendo aspectos como su 
+contextura o habilidades. En diseño de interfaces, un marco referente a un "Botón"

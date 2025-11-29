@@ -1,0 +1,32 @@
+diseño de las estaciones espaciales, uno de sus mayores usos es en la robótica. 
+Por la cantidad de habitantes que viven en el planeta tierra cada vez más se 
+necesita usar de forma eficiente los recursos materiales y humanos, para lo cual podemos 
+utilizar el poder que tienen las computadoras y la IA, en la agricultura para  controlar 
+plagas y manejar cultivos en forma más eficiente; en las fábricas en la realización de 
+montajes peligrosos y actividades tediosas (labores de inspección y mantenimiento); en  
+medicina en el diagnóstico a pacientes, detectar pacientes que están en mayor riesgo de 
+complicaciones, supervisar la condición de los pacientes, descubrir sutiles interacciones 
+entre los medicamentos que ponen a los pacientes en riesgo de sufrir efectos secundarios 
+graves, administrar tratamientos y preparar estudios estadísticos; en el trabajo doméstico 
+asistir en la limpieza de la casa, preparación de alimentos, a brindar asesoría acerca de 
+dietas, compras, supervisión y gestión de consumo energético y seguridad del hogar; en 
+las escuelas apoyar en la formación de los estudiantes, especialmente en aquellas materias 
+consideradas complejas; colaborar con los humanos expertos en el análisis para la 
+solución de problemas difíciles o en el diseño de nuevos dispositivos. 
+Se ha convertido en algo común de nuestras vidas el uso del GPS (Global 
+Positioning System) para escoger la mejor ruta, recibir estados del tráfico, usar teléfonos 
+inteligentes que entienden nuestro lenguaje, asistentes inteligentes como Cortana de 
+Microsoft y Siri de Apple; la búsqueda inteligente que realiza el buscador de Google y 
+Bing, el traductor y lector de documentos de Google. Algoritmos inteligentes que detectan 
+los rostros mientras estamos tomando una foto con el celular y reconocen las caras de las 
+personas cuando se publican las fotos en Facebook. Los usuarios de Amazon reciben 
+recomendaciones sobre libros, los de Netflix sobre películas. Aceleración de las portátiles 
+al adivinar lo que se hará a continuación. Los coches inteligentes que se conducen a sí 
+mismos, que pueden enfrentar situaciones complicadas, que reconocen la voz para una 
+interacción natural, que están desarrollando BMW, Tesla, Google. La lucha contra el 
+spam (correo basura) a través de clasificadores bayesianos y otras técnicas probabilísticas 
+han mostrado su eficacia. Los militares están usando aviones no tripulados, drones y 
+robots para investigar en lugares peligrosos. 
+En la actualidad existe dispositivos con IA que permiten que la gente ciega vea, 
+los sordos escuchen, y los discapacitados y ancianos puedan caminar, e incluso correr. 
+Las galaxias están siendo exploradas en mutuo apoyo entre los astrónomos

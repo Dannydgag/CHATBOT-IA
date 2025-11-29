@@ -1,0 +1,30 @@
+como agente, es una entidad autónoma que existe en un entorno y se guía por la 
+información que recibe a través de sensores. Actúa de manera racional utilizando 
+actuadores para llevar a cabo acciones. En un instante dado, un agente toma decisiones 
+basadas en la secuencia completa de percepciones que ha recibido hasta ese momento. 
+Para realizar esta tarea, utiliza un sistema de control que mapea las percepciones en 
+acciones (figura 1.4). Un ejemplo de agente sería un automóvil autónomo que debe tomar 
+decisiones para llegar a su destino. 
+En el ámbito de la Inteligencia Artificial, el sistema de control de un agente se 
+refiere al algoritmo avanzado responsable de convertir percepciones captadas a través de 
+sensores en acciones específicas. Este algoritmo opera dentro de una arquitectura análoga 
+a la de una computadora, dotada de sensores físicos y actuadores para interactuar con el 
+entorno. Un Agente Inteligente se define como: 
+Agente = Arquitectura + Programa 
+El sistema de control es esencial para el funcionamiento del agente, debido a que 
+permite que este interprete la información del entorno a través de los sensores y tome 
+decisiones lógicas sobre las acciones a emprender utilizando los actuadores. Es como el 
+cerebro del agente, procesando la información entrante y generando respuestas adecuadas 
+en base a su programación. 
+La arquitectura computacional permite que el agente interactúe con el medio 
+ambiente de manera autónoma y realice las tareas para las que fue diseñado. Los sensores 
+permiten capturar datos del entorno y se transmiten al sistema de control, que analiza y 
+toma decisiones en función de la programación establecida, para proceder a continuación, 
+a envíar las señales apropiadas a los actuadores, que ejecutan las acciones 
+correspondientes en el medio ambiente. 
+La arquitectura más simple puede ser la computadora que posee un teclado y un 
+mouse que constituyen los sensores y tiene el actuador que es el monitor. Las 
+percepciones de los sensores son utilizadas por el programa quien se encarga que las 
+acciones generadas se muestren a través de la pantalla del monitor (Leija, 2021). Para 
+escribir el programa se requiere un lenguaje de programación como lisp, prolog, phyton, 
+C++, java, matlab, etc.

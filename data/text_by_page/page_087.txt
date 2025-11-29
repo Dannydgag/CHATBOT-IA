@@ -1,0 +1,26 @@
+de datos: implica comprender y aplicar relaciones, normas y patrones en contextos 
+cambiantes, lo cual es fundamental para el razonamiento, el aprendizaje y la adaptación 
+de los sistemas de IA. 
+Esta perspectiva ampliada resalta la complejidad de trasladar el conocimiento 
+humano a un formato que sea operativo para la IA, enfatizando la importancia de una 
+representación del conocimiento que sea tanto comprensible como funcional para los 
+sistemas inteligentes.  
+1.9.1 Métodos de representación del conocimiento 
+A continuación, se listan algunos métodos que se utilizan para representar el 
+conocimiento en la inteligencia artificial: 
+a) Las redes semánticas (figura 1.15) se presentan como una herramienta valiosa para 
+representar las interconexiones entre varios objetos, conectando conceptos o nodos a 
+través de relaciones, lo que permite representar información de manera organizada y 
+estructurada (Markman, 2013). Este enfoque guarda semejanza con una característica 
+fundamental de la memoria humana, en la que se tejen numerosas relaciones, de modo 
+que pensar en un concepto puede evocar una multitud de otros. Por ejemplo, si en la 
+red semántica se sabe que "Una ballena es un mamífero" y "Un mamífero es un 
+animal", se puede inferir que "Una ballena es un animal". La verdadera fortaleza de 
+estas redes radica en su capacidad para facilitar la inferencia a partir del conocimiento 
+representado. 
+Figura 1.15  Red semántica 
+Elaborado por los Autores 
+Las redes semánticas facilitan la interpretación del significado en textos al 
+visualizar las conexiones entre conceptos distintos. Un ejemplo sería representar la 
+frase 'Los gatos cazan ratones' mediante nodos correspondientes a 'gatos', 'cazan' y 
+'ratones', delineando claramente las relaciones entre estos elementos."

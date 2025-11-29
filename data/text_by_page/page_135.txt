@@ -1,0 +1,41 @@
+mamífero= si 
+come_carne = si 
+dientes_puntiagudos = 
+si 
+garras =si 
+ojos_adelante = si 
+11ma Ejecución: Como las cuatro premisas de la regla 3 se cumplen, entonces se 
+llega a la conclusión de que se trata de un carnívoro, por lo tanto el objetivo carnívoro 
+pasa a ser parte de los datos conocidos y el objetivo prioritario vuelve a ser animal, siendo 
+la regla 1 la que se debe probar para ver si sus premisas se cumplen. 
+Objetivos 
+Datos conocidos 
+Reglas aplicables 
+Regla a utilizar 
+animal 
+posee_pelo = si 
+puede_dar_leche = si 
+mamífero= si 
+come_carne = si 
+dientes_puntiagudos = 
+si 
+garras =si 
+ojos_adelante = si 
+carnívoro= si 
+1,6,7,8,9,10,11 
+12ma Ejecución: Se procede a probar la primera premisa de la regla 1 mamífero = 
+si, como es parte de los datos conocidos, se procede a determinar si la segunda premisa  
+carnívoro = si se encuentra en los datos conocidos, como si existe entonces se procede 
+con la tercera premisa color = leonado  se encuentra en los datos conocidos, al no existir 
+valor alguno se busca una regla que nos permita derivar dicho valor; como no  existe 
+ninguna regla que en su conclusión haga referencia a esta premisa el mecanismo de 
+inferencia procede a preguntar al usuario del sistema ¿Cuál es el color del animal? al 
+usuario. La respuesta afirmativa del usuario confirma la premisa, que posteriormente se 
+incorpora a los datos conocidos. 
+Objetivos 
+Datos conocidos 
+Reglas aplicables Regla a utilizar 
+animal 
+posee_pelo = si 
+puede_dar_leche = si 
+1,6,7,8,9,10,11

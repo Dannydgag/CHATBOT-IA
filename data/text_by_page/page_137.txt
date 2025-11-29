@@ -1,0 +1,24 @@
+ninguna regla que en su conclusión haga referencia a esta premisa el mecanismo de 
+inferencia procede a preguntar al usuario del sistema ¿Tiene rayas negras el animal? En 
+este caso la respuesta es si por lo que la premisa se cumple y pasa a ser parte de los datos 
+conocidos. Todas las premisas de la regla 6 se cumplen y por lo tanto el objetivo que era 
+encontrar un animal con ciertas características se cumple, siendo este el tigre. 
+Objetivos 
+Datos conocidos 
+Reglas aplicables Regla a utilizar 
+posee_pelo = si 
+puede_dar_leche = si 
+mamífero= si 
+come_carne = si 
+dientes_puntiagudos = 
+si 
+garras =si 
+ojos_adelante = si 
+carnívoro= si 
+color=leonado 
+rayas_negras = si 
+animal = tigre 
+7,8,9,10,11 
+15ta Ejecución:  Las reglas 7,8,9,10,11 son desechadas debido a que ya se encontró 
+con los datos conocidos un animal, que en este caso es el tigre y ya no existe ningún 
+objetivo.

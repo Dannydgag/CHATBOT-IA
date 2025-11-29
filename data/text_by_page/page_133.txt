@@ -1,0 +1,49 @@
+la conclusión de que se trata de un mamífero, por lo tanto el objetivo mamífero pasa a ser 
+parte de los datos conocidos y el objetivo prioritario vuelve a ser animal, siendo la regla 
+1 la que se debe probar si sus premisas se cumplen. 
+Objetivos 
+Datos conocidos 
+Reglas aplicables 
+Regla a utilizar 
+animal 
+posee_pelo = si 
+puede_dar_leche = si 
+mamífero= si 
+1,6,7,8,9,10,11 
+6ta Ejecución: Se regresa a las reglas aplicables, se procede a probar la primera 
+premisa de la regla 1 mamífero = si, como es parte de los datos conocidos, se procede a 
+determinar si la segunda premisa carnívoro = si se encuentra en los datos conocidos, al 
+no existir valor alguno se busca una regla que nos permita derivar dicho valor; se 
+encuentra que la regla 3 en su conclusión (THEN) hace referencia a carnívoro = si; 
+entonces esta regla se convierte en prioridad, y el objetivo cambia de animal a carnívoro. 
+Objetivos 
+Datos conocidos 
+Reglas aplicables 
+Regla a utilizar 
+carnívoro 
+animal 
+posee_pelo = si 
+puede_dar_leche = si 
+mamífero= si 
+3,1,6,7,8,9,10,11 
+7ma Ejecución: Se busca determinar si la primera premisa come_carne = si de la 
+regla 3 se encuentra entre los datos conocidos como no existe, se busca determinar si  
+alguna conclusión de las reglas hace referencia, al no encontrarse tampoco  el mecanismo 
+de inferencia procede a hacer la pregunta “¿Come carne?” al usuario del sistema. La 
+respuesta afirmativa del usuario confirma la premisa, que posteriormente se incorpora a 
+los datos conocidos. 
+Objetivos 
+Datos conocidos 
+Reglas aplicables 
+Regla a utilizar 
+carnívoro 
+animal 
+posee_pelo = si 
+puede_dar_leche = si 
+mamífero= si 
+come_carne = si 
+3,1,6,7,8,9,10,11 
+8va Ejecución: Se busca determinar si la segunda premisa dientes_puntiagudos = 
+si de la regla 3 se encuentra entre los datos conocidos, como no existe se busca determinar 
+si alguna conclusión de las reglas hace referencia a esta premisa, al no encontrarse 
+tampoco el mecanismo de inferencia procede a hacer la pregunta “¿Tiene dientes

@@ -1,0 +1,32 @@
+sentencias en un lenguaje, y esta idea es especialmente relevante en el contexto de los 
+lenguajes de programación (Körner et al., 2022). Las bases de conocimiento están 
+compuestas por sentencias que se expresan de acuerdo con la sintaxis del lenguaje de 
+representación que se utiliza. Como ejemplo, para representar la afirmación "Juan es el 
+padre de Alfonso" en un lenguaje como Prolog, se utilizaría la siguiente sintaxis: Padre 
+(Juan, Alfonso). 
+La semántica trata tarta sobre el significado de las sentencias y su valor de verdad 
+con relación al modelo del mundo en el que existe. Este valor de verdad es de naturaleza 
+binaria, es decir, una sentencia puede ser verdadera o falsa en un modelo de mundo 
+específico. 
+En el contexto de la representación del conocimiento, como en el ejemplo dado 
+Padre (Juan, Alfonso), es importante entender que la verdad de una afirmación puede 
+variar según el modelo del mundo o el contexto en el que se evalúe. En el modelo del 
+mundo posible diseñado para un sistema de representación de conocimiento, Padre (Juan, 
+Alfonso) puede considerarse verdadero, incluso si no es cierto en el mundo real. Esto 
+resalta la idea de que el valor de verdad de una afirmación puede ser diferente en 
+diferentes contextos o modelos de mundo, lo que es fundamental en la lógica y la 
+representación del conocimiento. 
+El modelo del mundo es una abstracción matemática que se utiliza para definir la 
+verdad o falsedad de cada sentencia en el contexto de la representación del conocimiento. 
+Este modelo se expresa mediante variables que pueden tomar diferentes valores, lo que 
+permite representar una variedad de situaciones y relaciones. 
+En el ejemplo que estamos analizando, la sentencia Padre (x, y) se utiliza para 
+expresar la relación padre-hijo entre dos variables, x e y. Estas variables pueden tomar 
+diferentes valores, como "Juan" y "Alfonso" en este caso se tendría que Padre (Juan, 
+Alfonso), o cualquier otro par de valores, como en "Alfonso" y "Ximena" que sería 
+expresado como Padre(Alfonso, Ximena). 
+Este enfoque basado en variables y modelos de mundo permite representar y 
+razonar sobre una amplia gama de situaciones y relaciones en la inteligencia artificial y 
+la representación del conocimiento. 
+El razonamiento lógico en la representación del conocimiento se basa en la 
+relación de implicación lógica entre sentencias. En notación matemática, esta relación se

@@ -1,0 +1,32 @@
+permite considerar las consecuencias a corto plazo y seleccionar la acción que mejor se 
+alinee con sus objetivos o criterios de rendimiento. 
+Los agentes reactivos basados en modelos son especialmente útiles en entornos 
+donde es necesario planificar y tomar decisiones considerando las consecuencias futuras. 
+Por ejemplo, en un juego de ajedrez, el agente puede simular diferentes movimientos y 
+evaluar cómo afectarían al tablero y a su posición futura. Esto les permite tomar 
+decisiones estratégicas y anticiparse a las jugadas del oponente (Knott, 2017). 
+Agentes basados en objetivos: Estos agentes tienen metas u objetivos bien claros 
+de lo que desean alcanzar en su entorno. Se guían por la evaluación de su estado actual 
+en relación con dichos objetivos y toman acciones que los acerquen a ellos. 
+Estos agentes mantienen un modelo interno del estado del entorno y utilizan este 
+modelo para evaluar qué tan cerca están de alcanzar sus metas. Analizan las posibles 
+acciones disponibles y seleccionan la que mejor se alinee con sus objetivos. Esta selección 
+se basa en algún tipo de función de evaluación que considera factores como el costo, la 
+utilidad o la probabilidad de éxito. 
+A medida que el agente toma acciones y su estado cambia, vuelven a evaluar su 
+posición en relación con los objetivos y ajustan sus decisiones. También pueden 
+considerar diferentes opciones y seleccionar la que maximice la probabilidad de alcanzar 
+sus metas (MacKay, 2003). 
+Los agentes basados en objetivos son muy útiles en entornos en los que se 
+establecen metas claras y los caminos para lograrlas pueden ser diversos. Por ejemplo, en 
+un sistema de planificación de rutas, un agente basado en objetivos si tiene como objetivo 
+llegar a un destino específico debe considerar diferentes rutas posibles en función del 
+tiempo, la distancia o las restricciones de tráfico. 
+Agentes basados en utilidad: Estos agentes evalúan las acciones posibles en 
+términos de su utilidad o valor esperado, tomando decisiones que maximizan dicha 
+utilidad. 
+La utilidad representa la medida de satisfacción o beneficio que el agente espera 
+obtener al tomar una determinada acción en un estado dado. Cada acción posible se evalúa 
+en función de la utilidad esperada, que se ha estimado que proporcionará al agente. 
+Estos agentes de inteligencia artificial no se limitan a evaluar únicamente los 
+resultados inmediatos de sus acciones; también consideran cuidadosamente las

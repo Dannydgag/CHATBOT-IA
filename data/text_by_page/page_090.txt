@@ -1,0 +1,32 @@
+se esbozan conceptos y sus interconexiones en un dominio concreto. En el campo de 
+la robótica, esta lógica facilita la toma de decisiones y planificación, al razonar sobre 
+el estado del entorno, las acciones viables y sus implicaciones. 
+e) Las Reglas de Producción, son una forma de representar el conocimiento en sistemas 
+expertos y otras áreas de la inteligencia artificial. Estas reglas tienen una estructura 
+condicional, y se pueden entender como instrucciones que indican qué hacer o qué 
+inferir bajo ciertas condiciones. Las reglas tienen el formato "SI ... ENTONCES ...". 
+Por ejemplo, una regla podría ser: "SI es mamífero ENTONCES es un animal". Las 
+reglas de producción hacen explícito el conocimiento. Esto permite entender 
+fácilmente cómo se toma una decisión o se llega a una conclusión. 
+En la robótica y en el control de procesos industriales, las reglas de producción 
+son esenciales para establecer respuestas adaptativas ante condiciones concretas del 
+entorno. Al reconocer ciertos patrones, es posible activar reglas que categorizan o 
+determinan decisiones basadas en esos patrones identificados. En el mundo de los 
+videojuegos, estas reglas modelan las acciones de personajes no jugables y establecen 
+dinámicas del juego. En el ámbito de las simulaciones, las reglas de producción 
+orientan las acciones de los agentes dentro de un sistema virtual. Mientras que en el e-
+learning, estas reglas guían el proceso educativo, ofreciendo retroalimentación y 
+sugerencias al estudiante. 
+f) Las Redes Bayesianas son estructuras gráficas en forma de grafos acíclicos dirigidos 
+que delinean conjuntos de variables junto con sus interdependencias condicionales, 
+derivadas de una factorización de la función de distribución conjunta. Estas redes 
+permiten representar y procesar información bajo condiciones de incertidumbre 
+(Croitoru et al., 2018). Proporcionan una forma estructurada para analizar cómo 
+diferentes variables se relacionan entre sí y cómo la evidencia o información sobre una 
+variable puede modificar nuestras percepciones sobre otras variables.  
+Considere tres variables: "Nublado", "Lluvia" y "Césped mojado". En este 
+escenario, la probabilidad de que el "Césped esté mojado" está influenciada por la 
+"Lluvia". Sin embargo, "Nublado" puede condicionar esta relación, debido a que, si el 
+día está nublado, la probabilidad de lluvia aumenta, y consecuentemente, la del césped 
+mojado. 
+En el sector médico, estas redes facilitan la estimación de la probabilidad de

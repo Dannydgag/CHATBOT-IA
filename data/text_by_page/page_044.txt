@@ -1,0 +1,34 @@
+Turing (1912-1954) propuso la Máquina Niño, en la 
+que se crearía un agente inteligente básico y se sometería a un 
+curso de educación para proporcionarle conocimiento. En su 
+artículo de 1950, "Computing machinery and intelligence", 
+Turing (Figura 1.3) argumentó que si una máquina puede 
+actuar como un humano, entonces se puede considerar que es 
+inteligente (Turing, 2009). El Test de Turing se diseñó para 
+proporcionar una definición operacional y satisfactoria de 
+inteligencia, basada en la incapacidad de diferenciar entre entidades inteligentes 
+indiscutibles y seres humanos (Floridi, 2023). Según este test, un computador supera la 
+prueba si un evaluador humano no puede distinguir si las respuestas a una serie de 
+preguntas planteadas son de una persona o no. 
+La prueba de Turing tiene mucha importancia en la investigación y el desarrollo 
+de la inteligencia artificial, debido a que permite realizar la evaluación de la capacidad de 
+una máquina de imitar el comportamiento humano. A continuación se indica los 
+requerimientos de la prueba de Turing: 
+El Procesamiento de Lenguaje Natural (NLP Natural Language Processing) 
+capacita a las computadoras para comunicarse eficazmente en inglés y otros idiomas. Las 
+aplicaciones del NLP van mas allá de la traducción automática, extendiéndose al 
+reconocimiento y comprensión del lenguaje humano, en búsqueda de que las máquinas 
+pueden mantener conversaciones que sean indistinguibles de las que mantienen los 
+humanos. 
+La Representación del Conocimiento permite poder almacenar lo que se conoce 
+o siente, la computadora debe ser capaz de almacenar y recuperar de forma eficiente la 
+información que va obteniendo e infiriendo autónomamente. En la actualidad se 
+investigan las técnicas de almacenamiento de información para que exista fácil 
+accesibilidad y sea utilizable por los sistemas inteligentes.  
+El Razonamiento automático utiliza la información almacenada para responder a 
+preguntas y extraer nuevas conclusiones, esta temática se trata a través de los sistemas 
+expertos que buscan llegar a conclusiones lógicas a partir de hechos o premisas 
+introducidas inicialmente en el sistema; otra forma es a través de las redes probabilísticas 
+como las redes Bayesianas o de Markov que permiten realizar predicciones y llegar a 
+Figura 1.3 Alan Turing 
+Fuente: Elliott & Fry

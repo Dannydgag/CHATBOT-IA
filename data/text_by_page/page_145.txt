@@ -1,0 +1,17 @@
+espera que se encuentre a una profundidad moderada, o en situaciones en las cuales es 
+preferible obtener una respuesta rápida, aunque sea parcial, en lugar de realizar una 
+exploración completa. Esta técnica es un ejemplo de cómo las estrategias de búsqueda se 
+adaptadan y ajustadan para satisfacer las necesidades específicas de diferentes problemas 
+y contextos. 
+Figura 3.2 Árbol de búsqueda 
+Elaborado por los Autores 
+Para el ejemplo que estamos utilizando si el objetivo es llegar al nodo F (figura 
+3.2) si se utiliza la búsqueda primero en profundidad se necesita pasar por diez nodos para 
+llegar a la solución. Pero se va a ver lo que sucede si se utiliza un límite = 2 (figura 3.3), 
+en el cual se tiene una especie de árbol truncado. 
+Figura 3.3 Árbol con límite de 2 
+Elaborado por los Autores 
+El primer nodo en ser visitado es el nodo A al no ser el nodo objetivo se 
+desciende al siguiente nivel (nivel 1) 
+En el nivel 1 se encuentra el nodo B que  no es el nodo objetivo 
+y se procede a bajar al nivel 2.

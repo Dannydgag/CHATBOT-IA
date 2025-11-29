@@ -1,0 +1,33 @@
+CAPITULO 3 
+3 METODOS Y ESTRATEGIAS DE BUSQUEDA 
+Las estrategias de búsqueda están fundamentadas en la actuación de los agentes que 
+tienen un propósito definido. Estos agentes, ejecutan una serie de acciones que les facilita 
+la transición entre diferentes estados, en la búsqueda de alcanzar el estado objetivo, que 
+representa su meta final. Estas búsquedas se realizan en contextos donde el entorno de 
+trabajo es observable, discreto, estático y determinista. Es importante destacar que la 
+elección de la acción a implementar, con el fin de transitar hacia un nuevo estado, conlleva 
+un costo asociado. 
+En el proceso de búsqueda se siguen comúnmente 3 pasos que son: 
+✓ Formulación del objetivo: Esta fase implica definir el estado deseado al que el agente 
+aspira llegar al concluir el proceso. 
+✓ Realización de la búsqueda: En este paso, se identifica la secuencia de estados 
+intermedios, considerando la medida de rendimiento del agente, que guiará la 
+transición desde el estado inicial hasta el estado objetivo. 
+✓ Ejecución de la búsqueda: Una vez determinada la ruta óptima, se llevan a cabo las 
+acciones sugeridas durante la fase de realización de la búsqueda para alcanzar el estado 
+final deseado. 
+3.1 
+Búsqueda no informada 
+Esta estrategia de búsqueda opera exclusivamente con la información contenida en 
+el problema propuesto, sin recurrir a datos adicionales. Su objetivo es identificar los 
+estados sucesores y, a través de este proceso, localizar el estado meta. En el contexto de 
+las búsquedas, lo que generalmente se visualiza es un árbol bidimensional. Esto permite 
+realizar búsquedas desplazándose tanto en el eje X como en el eje Y, navegando a través 
+de los nodos del árbol y sus respectivas conexiones. 
+Las búsquedas no informadas hacer a ser tratadas se indica a continuación: 
+Búsqueda Preferentemente por Amplitud: Esta técnica explora todos los nodos de un 
+nivel antes de pasar al siguiente. 
+Búsqueda Primero en Profundidad: Se centra en explorar tan profundo como sea 
+posible a lo largo de una rama antes de retroceder. 
+Búsqueda de Profundidad Limitada: Similar a la búsqueda en profundidad, pero con 
+una restricción en cuántos niveles se exploran.

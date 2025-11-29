@@ -1,0 +1,16 @@
+RESUMEN 
+El presente estudio sobre inteligencia artificial inicia con la cronológica histórica 
+de la inteligencia artificial, cómo esta ciencia contribuye e influye en diversas áreas en la 
+actualidad, se analiza el diseño de los agentes inteligentes, las propiedades de sus entornos 
+de trabajo, la forma en que adquieren el conocimiento y lo representan los humanos, para 
+poder ofrecer un formato accesible y utilizable por sistemas de inteligencia artificial.   
+La lógica es fundamental en la inteligencia artificial para la representación del 
+conocimiento a través de la lógica proposicional y de primer orden. Mediante la inferencia 
+se realiza el razonamiento lógico y la toma de decisiones en sistemas inteligentes. Las 
+reglas de producción que son expresiones lógicas permiten representar las bases de 
+conocimientos. 
+Se examinan varios métodos y estrategias de búsqueda no informada e informada, 
+con el propósito de seleccionar la solución más adecuada de entre un conjunto de 
+alternativas posibles se analiza los procesos de optimización. Los árboles de decisión al 
+ser ampliamente utilizados se revisa su estructura y el modelo empleado en su evaluación. 
+Palabras clave: Inteligencia Artificial, Conocimiento, Agentes, Búsquedas

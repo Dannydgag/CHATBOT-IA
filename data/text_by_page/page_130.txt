@@ -1,0 +1,53 @@
+color = blanco_negro 
+              THEN animal = avestruz 
+REGLA 9 IF  ungulado = si AND 
+rayas_negras = si AND 
+color = blanco 
+               THEN animal = cebra 
+REGLA 10 IF pájaro = si AND 
+  puede_volar = si AND 
+  color = blanco_negro 
+               THEN animal = albatros 
+REGLA 11 IF pájaro = si AND 
+  puede_volar = no AND 
+  puede_nadar = si AND 
+  color = blanco_negro 
+                THEN animal = pingüino                    
+Se va a probar si se puede determinar el animal al que se refiere dado el conjunto 
+de datos: 
+posee_pelo = si  
+puede_dar_leche = si 
+color=leonado   
+rayas_negras = si 
+come_carne = si  
+dientes_puntiagudos = si  
+garras =si    
+ojos_adelante = si 
+A continuación, se puede observar las ejecuciones necesarias, las reglas que se 
+ajustan a los datos y cuál es la que se aplica y los hechos encontrados. 
+Tabla 2-7 Fases del proceso de encaminamiento hacia adelante 
+Número de 
+ejecuciones 
+Reglas que se 
+ajustan a los 
+datos 
+Regla 
+Aplicable 
+Datos aplicables 
+Hechos 
+encontrados 
+2,3 
+posee_pelo = si 
+puede_dar_leche = si 
+mamífero = si 
+2,3 
+come_carne = si 
+dientes_puntiagudos = si 
+garras = si 
+ojos_adelante = si 
+carnívoro = si 
+2,3,6 
+mamífero = si 
+carnívoro = si 
+color = leonado 
+animal = tigre

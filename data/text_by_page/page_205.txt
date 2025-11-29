@@ -1,0 +1,32 @@
+studies of knowledge engineering. 
+Floridi, L. (2023). The ethics of artificial intelligence: Principles, challenges, and 
+opportunities. 
+Franceschetti, D. R. (2018). Principles of robotics & artificial intelligence. Salem Press, 
+a division of EBSCO Information Services, Incorporated. 
+Fraser, N. M. (1990). Natural Language Processing in PROLOG: An Introduction to 
+Computational Linguistics. JSTOR. 
+García Serrano, A. (2012). Inteligencia Artificial. Fundamentos, práctica y aplicaciones. 
+Rc Libros. 
+Gelfond, M., & Kahl, Y. (2014). Knowledge representation, reasoning, and the design of 
+intelligent agents: The answer-set programming approach. Cambridge University 
+Press. 
+Géron, A. (2022). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. 
+“ O’Reilly Media, Inc.” 
+Haykin, S. (2009). Neural networks and learning machines, 3/E. Pearson Education 
+India. 
+Knott, G. D. (2017). Interpreting LISP: Programming and Data Structures. Apress. 
+Körner, P., Leuschel, M., Barbosa, J., Costa, V. S., Dahl, V., Hermenegildo, M. V, 
+Morales, J. F., Wielemaker, J., Diaz, D., Abreu, S., & others. (2022). Fifty years of 
+Prolog and beyond. Theory and Practice of Logic Programming, 22(6), 776–858. 
+Kowaliw, T., Bredeche, N., & Doursat, R. (2014). Growing Adaptive Machines. Springer. 
+Kowalski, R. A. (2011). Artificial intelligence and human thinking. Twenty-Second 
+International Joint Conference on Artificial Intelligence. 
+Kumar, E. (2013). Artificial intelligence. IK International Pvt Ltd. 
+Lalanda, P., McCann, J. A., & Diaconescu, A. (2013). Autonomic computing. En 
+Principles, Design and Implementation. Springer. 
+Lee, K.-F., & Qiufan, C. (2021). AI 2041: Ten visions for our future. Crown Currency. 
+Leija, L. (2021). Métodos de procesamiento avanzado e inteligencia artificial en sistemas 
+sensores y biosensores. Reverté. 
+Lindley, D. V. (2013). Understanding uncertainty. John Wiley & Sons. 
+MacKay, D. J. C. (2003). Information theory, inference and learning algorithms. 
+Cambridge university press.

@@ -1,0 +1,32 @@
+de lenguaje para representar la información. En problemas de visión por computadora, se 
+pueden emplear redes neuronales convolucionales para extraer características y 
+representar las imágenes. Para tareas de diagnóstico médico suelen utilizarse sistemas 
+expertos basados en reglas, mientras que para aplicaciones de procesamiento de lenguaje 
+natural se prefieren representaciones distribucionales como embeddings o modelos de 
+lenguaje. 
+La mayoría de la conducta inteligente se basa en una representación directa del 
+conocimiento, para lo cual la lógica formal proporciona un enfoque importante. El 
+conocimiento, en especial el llamado conocimiento común (analizar, conjeturar, 
+pronosticar y decidir), es la base del comportamiento inteligente. 
+La Ciencia Cognitiva abarca el estudio de las percepciones humanas y el 
+procesamiento mental de la información, desde la entrada sensorial hasta la resolución 
+de problemas complejos. Esto incluye las actividades intelectuales de individuos y de la 
+sociedad en su conjunto, además de la investigación sobre las características tanto de la 
+inteligencia humana como de la inteligencia artificial (Shi, 1990). 
+Considerada una base teórica fundamental para la Inteligencia Artificial, la 
+ciencia cognitiva es un campo interdisciplinario que se ha desarrollado a partir de la 
+psicología moderna, ciencias de la Información, neurociencia, matemáticas, ciencia 
+lingüística, antropología, filosofía natural y otras disciplinas relevantes. La convergencia 
+de estos campos ha permitido una comprensión más profunda de los procesos mentales 
+y cognitivos que subyacen a la inteligencia y la toma de decisiones, tanto en humanos 
+como en sistemas de IA. 
+La ciencia cognitiva proporciona una base teórica sólida para el diseño y 
+desarrollo de sistemas de IA que buscan emular el pensamiento y el comportamiento 
+humano. Al combinar conocimientos sobre el funcionamiento del cerebro, la percepción, 
+el lenguaje, el aprendizaje y la memoria, se puede mejorar la capacidad de los sistemas 
+de IA para procesar información, aprender de la experiencia y tomar decisiones 
+inteligentes. 
+En el ámbito de la IA, la ciencia cognitiva ha influido en la creación de modelos 
+y algoritmos inspirados en el funcionamiento del cerebro y los procesos mentales 
+humanos. Por ejemplo, las redes neuronales artificiales están basadas en la estructura y 
+funcionamiento de las neuronas biológicas, y se utilizan para realizar tareas de

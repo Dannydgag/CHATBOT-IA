@@ -1,0 +1,32 @@
+la red ajusta sus parámetros internos (llamados "pesos sinápticos") para mejorar 
+su capacidad de realizar la tarea deseada (Haykin, 2009).  
+3. Visión por Computadora: Busca que las computadoras procesen y analicen el 
+contenido visual (imágenes, videos) obtenido mediante cámaras y sensores del 
+mundo que les rodea. 
+4. Procesamiento de Lenguaje Natural basado en Aprendizaje Automático: Usa 
+modelos estadísticos y redes neuronales para el entendimiento, interpretación y 
+generación de lenguaje humano de manera efectiva.  
+5. Sistemas de Recomendación: Son sistemas informáticos que se basan en 
+algoritmos de aprendizaje profundo y estan diseñados para sugerir 
+automáticamente productos, servicios, información o acciones a los usuarios. 
+6. Bioinformática y Análisis de Datos Biomédicos: Utiliza técnicas informáticas y 
+estadísticas para entender y analizar los datos. La bioinformática se centra en el 
+análisis de datos a nivel molecular, como los genes y proteínas, mientras que el 
+análisis de datos biomédicos incluye datos relacionados con la salud y la biología. 
+7. Análisis Predictivo y Minería de Datos: Son técnicas que buscan patrones (como 
+tendencias comunes o repetitivas), correlaciones (relaciones entre diferentes 
+variables) y conocimientos a partir de grandes volúmenes de datos para predecir 
+tendencias o comportamientos futuros. 
+8. Integración de Conocimiento en Modelos de Aprendizaje Automático: Se refiere 
+al proceso de aprovechar la información y estructuras que ya existen he 
+incorporárlas en los modelos de aprendizaje automático. 
+9. Simulación y Modelado Basado en Agentes: Se usa agentes autónomos para 
+simular comportamientos y sistemas complejos y dinámicos. Cada agente en el 
+modelo representa una entidad con su propio conjunto de características y reglas 
+de comportamiento. Esta técnica es útil en el campo de la inteligencia artificial 
+distribuida, donde se busca comprender y replicar comportamientos colectivos o 
+de enjambre, como los observados en la naturaleza. 
+10. Robótica Basada en Aprendizaje Automático: Incorpora técnicas de aprendizaje 
+automático en la robótica para mejorar las capacidades de percepción y decisión 
+de los robots, especialmente en entornos que son dinámicos y no estructurados 
+(Franceschetti, 2018).

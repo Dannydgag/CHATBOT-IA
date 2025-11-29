@@ -1,0 +1,32 @@
+los humanos. 
+La colaboración entre la lingüística y la inteligencia artificial ha sido un factor 
+importante para el progreso del procesamiento del lenguaje natural (PLN), que permite a 
+las máquinas entender, interpretar y generar lenguaje humano de forma similar a cómo lo 
+hacen las personas. Otras aplicaciones son la traducción automática; los chatbots, que 
+pueden interactuar en lenguaje natural con los usuarios; y los sistemas de diálogo, que 
+facilitan una comunicación fluida y natural con las máquinas. 
+La lingüística ha sido fundamental en la creación de recursos como bases de datos 
+léxicas (listas de palabras y sus significados), corpus textuales (grandes colecciones de 
+textos escritos o transcripciones de habla) y modelos de conocimiento lingüístico. Estos 
+recursos son indispensables para entrenar y mejorar los sistemas de IA, proporcionando 
+la información necesaria para que las máquinas aprendan y entiendan el lenguaje humano. 
+La ciencia de la computación proporciona los lenguajes de programación que 
+son el medio por el cual se escriben y se ejecutan los algoritmos de inteligencia artificial 
+y los marcos de desarrollo, que ofrecen estructuras y librerías predefinidas para facilitar 
+la creación de aplicaciones de inteligencia artificial.  
+Alan Turing es una figura fundamental en el origen de la ciencia de la 
+computación debido a sus contribuciones innovadoras y su visión de lo que podrían ser 
+las computadoras y su funcionamiento. Sus teorías y modelos proporcionan el marco 
+conceptual para comprender cómo las máquinas pueden no solo procesar información, 
+sino también realizar tareas que requieren algún nivel de inteligencia, como el 
+aprendizaje, el razonamiento y la adaptación. 
+En el ámbito de la IA, los programas y algoritmos son fundamentales para 
+capacitar a las máquinas para que realicen tareas consideradas inteligentes como la 
+resolución de problemas hasta la imitación de comportamientos humanos como el 
+aprendizaje y la toma de decisiones. Los programas demandan una cantidad significativa 
+de recursos computacionales, incluyendo un alto poder de procesamiento y una gran 
+capacidad de memoria. La eficiencia de un algoritmo se refiere a cuán bien utiliza los 
+recursos disponibles (como tiempo de cómputo y memoria) para lograr sus objetivos 
+La ciencia de la computación ha avanzado en el procesamiento de datos 
+(capacidad de manejar y transformar datos en información útil), el aprendizaje automático 
+(sistemas capaces de aprender y mejorar a partir de la experiencia), la optimización de

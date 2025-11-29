@@ -1,0 +1,58 @@
+conocimiento, 
+habilidades 
+y 
+capacidades, que influyan en su 
+comportamiento y toma de decisiones. 
+   Los agentes pueden estar equipados 
+con sensores para percibir el entorno y 
+actuadores para realizar acciones que 
+afecten al entorno. La interacción entre 
+los agentes puede ser directa o 
+indirecta, 
+y 
+puede 
+involucrar 
+comunicación, 
+negociación, 
+coordinación o competencia. 
+   El comportamiento de los agentes 
+puede ser determinista o estocástico, 
+evolucionado a lo largo del tiempo a 
+medida que los agentes aprenden y se 
+adaptan al entorno. 
+o Sistemas 
+de 
+negociación 
+electrónica 
+o juegos competitivos 
+o Sistemas 
+de 
+recomendación 
+colaborativa 
+o Sistemas de gestión 
+del tráfico aéreo 
+o Sistemas 
+de 
+coordinación 
+de 
+robots en almacenes 
+o Juegos de estrategia 
+en tiempo real en 
+línea 
+Elaborado por los Autores 
+1.7.2 Clases de agentes 
+A continuación, se describen algunos de los agentes utilizados en inteligencia 
+artificial: 
+Agentes inteligentes: Han transformado el diseño de las interfaces de usuario 
+inteligentes, cuyo objetivo es reducir la sobrecarga de información del usuario. Para 
+lograrlo, utilizan técnicas de filtrado de información basadas en el aprendizaje de las 
+necesidades del usuario y las circunstancias en las que se realizan determinadas acciones 
+(Brookshear & Brylow, 2020). Por ejemplo, en las interfaces de correo electrónico, los 
+agentes pueden notificar al usuario la llegada de un nuevo correo que le interesa, evitando 
+la distracción de en mensajes no deseados. 
+Las interfaces inteligentes aplican algoritmos de aprendizaje automático y 
+procesamiento de lenguaje natural en el análisis del contenido de los mensajes, en la 
+identificación de su relevancia y la presentación al usuario de únicamente la información 
+más importante y pertinente. De esta manera, se mejora la eficiencia y la experiencia del 
+usuario, al evitar la necesidad de revisar manualmente grandes volúmenes de 
+información.

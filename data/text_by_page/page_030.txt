@@ -1,0 +1,32 @@
+proceso. 
+A partir del 2021, los avances en inteligencia artificial han sido impresionantes, 
+transformando diversos sectores de manera significativa. Un claro ejemplo es el modelo 
+GPT de OpenAI, que ha marcado un antes y un después en la forma en que las máquinas 
+entienden y generan lenguaje, siendo útil en una variedad de aplicaciones que incluyen 
+desde la generación automatizada de contenido hasta soporte en servicios al cliente. Por 
+otro lado, los modelos como BERT, desarrollados por Google, han revolucionado la 
+manera en que se procesa el lenguaje en búsquedas en línea y otras aplicaciones, logrando 
+una mayor precisión y relevancia en las respuestas brindadas. IBM Watson Health ha 
+transformado el sector médico con su capacidad para analizar extensos volúmenes de 
+datos médicos, contribuyendo a diagnósticos más acertados y tratamientos 
+personalizados. 
+La empresa Boston Dynamics ha sobresalido con sus robots Atlas y Spot, que se 
+han convertido en herramientas importantes para tareas de inspección y rescate, así como 
+en aplicaciones industriales, demostrando la evolución y adaptabilidad de la robótica. 
+Hugging Face, ha permitido la accesibilidad al aprendizaje profundo y procesamiento del 
+lenguaje natural a un público más amplio. En el terreno creativo, proyectos como AIVA 
+(Artificial Intelligence Virtual Artist) están trabajando en la composición musical 
+mediante la inteligencia artificial y DeepArt explora nuevas posibilidades en el arte visual 
+a través de la tecnología de IA. Google AI for Earth está utilizando la inteligencia artificial 
+para el análisis de datos medioambientales, en la búsqueda de soluciones sostenibles, que 
+aborden los retos más críticos del cambio climático.  
+El campo de la inteligencia artificial se suele confundir con la ciencia de datos, el 
+big data y la minería de datos, pero en realidad representan disciplinas diferentes. La 
+ciencia de datos se enfoca principalmente en la manipulación y el análisis de datos, 
+incluyendo el manejo de grandes volúmenes de datos (big data) y la minería de datos; de 
+forma frecuente emplea técnicas de aprendizaje automático (Machine Learning) y 
+aprendizaje profundo (Deep Learing) para el procesamiento de datos. 
+La transformación digital ha generado una inmensa cantidad de datos, los cuales 
+provienen de diversas fuentes, al no poder ser analizados de manera eficiente con las 
+herramientas y algoritmos tradicionales de bases de datos; la inteligencia artificial, el big 
+data y la minería de datos han desarrollo algoritmos sofisticados ( algoritmos de

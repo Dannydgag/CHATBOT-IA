@@ -1,0 +1,32 @@
+Elaborado por los Autores 
+Para los algoritmos supervisados es necesario contar con un conjunto de datos de 
+entrenamiento y otro conjunto de datos de prueba, suponga que se tiene una tabla de datos 
+de la cual el 70% se usa como datos de entrenamiento los cuales se introducen en el 
+algoritmo de aprendizaje (árbol de clasificación) y se genera el modelo, el 30% de datos 
+restantes son de prueba, se utiliza para aplicar el modelo y ver cuanta precisión existe con 
+los nuevos datos. 
+El modelo se forma mediante repetición iterativa de entrenamiento y verificación 
+hasta conseguir unos niveles de precisión y de capacidad de predicción aceptables. 
+Los conjuntos de datos de entrenamiento y de prueba se los escoge aleatoriamente 
+de los datos iniciales. Pero existen técnicas que se utilizan para escoger la parte de datos 
+que se quedan en el entrenamiento y en la prueba: 
+• Una parte para el entrenamiento y la otra parte para la prueba (70% - 30%) 
+• La tabla se divide en K conjuntos, se toman los K - 1 conjuntos para ir entrenado 
+y se prueba el modelo con el último conjunto. 
+• Todos los datos menos 1 se utiliza para el entrenamiento y la prueba se realiza con 
+el único dato no usado.  
+3.4.2 Evaluación del modelo 
+En el campo del aprendizaje automático, el desarrollo y entrenamiento de modelos 
+constituyen solo una parte del proceso. Una vez que un modelo ha sido entrenado, surge 
+una pregunta importante: ¿Qué tan bien funciona? La evaluación de modelos es un paso 
+esencial en el ciclo de vida del aprendizaje automático, porque proporciona perspectivas 
+críticas sobre la efectividad del modelo en la realización de predicciones o clasificaciones. 
+Esta fase no solo es fundamental para validar la precisión del modelo, sino también para 
+comprender sus fortalezas y debilidades, asegurando que se tomen decisiones informadas 
+antes de su implementación en aplicaciones prácticas. 
+La exactitud de un modelo de aprendizaje automático rara vez es perfecta, y es 
+aquí donde la evaluación se vuelve fundamental. Un modelo puede tener un alto grado de 
+precisión en el conjunto de entrenamiento, pero es su rendimiento en datos no vistos 
+anteriormente —a menudo representados por el conjunto de prueba— lo que realmente 
+determina su utilidad. Por ello, se utilizan diversas herramientas y métricas para evaluar 
+la calidad de un modelo, no solo en términos de su precisión general, sino también en su

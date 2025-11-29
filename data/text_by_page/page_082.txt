@@ -1,0 +1,32 @@
+mismo para resolver problemas reales. En este contexto, la IA actúa como un conjunto de 
+ideas y enfoques acerca de cómo representar y utilizar el conocimiento, así como el 
+desarrollo de sistemas informáticos que puedan aprovechar dicho conocimiento. 
+Desde un punto de vista práctico, la IA se centra en el diseño y construcción de 
+sistemas inteligentes capaces de simular el pensamiento humano y tomar decisiones 
+informadas. Esto implica desarrollar algoritmos, modelos y herramientas que permitan 
+capturar el conocimiento de expertos en un dominio particular y utilizarlo para resolver 
+tareas complejas. 
+Desde la perspectiva científica, la Inteligencia Artificial (IA) se dedica a explorar 
+y explicar diversas formas de inteligencia a través de la representación del conocimiento 
+y su aplicación en el desarrollo de sistemas informáticos. 
+La representación del conocimiento es un componente trascendente en el campo 
+de la Inteligencia Artificial, debido a que se refiere a cómo se almacena y organiza la 
+información esencial para realizar tareas específicas. Para lograr una representación 
+eficaz, se utilizan diversas técnicas y herramientas, como estructuras de datos avanzadas, 
+ontologías, bases de conocimiento y sistemas expertos, adaptándose al dominio específico 
+y a los objetivos del sistema (Poole & Mackworth, 2010). 
+El éxito en la construcción de sistemas de IA depende en gran medida de 
+desarrollar representaciones del conocimiento que sean no solo adecuadas sino también 
+manipulables de manera eficiente. Una representación inadecuada impediría una gestión 
+efectiva del conocimiento. Esto conlleva la necesidad de seleccionar métodos de 
+codificación de la información que resulten comprensibles y manejables por el sistema 
+de IA. 
+Una representación del conocimiento bien diseñada es vital para la capacidad de 
+un sistema de IA de ejecutar tareas inteligentes, incluyendo el procesamiento de lenguaje 
+natural, la toma de decisiones informadas, la planificación estratégica y la resolución de 
+problemas complejos. Además, una representación bien estructurada es fundamental para 
+facilitar el proceso de aprendizaje automático, permitiendo al sistema adquirir nuevo 
+conocimiento y mejorar su desempeño a través de la experiencia. 
+La elección de la representación del conocimiento también está influenciada por 
+la naturaleza del problema y el tipo de datos involucrados. Por ejemplo, en problemas de 
+procesamiento de texto, se pueden utilizar técnicas basadas en lenguaje natural y modelos

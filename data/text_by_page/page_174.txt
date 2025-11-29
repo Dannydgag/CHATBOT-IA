@@ -1,0 +1,34 @@
+calcular la aptitud de la partícula: Evalúa la calidad de la solución representada por 
+la partícula. 
+mejor posición personal: La mejor posición alcanzada por una partícula individual. 
+mejor posición global: La mejor posición alcanzada por cualquier partícula en el 
+enjambre. 
+El algoritmo Optimización por Enjambre de Partículas inicia con un enjambre de 
+partículas con posiciones y velocidades aleatorias. Durante un número determinado de 
+iteraciones, cada partícula evalúa su aptitud y, si es superior a su mejor registro personal, 
+actualiza su posición. Se identifica la partícula con la aptitud más destacada del enjambre. 
+Posteriormente, se ajustan la velocidad y posición de cada partícula basándose en las 
+mejores posiciones personales y globales, influenciadas por los coeficientes c1 y c2. Al 
+concluir las iteraciones, el algoritmo determina la partícula con la mejor aptitud global, 
+presentando su posición como la solución óptima o aproximada al problema de 
+optimización. 
+• Búsqueda tabú: Esta técnica metaheurística de optimización se caracteriza por 
+mantener una lista de los estados recientemente explorados, denominada "lista tabú", para 
+prevenir su reexploración inmediata. Su objetivo es optimizar soluciones evitando quedar 
+atrapado en óptimos locales. Para ello, no solo se apoya en su memoria a corto plazo, sino 
+que también implementa estrategias de diversificación, que permiten abordar distintas 
+regiones del espacio de soluciones, y estrategias de intensificación, que se centran en 
+investigar detalladamente áreas con potencial prometedor (Benítez et al., 2014). 
+Funcionamiento: 
+1) Iniciar con una solución inicial y se evalúa su calidad. 
+2) En cada iteración, se generan soluciones vecinas y se selecciona la mejor, incluso 
+si es peor que la solución actual. 
+3) La solución seleccionada se añade a la lista tabú. 
+Pseudocódigo: 
+BúsquedaTabú(iteraciones, tamañoListaTabú): 
+    soluciónActual = GenerarSoluciónInicial()  # Genera una solución inicial aleatoria 
+    mejorSolución = soluciónActual 
+    listaTabú = ListaVacia() 
+   para i en rango(iteraciones): 
+        vecindario = GenerarVecindario(soluciónActual)  # Genera un vecindario de 
+soluciones vecinas

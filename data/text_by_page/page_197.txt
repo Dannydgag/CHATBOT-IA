@@ -1,0 +1,29 @@
+un conjunto de datos que no haya visto antes. Esto se conoce como conjunto de 
+datos de prueba y sirve para evaluar cómo se desempeñará el modelo en 
+escenarios no vistos previamente. 
+✓ Evaluar el Modelo: La evaluación del rendimiento del modelo es crítica. Se 
+utilizan métricas como la precisión, la sensibilidad, la especificidad y, a menudo, 
+una matriz de confusión para entender el rendimiento del modelo. Esto ofrece una 
+visión completa de cómo el modelo se desempeña en diferentes aspectos. 
+✓ Aplicar el Modelo: Una vez que se está satisfecho con el rendimiento del 
+modelo, el último paso es desplegarlo en un entorno de producción donde pueda 
+empezar a tomar decisiones o hacer predicciones en tiempo real. 
+Para garantizar la eficacia y la robustez de los modelos generados a partir de los datos 
+existentes, es fundamental que estos modelos sean capaces de generalizarse bien a nuevos 
+conjuntos de datos. En otras palabras, un modelo válido debe ser lo suficientemente 
+flexible como para adaptarse a datos futuros y lo suficientemente preciso como para ser 
+implementado en un entorno de producción. 
+Durante la fase de entrenamiento (figura 3.16), el modelo debe no solo ajustarse bien 
+a los datos de entrenamiento, sino también demostrar un rendimiento sólido en datos de 
+prueba que no haya visto anteriormente. Este equilibrio es esencial para asegurar que el 
+modelo sea aplicable a situaciones del mundo real y no solo a las condiciones específicas 
+de su conjunto de entrenamiento. 
+Es vital prevenir el fenómeno de sobreentrenamiento, que ocurre cuando un modelo 
+se ajusta demasiado a los datos de entrenamiento y pierde su capacidad para generalizar 
+a nuevos datos. Este problema se manifiesta cuando un modelo muestra un rendimiento 
+excepcional en el conjunto de datos de entrenamiento, pero falla al enfrentar datos nuevos 
+e inéditos. 
+Al abordar estos aspectos, se puede desarrollar un modelo de aprendizaje automático 
+que sea tanto preciso como generalizable, lo que es fundamental para su éxito en 
+aplicaciones prácticas. 
+Figura 3.16 Fases de entrenamiento y prueba

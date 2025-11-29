@@ -1,0 +1,32 @@
+seguimiento y análisis de variables ambientales, permitiendo una mejor respuesta 
+frente a fenómenos como el cambio climático.  
+Los marcos temporales facilitan la estructuración y secuencia de eventos en 
+narrativas, ya sea en literatura, cine o videojuegos, aportando coherencia y continuidad 
+a las historias. En situaciones críticas como la gestión de crisis o emergencias, el 
+análisis temporal es vital para tomar decisiones basadas en la evolución de los eventos. 
+Asimismo, en la logística, las series temporales son indispensables para rastrear la 
+distribución y entrega de paquetes, asegurando eficiencia y efectividad en la cadena 
+de suministro. 
+l) La Representación Basada en Casos, en lugar de utilizar reglas generales, esta 
+representación utiliza casos específicos o ejemplos previos para tomar decisiones, se 
+resuelve nuevos problemas basándose en soluciones a problemas anteriores. Si un 
+problema fue resuelto en el pasado, una situación similar en el presente puede ser 
+abordada de manera similar, con algunas adaptaciones si es necesario. Si la solución 
+es exitosa, el nuevo problema y su solución se almacenan como un nuevo caso en la 
+base de casos.  
+El razonamiento basado en casos (RBC) es una herramienta poderosa en la 
+medicina, debido a que permite a los doctores acceder a un repositorio de casos 
+clínicos previos, analizando síntomas y diagnósticos similares para optimizar el 
+proceso de diagnóstico actual. En el ámbito corporativo, las empresas pueden 
+implementar sistemas de RBC para mejorar el servicio al cliente, aplicando soluciones 
+efectivas de situaciones pasadas a consultas nuevas.  
+Los ingenieros, al enfrentarse a desafíos de diseño, pueden utilizar bases de datos 
+de casos anteriores para inspirarse y encontrar soluciones innovadoras a problemas 
+actuales. El comercio electrónico se beneficia enormemente del RBC, personalizando 
+recomendaciones de productos para clientes basándose en el historial de compras y 
+búsquedas de usuarios con patrones similares. 
+Los urbanistas y arquitectos tienen la posibilidad de consultar proyectos previos 
+para informar y enriquecer el diseño y planificación de nuevos espacios urbanos. En 
+el contexto educativo, el RBC puede facilitar la personalización del aprendizaje, 
+ofreciendo recursos y ejercicios ajustados a las necesidades individuales, identificadas 
+a través de desafíos enfrentados por estudiantes en temas equivalentes. En el ámbito

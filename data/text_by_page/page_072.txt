@@ -1,0 +1,32 @@
+adaptarse y aprender de nuevas situaciones utilizando técnicas de aprendizaje automático. 
+Otro ejemplo es un asistente virtual en un dispositivo móvil. Este agente puede 
+utilizar un enfoque reactivo para responder rápidamente a comandos de voz o preguntas 
+frecuentes, aprovechando patrones y reglas predefinidas. Al mismo tiempo, puede 
+incorporar técnicas de aprendizaje automático para mejorar su capacidad de entender el 
+contexto del usuario y brindar respuestas más personalizadas y precisas. 
+Cada tipo de agente tiene sus propias fortalezas y limitaciones, y la elección del 
+tipo de agente adecuado dependerá del problema o la tarea específica que se esté 
+abordando. La selección del tipo de agente correcto es fundamental para lograr un 
+rendimiento óptimo en sistemas de Inteligencia Artificial. 
+1.7.3 Arquitecturas de programas para agentes 
+Estas arquitecturas se basan en los objetivos aplicativos del agente. Las 
+arquitecturas de agentes a ser revisadas son: arquitectura reactiva simple, arquitectura 
+deliberante, arquitectura por finalidad, arquitectura basada en el razonamiento humano, 
+arquitectura de agente de reforzamiento, arquitectura de agente de aprendizaje profundo, 
+arquitectura de agente multiagente. 
+a) Arquitectura reactiva simple 
+La arquitectura reactiva simple es una forma básica de diseño de agentes en la que 
+el comportamiento del agente se basa en una correspondencia directa entre el estímulo 
+recibido y la respuesta generada. En esta arquitectura, el agente no posee habilidades de 
+toma de decisiones sofisticadas, sino que simplemente reacciona al entorno en el que se 
+encuentra. El agente percibe el entorno a través de sensores y, en función de esa 
+percepción, elige la acción más apropiada para interactuar con el entorno. Esta elección 
+de acción se realiza mediante reglas de condición-acción (si-entonces), que establecen la 
+conexión entre la percepción actual y la acción a tomar. 
+Esta arquitectura es adecuada para entornos simples donde las percepciones 
+históricas no son relevantes y solo se requiere una respuesta inmediata y directa al 
+estímulo presente. Puede ser implementada en hardware o mediante software con 
+algoritmos de búsqueda rápidos. 
+Es importante destacar que esta arquitectura solo funciona correctamente en 
+entornos totalmente observables, es decir, cuando el agente tiene acceso a toda la 
+información relevante del entorno. Si hay partes del entorno que no son observables,

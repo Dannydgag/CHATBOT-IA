@@ -1,0 +1,32 @@
+una solución global óptima (Russell & Norvig, 2021). A medida que disminuye la 
+temperatura, se vuelve más selectivo y tiende a converger hacia la mejor solución 
+encontrada hasta el momento. Esta propiedad lo hace valioso en la resolución de 
+problemas complejos donde se desea evitar quedar atrapado en óptimos locales.  
+Un ejemplo interesante de la aplicación del algoritmo de Recocido Simulado en 
+Inteligencia Artificial es el problema de la Mochila. En este problema, se tiene una 
+mochila con una capacidad de peso máxima y un conjunto de objetos, cada uno con un 
+peso y un valor. El objetivo es seleccionar un subconjunto de objetos de tal manera que 
+el peso total no exceda la capacidad de la mochila y el valor total sea máximo. 
+Pseudocódigo de Recocido Simulado para el Problema de la Mochila. 
+1. Inicializar solución_actual con una selección aleatoria de objetos 
+2. Inicializar mejor_solución con solución_actual 
+3. Inicializar temperatura = 1000 (valor alto) 
+4. Inicializar factor_enfriamiento = 0.99 
+Mientras temperatura > 1: 
+    1. Generar solución_vecina cambiando un objeto aleatorio en solucion_actual 
+    2. Calcular delta_valor = valor(solución_vecina) - valor(solución_actual) 
+    3. Si delta_valor > 0: 
+        - Actualizar solución_actual = solución_vecina 
+        - Si valor(solución_actual) > valor(mejor_solución): 
+            - Actualizar mejor_solución = solución_actual 
+    4. Si no: 
+        - Generar un número aleatorio r entre 0 y 1 
+        - Si r < exp(delta_valor / temperatura): 
+            - Actualizar solución_actual = solución_vecina 
+    5. Reducir la temperatura: temperatura *= factor_enfriamiento 
+Explicación: 
+Inicialización: Se comienza con una solución inicial aleatoria y una temperatura alta. 
+Bucle Principal: El algoritmo entra en un bucle donde se generan soluciones vecinas y se 
+evalúan. 
+Generación de Vecinos: Se crea una solución vecina cambiando un objeto aleatorio en la 
+solución actual.

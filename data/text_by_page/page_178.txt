@@ -1,0 +1,32 @@
+Evaluación de Valor: Se calcula la diferencia de "valor" entre la solución vecina y la 
+solución actual. 
+Actualización de Solución: Si la solución vecina es mejor (mayor valor), se acepta como 
+la nueva solución actual. Si es peor, podría aceptarla con una probabilidad que disminuye 
+con la temperatura. 
+Enfriamiento: Se reduce la temperatura según un factor de enfriamiento y repite el 
+proceso. 
+Al final del algoritmo, mejor_solución contendrá la mejor solución encontrada 
+para el problema de la mochila. 
+Este algoritmo es especialmente útil en problemas de optimización combinatoria 
+y ha demostrado su eficacia en una variedad de aplicaciones prácticas en inteligencia 
+artificial. 
+El algoritmo de Recocido Simulado tiene diversas aplicaciones en el campo de la 
+Inteligencia Artificial y la optimización. A continuación, estas son algunas de las áreas 
+donde este algoritmo es especialmente útil: 
+1. Optimización Combinatoria 
+    Problema del Viajante de Comercio (TSP) 
+    Problema de la Mochila 
+    Problema de Asignación de Tareas 
+2. Aprendizaje Automático 
+Selección de Características: Para mejorar la eficiencia de los modelos de aprendizaje 
+automático. 
+Optimización de Hiperparámetros: Para encontrar la mejor configuración de un 
+modelo de aprendizaje automático. 
+3. Robótica 
+Planificación de Rutas para Robots: Optimización de la trayectoria que debe seguir un 
+robot para completar una tarea. 
+4. Redes de Computadoras 
+Balanceo de Carga: Para distribuir eficientemente las tareas entre diferentes 
+servidores. 
+Optimización de Redes: Para encontrar la ruta más eficiente para el envío de paquetes 
+de datos.

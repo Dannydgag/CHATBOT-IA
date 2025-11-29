@@ -1,0 +1,42 @@
+El estado inicial es A y la distancia en línea recta al objetivo G es h(A) = 9 , 
+observe que el nodo A esta en la posición (8,1) y el nodo G en la posición (8,10) 
+entonces la distancia en línea recta es (10 – 1) = 9 por tanto f(A) = 9, para llegar 
+al nodo objetivo se requiere que la heurística sea cero, por lo que no ha llegado al objetivo 
+y se debe expandir el nodo A. 
+Se procede a expandir el nodo A y se calcula la 
+distancia en línea recta desde los nodos B y C al nodo 
+objetivo 
+G, 
+los 
+valores 
+son: 
+h(B) 
+=  
+√(8 −4)2 + (10 −2)2 = 8,94 
+y 
+h(C) 
+= 
+√(10 −8)2 + (10 −3)2 = 7,28, 
+siendo 
+las 
+funciones f(B)= 8,94 y f(C)=7,28. 
+Se expande el nodo C que tiene 
+menor valor el cual posee solo un 
+nodo 
+sucesor 
+h(D) 
+=  
+√(15 −8)2 + (10 −5)2 = 8,6 
+el valor de la función f(D) = 8,6. 
+Se comparan los valores de 
+los nodos B y D que no 
+tienen sucesores en el gráfico 
+anterior para ver cuál de los 
+dos se expande, se procede 
+con el nodo D que tiene el 
+menor valor, siendo sus 
+sucesores los nodos F y G 
+(Sipser, 1996). Los valores son h(F) =  √(10 −8)2 + (10 −6)2 = 4,47 y h(G) =  
+√(0)2 + (0)2 = 0, por tanto los valores de f(F) = 4,47 y de f(G)= 0 siendo el final de la 
+búsqueda debido a que se ha alcanzado el nodo objetivo. El camino para ir del nodo A al 
+nodo G es entonces: A - C - D - G.

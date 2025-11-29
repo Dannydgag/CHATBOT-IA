@@ -1,0 +1,29 @@
+El nodo D tiene un sucesor que es el nodo I, que 
+constituye el objetivo. Por lo que se llega a la solución 
+que es ir desde el nodo A pasando por los nodos B y D 
+hasta llegar al nodo objetivo que es el nodo I  (A-B-D-I). 
+3.1.3 Búsqueda de profundidad limitada 
+En el contexto de las estrategias de búsqueda aplicadas a estructuras de árbol, la 
+técnica de búsqueda primero en profundidad es una de las más utilizadas, caracterizada 
+por explorar lo más profundo posible a lo largo de una rama antes de considerar otras 
+alternativas. Sin embargo, en árboles con una gran cantidad de niveles, esta técnica puede 
+ser ineficiente, debido a que podría implicar recorrer un número extenso de nodos antes 
+de encontrar la solución. 
+Para optimizar este tipo de búsqueda en árboles de gran profundidad y mitigar la 
+posibilidad de exploraciones excesivamente largas, se introduce el concepto de 
+“Búsqueda de Profundidad Limitada”. Esta variante de la búsqueda impone un límite de 
+profundidad, estableciendo un nivel máximo al cual se realizará la exploración. Este 
+límite es particularmente importante cuando se tiene información o estimaciones previas 
+las cuales sugieren que el nodo objetivo está ubicado dentro de un rango de profundidad 
+específico (Russell & Norvig, 2012). 
+Al alcanzar el límite de profundidad preestablecido, la búsqueda trabaja bajo la 
+premisa de que no existen sucesores adicionales en ese nivel, aunque esto puede ser que 
+no sea cierto en la estructura original del árbol. Esta suposición permite delimitar la 
+exploración, enfocando los recursos y esfuerzos en una sección más manejable del árbol, 
+lo que resulta en una mayor eficiencia y rapidez en encontrar una solución. 
+Esta técnica acelera significativamente la búsqueda en ciertos casos, pero también 
+presenta el riesgo de omitir la solución si el nodo objetivo se encuentra más allá del límite 
+de profundidad impuesto. La elección de un límite de profundidad adecuado es un factor 
+crítico, que se debe balancear entre la eficiencia deseada y la probabilidad de encontrar 
+el nodo objetivo. 
+La búsqueda de profundidad limitada se utiliza en problemas donde la meta se

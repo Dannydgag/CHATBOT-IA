@@ -1,0 +1,82 @@
+medida que adquiere experiencia y 
+conocimiento. 
+   Los 
+agentes 
+para 
+mejorar 
+su 
+rendimiento 
+utilizan 
+técnicas 
+de 
+aprendizaje automático, optimización 
+y toma de decisiones basadas en datos. 
+naturales 
+o Sistemas 
+de 
+planificación urbana 
+o Sistemas 
+de 
+optimización 
+de 
+energía 
+o Sistemas 
+de 
+atención al cliente 
+Discreto 
+   En los entornos discretos, el conjunto 
+de estados, las acciones y percepciones 
+que puede experimentar el agente, 
+como el espacio de búsqueda, son 
+finitos y claramente definidos. El 
+agente tiene un número limitado y 
+específico de estados en los puede 
+encontrarse, así como tambien un 
+conjunto definido de acciones y 
+percepciones que puede realizar y 
+recibir. 
+   La discreción en los entornos 
+proporciona una estructura clara y bien 
+definida, que facilita la modelización y 
+el análisis del comportamiento del 
+agente. Los estados, acciones y 
+percepciones se pueden representar 
+mediante 
+variables 
+discretas 
+o 
+categorías específicas, que simplifica 
+el diseño y la implementación de 
+algoritmos y estrategias de toma de 
+decisiones. 
+   Al tener un número finito de estados, 
+acciones y percepciones, es posible 
+o Ayudante 
+de 
+matemáticas 
+o Juego del veintiuno 
+(Black jack) 
+o Juego de ajedrez 
+o Sistema 
+de 
+navegación en una 
+cuadrícula 
+o Solución de puzles 
+o Juego de laberintos 
+o Juego de estrategia 
+por turnos 
+o Juego de palabras 
+o Tres en raya 
+o Juego de damas 
+o Solución 
+de 
+crucigramas 
+o Simulación de vida 
+artificial 
+o Simulación 
+de 
+tráfico peatonal 
+o Control 
+de 
+inventario 
+o Sistemas de control

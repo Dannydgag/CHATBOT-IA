@@ -1,0 +1,27 @@
+bioinformática, donde se utilizan para la predicción de secuencias de ADN o proteínas, 
+así como para simular las transiciones entre distintos estados conformacionales de una 
+molécula. En el contexto clínico, los modelos de Markov ofrecen una estructura para 
+diseñar modelos de decisión en tratamientos médicos, permitiendo representar las 
+transiciones entre los distintos estados de salud de un paciente y las probabilidades 
+asociadas a cada cambio.  
+En el terreno de las telecomunicaciones, estos modelos facilitan la modelización 
+del tráfico de redes, pronosticando la dinámica de la red bajo variadas condiciones. 
+Son también fundamentales en la ciencia de datos aplicada a juegos estratégicos como 
+el ajedrez o el póker, donde se analizan y desarrollan tácticas basadas en la 
+probabilidad. La confiabilidad y el mantenimiento de sistemas mecánicos y equipos 
+también se benefician de la aplicación de modelos de Markov para predecir fallos y 
+optimizar programas de mantenimiento. Finalmente, en la robótica, contribuyen a la 
+planificación y optimización de rutas para robots autónomos, adaptándose a nuevos 
+entornos y desafíos (Eze, 2022). 
+h) Los Árboles de Decisión, son herramientas de soporte a la decisión que utilizan 
+un modelo de decisiones y sus posibles consecuencias. Poseen una estructura 
+gráfica que emula la toma de decisiones humanas, permitiendo visualizar de 
+manera jerárquica múltiples opciones y sus posibles resultados. En el campo del 
+aprendizaje automático, los árboles de decisión son un tipo de modelo utilizado 
+para clasificación y regresión. Un ejemplo (figura 1.16) pude ser decidir si jugar 
+futbol o no en base a las variables llover y viento.  
+El nodo raiz podría plantear la pregunta ¿Está lloviendo? Si la respuesta es 
+afirmativa, podrías optar por no jugar al fútbol, pero si es negativa, avanzarías al 
+siguiente nodo: "¿Hay viento?". En caso de que la respuesta sea afirmativa, 
+podrías decidir no jugar debido a que el viento podría influir en el juego; si es 
+negativa, entonces elegirías jugar al fútbol.

@@ -1,0 +1,33 @@
+Ejemplo 3  
+Procesamiento del lenguaje natural (PNL) 
+Suponga que se desea construir un sistema que pueda identificar el idioma 
+en el que está escrito un texto.  
+Se comienza recopilando un conjunto de textos en varios idiomas 
+diferentes, y cada texto está etiquetado con el idioma en el que está escrito. 
+Se Utiliza este conjunto de datos para entrenar un modelo de aprendizaje 
+automático, como un clasificador basado en palabras o caracteres, para identificar 
+patrones que distingan entre los diferentes idiomas. 
+Durante el proceso de entrenamiento, el algoritmo de aprendizaje induce 
+reglas basadas en las palabras, caracteres u otras características relevantes de cada 
+texto en diferentes idiomas. Por ejemplo, podría aprender que ciertas 
+combinaciones de caracteres son comunes en un idioma específico, pero raras en 
+otros. 
+Se evalúa el rendimiento del modelo utilizando un conjunto de datos de 
+prueba independiente y se ajusta la configuración si es necesario para mejorar su 
+precisión. 
+Una vez que el modelo está entrenado y validado, se puede usar para 
+predecir el idioma de un nuevo texto en función de las reglas y patrones que ha 
+aprendido. Por ejemplo, si un texto tiene muchas palabras que son típicas del 
+español, el modelo lo clasificará como "español". 
+La inducción en este caso implica aprender reglas y patrones a partir de 
+datos de entrenamiento para tomar decisiones informadas sobre datos no vistos 
+anteriormente. 
+2.2 
+Reglas de producción 
+En el ámbito de la inteligencia artificial, las bases de conocimiento se estructuran 
+mediante cláusulas de Horn. Las cláusulas de Horn reciben su nombre del lógico Alfred 
+Horn, quien las identificó como una forma especial de expresión lógica. Estas cláusulas 
+se articulan |a través de una estructura de implicación, en la cual la premisa se compone 
+de una conjunción de literales positivos (que pueden ser hechos o condiciones), y la 
+conclusión es un solo literal positivo. Para llevar a cabo procesos inferenciales, es común 
+emplear algoritmos de encaminamiento, tanto en modalidades hacia adelante como hacia

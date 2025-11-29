@@ -1,0 +1,35 @@
+sin encontrar mejora o cuando se cumple otro criterio de parada. 
+Pseudocódigo: 
+Función PrimeraElección(estadoInicial, iteraciones): 
+    estadoActual = estadoInicial 
+    para i en rango(iteraciones): 
+        vecinoAleatorio = seleccionarVecinoAleatorio(estadoActual) 
+        si evaluar(vecinoAleatorio) > evaluar(estadoActual): 
+            estadoActual = vecinoAleatorio 
+            si evaluación(estadoActual) >= valorMeta: 
+                devolver estadoActual  # Se alcanzó una solución aceptable 
+    devolver estadoActual  # Se alcanzó el número máximo de iteraciones 
+Este pseudocódigo ilustra el funcionamiento del algoritmo de Primera Elección, 
+que es una variante de la búsqueda local. Comienza desde un estado inicial y realiza un 
+número especificado de iteraciones. En cada iteración, selecciona un vecino aleatorio del 
+estado actual y evalúa si el vecino aleatorio es mejor que el estado actual según la función 
+objetivo. En caso de ser superior, el estado actual se actualiza al vecino aleatorio. El 
+proceso se repite hasta que se alcanza una solución aceptable (según un criterio de parada) 
+o hasta que se alcanza el número máximo de iteraciones permitidas. 
+• Algoritmos Genéticos: Estos algoritmos están inspirados en el proceso natural 
+de la evolución biológica, utilizan una población de soluciones y aplican operaciones 
+inspiradas en la genética, como la mutación y el cruce, para explorar el espacio de estados 
+(Pham & Karaboga, 2012). Tienen la capacidad de explorar un amplio espacio de 
+soluciones y encontrar soluciones óptimas o subóptimas en problemas complejos. 
+Funcionamiento: 
+1) Inicializar una población de individuos de manera aleatoria. 
+2) Evaluar la aptitud de cada individuo en la población. 
+3) Seleccionar individuos para la reproducción basados en su aptitud. 
+4) Aplicar operadores genéticos como el cruzamiento y la mutación para generar una 
+nueva población. 
+5) Repetir los pasos 2-4 hasta que se cumpla un criterio de parada, como un número 
+máximo de generaciones o una aptitud objetivo. 
+Pseudocódigo: 
+AlgoritmoGenético(tamañoPoblación, tasaMutación, generaciones): 
+    población = inicializarPoblaciónAleatoria(tamañoPoblación) 
+    para generación en rango(generaciones):

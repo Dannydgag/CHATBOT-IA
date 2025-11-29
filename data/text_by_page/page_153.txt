@@ -1,0 +1,33 @@
+El nodo D tiene dos 
+sucesores que son el 
+nodo F y el nodo G, el 
+costo de ir del nodo D al 
+nodo F es √52 + 12 =
+5,10 y el costo de ir del 
+nodo D al nodo G es 
+√72 + 52 = 8,60 . El 
+total para ir del nodo A 
+hasta el nodo F es 13,32 y el total para ir del nodo A al nodo G es 16,82. En este caso 
+hemos llegado al nodo objetivo que es el nodo G pero el total es superior a otros nodos 
+como H, C y F que pueden ser expandidos y también llegan al nodo G. Si el objetivo es 
+simplemente llegar al nodo G se habría cumplido con el propósito y el camino sería ir del 
+nodo A a través de los nodos intermedios C y D para llegar al nodo objetivo que es el 
+nodo G. Pero si el propósito es encontrar el camino de menor costo se debería continuar 
+con la búsqueda porque aún existen otros nodos que le lleva al objetivo que es el nodo G. 
+En el caso del ejemplo se debería continuar la búsqueda por los otros caminos que faltan 
+probar que son: A-B-E-H-I-G; A-B-C-D-F-G; A-B-C-D-G, para ver cuál es el camino 
+que tiene el menor costo total comparado con el camino encontrado que es A-C-D-G para 
+determinar si este camino constituye el de menor costo.  
+3.2 
+Búsqueda informada 
+La búsqueda informada, a diferencia de las técnicas de búsqueda no informada, 
+incorpora información adicional que va más allá de la mera descripción del problema. 
+Esta información adicional, denominada heurística, se basa en el conocimiento previo o 
+experiencia relacionada con el problema en cuestión. La heurística no garantiza una 
+solución correcta, pero proporciona una guía o dirección que puede hacer que la búsqueda 
+sea más eficiente (Edelkamp & Schrödl, 2011). 
+El conocimiento heurístico actúa como una especie de "intuición" que permite 
+estimar la proximidad o calidad de un estado particular respecto al objetivo deseado. Por 
+ejemplo, en un problema de ruta más corta, una heurística podría ser la distancia en línea 
+recta desde un punto a otro, que, aunque no considera obstáculos o caminos específicos, 
+proporciona una estimación rápida de la cercanía al objetivo.

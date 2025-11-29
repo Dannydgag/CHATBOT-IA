@@ -1,0 +1,22 @@
+Los tipos especiales de máximos y mínimos locales incluyen el máximo local plano 
+(figura 3.7) y el mínimo local plano, donde varios estados de igual valor son adyacentes, 
+formando una meseta cuyos vecinos tienen un valor peor debido a que la función de 
+evaluación es plana constituyendo un máximo local plano, y el hombro (figura 3.7), 
+donde varios estados de igual valor son adyacentes y los vecinos de la meseta puede ser 
+tanto mejor como peor. A partir de la mitad de la meseta, el algoritmo no podrá avanzar 
+en ninguna dirección. 
+Figura 3.7 Máximo local plano y hombro 
+Elaborado por los Autores 
+Un ejemplo muy conocido de la utilización de la búsqueda de escalada de colinas 
+en inteligencia artificial es el problema de las N-Reinas. El objetivo es colocar N reinas 
+en un tablero de ajedrez de N x N de tal manera que ninguna reina pueda atacar a otra. En 
+otras palabras, no debe haber dos reinas en la misma fila, columna o diagonal.  
+Figura 3.8 N-Reinas 
+Fuente: Mi diario Python. Luis Salcedo 
+El algoritmo de escalada de colinas para el Problema de las N-Reinas es el 
+siguiente: 
+1. Inicialización: Coloca las N reinas en posiciones aleatorias en el tablero. 
+2. Evaluación del Estado Actual: Calcula el número de pares de reinas que se 
+atacan mutuamente. Este será la función objetivo que se intentará minimizar. 
+3. Bucle Principal: 
+Generar Vecinos: Para cada reina, mueve su posición en su columna actual para

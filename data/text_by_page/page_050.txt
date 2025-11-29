@@ -1,0 +1,40 @@
+(Estado intermedio)    
+[1,0,0] En el recipiente de 12 litros queda el 1 litro de agua, como las otras              
+cantidades de líquido no son las buscadas se derrama en el suelo (Estado               final)  
+Este ejemplo muestra una secuencia de estados que nos permite obtener un litro 
+de agua utilizando los recipientes mencionados. Cada estado representa una 
+configuración específica de los recipientes y las acciones realizadas (llenar, transferir, 
+vaciar) nos permiten llegar al estado deseado. Este tipo de problemas de razonamiento y 
+planificación son abordados mediante técnicas de inteligencia artificial, que permiten 
+encontrar soluciones óptimas o aproximadas a través de algoritmos específicos. 
+La capacidad de representar y manipular estados, así como de planificar 
+secuencias de acciones para lograr un objetivo, es fundamental en el campo de la IA. 
+Estas habilidades permiten a los sistemas inteligentes resolver problemas complejos y 
+tomar decisiones informadas en una amplia variedad de dominios, desde problemas de 
+optimización hasta tareas de planificación y control. 
+Para el diseño del agente se establecen cuatro factores que se describen a 
+continuación en la tabla 1-1. 
+Tabla 1-1 Factores de diseño 
+Factores 
+de 
+diseño 
+Conceptualización 
+Medida 
+de 
+rendimiento 
+    Quien define la medida de rendimiento es el diseñador del agente, 
+el cual establece los requisitos y objetivos específicos en función del 
+entorno donde va a trabajar el agente, incluyendo métricas como la 
+precisión (qué tan correctas son las acciones o respuestas del agente), 
+eficiencia (qué cantidad de recursos que consume el agente para 
+realizar su tarea), velocidad de reacción(qué tan rápido puede 
+responder o actuar el agente) y la satisfacción del usuario (cómo se 
+sienten los usuarios acerca de las interacciones con el agente). Estas 
+métricas sirven para que el diseñador ajuste y calibre adecuadamente 
+el agente. 
+Entorno 
+de 
+trabajo 
+    El entorno de trabajo es la estructura física, lógica y digital donde 
+el agente realiza sus tareas y toma decisiones, es el lugar donde 
+interactúa con objetos y entidades presentes (otros agentes, humanos,

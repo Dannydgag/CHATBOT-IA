@@ -1,0 +1,32 @@
+BIBLIOGRAFÍA 
+Artasanchez, A., & Joshi, P. (2020). Artificial Intelligence with Python: Your complete 
+guide to building intelligent apps using Python 3. x. Packt Publishing Ltd. 
+Baader, F. (2003). The description logic handbook: Theory, implementation and 
+applications. Cambridge university press. 
+Baral, C. (2003). Knowledge representation, reasoning and declarative problem solving. 
+Cambridge university press. 
+Barski, C. (2010). Land of Lisp: learn to program in Lisp, one game at a time! No starch 
+press. 
+Benítez, R., Escudero, G., & Kanaan, S. (2014). Inteligencia artificial avanzada. Editorial 
+UOC. 
+Bishop, C. M., & Nasrabadi, N. M. (2006). Pattern recognition and machine learning 
+(Vol. 4, Número 4). Springer. 
+Brachman, R., & Levesque, H. (2004a). Knowledge representation and reasoning. 
+Morgan Kaufmann. 
+Brachman, R., & Levesque, H. (2004b). Knowledge representation and reasoning. 
+Morgan Kaufmann. 
+Brookshear, J. G., & Brylow, D. (2020). Computer science: an overview. Pearson. 
+Chomsky, N. (2004). Estructuras sintácticas. Siglo xxi. 
+Chopra, R. (2012). Artificial Intelligence. S. Chand Publishing. 
+Colmerauer, A., & Roussel, P. (1996). History of Programming languages—II (T. J. 
+Bergin Jr. & R. G. Gibson Jr., Eds.; pp. 331–367). ACM. 
+Croitoru, M., Marquis, P., Rudolph, S., & Stapleton, G. (2018). Graph Structures for 
+Knowledge Representation and Reasoning: 5th International Workshop, GKR 2017, 
+Melbourne, VIC, Australia, August 21, 2017, Revised Selected Papers (Vol. 10775). 
+Springer. 
+Das, S. K. (2008). Foundations of decision-making agents: Logic, Probability and 
+Modality. World Scientific. 
+Domkin, V. (2021). Programming Algorithms in Lisp. Springer. 
+Edelkamp, S., & Schrödl, S. (2011). Heuristic search: theory and applications. Elsevier. 
+Eze, T. (2022). Trustworthy Autonomic Computing (Vol. 30). IET. 
+Feigenbaum, E. A., & others. (1977). The art of artificial intelligence: Themes and case

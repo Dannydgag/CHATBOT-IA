@@ -1,0 +1,15 @@
+Figura 3.4 Grafo de búsqueda 
+Elaborado por los Autores 
+Esta técnica es esencial en problemas donde las decisiones no solo dependen de 
+la distancia o cantidad de pasos, sino también de factores como tiempo, recursos o 
+cualquier otra métrica que pueda ser cuantificada en términos de costo.  
+Se va a utilizar el siguiente grafo (figura 3.4) para realizar la búsqueda desde el 
+nodo origen que en este caso será el nodo A hasta el nodo destino que será el nodo G. Las 
+distancias entre los nodos se obtendrán mediante el trazo de líneas rectas entre los centros 
+de los nodos y se respetarán las direcciones señaladas mediante las flechas 
+El costo del nodo A es cero, y no constituye el nodo destino, por lo cual se procede 
+a determinar el costo para llegar hacia sus sucesores. 
+El costo de ir del nodo A hacia el nodo B se obtiene 
+aplicando el teorema de Pitágoras√42 + 12 = 4,12 
+lo mismo se aplica para ir al nodo C  √22 + 22 =
+2,83

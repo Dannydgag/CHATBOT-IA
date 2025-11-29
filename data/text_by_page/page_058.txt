@@ -1,0 +1,71 @@
+planificación a largo plazo hacen que 
+estos entornos de trabajo sean más 
+desafiantes y requieran algoritmos y 
+enfoques especializados para la toma 
+de decisiones y el control inteligente 
+del 
+agente, 
+que 
+maximice 
+los 
+resultados positivos a lo largo del 
+tiempo. 
+o Planificación 
+y 
+programación 
+de 
+rutas 
+o Juegos de aventuras 
+o exploración 
+Estático 
+   En un entorno estático, mientras el 
+agente delibera sobre la acción 
+siguiente el entorno no cambia. El 
+agente no tiene que enfrentarse con 
+cambios inesperados o dinámicos en su 
+entorno mientras toma decisiones o 
+realiza acciones. Los entornos estáticos 
+son más fáciles de entender y predecir, 
+facilitando el diseño de los agentes y 
+algoritmos 
+que 
+funcionan 
+eficientemente en estos entornos. 
+o Juego del veintiuno 
+(Black jack) 
+o Rompecabezas 
+o Laberinto 
+o Clasificación 
+de 
+imágenes 
+o Sistemas 
+de 
+detección de spam 
+o Sistemas de filtrado 
+de contenido 
+o Sistemas 
+de 
+diagnóstico médico 
+o Sistemas 
+de 
+recomendación 
+de 
+productos 
+o Análisis de datos 
+financieros 
+Dinámico 
+   En los entornos dinámicos, el 
+entorno puede experimentar cambios 
+mientras el agente está considerando la 
+acción futura que va a realizar. Estos 
+cambios pueden ser el resultado de 
+eventos externos, interacciones con 
+otros agentes o incluso como resultado 
+o Robot que juega al 
+futbol 
+o Robot clasificador 
+de baldosas 
+o Tráfico 
+de 
+vehículos 
+o Juego de ajedrez

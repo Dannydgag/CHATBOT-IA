@@ -1,0 +1,32 @@
+El primer conectivo de la tabla 2-2 llamado disyunción, es cierto si al menos uno 
+de los disyuntos es verdadero (p o q), cabe mencionar que existen dos tipos de OR: un 
+OR inclusivo y un OR excluyente. En un OR excluyente, p ∨ q es falso si p ∧ q es 
+verdadero. Es decir, un OR excluyente se requiere que solo uno de sus argumentos sea 
+verdadero y no ambos. Un OR inclusivo es verdadero si cualquiera p, q o p ∧ q es 
+verdadero. Un ejemplo puede ayudar a entender lo inclusivo frente a lo excluyente. Or 
+inclusivo: “para comer el postre, tienes que limpiar tu habitación o lavar los platos”. En 
+este caso, si realiza ambas tareas, seguirá recibiendo postre. Or excluyente: “De postre, 
+puedes tomar galletas o helado”. En este caso, no puede tener ambos. El OR excluyente 
+a menudo se abrevia como XOR y un símbolo común para él es ⊕. 
+El segundo es denominado conjunción, es cierto sólo si las dos sentencias son 
+verdaderas (p y q).  Cuando estas dos proposiciones, p y q, están conectadas por ∧, la 
+proposición resultante P ∧ Q es verdadera solo en el caso de que tanto p como q sean 
+verdaderas, en este caso es el AND de los operadores lógicos de la lógica booleana. 
+El Not (¬) invierte el valor de verdad de la proposición. Así, por ejemplo, si P: 
+“Está lloviendo”, entonces ¬P: “No está lloviendo”, la tabla muestra la comparación de 
+todas las posibles asignaciones de verdad a las proposiciones. Esta tabla ayuda a 
+comprender mejor los valores de verdad de las proposiciones cuando se conectan con 
+diferentes conectivos lógicos.  
+El poder de la lógica proposicional entra en juego en el uso de las formas 
+condicionales, cuyas dos formas más básicas se denominan Modus Ponens y Modus 
+Tollens. El conectador de implicación puede ser considerado como un condicional 
+expresado de la siguiente forma, si p→q es verdadero, entonces q debe ser siempre 
+verdadero. Para los casos en los cuales p es falso, la expresión p→q, es siempre verdadera, 
+independientemente de los valores lógicos que tome q, debido a que el operador de 
+implicación no puede hacer inferencias acerca de los valores de q. 
+Cuando el antecedente(p) es verdadero, toda la implicación es verdadera en el caso 
+de que el consecuente (q) sea verdadero (eso tiene sentido: si está lloviendo y estoy 
+adentro de la casa, entonces la oración "si está lloviendo, entonces estoy adentro de la 
+casa" es verdadero). Cuando el antecedente (p) es verdadero, la implicación es falsa si el 
+consecuente (q) es falso (si estoy afuera mientras llueve, entonces la oración "Si está 
+lloviendo, entonces estoy adentro" es falsa). Sin embargo, cuando el antecedente (p) es

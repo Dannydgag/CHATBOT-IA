@@ -1,0 +1,32 @@
+aprendizaje automático, algoritmos de clasificación y regresión, algoritmos de 
+agrupamiento y algoritmos de minería de datos), que posibilitan a las empresas tomar 
+decisiones basadas en datos y brindar a los usuarios acceso a información relevante de 
+manera rápida y cómoda en sus actividades diarias. 
+Google Search y Google Maps proporcionan resultados de búsqueda relevantes y 
+sugerencias de navegación personalizadas comparado con productos similares, Spotify 
+recomienda música que se ajuste a los gustos y preferencias del usuario y Netflix emplea 
+la IA para sugerir películas y series que probablemente interesen al usuario, basándose en 
+sus visualizaciones anteriores y preferencias. Todas estas plataformas populares 
+incorporan algoritmos avanzados de inteligencia artificial para realizar su trabajo.  
+Al usar uno de los siguientes asistentes personales, Alexa de Amazon, Siri de 
+iPhone, Cortana de Microsoft, Bixby de Samsung o Google Assistant, observamos que 
+entiende lo que hablamos, ejecutando de forma eficiente la tarea solicitada. Las redes 
+sociales como Facebook, Pinterest y Google Fotos, tienen incorporado el reconocimiento 
+facial, a través de técnicas sofisticadas de visión por computadora que mejora la 
+interactividad y seguridad de sus usuarios. 
+En el ámbito empresarial, la robótica, los sistemas expertos y el aprendizaje 
+automático están transformando los procesos y brindando oportunidades de innovación 
+en los negocios. 
+Actualmente, se están desarrollando herramientas y plataformas de ciencia de 
+datos que permiten la aplicación de algoritmos de inteligencia artificial. Algunos 
+ejemplos de estas plataformas incluyen RapidMiner, Anaconda y Python.  
+Los líderes de la industria tecnológica, como Google, Microsoft, Meta Platforms, 
+Amazon, Oracle y OpenAI están profundamente comprometidos con la inteligencia 
+artificial. Esta tecnología se está integrando profundamente en diversos aspectos de 
+nuestra vida cotidiana, influyendo en nuestras decisiones y siendo importante en las 
+estrategias empresariales, la salud pública, la seguridad y las finanzas. En el futuro 
+debemos esperar un desarrollo significativo en aplicaciones web, videojuegos y robótica 
+autónoma, veremos cada vez más vehículos autónomos circulando por las calles, robots 
+sociales ayudando a las personas en su vida diaria y exploradores planetarios llegando a 
+lugares más lejanos en el universo. Asimismo, las aplicaciones en el ámbito 
+medioambiental y el ahorro energético serán de gran importancia, al igual que en los

@@ -1,0 +1,33 @@
+o necesidad del juicio de un experto, la IA ha redefiniendo lo que entendemos por 
+procesos cognitivos e inteligentes, hiendo más allá de las restricciones inherentes a la 
+biología humana (Whitby, 2009). 
+La Inteligencia Artificial representa una disciplina dentro de la informática que 
+busca construir máquinas capaces de funcionar de manera autónoma en entornos 
+complejos y en constante cambio, creando sistemas que sean capaces de adaptarse y 
+responder de manera efectiva a situaciones desafiantes. 
+1.1 
+Breve historia cronológica de la inteligencia artificial 
+En 1943, Warren McCulloch y Walter Pitts presentaron el primer modelo de red 
+neuronal artificial capaz de aprender y resolver funciones lógicas. Durante la década de 
+1950, la investigación en inteligencia artificial se enfocó principalmente en los juegos. 
+En 1951, Minsky y Edmonds construyeron el primer computador basado en una red 
+neuronal llamado SNARC. En 1956, Arthur Samuel desarrolló el primer programa 
+heurístico de juego con capacidad de aprendizaje. Ese mismo año, Allen Newell, Herbert 
+Simon y Cliff Shaw inventaron el programa heurístico llamado Logic Theorist, que 
+resolvió correctamente 38 de los primeros 52 teoremas del Principia Mathematica. Este 
+trabajo marcó el inicio de la investigación en psicología cognitiva utilizando ordenadores.  
+En 1957, Noam Chomsky presentó su obra "Estructuras Sintácticas", destacando 
+la importancia de la sintaxis en la investigación del lenguaje formal (Chomsky, 2004). En 
+1958, John McCarthy inventó el lenguaje Lisp, una herramienta utilizada para la 
+investigación en inteligencia artificial que podía procesar tanto valores numéricos como 
+símbolos (McCarthy, 1960). McCarthy también fue pionero en el desarrollo del concepto 
+de tiempo compartido (Barski, 2010). 
+A principios de la década de 1960, la investigación en inteligencia artificial se 
+centró principalmente en algoritmos de búsqueda y resolución de problemas generales. 
+Allen Newell, Herbert Simon y Cliff Shaw desarrollaron un programa llamado GPS 
+(General Problem Solver), que era un sistema definido por objetos y operadores que se 
+aplicaban a dichos objetos. GPS pudo resolver problemas como las Torres de Hanoi. El 
+sistema utilizaba reglas heurísticas para aprender a partir de sus propios descubrimientos 
+y seguía un enfoque similar al de los humanos para resolver problemas, estableciendo un 
+plan, aplicando axiomas y reglas, y analizando medios y fines para modificar la resolución 
+del problema hasta alcanzar el objetivo.

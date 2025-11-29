@@ -1,0 +1,63 @@
+Las proposiciones en la lógica proposicional se utilizan para representar 
+afirmaciones y hechos que son la base del razonamiento lógico en la inteligencia artificial 
+y otros campos relacionados. 
+Tabla 2-1 Conectores básicos de la lógica proposicional 
+Nombre 
+Conector 
+Símbolo 
+Disyunción 
+OR 
+˅ 
+Conjunción 
+AND 
+˄ 
+Negación 
+NOT 
+¬ 
+Implicación 
+IF – THEN 
+→ 
+Bicondicional 
+IF-Then en ambas direcciones 
+↔ 
+Elaborado por los Autores 
+Las proposiciones pueden combinarse para formar proposiciones compuestas, lo 
+que permite un razonamiento más complejo. Esto se logra mediante el uso de conectivos 
+proposicionales (Tabla 2-1) que permiten combinar, negar o relacionar proposiciones 
+simples para crear proposiciones más elaboradas. Los conectivos básicos de la lógica 
+proposicional son fundamentales en este proceso y se utilizan para construir expresiones 
+lógicas. 
+Las tablas de verdad (Tabla 2-2) son herramientas importantes para comprender 
+cómo se comportan las operaciones básicas de la lógica proposicional y cómo afectan la 
+verdad o falsedad de las proposiciones compuestas.  
+Estas tablas muestran todas las combinaciones posibles de valores de verdad para 
+las proposiciones involucradas y el valor de verdad resultante de la proposición 
+compuesta. Son una herramienta esencial para el análisis lógico y la evaluación de la 
+validez de argumentos lógicos. 
+Tabla 2-2 Tablas de verdad para operadores lógicos 
+p 
+q 
+Disyunción 
+p ˅ q 
+Conjunción 
+p ˄ q 
+Negación 
+¬p 
+Implicación 
+p→q 
+Bicondicional 
+p↔ q 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+F 
+Elaborado por los Autores

@@ -1,0 +1,32 @@
+podría especificar su posición, tamaño y función. Finalmente, en robótica se puede 
+usar para reconocer y actuar en diferentes esenarios, ejemplo un marco "Obstáculo" 
+ofrecería detalles sobre su forma, tamaño y estrategias para esquivarlo. 
+c) La lógica proposicional es la forma más básica de lógica, donde cada proposición 
+tiene un valor de verdad. Se utiliza principalmente para hacer inferencias. Una 
+proposición es una declaración que puede ser cierta o incorrecta, pero no puede ser 
+ambas cosas simultáneamente. Por ejemplo, "Hoy es sábado" es una proposición 
+porque, dependiendo del día, podría ser verdadera o falsa.  
+La lógica proposicional es esencial en el diseño y análisis de circuitos lógicos en 
+electrónica, en dominios donde las decisiones se pueden tomar basadas en reglas y 
+hechos concretos, ejemplo, un sistema que diagnostica enfermedades en base a 
+síntomas: "Si tiene fiebre y tos, entonces puede tener gripe". También se aplica en la 
+resolución de problemas y juegos de estrategia, como el tres en línea, donde se evalúan 
+situaciones con valores de verdad. Es visible en estructuras de control como “if-else", 
+donde, por ejemplo, se plantea que "si el usuario se autentica, entonces puede acceder 
+al sistema". Además, es fundamental en juegos que demandan estrategias y un 
+razonamiento lógico sustentado en normas explícitas. 
+d) La lógica de predicados representa el conocimiento a través de proposiciones y 
+cuantificadores. Esto permite realizar inferencias lógicas y deducciones formales. Por 
+ejemplo, a partir de las proposiciones "Todos los humanos son mortales" y "Leonardo 
+da Vinci es humano", se puede inferir que " Leonardo da Vinci es mortal". 
+En el ámbito del procesamiento del lenguaje natural, la lógica de predicados se 
+aplica a la interpretación semántica de las oraciones. Un claro ejemplo es la oración 
+"María quiere a Patricio" que puede representarse como Quiere(María, Patricio). Las 
+consultas en bases de datos, especialmente con lenguajes como SQL, a menudo se 
+basan en principios de lógica de predicados. un ejemplo sería buscar todos los libros 
+de un autor determinado. Esta lógica también es esencial en la planificación automática 
+y la solución de problemas, debido a que permite razonar sobre acciones, sus 
+precondiciones y resultados. Lenguajes de programación como Prolog están 
+estructurados en base a la lógica de predicados y son ideales para abordar desafíos que 
+demandan razonamiento lógico y exploración (Fraser, 1990).  
+Además, es utilizada en la representación de conocimiento en ontologías, donde

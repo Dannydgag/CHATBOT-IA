@@ -1,0 +1,23 @@
+pueden surgir problemas debido a la falta de información completa para tomar decisiones 
+precisas. 
+Figura 1.8 Arquitectura Reactiva Simple 
+Elaborado por los Autores 
+La figura 1.8 representa de manera esquemática un agente que utiliza la 
+arquitectura reactiva simple. Este agente está equipado con sensores que le permiten 
+percibir el estado del mundo en el que trabaja, también cuenta con actuadores que le 
+permiten llevar a cabo acciones específicas en respuesta a esa percepción. 
+El agente utiliza los sensores para recopilar información sobre el entorno y generar 
+una representación interna del estado actual del mundo. Basándose en esta información, 
+el agente consulta las reglas de condición-acción predefinidas que tiene almacenadas. 
+Estas reglas establecen condiciones específicas, que cuando se cumplen, indican qué 
+acción debe tomar el agente. Una vez que el agente determina la acción adecuada en 
+función de las reglas de condición-acción, utiliza los actuadores para llevar a cabo esa 
+acción en el entorno. Estas acciones pueden incluir manipulación física, interacción con 
+otros agentes o cualquier otro tipo de respuesta que sea necesaria en ese contexto. 
+b) Arquitectura deliberante 
+La arquitectura deliberante, representada en la figura 1.9, es una estructura más 
+compleja que la arquitectura reactiva simple. Esta arquitectura es adecuada para entornos 
+parcialmente observables, donde el agente necesita tener en cuenta un historial reciente 
+de información para tomar decisiones. 
+A diferencia de la arquitectura reactiva simple, el agente deliberante tiene la 
+capacidad de deliberar sobre la acción a realizar en función de la información disponible

@@ -1,0 +1,33 @@
+Continuando en elejemplo médico, esta métrica es importante en la determinación 
+de la probabilidad de que una persona no tenga una enfermedad cuando la prueba indica 
+un resultado negativo.  
+Puntuación F1: Esta es una métrica que combina la precisión y el recall en un 
+solo número, utilizando su media armónica. Es útil cuando se busca un balance entre 
+precisión y recall. Se calcula como: 
+F1 = 2 x Presición  x  𝑅𝑒𝑐𝑎𝑙𝑙
+Precisión + Recall  
+La puntuación F1 se utiliza en aplicaciones de reconocimiento de voz, como 
+asistentes virtuales o software de transcripción, puede ser utilizada para evaluar la 
+precisión en la identificación de palabras o frases específicas. Un alto valor de F1 indica 
+que el sistema es eficaz tanto en reconocer correctamente las palabras (Precisión) como 
+en capturar la totalidad de las palabras habladas (Sensibilidad). 
+Además de estas métricas, la Curva ROC (Receiver Operating Characteristic) y 
+el Área Bajo la Curva (AUC) son herramientas fundamentales para evaluar la capacidad 
+del modelo para discriminar entre clases.  
+La curva ROC traza la tasa de verdaderos positivos (sensibilidad) en el eje de las 
+Y contra la tasa de falsos positivos (1 - especificidad) en el eje de las X, para diferentes 
+umbrales de decisión, que es el punto en el que decide clasificar un resultado como 
+positivo o negativo. Mientras que el AUC proporciona una medida agregada de 
+rendimiento en todos los umbrales posibles. Por ejemplo, un AUC de 1 indica un modelo 
+perfecto que clasifica todos los positivos y negativos correctamente. Un AUC de 0.5 
+sugiere un rendimiento no mejor que el azar. Un AUC menor a 0.5 indica un rendimiento 
+peor que el azar, lo que podría sugerir que las etiquetas están invertidas. 
+ROC y AUC son herramientas fundamentales para entender qué tan bien un 
+modelo puede diferenciar entre las clases, por ejemplo, en un modelo médico, debe 
+distinguir correctamente entre pacientes enfermos y sanos. Estas herramientas permiten 
+también evaluar el modelo de forma integral en un espectro de situaciones, no solo en un 
+punto de corte fijo. Esto es útil en aplicaciones donde el equilibrio entre sensibilidad y 
+especificidad es determinante y puede variar según el contexto. 
+Cada una de estas métricas aporta una dimensión diferente a la comprensión del 
+rendimiento del modelo. Dependiendo del contexto y de los objetivos específicos del 
+modelo, algunas métricas pueden ser más relevantes que otras. Por ejemplo, en un modelo

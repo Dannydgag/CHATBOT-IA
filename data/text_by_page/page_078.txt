@@ -1,0 +1,27 @@
+la inteligencia artificial, fundamentada en el uso de redes neuronales profundas o DNN 
+(Deep Neural Networks). Estas redes, compuestas por múltiples capas de neuronas 
+artificiales interconectadas, están diseñadas para aprender de grandes volúmenes de datos 
+y realizar tareas específicas de manera autónoma (Haykin, 2009). Imitando la 
+complejidad del cerebro humano, estas redes permiten a las máquinas identificar 
+patrones, realizar predicciones y resolver problemas complejos sin necesidad de 
+intervención humana directa. El aprendizaje profundo, impulsado por estas redes, ha 
+revolucionado campos como el procesamiento de lenguaje natural, la visión por 
+computadora, la generación de texto, los videojuegos, la traducción automática, la 
+robótica, la toma de decisiones y las simulaciones avanzadas. 
+Una Red Neuronal Profunda se estructura en múltiples capas de neuronas 
+artificiales. Cada capa consiste en un conjunto de neuronas, también conocidas como 
+nodos o unidades, y se clasifican generalmente en tres categorías: la capa de entrada, una 
+o varias capas ocultas, y la capa de salida. La profundidad de estas redes se define por el 
+número de capas ocultas presentes entre la entrada y la salida. A mayor número de capas 
+ocultas, más 'profunda' se considera la red, lo que implica una mayor capacidad para 
+aprender características complejas y abstractas de los datos. 
+Figura 1.13 Arquitectura de agente de aprendizaje profundo 
+Elaborado por los Autores 
+La profundidad en las redes neuronales profundas permite una representación 
+jerárquica de los datos. A medida que los datos pasan a través de las capas, las 
+características y abstracciones se vuelven progresivamente más complejas y abstractas. 
+Esto significa que la red puede aprender automáticamente características simples en las 
+primeras capas, como bordes y texturas, y luego construir representaciones más 
+abstractas, como formas y objetos, en capas posteriores. 
+Entrenar redes neuronales profundas puede ser un desafío computacional, debido 
+a que la retropropagación de gradientes (el algoritmo utilizado para ajustar los pesos de

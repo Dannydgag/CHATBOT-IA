@@ -1,0 +1,32 @@
+campos de la economía, la sociología y el arte (Lee & Qiufan, 2021). 
+1.2 
+Contribuciones de las ciencias a la inteligencia artificial 
+Varias ciencias han aportado al desarrollo de la Inteligencia Artificial, entre ellas 
+se tiene: 
+La filosofía ha planteado diversas teorías sobre el razonamiento y el aprendizaje, 
+concibiendo a la mente como una máquina que funciona a partir del conocimiento, 
+codificado en un lenguaje interno y al considerar que el pensamiento sirve para determinar 
+cuál es la acción correcta que se debe emprender (McCarthy, 1990).  
+Un parte relevante en el desarrollo del razonamiento deductivo es la lógica 
+silogística propuesta por el filósofo Aristóteles, considerada el primer sistema formal de 
+razonamiento deductivo, la cual establece reglas precisas para derivar conclusiones 
+válidas a partir de premisas, esto a contribuido al desarrollo posterior de la lógica y ha 
+influido en los fundamentos de la inteligencia artificial. 
+Desde la perspectiva de la inteligencia artificial, se han explorado puntos de vista 
+más avanzados y sofisticados para comprender el razonamiento y el aprendizaje; que  
+involucran el uso de algoritmos de aprendizaje automático, redes neuronales y técnicas 
+de procesamiento de lenguaje natural, permitiendo a las máquinas no solo realizar 
+razonamiento deductivo, sino también abordar problemas complejos de manera más 
+eficiente y aproximarse a la toma de decisiones basadas en datos y modelos de 
+conocimiento. 
+Las matemáticas son fundamentales en el desarrollo de teorías formales 
+relacionadas con la lógica, las probabilidades, la teoría de decisiones y la computación. 
+La lógica matemática permite tratar con declaraciones y razonamientos que pueden ser 
+verdaderos o falsos, mientras que la teoría de probabilidades aborda situaciones de 
+incertidumbre y riesgo.  
+En el libro "Una investigación de las leyes del pensamiento" de George Boole se 
+encuentra el desarrollo del álgebra booleana que se ha convertido en una herramienta 
+esencial en la lógica digital y la computación para la representación de reglas básicas de 
+razonamiento en actividades mentales, permitiendo manipular datos y realizar 
+operaciones lógicas en las computadoras y otros dispositivos electrónicos. 
+Las matemáticas siguen siendo esenciales en el ámbito de la inteligencia artificial.

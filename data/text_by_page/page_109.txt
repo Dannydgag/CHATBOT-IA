@@ -1,0 +1,88 @@
+P 
+Q 
+R 
+KB 
+Falso 
+verdadero 
+Falso 
+Falso 
+verdadero 
+verdadero 
+verdadero 
+Falso 
+Falso 
+verdadero 
+Falso 
+verdadero 
+verdadero 
+verdadero 
+Falso 
+verdadero 
+verdadero 
+verdadero 
+Elaborado por los Autores 
+Luego, se revisa cada modelo y verificamos si es cierto dada nuestra Base de 
+conocimiento. 
+Primero, en nuestra KB, sabemos que p es verdadera. Así, podemos decir que la 
+KB es falsa en todos los modelos donde p no es verdadera. 
+Tabla 2-4 Base de conocimiento en base a P 
+P 
+Q 
+R 
+KB 
+Falso 
+falso 
+Falso 
+Falso 
+Falso 
+falso 
+verdadero 
+Falso 
+Falso 
+verdadero 
+Falso 
+Falso 
+Falso 
+verdadero 
+verdadero 
+Falso 
+verdadero 
+falso 
+Falso 
+Verdadero 
+verdadero 
+falso 
+verdadero 
+Verdadero 
+verdadero 
+verdadero 
+Falso 
+Verdadero 
+verdadero 
+verdadero 
+verdadero 
+Verdadero 
+Elaborado por los Autores 
+Luego, de manera similar, en nuestra KB, sabemos que Q es falsa. Así, podemos 
+decir que la KB es falsa en todos los modelos donde Q es verdadera. 
+Tabla 2-5 Base de conocimiento en base a Q 
+P 
+Q 
+R 
+KB 
+Falso 
+falso 
+Falso 
+Falso 
+Falso 
+falso 
+verdadero 
+Falso 
+Falso 
+verdadero 
+Falso 
+Falso 
+Falso 
+verdadero 
+verdadero 
+Falso

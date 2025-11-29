@@ -1,0 +1,35 @@
+evaluación = evaluarPoblación(población) 
+        nuevaPoblación = [] 
+    mientras tamaño(nuevaPoblación) < tamañoPoblación: 
+            padre1 = seleccionarPadre(población, evaluación) 
+            padre2 = seleccionarPadre(población, evaluación) 
+            hijo = cruzar(padre1, padre2) 
+            si aleatorio() < tasaMutación: 
+                mutar(hijo) 
+            agregar hijo a nuevaPoblación 
+        población = nuevaPoblación 
+    devolver el mejor individuo de la población 
+El pseudocódigo describe un algoritmo genético. A continuación, se describen las 
+funciones principales del mismo: 
+▪ inicializarPoblaciónAleatoria(tamañoPoblación): Crea una población inicial de 
+individuos de manera aleatoria. 
+▪ evaluarPoblación(población): Evalúa cada individuo en la población utilizando una 
+función de aptitud y devuelve sus valores de aptitud. 
+▪ seleccionarPadre(población, evaluación): Selecciona un individuo para ser padre 
+basado en su aptitud relativa. 
+▪ cruzar(padre1, padre2): Realiza la cruza (reproducción) entre dos padres para 
+generar un hijo. 
+▪ mutar(hijo): Aplica una mutación al hijo, posiblemente cambiando uno o más genes. 
+▪ aleatorio(): Genera un valor aleatorio entre 0 y 1. 
+El algoritmo genético se ejecuta durante un número especificado de generaciones. 
+En cada generación, los individuos se evalúan en función de su aptitud, se seleccionan 
+padres para reproducción, se realiza la cruza y, en algunos casos, se aplica una mutación. 
+El proceso se repite hasta alcanzar un número fijo de generaciones. 
+• Reinicio aleatorio: Esta técnica ejecuta la escalada de colinas múltiples veces 
+desde distintos estados iniciales aleatorios. Su objetivo principal es superar la limitación 
+de la escalada de colinas tradicional que tiende a estancarse en máximos (o mínimos) 
+locales. En vez de confinarse a una sola búsqueda desde un punto inicial, se exploran 
+diversas soluciones partiendo de diferentes estados. Tras repetir este proceso en 
+numerosas ocasiones, se opta por la solución más óptima encontrada entre todas las 
+iteraciones. 
+Funcionamiento:

@@ -1,0 +1,28 @@
+Figura 1.16 Árbol de decisión 
+Elaborado por los Autores 
+Las entidades financieras se valen de árboles de decisión para evaluar la viabilidad 
+de conceder créditos, integrando variables como el nivel de ingresos, el historial 
+crediticio y la edad del solicitante. Esta herramienta analítica también se aplica para la 
+segmentación de clientes y la personalización de estrategias publicitarias; por ejemplo, 
+a un cliente que previamente ha adquirido indumentaria deportiva se le podrían mostrar 
+anuncios de calzado deportivo, tras verificar sus compras anteriores.  
+En el procesamiento de lenguaje natural, los árboles de decisión facilitan la 
+interpretación de palabras pronunciadas por un usuario, considerando elementos 
+acústicos y el contexto lingüístico. En el ámbito agrícola, contribuyen a tomar 
+decisiones sobre la selección de cultivos, ponderando factores como las características 
+del suelo, la estacionalidad y la susceptibilidad a enfermedades. Las tiendas online 
+implementan árboles de decisión para sugerir productos, basándose en el análisis del 
+comportamiento de navegación y compras previas de los usuarios. Tambien, en tareas 
+de clasificación y regresión, estos modelos pueden discernir, por ejemplo, si un correo 
+electrónico es spam, evaluando sus atributos distintivos. 
+i) Las Ontologías, se refieren a una representación formal y estructurada de un conjunto 
+de conceptos dentro de un dominio y las relaciones entre esos conceptos. Son utilizadas 
+en informática y en la web semántica para estructurar y clasificar información. La web 
+semántica es una extensión de la web actual que busca hacer que los datos sean 
+comprensibles no solo para humanos, sino también para máquinas. Las ontologías 
+proporcionan un marco estructurado que permite a las máquinas entender y razonar 
+sobre los datos. 
+La web semántica se apoya en ontologías para dotar de significado a los datos de 
+Internet, facilitando así que las máquinas procesen y respondan ante consultas de alta 
+complejidad. Un caso representativo es el proyecto DBpedia, que convierte la 
+información de Wikipedia en datos estructurados accesibles para interrogaciones

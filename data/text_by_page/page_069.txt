@@ -1,0 +1,32 @@
+Los agentes basados en conocimiento son especialmente útiles en dominios en los 
+que se dispone de un conocimiento experto bien definido y estructurado. Se utilizan en 
+sistemas de diagnóstico médico, asistentes virtuales, sistemas de recomendación o en 
+cualquier otro contexto en el que se requiera un razonamiento lógico basado en 
+conocimiento específico. 
+Agentes multiagente: Son sistemas compuestos por varios agentes individuales 
+que interactúan y colaboran entre sí para lograr un objetivo común o resolver un problema 
+de manera cooperativa. Cada agente en el sistema es autónomo y puede tener diferentes 
+características, habilidades y conocimientos (Eze, 2022). 
+La interacción entre los agentes se llevarse a cabo a través de diferentes 
+mecanismos, como la comunicación directa, el intercambio de información, la 
+negociación y la coordinación. Los agentes comparten conocimientos, realizan tareas 
+específicas, cooperan en la toma de decisiones y coordinan acciones para alcanzar un 
+objetivo conjunto. 
+Los sistemas multiagente son utilizados en una amplia gama de aplicaciones, 
+como la logística, el tráfico inteligente, la gestión de recursos, la robótica colaborativa y 
+los juegos en línea, entre otros. En estas aplicaciones, los agentes trabajan juntos para 
+abordar problemas complejos que requieren la colaboración de múltiples entidades. 
+Agentes basados en aprendizaje: Representan una categoría avanzada de 
+sistemas inteligentes, dotados de la capacidad de auto-mejora y adaptación a través de la 
+experiencia. Estos agentes incorporan algoritmos de aprendizaje automático de última 
+generación para procesar y aprender de los datos obtenidos de su entorno. 
+El proceso de aprendizaje en estos agentes es sofisticado e implica no solo el 
+reconocimiento de patrones y la identificación de relaciones, sino también la extracción 
+y análisis profundo de información pertinente de los datos de entrada. Aprenden mediante 
+un proceso continuo de retroalimentación, donde comparan los resultados actuales con 
+los objetivos o resultados ideales, y ajustan sus métodos y estrategias en consecuencia. 
+Con el tiempo, estos agentes evolucionan y optimizan su comportamiento, 
+tomando decisiones cada vez más precisas y efectivas basadas en el cúmulo de 
+experiencias pasadas y el conocimiento acumulado. Esta capacidad de adaptación y 
+aprendizaje continuo los hace extraordinariamente eficaces en una amplia variedad de 
+entornos y aplicaciones.

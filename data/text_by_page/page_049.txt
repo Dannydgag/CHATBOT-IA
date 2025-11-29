@@ -1,0 +1,24 @@
+Estas acciones permiten al agente interactuar y modificar su estado en el entorno, 
+buscando lograr un objetivo específico. La capacidad de seleccionar las acciones más 
+adecuadas en función de un estado dado es esencial para que el agente resuelva 
+problemas, tome decisiones informadas y maximice su rendimiento en el entorno en el 
+que se encuentra. 
+En el campo de la Inteligencia Artificial, se desarrollan algoritmos y técnicas que 
+permiten a los agentes racionales determinar de manera eficiente las acciones disponibles 
+en cada estado y tomar decisiones óptimas para alcanzar sus metas. El estudio y avance 
+de estas capacidades de toma de decisiones en la IA contribuyen al desarrollo de sistemas 
+más inteligentes y eficientes en diversos dominios de aplicación. 
+La secuencia de estados se muestra a continuación con otro ejemplo. Se tienen 
+tres recipientes (figura 1.6), cuyas capacidades son doce litros, ocho litros y tres litros, 
+además un grifo de agua. Se desea obtener un litro de agua utilizando los recipientes, para 
+lo cual puede llenar los recipientes o vaciar de un recipiente a otro, o vaciar el agua de un 
+recipiente en el suelo. Existen algunas secuencias de estados que se pueden seguir, a 
+continuación, se muestra una de ellas. 
+Figura 1.6 Tamaño de recipientes en litros 
+Elaborado por los Autores 
+ [12,8,3] Tamaño de los tres recipientes en litros 
+ [0,0,0] Todos los recipientes en un inicio se encuentran vacíos (Estado inicial)    
+ [12,0,0] El recipiente de 12 litros se llena con agua del grifo (Estado intermedio)    
+ [4,8,0]   Se vierte el agua del recipiente de 12 litros en el de 8 litros (Estado               
+intermedio)    
+[1,8,3]   Se vierte el agua del recipiente de 12 litros que contiene 4 litros en el de 3litros

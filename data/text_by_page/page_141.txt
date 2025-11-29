@@ -1,0 +1,15 @@
+A continuación, se debe trasladar al nodo E que se encuentra 
+en el segundo nivel, que no constituye el nodo objetivo. Por lo 
+cual se deben visitar los nodos hijos del nodo C que están en el 
+segundo nivel. 
+El nodo F es el siguiente en ser visitado en el proceso, 
+pero sucede lo mismo que en los casos anteriores, no 
+coincide con el nodo objetivo. 
+El nodo G es el último en ser visitado en el nivel 2 
+y tampoco concuerda con el nodo objetivo que es 
+el nodo I, por lo cual se debe descender al nivel 3 
+en búsqueda del objetivo. 
+El primer nodo a ser visitado en el nivel 3 es 
+el nodo H al no ser el objetivo, continua la 
+búsqueda hacia el nodo vecino en el eje de las 
+X, cuyo padre es el nodo D.

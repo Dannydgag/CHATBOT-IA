@@ -1,0 +1,24 @@
+El nodo D es el que tiene el menor valor por lo tanto se abren los sucesores que 
+son F y G. El cálculo de g(F) = 7,84 +  √(15 −10)2 + (6 −5)2 = 7,84 + 5,10 = 12,94 y 
+el valor de h(F) = √(10 −8)2 + (10 −6)2 = 4,47 ; el cálculo de f(F) = 12,94 + 4,47 = 
+17,41. El valor de g(G) = 7,84 + √(15 −8)2 + (10 −5)2 = 8,60; el valor de h(G) = 0  y 
+por último el valor de f(G) = 8,60 + 0 = 8,60. En este caso como el menor valor es el del 
+nodo G se ha llegado a la solución y el camino es A-C-D-G. Si hubiesen existido otros 
+nodos que tenían menor valor y que se podía llegar a G se debía continuar con el cálculo 
+hasta encontrar el de menor valor. En la búsqueda A* se puede retroceder del hijo hacia 
+el padre cuando se buscan los sucesores, en el caso que se ha analizado esto no sucede 
+porque existe dirección en los enlaces. 
+3.3 
+Optimización 
+La optimización es un proceso esencial en el ámbito de la inteligencia artificial 
+(IA). Se refiere a la tarea de seleccionar la solución más adecuada de entre un conjunto 
+de alternativas posibles. Esta elección se basa en criterios específicos, que pueden variar 
+según el problema en cuestión. Por ejemplo, en un problema de planificación, la 
+optimización podría buscar la ruta más corta o eficiente; mientras que, en un problema de 
+aprendizaje automático, podría tratarse de minimizar el error en las predicciones. 
+La optimización no solo se limita a encontrar la "mejor" solución, sino que 
+también puede involucrar la búsqueda de soluciones que sean "suficientemente buenas" 
+en un tiempo razonable, especialmente cuando se trata de problemas complejos o de gran 
+escala. 
+En el contexto de la IA, la optimización es fundamental, debido a que permite a 
+los sistemas tomar decisiones informadas, mejorar su rendimiento y adaptarse a

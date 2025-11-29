@@ -1,0 +1,25 @@
+En el nivel 3 se encuentra el nodo I que 
+era el objetivo, por lo cual se ha llegado 
+al estado final.  
+La solución obtenida utilizando la 
+búsqueda por amplitud para ir del 
+nodo A al nodo I constituye el 
+camino a través de los nodos  A-B-
+D-I. 
+3.1.2 Búsqueda primero en profundidad 
+La estrategia de búsqueda primero en profundidad se caracteriza por su enfoque 
+vertical, procediendo a lo largo del eje Y. Inicia desde el nodo raíz y se dirige hacia el 
+nodo sucesor más a la izquierda en el siguiente nivel, y continúa descendiendo por el 
+árbol siguiendo siempre la rama más a la izquierda. Este proceso se repite hasta alcanzar 
+un punto donde no existen más nodos sucesores. Si no se encuentra el nodo objetivo, el 
+algoritmo retrocede al nodo anterior para explorar otros sucesores posibles, siguiendo el 
+principio LIFO (Last In, First Out) (Russell & Norvig, 2012). Esta metodología permite 
+que la búsqueda se sumerja profundamente en una dirección antes de considerar otras 
+alternativas, lo que puede ser especialmente eficiente en situaciones donde la solución se 
+encuentra en niveles más profundos del árbol. 
+En el mejor de los escenarios, si el algoritmo 'tiene suerte' y elige consistentemente 
+el camino correcto hacia el nodo objetivo, la búsqueda en profundidad puede ser 
+extremadamente rápida y directa. Sin embargo, a diferencia de la búsqueda por amplitud, 
+no garantiza encontrar la solución óptima si existe más de una, ya que el primer camino 
+exitoso que encuentra será el seleccionado. 
+Por otro lado, en el peor de los casos, este algoritmo podría explorar cada posible

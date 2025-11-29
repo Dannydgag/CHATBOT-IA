@@ -1,0 +1,82 @@
+lo que una acción realizada en un 
+estado no tiene influencia en los 
+estados futuros, cada estado constituye 
+un episodio atómico. El agente no tiene 
+una memoria de larga duración y cada 
+interacción con el entorno se considera 
+como 
+un 
+episodio 
+separado 
+e 
+independiente.  
+   Para la toma de decisiones y realizar 
+acciones el agente se basa únicamente 
+en la información disponible en el 
+estado actual, sin tener en cuenta el 
+historial de estados o acciones pasadas. 
+   Esto simplifica el modelado y la 
+solución de problemas en entornos en 
+los que la secuencia de acciones no 
+tiene una influencia acumulativa en los 
+resultados futuros. 
+de baldosas 
+o Recolección 
+de 
+objetos 
+o Juegos 
+de 
+cartas 
+como el Solitario 
+o Juegos 
+de 
+plataformas (Super 
+Mario Bros) 
+o Juegos de escape 
+o Simulaciones 
+de 
+emergencias 
+o Juegos 
+de 
+rol 
+(Dungeons 
+& 
+Dragons) 
+o Juegos de lógica y 
+acertijos 
+Secuencial 
+   En los entornos secuenciales, las 
+decisiones tomadas en un momento 
+dado pueden afectar a las decisiones y 
+resultados 
+futuros, 
+cada 
+estado 
+depende del histórico anterior.   
+   El agente debe evaluar no solo el 
+impacto inmediato que tienen sus 
+acciones, sino también   considerar 
+cuidadosamente las consecuencias de 
+sus acciones y tomar decisiones 
+estratégicas 
+para 
+maximizar 
+su 
+rendimiento total en el transcurso del 
+tiempo.  
+   La secuencialidad y la necesidad de 
+o Navegación en un 
+entorno 
+desconocido 
+o Juegos de ajedrez 
+o Toma de decisiones 
+en tiempo real 
+o Robot que juega al 
+futbol 
+o Ayudante 
+de 
+matemáticas 
+o Juego del veintiuno 
+(Black jack) 
+o Sistemas de control 
+de inventario
