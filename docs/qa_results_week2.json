@@ -1,0 +1,122 @@
+{
+  "text_by_page": {
+    "total_pages_found": 202,
+    "pages_listed": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      16,
+      17,
+      18,
+      "...",
+      206,
+      207,
+      208,
+      209,
+      210
+    ],
+    "bad_names": [],
+    "empty_files": [],
+    "bom_files": [],
+    "replacement_char_files": [],
+    "missing_pages": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      211,
+      212
+    ],
+    "extra_pages": [],
+    "header_candidates_top": [
+      [
+        "FUNDAMENTOS DE LA",
+        2
+      ],
+      [
+        "P",
+        2
+      ],
+      [
+        "mamífero= si",
+        2
+      ],
+      [
+        "ISBN General",
+        1
+      ],
+      [
+        "DEDICATORIA",
+        1
+      ]
+    ],
+    "footer_candidates_top": [
+      [
+        "Elaborado por los Autores",
+        2
+      ],
+      [
+        "1) Comenzar con un estado inicial.",
+        2
+      ],
+      [
+        "Volumen I",
+        1
+      ],
+      [
+        "PATRICIO RENE MORENO COSTALES",
+        1
+      ],
+      [
+        "Atribución-NoComercial-SinDerivar 4.0 Internacional (CC BY-NC-SA 4.0)",
+        1
+      ]
+    ],
+    "hyphen_positions": 7,
+    "hyphen_breaks": 2,
+    "hyphen_break_rate": 0.2857142857142857,
+    "double_spaces": 1198,
+    "triple_spaces": 603,
+    "lengths_summary": {
+      "min": 81,
+      "p25": 1584,
+      "median": 2102,
+      "p75": 2436,
+      "max": 3548,
+      "mean": 1953.9158415841584
+    }
+  },
+  "chunks": {
+    "total_lines": 518,
+    "unique_ids": 518,
+    "dup_ids": [],
+    "bad_lines": [],
+    "missing_fields": [],
+    "empty_text": [],
+    "text_len_summary": {
+      "min": 77,
+      "p25": 718,
+      "median": 915,
+      "p75": 952,
+      "max": 988,
+      "mean": 804.9555984555984
+    },
+    "duplicate_text_occurrences": 0,
+    "approx_overlap_summary": {
+      "count_pairs": 316,
+      "mean": 0.5798066581394629,
+      "median": 0.5889036147153759,
+      "p75": 0.6286618444846293,
+      "p90": 0.6489191489361703,
+      "max": 0.8976744186046511
+    }
+  }
+}
