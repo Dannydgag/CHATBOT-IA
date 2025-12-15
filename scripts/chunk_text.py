@@ -1,7 +1,6 @@
 import json
 import sys
 from pathlib import Path
-# *** CAMBIO APLICADO: Importación según tu entorno ***
 from langchain_text_splitters import RecursiveCharacterTextSplitter 
 import re 
 import unicodedata
@@ -10,20 +9,22 @@ import unicodedata
 # CONFIGURACIÓN Y CONSTANTES
 # ==============================================================================
 
-# Directorios de entrada y salida
 INPUT_DIR = Path("data") / "text_by_page"
-# *** CAMBIO APLICADO: Nombre de archivo para alinear con Mateo ***
 OUTPUT_PATH = Path("data") / "chunks" / "chunks.cleaned.jsonl" 
 
-# Parámetros clave para el Chunking
 CHUNK_SIZE = 1000 
 CHUNK_OVERLAP = 150 
-# Usamos delimitadores para que el splitter corte inteligentemente
+# Mantenemos los delimitadores \n\n y \n para que el splitter corte ANTES de que los eliminemos.
 SEPARATORS = ["\n\n", "\n", " ", ""] 
 
-# Expresión regular para caracteres de control (no imprimibles) y espacios múltiples
+# REGEX para Limpieza Final
 CONTROL_RE = re.compile(r'[\x00-\x08\x0B\x0C\x0E-\x1F]')
 MULTISPACE_RE = re.compile(r' {2,}')
+
+# REGEX para Reparación Semántica (Guiones Partidos)
+# Busca una letra/número (\w) seguida de un guion (-) y un salto de línea (\n)
+# y una letra/número al inicio de la siguiente línea. EJ: "inte-\nligencia"
+HYPHEN_LINE_RE = re.compile(r'(\w)-\n(\w)', flags=re.UNICODE) 
 
 # ==============================================================================
 # FUNCIONES PRINCIPALES
@@ -31,22 +32,22 @@ MULTISPACE_RE = re.compile(r' {2,}')
 
 def clean_chunk_text(text: str) -> str:
     """
-    *** FUNCIÓN DE LIMPIEZA FINAL (QA) ***
-    Normaliza Unicode, elimina caracteres de control y normaliza espaciado.
-    Esto asegura que los chunks estén listos para el embedding de Mateo.
+    *** ETAPA 2: LIMPIEZA FINAL POST-CHUNKING (Requisito de Mateo) ***
+    Normaliza Unicode, elimina control chars y CONVIERTE \n a espacio.
     """
     if text is None:
         return ""
         
-    # 1. Normalización Unicode: fundamental para la coherencia
+    # 1. Normalización Unicode y eliminación de BOM
     text = unicodedata.normalize('NFC', text)
-    
-    # 2. Eliminar BOM (Byte Order Mark) y caracteres de control (los "extraños")
     text = text.lstrip('\ufeff')
-    text = CONTROL_RE.sub('', text)
     
-    # 3. Normalizar saltos de línea y reemplazar non-breaking spaces
-    text = text.replace('\r\n','\n').replace('\r','\n')
+    # 2. Reemplazo CRÍTICO para Embeddings: \n -> ' '
+    # Esto fragmenta el contexto si se deja, por lo que lo reemplazamos por un espacio.
+    text = text.replace('\n', ' ')
+    
+    # 3. Eliminar caracteres de control y NBSP (\u00A0)
+    text = CONTROL_RE.sub('', text)
     text = text.replace('\u00A0', ' ')
     
     # 4. Colapsar espacios múltiples a un solo espacio
@@ -55,19 +56,27 @@ def clean_chunk_text(text: str) -> str:
     return text.strip()
 
 
+def repair_hyphenated_words(text: str) -> str:
+    """
+    *** ETAPA 1: REPARACIÓN SEMÁNTICA PRE-CHUNKING ***
+    Repara palabras cortadas por guion seguido de salto de línea, 
+    uniéndolas (ej: 'progra-\nmación' -> 'programación').
+    """
+    # Reemplaza 'word-\nnext' con 'wordnext' (eliminando el guion y el salto)
+    return HYPHEN_LINE_RE.sub(r'\1\2', text)
+
+
 def extract_simple_title(text: str) -> str | None:
-    """Intenta extraer una línea corta en mayúsculas como título para metadata."""
+    # (Función sin cambios)
     if not text:
         return None
-    
     first_line = text.splitlines()[0].strip()
     if 0 < len(first_line) < 120 and first_line.isupper():
         return first_line
-        
     return None
 
 def load_cleaned_documents(input_dir: Path) -> list:
-    """Carga todos los archivos de texto limpio."""
+    # (Función sin cambios)
     documents = []
     print(f"Cargando archivos limpios desde: {input_dir}")
     
@@ -95,10 +104,10 @@ def load_cleaned_documents(input_dir: Path) -> list:
 
 def generate_chunks(documents: list) -> list:
     """
-    Divide los documentos cargados en chunks (bloques) y genera la estructura 
-    plana final con los campos CRÍTICOS y limpieza final.
+    Flujo de dos etapas: (1) Reparación semántica del texto de la página, 
+    (2) Chunking inteligente, y (3) Limpieza final del formato.
     """
-    print("\nIniciando el Chunking Recursivo...")
+    print("\nIniciando el Chunking Recursivo con doble limpieza...")
     
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
@@ -111,26 +120,33 @@ def generate_chunks(documents: list) -> list:
     chunk_counter = 0 
     
     for doc in documents:
-        chunks_text_list = splitter.split_text(doc["text"])
+        # --- ETAPA 1: REPARACIÓN SEMÁNTICA PRE-CHUNKING ---
+        # Reparamos los guiones partidos ANTES de que el splitter actúe.
+        repaired_text = repair_hyphenated_words(doc["text"])
+        
+        # --- ETAPA 2: CHUNKING INTELIGENTE ---
+        # El splitter usa los \n remanentes para cortar lógicamente.
+        chunks_text_list = splitter.split_text(repaired_text)
         
         page_num = doc["metadata"]["page_number"]
         source_file = doc["metadata"]["source"]
         
         for chunk_index, chunk_text in enumerate(chunks_text_list):
             
-            # *** PASO CRÍTICO DE QA: Limpieza final del texto del chunk ***
+            # --- ETAPA 3: LIMPIEZA DE FORMATO POST-CHUNKING ---
+            # Ahora convertimos \n a espacios para el modelo de embedding.
             cleaned_text = clean_chunk_text(chunk_text)
             
-            if len(cleaned_text.strip()) < 20: # Omitir chunks muy cortos después de la limpieza
+            if len(cleaned_text.strip()) < 20:
                 continue
             
-            # --- ESTRUCTURA FINAL Y LIMPIA ---
+            # --- ESTRUCTURA FINAL ---
             final_chunks.append({
                 "id": f"{source_file}-{chunk_index}", 
                 "page": page_num, 
-                "source": source_file,
+                "source": source_file, 
                 "title": extract_simple_title(cleaned_text),
-                "text": cleaned_text # Usamos el texto limpio final 
+                "text": cleaned_text 
             })
             chunk_counter += 1
 
@@ -139,7 +155,7 @@ def generate_chunks(documents: list) -> list:
 
 
 def save_chunks_to_jsonl(chunks: list, output_path: Path):
-    """Guarda la lista final de chunks en el formato JSONL."""
+    # (Función sin cambios)
     output_path.parent.mkdir(parents=True, exist_ok=True) 
     
     with open(output_path, "w", encoding="utf-8") as f:
@@ -150,8 +166,7 @@ def save_chunks_to_jsonl(chunks: list, output_path: Path):
 
 
 def main():
-    """Función principal para el pipeline de chunking."""
-    
+    # (Función main sin cambios)
     documents = load_cleaned_documents(INPUT_DIR)
     
     if not documents:

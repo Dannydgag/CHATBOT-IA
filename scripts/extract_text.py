@@ -9,7 +9,7 @@ import re # Módulo de expresiones regulares para la limpieza
 
 # Ruta relativa al documento PDF de entrada.
 PDF_FILENAME = "Intro_IA.pdf"
-PDF_PATH = Path("docs") / PDF_FILENAME
+PDF_PATH = Path("data") / "pdf" / PDF_FILENAME
 
 # Directorio de salida para los archivos de texto extraídos (producción).
 OUTPUT_DIR = Path("data") / "text_by_page"
