@@ -1,15 +1,17 @@
 """
-Chatbot IA - Prototipo UI (Semana 1)
+Chatbot IA - Prototipo UI (Semana 2)
 =====================================
-Aplicación Streamlit para interactuar con el sistema RAG de IA.
+Aplicación Streamlit para interactuar con el sistema RAG de IA y visualizar chunks.
 
 Autor: Joel
-Fecha: Semana 1 - Setup inicial
+Fecha: Semana 2 - Inspector de Chunks
 """
 
 import streamlit as st
 from pathlib import Path
 import sys
+import json
+import pandas as pd
 
 # Configurar path para imports
 sys.path.append(str(Path(__file__).parent.parent))
@@ -22,7 +24,30 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ==================== FUNCIONES STUB ====================
+# ==================== FUNCIONES DE CARGA DE DATOS ====================
+
+@st.cache_data
+def load_chunks():
+    """
+    Carga los chunks procesados desde el archivo JSONL.
+    """
+    chunks_file = Path(__file__).parent.parent / "data" / "chunks" / "chunks.cleaned.jsonl"
+    chunks = []
+    
+    if not chunks_file.exists():
+        st.error(f"No se encontró el archivo de chunks: {chunks_file}")
+        return []
+
+    try:
+        with open(chunks_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                chunks.append(json.loads(line))
+        return chunks
+    except Exception as e:
+        st.error(f"Error cargando chunks: {str(e)}")
+        return []
+
+# ==================== FUNCIONES STUB (Semana 1) ====================
 # Estas funciones serán reemplazadas con la lógica real en futuras semanas
 
 def get_sample_text():
@@ -32,8 +57,11 @@ def get_sample_text():
     """
     sample_file = Path(__file__).parent.parent / "data" / "text_by_page" / "sample_pages_1-9.txt"
     try:
-        with open(sample_file, 'r', encoding='utf-8') as f:
-            return f.read()
+        # Intentar cargar sample si existe, sino mostrar mensaje
+        if sample_file.exists():
+            with open(sample_file, 'r', encoding='utf-8') as f:
+                return f.read()
+        return "Archivo de ejemplo no encontrado."
     except Exception as e:
         return f"Error cargando texto de ejemplo: {str(e)}"
 
@@ -78,38 +106,8 @@ def stub_get_context(query: str) -> str:
 
 # ==================== INTERFAZ PRINCIPAL ====================
 
-def main():
-    # Header
-    st.title("🤖 Chatbot IA - Fundamentos de Inteligencia Artificial")
-    st.markdown("---")
-    
-    # Sidebar con información y configuración
-    with st.sidebar:
-        st.header("📚 Información del Sistema")
-        st.markdown("""
-        **Estado**: Prototipo Semana 1
-        
-        **Componentes activos**:
-        - ✅ UI Streamlit (Joel)
-        - ⏳ Extracción de texto (Erik)
-        - ⏳ Pipeline RAG (Xander)
-        - ⏳ Índice vectorial (Mateo)
-        
-        **Documento fuente**:
-        Fundamentos de la IA - Volumen I
-        """)
-        
-        st.markdown("---")
-        
-        # Opciones de configuración (para futuras semanas)
-        st.subheader("⚙️ Configuración")
-        show_sources = st.checkbox("Mostrar fuentes", value=True)
-        show_context = st.checkbox("Mostrar contexto RAG", value=False)
-        
-        st.markdown("---")
-        st.caption("Semana 1 - Prototipo UI")
-        st.caption("Autor: Joel")
-    
+def render_chatbot_ui():
+    """Renderiza la interfaz del chatbot (Semana 1)"""
     # Layout principal con 2 columnas
     col1, col2 = st.columns([2, 1])
     
@@ -119,6 +117,7 @@ def main():
         # Input de pregunta
         query = st.text_area(
             "Escribe tu pregunta sobre IA:",
+            value=st.session_state.get('example_query', ''),
             placeholder="Ejemplo: ¿Qué es la inteligencia artificial?",
             height=100,
             help="Haz una pregunta sobre el contenido del documento"
@@ -155,21 +154,22 @@ def main():
                                text=f"Confianza: {response['confidence']*100:.1f}%")
                     
                     # Mostrar contexto si está habilitado
-                    if show_context:
+                    if st.session_state.get('show_context', False):
                         with st.expander("🔍 Ver contexto RAG utilizado"):
                             context = stub_get_context(query)
                             st.code(context, language=None)
         
         elif clear_btn:
+            st.session_state['example_query'] = ""
             st.rerun()
-        
+            
         elif submit_btn and not query:
             st.warning("⚠️ Por favor, escribe una pregunta antes de consultar.")
     
     with col2:
         st.header("📄 Fuentes")
         
-        if submit_btn and query and show_sources:
+        if submit_btn and query and st.session_state.get('show_sources', True):
             response = stub_query_pipeline(query)
             
             st.markdown("**Extractos relevantes del documento:**")
@@ -186,45 +186,97 @@ def main():
             st.caption("Primeras páginas extraídas del PDF:")
             sample_text = get_sample_text()
             st.text_area("", value=sample_text[:500] + "...", height=200, disabled=True)
+
+def render_chunk_inspector():
+    """Renderiza el inspector de chunks (Semana 2)"""
+    st.header("🧩 Inspector de Chunks")
+    st.markdown("Explora cómo el documento ha sido dividido en fragmentos (chunks) para el procesamiento.")
     
-    # Footer con información de desarrollo
+    chunks = load_chunks()
+    
+    if not chunks:
+        st.warning("No hay chunks cargados. Verifica que 'data/chunks/chunks.cleaned.jsonl' exista.")
+        return
+
+    # Estadísticas rápidas
+    total_chunks = len(chunks)
+    pages = sorted(list(set(c.get('page', 0) for c in chunks)))
+    
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Total de Chunks", total_chunks)
+    c2.metric("Páginas Procesadas", len(pages))
+    c3.metric("Promedio Chunks/Pág", f"{total_chunks/len(pages):.1f}" if pages else 0)
+    
     st.markdown("---")
-    st.caption("""
-    🚧 **Semana 1 - Prototipo Inicial** | 
-    Este es un esqueleto funcional. Los componentes reales se integrarán en las próximas semanas.
-    """)
+    
+    # Filtros
+    col_filter1, col_filter2 = st.columns([1, 2])
+    
+    with col_filter1:
+        selected_page = st.selectbox("Seleccionar Página:", ["Todas"] + pages)
+    
+    # Filtrar chunks
+    if selected_page != "Todas":
+        filtered_chunks = [c for c in chunks if c.get('page') == selected_page]
+    else:
+        filtered_chunks = chunks[:50]  # Limitar a 50 si son todos para no saturar
+        if len(chunks) > 50:
+            st.caption("⚠️ Mostrando primeros 50 chunks. Filtra por página para ver más específicos.")
+
+    st.subheader(f"Chunks encontrados ({len(filtered_chunks)})")
+    
+    for chunk in filtered_chunks:
+        with st.container():
+            st.info(f"**ID:** `{chunk.get('id', 'N/A')}` | **Página:** {chunk.get('page', 'N/A')}")
+            st.markdown(f"**Texto:**")
+            st.text(chunk.get('text', ''))
+            
+            with st.expander("Ver Metadatos Completos"):
+                st.json(chunk)
+            st.markdown("---")
 
 
-# ==================== EJEMPLOS Y DEMOS ====================
+def main():
+    # Header Común
+    st.title("🤖 Chatbot IA - Fundamentos de IA")
+    
+    # Sidebar con navegación
+    with st.sidebar:
+        st.header("Navegación")
+        page_mode = st.radio("Modo:", ["🤖 Chatbot (Demo)", "🧩 Inspector de Chunks"])
+        
+        st.markdown("---")
+        st.header("📚 Información")
+        st.markdown("""
+        **Estado**: Desarrollo Semana 2
+        
+        **Progreso**:
+        - ✅ UI Streamlit Base
+        - ✅ Extracción & Chunking
+        - ⏳ Índice Vectorial
+        - ⏳ Pipeline RAG
+        """)
+        
+        if page_mode == "🤖 Chatbot (Demo)":
+            st.subheader("⚙️ Configuración Chat")
+            st.session_state['show_sources'] = st.checkbox("Mostrar fuentes", value=True)
+            st.session_state['show_context'] = st.checkbox("Mostrar contexto RAG", value=False)
+    
+    # Router de páginas
+    if page_mode == "🤖 Chatbot (Demo)":
+        render_chatbot_ui()
+    else:
+        render_chunk_inspector()
 
-def show_examples():
-    """Sección de ejemplos para testing"""
+    # Footer
     st.markdown("---")
-    st.header("💡 Preguntas de Ejemplo")
-    
-    examples = [
-        "¿Qué es la inteligencia artificial?",
-        "¿Cuáles son los fundamentos de la IA?",
-        "¿Qué temas cubre el Volumen I?",
-        "Explica los conceptos principales del documento"
-    ]
-    
-    cols = st.columns(2)
-    for idx, example in enumerate(examples):
-        with cols[idx % 2]:
-            if st.button(f"📌 {example}", key=f"example_{idx}", use_container_width=True):
-                st.session_state['example_query'] = example
-
+    st.caption("Semana 2 - Inspector de Chunks & UI Update | Autor: Joel")
 
 # ==================== ENTRY POINT ====================
 
 if __name__ == "__main__":
-    # Inicializar session state si es necesario
+    # Inicializar session state
     if 'example_query' not in st.session_state:
-        st.session_state['example_query'] = None
+        st.session_state['example_query'] = ""
     
     main()
-    
-    # Mostrar ejemplos al final
-    with st.expander("💡 Ver preguntas de ejemplo"):
-        show_examples()
