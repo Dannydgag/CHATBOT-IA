@@ -1,10 +1,11 @@
 """
-Chatbot IA - Prototipo UI (Semana 2)
+Chatbot IA - Prototipo UI (Semana 3)
 =====================================
-Aplicación Streamlit para interactuar con el sistema RAG de IA y visualizar chunks.
+Aplicación Streamlit para interactuar con el sistema RAG de IA.
+Incluye: Inspector de Chunks y Búsqueda Vectorial.
 
 Autor: Joel
-Fecha: Semana 2 - Inspector de Chunks
+Fecha: Semana 3 - Búsqueda Vectorial
 """
 
 import streamlit as st
@@ -12,9 +13,31 @@ from pathlib import Path
 import sys
 import json
 import pandas as pd
+import time
 
 # Configurar path para imports
 sys.path.append(str(Path(__file__).parent.parent))
+
+# Intentar importar la API de recuperación real (Xander)
+# Si falla (porque falta el índice de Mateo), usamos un mock local
+try:
+    from orchestration.retrieval_api import retrieve
+    RETRIEVAL_AVAILABLE = True
+except ImportError:
+    RETRIEVAL_AVAILABLE = False
+    # Mock local para cuando no está listo el backend
+    def retrieve(query: str, top_k: int = 5):
+        time.sleep(0.5) # Simular latencia
+        return [
+            {
+                "id": f"mock_{i}",
+                "text": f"Resultado simulado #{i+1} para la búsqueda: '{query}'.\nEste es un texto de relleno que representa un chunk recuperado del índice vectorial.",
+                "page": 3 + i,
+                "score": 0.95 - (i * 0.05),
+                "metadata": {"source": "mock"}
+            }
+            for i in range(top_k)
+        ]
 
 # Configuración de la página
 st.set_page_config(
@@ -236,6 +259,64 @@ def render_chunk_inspector():
             st.markdown("---")
 
 
+def render_search_ui():
+    """Renderiza la interfaz de búsqueda vectorial (Semana 3)"""
+    st.header("🔍 Búsqueda Vectorial (Retrieval)")
+    st.markdown("""
+    Prueba la capacidad del sistema para recuperar fragmentos relevantes basados en tu consulta.
+    Esta vista conecta la UI con el índice vectorial (FAISS/Chroma).
+    """)
+    
+    # Estado de la conexión
+    if RETRIEVAL_AVAILABLE:
+        st.success("✅ API de Recuperación conectada (Orchestration Layer)")
+    else:
+        st.warning("⚠️ API de Recuperación no disponible (Usando Mock Local). Verifica 'orchestration/retrieval_api.py' y el índice.")
+
+    col_search, col_opts = st.columns([3, 1])
+    
+    with col_search:
+        query = st.text_input("Consulta de búsqueda:", placeholder="Ej: ¿Qué es un agente inteligente?")
+    
+    with col_opts:
+        top_k = st.slider("Resultados (Top-K):", min_value=1, max_value=10, value=3)
+        
+    if st.button("Buscar Fragmentos", type="primary"):
+        if not query:
+            st.warning("Por favor ingresa una consulta.")
+            return
+            
+        with st.spinner(f"Buscando los {top_k} fragmentos más relevantes..."):
+            start_time = time.time()
+            try:
+                results = retrieve(query=query, top_k=top_k)
+                elapsed = time.time() - start_time
+                
+                st.markdown(f"**Resultados encontrados en {elapsed:.3f}s**")
+                
+                if not results:
+                    st.info("No se encontraron resultados relevantes.")
+                
+                for i, res in enumerate(results, 1):
+                    score = res.get('score', 0.0)
+                    # Color del score basado en calidad
+                    score_color = "green" if score > 0.7 else "orange" if score > 0.5 else "red"
+                    
+                    with st.container():
+                        c1, c2 = st.columns([1, 10])
+                        with c1:
+                            st.markdown(f"### #{i}")
+                        with c2:
+                            st.markdown(f"**Página {res.get('page', '?')}** | Score: :{score_color}[{score:.4f}]")
+                            st.info(res.get('text', 'Sin texto'))
+                            with st.expander("Ver metadata raw"):
+                                st.json(res)
+                        st.divider()
+                        
+            except Exception as e:
+                st.error(f"Error durante la búsqueda: {str(e)}")
+
+
 def main():
     # Header Común
     st.title("🤖 Chatbot IA - Fundamentos de IA")
@@ -243,17 +324,17 @@ def main():
     # Sidebar con navegación
     with st.sidebar:
         st.header("Navegación")
-        page_mode = st.radio("Modo:", ["🤖 Chatbot (Demo)", "🧩 Inspector de Chunks"])
+        page_mode = st.radio("Modo:", ["🤖 Chatbot (Demo)", "🧩 Inspector de Chunks", "🔍 Búsqueda Vectorial"])
         
         st.markdown("---")
         st.header("📚 Información")
         st.markdown("""
-        **Estado**: Desarrollo Semana 2
+        **Estado**: Desarrollo Semana 3
         
         **Progreso**:
         - ✅ UI Streamlit Base
         - ✅ Extracción & Chunking
-        - ⏳ Índice Vectorial
+        - ✅ Índice Vectorial
         - ⏳ Pipeline RAG
         """)
         
@@ -265,12 +346,14 @@ def main():
     # Router de páginas
     if page_mode == "🤖 Chatbot (Demo)":
         render_chatbot_ui()
-    else:
+    elif page_mode == "🧩 Inspector de Chunks":
         render_chunk_inspector()
+    else:
+        render_search_ui()
 
     # Footer
     st.markdown("---")
-    st.caption("Semana 2 - Inspector de Chunks & UI Update | Autor: Joel")
+    st.caption("Semana 3 - Búsqueda Vectorial & UI Update | Autor: Joel")
 
 # ==================== ENTRY POINT ====================
 
