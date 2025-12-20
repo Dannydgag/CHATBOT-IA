@@ -6,108 +6,73 @@ import re
 import unicodedata
 
 # ==============================================================================
-# CONFIGURACIÓN Y CONSTANTES
+# 1. CONFIGURACIÓN V2 - CALIBRADA PARA MÁXIMA PRECISIÓN
 # ==============================================================================
 
 INPUT_DIR = Path("data") / "text_by_page"
 OUTPUT_PATH = Path("data") / "chunks" / "chunks.cleaned.jsonl" 
 
-CHUNK_SIZE = 1000 
-CHUNK_OVERLAP = 150 
-# Mantenemos los delimitadores \n\n y \n para que el splitter corte ANTES de que los eliminemos.
-SEPARATORS = ["\n\n", "\n", " ", ""] 
+# Ajustes sugeridos para mejorar el Precision@1 (Semana 3)
+CHUNK_SIZE = 850      # Tamaño ideal para capturar conceptos completos
+CHUNK_OVERLAP = 200   # Solape suficiente para no perder contexto entre bloques
 
-# REGEX para Limpieza Final
-CONTROL_RE = re.compile(r'[\x00-\x08\x0B\x0C\x0E-\x1F]')
-MULTISPACE_RE = re.compile(r' {2,}')
+# SEPARADORES: Ahora incluimos ". " para intentar NO cortar oraciones a la mitad
+SEPARATORS = ["\n\n", "\n", ". ", " ", ""] 
 
-# REGEX para Reparación Semántica (Guiones Partidos)
-# Busca una letra/número (\w) seguida de un guion (-) y un salto de línea (\n)
-# y una letra/número al inicio de la siguiente línea. EJ: "inte-\nligencia"
-HYPHEN_LINE_RE = re.compile(r'(\w)-\n(\w)', flags=re.UNICODE) 
+# Expresiones regulares para limpieza y reparación
+CONTROL_RE = re.compile(r'[\x00-\x08\x0B\x0C\x0E-\x1F]') # Caracteres invisibles/basura
+MULTISPACE_RE = re.compile(r' {2,}')                    # Espacios dobles o más
+HYPHEN_LINE_RE = re.compile(r'(\w)-\n(\w)', flags=re.UNICODE) # Guiones partidos
 
 # ==============================================================================
-# FUNCIONES PRINCIPALES
+# 2. FUNCIONES DE LIMPIEZA Y PROCESAMIENTO
 # ==============================================================================
 
 def clean_chunk_text(text: str) -> str:
     """
-    *** ETAPA 2: LIMPIEZA FINAL POST-CHUNKING (Requisito de Mateo) ***
-    Normaliza Unicode, elimina control chars y CONVIERTE \n a espacio.
+    LIMPIEZA FINAL: Asegura que el texto sea puro para el modelo de Embedding.
     """
-    if text is None:
-        return ""
-        
-    # 1. Normalización Unicode y eliminación de BOM
-    text = unicodedata.normalize('NFC', text)
-    text = text.lstrip('\ufeff')
+    if not text: return ""
     
-    # 2. Reemplazo CRÍTICO para Embeddings: \n -> ' '
-    # Esto fragmenta el contexto si se deja, por lo que lo reemplazamos por un espacio.
+    # Normalización: Arregla tildes y caracteres Unicode
+    text = unicodedata.normalize('NFC', text).lstrip('\ufeff')
+    
+    # MEJORA V2: Unifica comillas (Mateo) para evitar ruidos en la búsqueda
+    text = re.sub(r'[“”„«»]', '"', text)
+    text = re.sub(r'[‘’`´]', "'", text)
+    
+    # REQUISITO CRÍTICO: Convertir saltos de línea en espacios para no fragmentar el contexto
     text = text.replace('\n', ' ')
     
-    # 3. Eliminar caracteres de control y NBSP (\u00A0)
+    # Eliminar basura: Caracteres de control y espacios de no ruptura (NBSP)
     text = CONTROL_RE.sub('', text)
     text = text.replace('\u00A0', ' ')
     
-    # 4. Colapsar espacios múltiples a un solo espacio
+    # Estética: Colapsar espacios múltiples en uno solo
     text = MULTISPACE_RE.sub(' ', text)
     
     return text.strip()
 
-
 def repair_hyphenated_words(text: str) -> str:
-    """
-    *** ETAPA 1: REPARACIÓN SEMÁNTICA PRE-CHUNKING ***
-    Repara palabras cortadas por guion seguido de salto de línea, 
-    uniéndolas (ej: 'progra-\nmación' -> 'programación').
-    """
-    # Reemplaza 'word-\nnext' con 'wordnext' (eliminando el guion y el salto)
+    """Repara palabras cortadas al final de línea (ej: progra-\\nmación)."""
     return HYPHEN_LINE_RE.sub(r'\1\2', text)
 
-
 def extract_simple_title(text: str) -> str | None:
-    # (Función sin cambios)
-    if not text:
-        return None
-    first_line = text.splitlines()[0].strip()
-    if 0 < len(first_line) < 120 and first_line.isupper():
-        return first_line
+    """Extrae la primera oración como título si es corta y está en MAYÚSCULAS."""
+    sentences = text.split('.') 
+    if sentences:
+        first = sentences[0].strip()
+        if 5 < len(first) < 100 and first.isupper():
+            return first
     return None
 
-def load_cleaned_documents(input_dir: Path) -> list:
-    # (Función sin cambios)
-    documents = []
-    print(f"Cargando archivos limpios desde: {input_dir}")
-    
-    for file_path in sorted(input_dir.glob("page_*.txt")):
-        try:
-            page_num = int(file_path.stem.split('_')[-1])
-        except ValueError:
-            continue
-
-        with open(file_path, "r", encoding="utf-8") as f:
-            content = f.read()
-            
-            if content.strip():
-                documents.append({
-                    "text": content,
-                    "metadata": {
-                        "source": file_path.name,
-                        "page_number": page_num
-                    }
-                })
-                
-    print(f"✅ Documentos cargados: {len(documents)} páginas con contenido.")
-    return documents
-
+# ==============================================================================
+# 3. FLUJO PRINCIPAL (PIPELINE)
+# ==============================================================================
 
 def generate_chunks(documents: list) -> list:
-    """
-    Flujo de dos etapas: (1) Reparación semántica del texto de la página, 
-    (2) Chunking inteligente, y (3) Limpieza final del formato.
-    """
-    print("\nIniciando el Chunking Recursivo con doble limpieza...")
+    """Divide documentos en pedazos lógicos con doble limpieza."""
+    print(f"\n🚀 Iniciando Chunking V2 (Size: {CHUNK_SIZE}, Overlap: {CHUNK_OVERLAP})")
     
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
@@ -117,65 +82,64 @@ def generate_chunks(documents: list) -> list:
     )
     
     final_chunks = []
-    chunk_counter = 0 
-    
     for doc in documents:
-        # --- ETAPA 1: REPARACIÓN SEMÁNTICA PRE-CHUNKING ---
-        # Reparamos los guiones partidos ANTES de que el splitter actúe.
-        repaired_text = repair_hyphenated_words(doc["text"])
+        # ETAPA 1: Reparar palabras cortadas ANTES de dividir el texto
+        repaired = repair_hyphenated_words(doc["text"])
         
-        # --- ETAPA 2: CHUNKING INTELIGENTE ---
-        # El splitter usa los \n remanentes para cortar lógicamente.
-        chunks_text_list = splitter.split_text(repaired_text)
+        # ETAPA 2: División inteligente usando los separadores definidos
+        raw_chunks = splitter.split_text(repaired)
         
-        page_num = doc["metadata"]["page_number"]
-        source_file = doc["metadata"]["source"]
-        
-        for chunk_index, chunk_text in enumerate(chunks_text_list):
+        for i, chunk_text in enumerate(raw_chunks):
+            # ETAPA 3: Limpieza profunda de cada pedazo
+            cleaned = clean_chunk_text(chunk_text)
             
-            # --- ETAPA 3: LIMPIEZA DE FORMATO POST-CHUNKING ---
-            # Ahora convertimos \n a espacios para el modelo de embedding.
-            cleaned_text = clean_chunk_text(chunk_text)
+            # Omitir fragmentos basura o muy cortos
+            if len(cleaned) < 25: continue
             
-            if len(cleaned_text.strip()) < 20:
-                continue
-            
-            # --- ESTRUCTURA FINAL ---
             final_chunks.append({
-                "id": f"{source_file}-{chunk_index}", 
-                "page": page_num, 
-                "source": source_file, 
-                "title": extract_simple_title(cleaned_text),
-                "text": cleaned_text 
+                "id": f"{doc['metadata']['source']}-{i}", 
+                "page": doc["metadata"]["page_number"], 
+                "source": doc["metadata"]["source"], 
+                "title": extract_simple_title(cleaned),
+                "text": cleaned 
             })
-            chunk_counter += 1
-
-    print(f"✅ Chunking finalizado. Total de chunks generados: {chunk_counter}")
+            
     return final_chunks
 
-
-def save_chunks_to_jsonl(chunks: list, output_path: Path):
-    # (Función sin cambios)
-    output_path.parent.mkdir(parents=True, exist_ok=True) 
-    
-    with open(output_path, "w", encoding="utf-8") as f:
-        for chunk in chunks:
-            f.write(json.dumps(chunk, ensure_ascii=False) + '\n')
-            
-    print(f"✅ Entregable final generado: {output_path}")
-
+def load_cleaned_documents(input_dir: Path) -> list:
+    """Carga los archivos de texto por página."""
+    documents = []
+    print(f"📂 Cargando páginas desde: {input_dir}")
+    for file_path in sorted(input_dir.glob("page_*.txt")):
+        try:
+            page_num = int(file_path.stem.split('_')[-1])
+            with open(file_path, "r", encoding="utf-8") as f:
+                content = f.read()
+                if content.strip():
+                    documents.append({
+                        "text": content,
+                        "metadata": {"source": file_path.name, "page_number": page_num}
+                    })
+        except: continue
+    return documents
 
 def main():
-    # (Función main sin cambios)
-    documents = load_cleaned_documents(INPUT_DIR)
-    
-    if not documents:
-        print("ERROR: No se encontraron documentos limpios para procesar.")
-        sys.exit(1)
+    # 1. Cargar datos
+    docs = load_cleaned_documents(INPUT_DIR)
+    if not docs: 
+        print("❌ Error: No se encontraron documentos.")
+        return
         
-    chunks = generate_chunks(documents)
+    # 2. Procesar
+    chunks = generate_chunks(docs)
     
-    save_chunks_to_jsonl(chunks, OUTPUT_PATH)
+    # 3. Guardar resultado final
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True) 
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        for c in chunks:
+            f.write(json.dumps(c, ensure_ascii=False) + '\n')
+            
+    print(f"✅ Proceso terminado. {len(chunks)} chunks guardados en {OUTPUT_PATH}")
 
 if __name__ == '__main__':
-    main()
+    main()  
