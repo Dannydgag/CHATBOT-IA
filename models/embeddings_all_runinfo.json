@@ -1,0 +1,7 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "input": "data\\chunks\\chunks.cleaned.jsonl",
+  "timestamp": "2025-12-19T11:43:40Z",
+  "batch": 64,
+  "normalize": true
+}
