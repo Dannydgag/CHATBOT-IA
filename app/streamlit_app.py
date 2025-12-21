@@ -14,6 +14,10 @@ import sys
 import json
 import pandas as pd
 import time
+import fitz # PyMuPDF
+from PIL import Image
+import base64
+from urllib.parse import quote
 
 # Configurar path para imports
 sys.path.append(str(Path(__file__).parent.parent))
@@ -46,6 +50,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Param de navegación (permite abrir visor en otra pestaña)
+_NAV = st.query_params
 
 # ==================== FUNCIONES DE CARGA DE DATOS ====================
 
@@ -260,64 +267,251 @@ def render_chunk_inspector():
 
 
 def render_search_ui():
-    """Renderiza la interfaz de búsqueda vectorial (Semana 3)"""
-    st.header("🔍 Búsqueda Vectorial (Retrieval)")
-    st.markdown("""
-    Prueba la capacidad del sistema para recuperar fragmentos relevantes basados en tu consulta.
-    Esta vista conecta la UI con el índice vectorial (FAISS/Chroma).
-    """)
+    """Renderiza la interfaz de búsqueda vectorial (v2 - Semana 4)"""
+    st.header("🔍 Búsqueda Vectorial")
+    st.markdown("Explora el índice de conocimiento del Chatbot. Esta herramienta permite validar la recuperación de información.")
+
+    # Estado persistente para evitar que los botones (que causan rerun) borren resultados
+    st.session_state.setdefault("search_query", "")
+    st.session_state.setdefault("search_top_k", 3)
+    st.session_state.setdefault("last_search", None)  # Dict con status/results/message
+    st.session_state.setdefault("selected_source_page", None)
     
     # Estado de la conexión
     if RETRIEVAL_AVAILABLE:
-        st.success("✅ API de Recuperación conectada (Orchestration Layer)")
+        st.caption("✅ Conectado al Pipeline de Recuperación")
     else:
-        st.warning("⚠️ API de Recuperación no disponible (Usando Mock Local). Verifica 'orchestration/retrieval_api.py' y el índice.")
+        st.error("❌ API de Recuperación no disponible. Usando modo simulación.")
 
-    col_search, col_opts = st.columns([3, 1])
-    
-    with col_search:
-        query = st.text_input("Consulta de búsqueda:", placeholder="Ej: ¿Qué es un agente inteligente?")
-    
-    with col_opts:
-        top_k = st.slider("Resultados (Top-K):", min_value=1, max_value=10, value=3)
+    # Área de búsqueda con estilo
+    with st.container(border=True):
+        col_search, col_opts = st.columns([4, 1])
+        with col_search:
+            query = st.text_input(
+                "Consulta:",
+                placeholder="Ej: ¿Qué es un agente racional?",
+                label_visibility="collapsed",
+                value=st.session_state["search_query"],
+            )
+        with col_opts:
+            top_k = st.number_input(
+                "Top K",
+                min_value=1,
+                max_value=10,
+                value=int(st.session_state["search_top_k"]),
+                label_visibility="collapsed",
+            )
         
-    if st.button("Buscar Fragmentos", type="primary"):
-        if not query:
-            st.warning("Por favor ingresa una consulta.")
-            return
-            
-        with st.spinner(f"Buscando los {top_k} fragmentos más relevantes..."):
-            start_time = time.time()
-            try:
-                results = retrieve(query=query, top_k=top_k)
-                elapsed = time.time() - start_time
+        if st.button("🔍 Buscar", type="primary", use_container_width=True):
+            if not query:
+                st.toast("⚠️ Por favor escribe una consulta")
+                return
+
+            # Persistir parámetros de búsqueda
+            st.session_state["search_query"] = query
+            st.session_state["search_top_k"] = int(top_k)
+            # Al buscar de nuevo, reseteamos la fuente seleccionada
+            st.session_state["selected_source_page"] = None
                 
-                st.markdown(f"**Resultados encontrados en {elapsed:.3f}s**")
-                
-                if not results:
-                    st.info("No se encontraron resultados relevantes.")
-                
-                for i, res in enumerate(results, 1):
-                    score = res.get('score', 0.0)
-                    # Color del score basado en calidad
-                    score_color = "green" if score > 0.7 else "orange" if score > 0.5 else "red"
+            # Ejecutar búsqueda
+            with st.status("Consultando base de conocimiento...", expanded=True) as status:
+                start_time = time.time()
+                try:
+                    st.write("Generando embedding de consulta...")
+                    # Simular pasos si es muy rápido
+                    time.sleep(0.3) 
                     
-                    with st.container():
-                        c1, c2 = st.columns([1, 10])
-                        with c1:
-                            st.markdown(f"### #{i}")
-                        with c2:
-                            st.markdown(f"**Página {res.get('page', '?')}** | Score: :{score_color}[{score:.4f}]")
-                            st.info(res.get('text', 'Sin texto'))
-                            with st.expander("Ver metadata raw"):
-                                st.json(res)
-                        st.divider()
-                        
-            except Exception as e:
-                st.error(f"Error durante la búsqueda: {str(e)}")
+                    st.write("Buscando fragmentos similares...")
+                    response = retrieve(query=query, top_k=int(top_k))
+                    elapsed = time.time() - start_time
+                    
+                    # Procesar respuesta
+                    results = []
+                    status_code = "ok"
+                    msg = ""
+                    
+                    if isinstance(response, dict):
+                        status_code = response.get("status", "ok")
+                        results = response.get("results", [])
+                        msg = response.get("message", "")
+                    else:
+                        results = response
+
+                    # Normalizar para que la UI siempre trabaje con dict
+                    normalized = {
+                        "status": status_code,
+                        "results": results,
+                        "message": msg,
+                        "elapsed": float(elapsed),
+                    }
+                    st.session_state["last_search"] = normalized
+
+                    if status_code == "no_answer":
+                        status.update(label="No se encontró información relevante", state="error", expanded=False)
+                        st.error(f"🚫 {msg}")
+                        return
+
+                    status.update(label=f"Búsqueda completada en {elapsed:.3f}s", state="complete", expanded=False)
+                    
+                    # No renderizamos aquí: el render de resultados queda abajo y usa session_state
+                                    
+                except Exception as e:
+                    status.update(label="Error en la búsqueda", state="error")
+                    st.error(f"Ocurrió un error: {str(e)}")
+
+    # Render persistente de resultados (no depende del click reciente)
+    last = st.session_state.get("last_search")
+    if last is None:
+        st.info("Haz una búsqueda para ver resultados.")
+        return
+
+    st.divider()
+    results = last.get("results", [])
+    elapsed = last.get("elapsed", None)
+    if elapsed is not None:
+        st.caption(f"⏱️ Última búsqueda: {elapsed:.3f}s")
+
+    st.subheader(f"Resultados ({len(results)})")
+    if not results:
+        st.info("No se encontraron resultados relevantes.")
+        return
+
+    for i, res in enumerate(results, 1):
+        score = float(res.get("score", 0.0) or 0.0)
+        page = res.get("page", "?")
+        text = res.get("text", "Sin contenido")
+
+        with st.container(border=True):
+            c1, c2 = st.columns([0.8, 0.2])
+            with c1:
+                st.markdown(f"**Fragmento {i}** (Página {page})")
+            with c2:
+                color = "green" if score > 0.7 else "orange" if score > 0.5 else "red"
+                st.markdown(f":{color}[Score: {score:.2f}]")
+
+            st.markdown(f"> {text}")
+
+            bc1, bc2 = st.columns([0.25, 0.75])
+            with bc1:
+                if st.button("📖 Ver fuente", key=f"src_{i}"):
+                    # Abrir visor en nueva pestaña (misma app) con query param
+                    try:
+                        page_int = int(page)
+                    except Exception:
+                        page_int = None
+
+                    if page_int is None:
+                        st.error("La página devuelta por el backend no es un número válido.")
+                    else:
+                        base_url = st.get_option("browser.serverAddress")
+                        server_port = st.get_option("server.port")
+                        # Si serverAddress está vacío, dejamos que el navegador resuelva con host actual.
+                        if base_url:
+                            app_url = f"http://{base_url}:{server_port}"
+                        else:
+                            app_url = f"http://localhost:{server_port}"
+
+                        viewer_url = f"{app_url}?pdf_page={page_int}"
+                        # Enlace HTML con target=_blank para abrir otra pestaña.
+                        st.markdown(
+                            f"<a href=\"{viewer_url}\" target=\"_blank\">Abrir fuente (página {page_int})</a>",
+                            unsafe_allow_html=True,
+                        )
+
+            with bc2:
+                with st.expander("Metadata técnica"):
+                    st.json(res)
+
+    # Nota: la fuente ahora se abre en otra pestaña.
+
+
+@st.cache_data(show_spinner=False)
+def get_pdf_page_image(page_num):
+    """Renderiza una página del PDF como imagen (cacheada)."""
+    pdf_path = Path(__file__).parent.parent / "data" / "pdf" / "Intro_IA.pdf"
+    
+    if not pdf_path.exists():
+        return None
+        
+    try:
+        doc = fitz.open(str(pdf_path))
+        # Ajustar índice (PDF es 0-based, data es 1-based)
+        page_idx = int(page_num) - 1
+        
+        if 0 <= page_idx < len(doc):
+            page = doc.load_page(page_idx)
+            # Renderizar con zoom para mejor calidad
+            pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            return img
+            
+    except Exception as e:
+        print(f"Error rendering PDF: {e}")
+        return None
+    return None
+
+
+@st.cache_data(show_spinner=False)
+def _pdf_page_png_bytes(page_num: int) -> bytes | None:
+    """Devuelve bytes PNG de la página del PDF (para servir en otra pestaña)."""
+    pdf_path = Path(__file__).parent.parent / "data" / "pdf" / "Intro_IA.pdf"
+    if not pdf_path.exists():
+        return None
+
+    try:
+        doc = fitz.open(str(pdf_path))
+        page_idx = int(page_num) - 1
+        if not (0 <= page_idx < len(doc)):
+            return None
+        page = doc.load_page(page_idx)
+        pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
+        return pix.tobytes("png")
+    except Exception:
+        return None
+
+
+def _render_pdf_viewer_page():
+    """Vista dedicada para abrir en otra pestaña y ver una página del PDF."""
+    page_str = _NAV.get("pdf_page")
+    try:
+        page_num = int(page_str) if page_str is not None else None
+    except Exception:
+        page_num = None
+
+    st.title("📄 Fuente (PDF)")
+
+    pdf_path = Path(__file__).parent.parent / "data" / "pdf" / "Intro_IA.pdf"
+    if not pdf_path.exists():
+        st.error("No se encontró el PDF en `data/pdf/Intro_IA.pdf`.")
+        return
+
+    if page_num is None:
+        st.info("Falta el parámetro `pdf_page`. Vuelve al buscador y usa 'Ver fuente'.")
+        return
+
+    st.caption(f"Mostrando: Intro_IA.pdf — Página {page_num}")
+
+    png_bytes = _pdf_page_png_bytes(page_num)
+    if png_bytes is None:
+        st.error("No pude renderizar esa página (posiblemente fuera de rango).")
+        return
+
+    st.image(png_bytes, use_container_width=True)
+
+    # También damos un link directo al PDF completo en base64 (nueva pestaña)
+    # Nota: no todos los navegadores respetan #page=, pero suele funcionar en PDF.js.
+    with open(pdf_path, "rb") as f:
+        pdf_b64 = base64.b64encode(f.read()).decode("utf-8")
+    pdf_url = f"data:application/pdf;base64,{pdf_b64}#page={page_num}"
+    st.link_button("Abrir PDF completo (nueva pestaña)", pdf_url)
 
 
 def main():
+    # Si se pasó pdf_page, renderizar visor dedicado y salir.
+    if _NAV.get("pdf_page") is not None:
+        _render_pdf_viewer_page()
+        return
+
     # Header Común
     st.title("🤖 Chatbot IA - Fundamentos de IA")
     
@@ -329,13 +523,13 @@ def main():
         st.markdown("---")
         st.header("📚 Información")
         st.markdown("""
-        **Estado**: Desarrollo Semana 3
+        **Estado**: Desarrollo Semana 4
         
         **Progreso**:
         - ✅ UI Streamlit Base
         - ✅ Extracción & Chunking
-        - ✅ Índice Vectorial
-        - ⏳ Pipeline RAG
+        - ✅ Búsqueda Vectorial (v2)
+        - ⏳ Pipeline RAG Completo
         """)
         
         if page_mode == "🤖 Chatbot (Demo)":
@@ -353,7 +547,7 @@ def main():
 
     # Footer
     st.markdown("---")
-    st.caption("Semana 3 - Búsqueda Vectorial & UI Update | Autor: Joel")
+    st.caption("Semana 4 - Búsqueda Vectorial v2 | Autor: Joel")
 
 # ==================== ENTRY POINT ====================
 

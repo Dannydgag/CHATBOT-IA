@@ -2,21 +2,21 @@
 
 ## 📋 Descripción
 
-Interfaz de usuario para el Chatbot de IA, actualizada para la **Semana 3** del proyecto.
-Incluye capacidades de búsqueda vectorial y visualización de chunks.
+Interfaz de usuario para el Chatbot de IA, actualizada para la **Semana 4** del proyecto.
+Incluye capacidades de búsqueda vectorial híbrida, manejo de estados y UX refinada.
 
 **Autor**: Joel  
-**Estado**: Semana 3 - Búsqueda Vectorial (Search Ready)
+**Estado**: Semana 4 - Integración Total y UX Refinado
 
 ---
 
-## 🎯 Objetivos de la Semana 3
+## 🎯 Objetivos de la Semana 4
 
-✅ Implementar interfaz de Búsqueda Vectorial (Retrieval)  
-✅ Conectar UI con API de orquestación (`retrieve`)  
-✅ Visualizar resultados Top-K con score y metadata  
-✅ Implementar fallback/mock para desarrollo independiente  
-✅ Mantener funcionalidades anteriores (Inspector de Chunks)
+✅ Integrar respuesta estructurada de `retrieval_api` (status/results)  
+✅ Manejar visualmente el caso "No hay respuesta" (Thresholding)  
+✅ Agregar botón "Ver Fuente" en resultados  
+✅ Mejorar feedback visual de scores y tiempos  
+✅ Preparar UI para integración con Pipeline Completo
 
 ---
 
@@ -203,40 +203,37 @@ Se añadieron a `requirements.txt`:
 - `altair==5.4.1`: Visualizaciones (dependencia de Streamlit)
 - `pandas==2.2.3`: Manejo de datos (dependencia de Streamlit)
 
-### Estado Actual (Semana 3)
+### Estado Actual (Semana 4)
 
-- ✅ **Completado**: Interfaz de Búsqueda Vectorial
-- ✅ **Completado**: Integración con `orchestration.retrieval_api`
-- ✅ **Completado**: Mock local para desarrollo sin backend
-- ⏳ **Pendiente**: Integración final con índice real (Mateo) y Pipeline completo (Xander)
+- ✅ **Completado**: Interfaz de Búsqueda Vectorial Híbrida
+- ✅ **Completado**: Manejo de respuestas estructuradas (status/message)
+- ✅ **Completado**: Botón "Ver Fuente" (Simulado)
+- ⏳ **Pendiente**: Integración final con `full_pipeline.py` (Xander)
 
-### Próximos Pasos (Semana 4+)
+### Próximos Pasos (Semana 5)
 
-1. Integrar respuesta generativa (LLM) en el modo Chatbot
-2. Manejar casos de "No hay respuesta" con feedback visual
-3. Implementar visor de PDF embebido (si es posible)
-4. Optimizar UX basado en feedback de pruebas
+1. Integrar respuesta generativa (LLM) si se decide incluir
+2. Implementar visor de PDF real embebido
+3. Preparar demo final y video
+4. Documentación de usuario final
 
 ---
 
 ## 🤝 Colaboración
 
 ### Para Mateo
-La UI ahora espera resultados con este formato desde `retrieve()`:
-```python
-{
-    "text": "...",
-    "page": 3,
-    "score": 0.85,
-    "metadata": {...}
-}
-```
-El score se usa para colorear la confianza (Verde > 0.7).
+La UI ahora maneja correctamente el thresholding. Si `retrieve()` devuelve `status: "no_answer"`, la UI muestra el mensaje amigable definido por el backend.
 
 ### Para Xander
-La UI intenta importar `retrieve` desde `orchestration.retrieval_api`.
-Si tu script falla (por dependencias de Mateo), la UI usa automáticamente un mock local.
-Asegúrate de que `retrieve(query, top_k)` devuelva una lista de dicts.
+La UI está lista para recibir el objeto de respuesta estructurado:
+```python
+{
+    "status": "ok" | "no_answer",
+    "results": [...],
+    "message": "..."
+}
+```
+Asegúrate de que `full_pipeline.py` mantenga esta estructura o actualízame si cambia.
 
 ### Para Gabo
 El prototipo está completo y listo para revisión. Componentes que necesitas coordinar:
