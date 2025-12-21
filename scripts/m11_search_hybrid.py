@@ -9,152 +9,152 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-
 # =========================
-# Paths (AJUSTADOS A TU REPO)
+# Paths
 # =========================
 ROOT = Path(__file__).resolve().parents[1]
-
 CHUNKS_FILE = ROOT / "data" / "chunks" / "chunks.cleaned.jsonl"
 FAISS_INDEX_FILE = ROOT / "index" / "faiss.index"
-TFIDF_FILE = ROOT / "index" / "tfidf.json"
+TFIDF_VEC_FILE = ROOT / "index" / "tfidf_vectorizer.joblib"
+TFIDF_MAT_FILE = ROOT / "index" / "tfidf_matrix.npz"
 
+# =========================
+# Regex útiles
+# =========================
+QUESTION_DEFINITION_RE = re.compile(
+    r'^\s*(qué\s+es|definición\s+de|qué\s+significa|define\s+qué)',
+    re.IGNORECASE
+)
+
+SENT_SPLIT_RE = re.compile(r'(?<=[.!?])\s+')
 
 # =========================
 # Utils
 # =========================
 def load_chunks(path):
-    chunks = []
     with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            chunks.append(json.loads(line))
-    return chunks
-
-
-def load_tfidf(path):
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    tfidf_vec = TfidfVectorizer(
-        vocabulary=data["vocab"],
-        lowercase=True
-    )
-
-    # Inyectar IDF entrenados
-    tfidf_vec.idf_ = np.array(data["idf"])
-    tfidf_vec._tfidf._idf_diag = np.diag(tfidf_vec.idf_)
-
-    tfidf_mat = np.array(data["matrix"], dtype="float32")
-    return tfidf_vec, tfidf_mat
-
-
-def normalize(v):
-    return v / np.linalg.norm(v)
-
+        return [json.loads(l) for l in f]
 
 def tokenize(text):
     return re.findall(r"\w+", text.lower())
 
+def normalize(v):
+    n = np.linalg.norm(v)
+    return v if n == 0 else v / n
 
-def build_snippet(text, query, max_len):
-    q = query.lower()
-    t = text.lower()
-    idx = t.find(q)
+def build_sentence_snippet(text, query, max_chars=400):
+    sentences = SENT_SPLIT_RE.split(text)
+    q_tokens = set(tokenize(query))
 
-    if idx == -1:
-        return text[:max_len].rstrip()
+    best, best_overlap = None, 0
+    for s in sentences:
+        overlap = len(q_tokens & set(tokenize(s)))
+        if overlap > best_overlap:
+            best_overlap = overlap
+            best = s.strip()
 
-    start = max(0, idx - max_len // 2)
-    end = min(len(text), idx + len(q) + max_len // 2)
-    return text[start:end].strip()
+    if not best:
+        return text[:max_chars].strip()
 
+    if len(best) > max_chars:
+        return best[:max_chars].strip()
+
+    return best
 
 # =========================
-# Search (Hybrid)
+# Search
 # =========================
-def search(query, topk=8, alpha=0.6, max_snip=300, retrieve_k=None):
+def search(
+    query,
+    topk=8,
+    alpha=0.6,
+    retrieve_k=256,
+    max_snip=400,
+    min_score=0.548
+):
     chunks = load_chunks(CHUNKS_FILE)
-    tfidf_vec, tfidf_mat = load_tfidf(TFIDF_FILE)
 
-    index = faiss.read_index(str(FAISS_INDEX_FILE))
+    # Embeddings
     model = SentenceTransformer("all-MiniLM-L6-v2")
+    index = faiss.read_index(str(FAISS_INDEX_FILE))
 
-    # --- Embedding search ---
-    q_emb = model.encode([query])[0]
-    q_emb = normalize(q_emb).astype("float32").reshape(1, -1)
+    q_emb = normalize(model.encode([query])[0]).astype("float32").reshape(1, -1)
+    emb_scores, emb_idxs = index.search(q_emb, retrieve_k)
+    emb_scores, emb_idxs = emb_scores[0], emb_idxs[0]
 
-    RETRIEVE_K = retrieve_k or max(128, topk * 8)
-    scores, idxs = index.search(q_emb, RETRIEVE_K)
+    # TF-IDF
+    import joblib, scipy.sparse as sp
+    tfidf_vec = joblib.load(TFIDF_VEC_FILE)
+    tfidf_mat = sp.load_npz(TFIDF_MAT_FILE)
 
-    scores = scores[0]
-    idxs = idxs[0]
-
-    # --- TF-IDF search ---
     q_tfidf = tfidf_vec.transform([query])
     tfidf_scores = cosine_similarity(q_tfidf, tfidf_mat)[0]
 
-    # --- Combine ---
-    cand_mask = idxs >= 0
-    cand_idxs = idxs[cand_mask]
-
-    emb_scores = scores[cand_mask]
-    tfidf_sub = tfidf_scores[cand_idxs]
-
-    combined = alpha * emb_scores + (1 - alpha) * tfidf_sub
-
-    # --- Boosts ---
-    query_tokens = set(tokenize(query))
-    PHRASE_BOOST = 0.25
-    TOKEN_MULT = 0.05
-
     results = []
-    for i, ci in enumerate(cand_idxs):
-        chunk = chunks[int(ci)]
-        txt = chunk["text"].lower()
+    is_definition = bool(QUESTION_DEFINITION_RE.match(query))
+    query_tokens = set(tokenize(query))
 
+    for i, idx in enumerate(emb_idxs):
+        if idx < 0:
+            continue
+
+        emb = float(emb_scores[i])
+        tf = float(tfidf_scores[idx])
+        score = alpha * emb + (1 - alpha) * tf
+
+        text = chunks[idx]["text"].lower()
+
+        # Boosts controlados
         boost = 0.0
-        if re.search(r"\b" + re.escape(query.lower()) + r"\b", txt):
-            boost += PHRASE_BOOST
 
-        common = query_tokens & set(tokenize(txt))
-        boost += TOKEN_MULT * len(common)
+        if is_definition and query.lower().replace("¿", "").replace("?", "") in text:
+            boost += 0.30
 
-        score = float(combined[i]) + boost
+        common = query_tokens & set(tokenize(text))
+        boost += 0.04 * len(common)
+
+        score += boost
+
+        if score < min_score:
+            continue
 
         results.append({
-            "id": chunk["id"],
-            "page": chunk["page"],
+            "id": chunks[idx]["id"],
+            "page": chunks[idx]["page"],
             "score": round(score, 6),
-            "raw_emb": float(emb_scores[i]),
-            "raw_tfidf": float(tfidf_sub[i]),
-            "snippet": build_snippet(chunk["text"], query, max_snip),
-            "index_pos": int(ci),
+            "raw_emb": emb,
+            "raw_tfidf": tf,
+            "snippet": build_sentence_snippet(
+                chunks[idx]["text"], query, max_snip
+            ),
         })
 
     results.sort(key=lambda x: x["score"], reverse=True)
     return results[:topk]
 
-
 # =========================
 # CLI
 # =========================
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--q", required=True)
-    parser.add_argument("--topk", type=int, default=8)
-    parser.add_argument("--alpha", type=float, default=0.6)
-    parser.add_argument("--max_snip", type=int, default=300)
-    args = parser.parse_args()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--q", required=True)
+    ap.add_argument("--topk", type=int, default=8)
+    ap.add_argument("--alpha", type=float, default=0.6)
+    ap.add_argument("--retrieve_k", type=int, default=256)
+    ap.add_argument("--max_snip", type=int, default=400)
+    ap.add_argument("--min_score", type=float, default=0.548)
+    args = ap.parse_args()
 
     res = search(
         query=args.q,
         topk=args.topk,
         alpha=args.alpha,
+        retrieve_k=args.retrieve_k,
         max_snip=args.max_snip,
+        min_score=args.min_score,
     )
 
     print(json.dumps(res, indent=2, ensure_ascii=False))
-
 
 if __name__ == "__main__":
     main()
