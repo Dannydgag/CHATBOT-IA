@@ -1,32 +1,32 @@
-CAPITULO 1 
-1 EXPLORANDO LA INTELIGENCIA ARTIFICIAL 
-A la pregunta ¿qué es la inteligencia? la respuesta constituye que es la capacidad 
-de establecer relaciones, las cuales se manifiestan en los seres humanos a través del 
-pensamiento y la parte intelectual, y en los animales de manera puramente sensorial por 
-medio de los sentidos (Artasanchez & Joshi, 2020). Los humanos tenemos múltiples 
-aspectos que son parte de la inteligencia, como la capacidad de comunicación, 
-aprendizaje, razonamiento abstracto y resolución de problemas, mientras en los animales 
-la inteligencia está relacionado a poderse adaptar al medio ambiente, manifestándose 
-como la capacidad que poseen de la percepción, memoria y toma de decisiones. Entre los 
-humanos y los animales compartimos rasgos básicos de inteligencia como la conciencia 
-del entorno y la habilidad para responder a estímulos (McCarthy, 1956). 
-La reflexión simbólica y de autorreflexión nos permite trascender el mundo 
-tangible y sensorial, crear cultura y tecnología, ganar experiencia y entender 
-conceptualmente el mundo que nos rodea de forma objetiva. La aplicación del 
-conocimiento es útil en el análisis y resolución de problemas, en el razonamiento durante 
-la toma de decisiones; fomenta la predisposición al descubrimiento, invención, 
-creatividad e innovación. La inteligencia permite a las personas afrontar situaciones 
-complejas de forma oportuna, rápida y razonada, y tener la capacidad de predecir el 
-desarrollo y los cambios en el entorno que nos rodea. 
-El año 1950 marca el inicio formal de la inteligencia artificial, debido a que fue 
-entonces cuando se buscó dotar a las máquinas de recursos para resolver problemas de 
-manera autónoma, sin depender del apoyo humano. 
-Si bien la noción de máquina ha estado presente durante muchos años, fue Alan 
-Turing quien sentó las bases de la inteligencia artificial a finales de la Segunda Guerra 
-Mundial, en particular al estudiar científicamente las máquinas inteligentes. Turing había 
-estado trabajando en la teoría de la computabilidad desde la década de 1930 y desarrolló 
-una de las primeras computadoras electromecánicas, se le recuerda por haber desarrollado 
-una máquina para descifrar códigos llamada "bombe" en Bletchley Park, Reino Unido, 
-que descifraba mensajes encriptados con la máquina alemana Enigma. En octubre de 
-1950, mientras trabajaba en la Universidad de Manchester publicó su artículo "Computing 
+CAPITULO 1
+[TITLE]: 1 EXPLORANDO LA INTELIGENCIA ARTIFICIAL
+A la pregunta ¿qué es la inteligencia? la respuesta constituye que es la capacidad
+de establecer relaciones, las cuales se manifiestan en los seres humanos a través del
+pensamiento y la parte intelectual, y en los animales de manera puramente sensorial por
+medio de los sentidos (Artasanchez & Joshi, 2020). Los humanos tenemos múltiples
+aspectos que son parte de la inteligencia, como la capacidad de comunicación,
+aprendizaje, razonamiento abstracto y resolución de problemas, mientras en los animales
+la inteligencia está relacionado a poderse adaptar al medio ambiente, manifestándose
+como la capacidad que poseen de la percepción, memoria y toma de decisiones. Entre los
+humanos y los animales compartimos rasgos básicos de inteligencia como la conciencia
+del entorno y la habilidad para responder a estímulos (McCarthy, 1956).
+La reflexión simbólica y de autorreflexión nos permite trascender el mundo
+tangible y sensorial, crear cultura y tecnología, ganar experiencia y entender
+conceptualmente el mundo que nos rodea de forma objetiva. La aplicación del
+conocimiento es útil en el análisis y resolución de problemas, en el razonamiento durante
+la toma de decisiones; fomenta la predisposición al descubrimiento, invención,
+creatividad e innovación. La inteligencia permite a las personas afrontar situaciones
+complejas de forma oportuna, rápida y razonada, y tener la capacidad de predecir el
+desarrollo y los cambios en el entorno que nos rodea.
+El año 1950 marca el inicio formal de la inteligencia artificial, debido a que fue
+entonces cuando se buscó dotar a las máquinas de recursos para resolver problemas de
+manera autónoma, sin depender del apoyo humano.
+Si bien la noción de máquina ha estado presente durante muchos años, fue Alan
+Turing quien sentó las bases de la inteligencia artificial a finales de la Segunda Guerra
+Mundial, en particular al estudiar científicamente las máquinas inteligentes. Turing había
+estado trabajando en la teoría de la computabilidad desde la década de 1930 y desarrolló
+una de las primeras computadoras electromecánicas, se le recuerda por haber desarrollado
+una máquina para descifrar códigos llamada "bombe" en Bletchley Park, Reino Unido,
+que descifraba mensajes encriptados con la máquina alemana Enigma. En octubre de
+1950, mientras trabajaba en la Universidad de Manchester publicó su artículo "Computing
 Machinery and Intelligence" en la revista Mind (Oxford University Press), donde

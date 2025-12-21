@@ -1,70 +1,70 @@
-incertidumbre, el agente no requiere 
-mantener un histórico para completar 
-la información faltante o inferir 
-aspectos ocultos del entorno. La 
-capacidad de observación completa y 
-sin limitaciones brinda al agente una 
-ventaja al comprender de manera 
-precisa el contexto en el que actúa, 
-poder tomar decisiones adecuadas en 
-tiempo real y realizar cálculos exactos 
-del beneficio, importancia de una 
-determinada acción, o la recompensa 
-esperada 
-basado 
-en 
-el 
-estado 
-observable.   
-o control de calidad 
-o reconocimiento 
-facial 
-Parcialmente 
-observable 
-En 
-los 
-entornos 
-parcialmente 
-observables la percepción del agente es 
-afectada por la presencia de ruido 
-(Lindley, 2013) o la utilización de 
-sensores poco exactos o porque el 
-agente no recibe información completa 
-del sistema; esta percepción limitada o 
-incompleta le dificulta la obtención de 
-una visión global y precisa del estado 
-del 
-entorno, 
-pudiendo 
-generar 
-incertidumbre en el agente. 
-   El agente al no tener acceso a una 
-representación directa y completa del 
-estado en el que se encuentra, se ve 
-obligado a realizar inferencias y 
-estimaciones 
-para 
-obtener 
-una 
-comprensión aproximada del estado 
-actual. En búsqueda de enfrentar esta 
-o Poker 
-o Tráfico en tiempo 
-real 
-o Laberinto 
-con 
-visibilidad limitada 
-o Predicción del clima 
-o Robot que juega al 
-futbol 
-o Juego del veintiuno 
-(Black jack). 
-o Robot clasificador 
-de baldosas 
-o Robot de limpieza 
-autónomo 
-o Asistente 
-virtual 
-inteligente 
-o reconocimiento de 
+incertidumbre, el agente no requiere
+mantener un histórico para completar
+la información faltante o inferir
+aspectos ocultos del entorno. La
+capacidad de observación completa y
+sin limitaciones brinda al agente una
+ventaja al comprender de manera
+precisa el contexto en el que actúa,
+poder tomar decisiones adecuadas en
+tiempo real y realizar cálculos exactos
+del beneficio, importancia de una
+determinada acción, o la recompensa
+esperada
+basado
+en
+el
+estado
+observable.
+ocontrol de calidad
+oreconocimiento
+facial
+Parcialmente
+observable
+En
+los
+entornos
+parcialmente
+observables la percepción del agente es
+afectada por la presencia de ruido
+(Lindley, 2013) o la utilización de
+sensores poco exactos o porque el
+agente no recibe información completa
+del sistema; esta percepción limitada o
+incompleta le dificulta la obtención de
+una visión global y precisa del estado
+del
+entorno,
+pudiendo
+generar
+incertidumbre en el agente.
+El agente al no tener acceso a una
+representación directa y completa del
+estado en el que se encuentra, se ve
+obligado a realizar inferencias y
+estimaciones
+para
+obtener
+una
+comprensión aproximada del estado
+actual. En búsqueda de enfrentar esta
+oPoker
+oTráfico en tiempo
+real
+oLaberinto
+con
+visibilidad limitada
+oPredicción del clima
+oRobot que juega al
+futbol
+oJuego del veintiuno
+(Black jack).
+oRobot clasificador
+de baldosas
+oRobot de limpieza
+autónomo
+oAsistente
+virtual
+inteligente
+oreconocimiento de
 objetos

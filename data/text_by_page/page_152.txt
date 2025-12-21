@@ -1,28 +1,28 @@
-El costo de ir del nodo C al nodo D 
-es √52 + 22 = 5,39. Como se 
-suman los costos de ir del nodo A 
-hasta el nodo D el valor es 2,83 
-+5,39 =8,22. Como C no tiene más 
-descendientes 
-se 
-procede 
-a 
-comparar en el árbol que se ha 
-formado los costos entre el nodo B y nodo D que son los extremos del árbol y no tienen 
-más sucesores, por lo que el nodo de menor costo es B 4,12. 
-Los dos sucesores del nodo B son el 
-nodo E y el nodo C. El costo para ir 
-del nodo B al nodo E  es √22 + 22 =
-2,83 y el costo para ir del nodo B al 
-nodo C es √62 + 12 = 6,08. Se 
-comparan los totales entre los nodos que no tienen sucesores en este nuevo árbol que son 
-el E, C y D; siendo el de menor valor el E, por lo cual se procede a expandir este nodo. 
-El nodo E tiene un solo 
-sucesor que es el nodo H y el 
-costo de ir del nodo E al nodo 
-H es √42 + 22 = 4,47.  El 
-total de la suma de ir del 
-nodo A al nodo H es 11,42 
-comparando con los valores 
-para llegar al nodo C y al nodo D;  el nodo D tiene un menor costo por lo cual se procede 
+El costo de ir del nodo C al nodo D
+es √52+ 22= 5,39. Como se
+suman los costos de ir del nodo A
+hasta el nodo D el valor es 2,83
++5,39 =8,22. Como C no tiene más
+descendientes
+se
+procede
+a
+comparar en el árbol que se ha
+formado los costos entre el nodo B y nodo D que son los extremos del árbol y no tienen
+más sucesores, por lo que el nodo de menor costo es B 4,12.
+Los dos sucesores del nodo B son el
+nodo E y el nodo C. El costo para ir
+del nodo B al nodo E  es √22+ 22=
+2,83 y el costo para ir del nodo B al
+nodo C es √62+ 12= 6,08. Se
+comparan los totales entre los nodos que no tienen sucesores en este nuevo árbol que son
+el E, C y D; siendo el de menor valor el E, por lo cual se procede a expandir este nodo.
+El nodo E tiene un solo
+sucesor que es el nodo H y el
+costo de ir del nodo E al nodo
+H es √42+ 22= 4,47.  El
+total de la suma de ir del
+nodo A al nodo H es 11,42
+comparando con los valores
+para llegar al nodo C y al nodo D;  el nodo D tiene un menor costo por lo cual se procede
 a expandir.

@@ -1,32 +1,32 @@
-representación semántica. Esta teoría contribuyó al avance en el procesamiento del 
-lenguaje natural en la IA. 
-Marvin Minsky publicó en 1974 la teoría del sistema de marco (A Framework for 
-Representing Knowledge), que fue una contribución importante en la representación del 
-conocimiento en la IA (Baader, 2003). Esta teoría posibilitó que las máquinas ordenaran 
-y estructuraran la información de una forma parecida a como lo hacen los seres humanos, 
-lo que simplificó el proceso de entendimiento y razonamiento (Minsky & others, 1974). 
-En ese mismo año, Edward Shortliffe desarrolló el sistema experto MYCIN como 
-parte de su tesis doctoral, implementado en Lisp, era capaz de diagnosticar trastornos en 
-la sangre y prescribir medicación correspondiente. Este sistema experto fue un hito en el 
-campo médico y demostró el potencial de la IA en el diagnóstico y tratamiento de 
-enfermedades (Shortliffe, 1977). Durante esta época, también se desarrollaron sistemas 
-expertos más avanzados, como el EURISKO, que tenía la capacidad de mejorar 
-automáticamente su conjunto de reglas heurísticas mediante la inducción. 
-Además, en los años 70 se lograron otros avances notables, como la 
-popularización de los algoritmos genéticos gracias al trabajo de John Holland, y la 
-resurrección de las redes neuronales con la creación del algoritmo de retropropagación 
-(backpropagation) por parte de Paul John Werbos. Este algoritmo sigue siendo 
-ampliamente utilizado en el aprendizaje supervisado para el entrenamiento de redes 
-neuronales (Pham & Karaboga, 2012). Asimismo, en esta década se construyó el primer 
-robot capaz de comprender el inglés y se desarrolló el primer vehículo autónomo, 
-marcando importantes avances en la interacción entre la IA y el mundo físico. 
-En 1977, Edward Feigenbaum publicó un paper titulado "El arte de la inteligencia 
-artificial: Temas y estudios de caso en ingeniería del conocimiento" en el quinto IJCAI. 
-En esta publicación dice que la ingeniería del conocimiento es el arte de aplicar los 
-principios y herramientas de la investigación en IA para abordar problemas de 
-aplicaciones difíciles que requieren conocimientos especializados para su solución 
-(Brachman & Levesque, 2004). 
-En 1978, John P. McDermott introdujo un hito en el campo de la inteligencia 
-artificial con el desarrollo del sistema experto R1, marcando uno de los primeros éxitos 
-significativos en esta área. Compuesto por aproximadamente 2500 reglas, R1 fue 
+representación semántica. Esta teoría contribuyó al avance en el procesamiento del
+lenguaje natural en la IA.
+Marvin Minsky publicó en 1974 la teoría del sistema de marco (A Framework for
+Representing Knowledge), que fue una contribución importante en la representación del
+conocimiento en la IA (Baader, 2003). Esta teoría posibilitó que las máquinas ordenaran
+y estructuraran la información de una forma parecida a como lo hacen los seres humanos,
+lo que simplificó el proceso de entendimiento y razonamiento (Minsky & others, 1974).
+En ese mismo año, Edward Shortliffe desarrolló el sistema experto MYCIN como
+parte de su tesis doctoral, implementado en Lisp, era capaz de diagnosticar trastornos en
+la sangre y prescribir medicación correspondiente. Este sistema experto fue un hito en el
+campo médico y demostró el potencial de la IA en el diagnóstico y tratamiento de
+enfermedades (Shortliffe, 1977). Durante esta época, también se desarrollaron sistemas
+expertos más avanzados, como el EURISKO, que tenía la capacidad de mejorar
+automáticamente su conjunto de reglas heurísticas mediante la inducción.
+Además, en los años 70 se lograron otros avances notables, como la
+popularización de los algoritmos genéticos gracias al trabajo de John Holland, y la
+resurrección de las redes neuronales con la creación del algoritmo de retropropagación
+(backpropagation) por parte de Paul John Werbos. Este algoritmo sigue siendo
+ampliamente utilizado en el aprendizaje supervisado para el entrenamiento de redes
+neuronales (Pham & Karaboga, 2012). Asimismo, en esta década se construyó el primer
+robot capaz de comprender el inglés y se desarrolló el primer vehículo autónomo,
+marcando importantes avances en la interacción entre la IA y el mundo físico.
+En 1977, Edward Feigenbaum publicó un paper titulado "El arte de la inteligencia
+artificial: Temas y estudios de caso en ingeniería del conocimiento" en el quinto IJCAI.
+En esta publicación dice que la ingeniería del conocimiento es el arte de aplicar los
+principios y herramientas de la investigación en IA para abordar problemas de
+aplicaciones difíciles que requieren conocimientos especializados para su solución
+(Brachman & Levesque, 2004).
+En 1978, John P. McDermott introdujo un hito en el campo de la inteligencia
+artificial con el desarrollo del sistema experto R1, marcando uno de los primeros éxitos
+significativos en esta área. Compuesto por aproximadamente 2500 reglas, R1 fue
 implementado por DEC (Digital Equipment Corporation) para optimizar los procesos de

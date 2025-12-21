@@ -1,33 +1,33 @@
-actual. Por ejemplo, intercambiando B y C se obtiene A -> C -> B -> D -> A. 
-4) Evaluación de Vecinos: Calculamos el costo de la nueva ruta: 15 (A-C) + 35 (C-
-B) + 20 (B-D) + 20 (D-A) = 90 km. 
-5) Selección del Mejor Vecino: Comparamos el costo de la nueva ruta con el costo 
-del estado actual. Si es menor, actualizamos el estado actual con el nuevo estado. 
-6) Iteración: Repetimos los pasos 4-6 hasta que no encontremos una mejora o hasta 
-que alcancemos un número máximo de iteraciones. 
-Resultado: 
-Al final del proceso, se tendría una ruta que es una solución aproximada al 
-problema del Viajante de Comercio. Es importante tener en cuenta que la búsqueda local 
-podría no encontrar la solución óptima, pero generalmente encontrará una solución que 
-es lo suficientemente buena en un tiempo razonable. 
-3.3.2 Búsqueda de escalada de colinas 
-La escalada de colinas (Hill Climbing) es una variante especializada de los 
-algoritmos de búsqueda local, diseñada para encontrar soluciones óptimas en un espacio 
-de estados (Minsky, 1961). En este enfoque, se parte de un estado inicial y se evalúan los 
-estados vecinos utilizando una función específica, que puede ser una función objetivo 
-para maximizar o una función de costo para minimizar. Si se encuentra un estado vecino 
-que es mejor que el estado actual según la función de evaluación, se realiza un cambio, y 
-ese estado vecino se convierte en el nuevo estado actual. Este proceso se repite 
-iterativamente hasta que se alcanza un estado en el que ningún vecino ofrece una mejora, 
-lo que se conoce como un máximo local en el caso de maximización o un mínimo local 
-en el caso de minimización. 
-Un algoritmo de escalada de colinas se verá de la siguiente manera en 
-pseudocódigo: 
-Función escaladaDeColinas(problema): 
-    actual = estadoInicialDelProblema() 
-    repetir: 
-        vecino = mejorVecino(actual) 
-        si valor(vecino) <= valor(actual): 
-            retornar actual 
-        actual = vecino 
+actual. Por ejemplo, intercambiando B y C se obtiene A -> C -> B -> D -> A.
+4)Evaluación de Vecinos: Calculamos el costo de la nueva ruta: 15 (A-C) + 35 (C-
+B) + 20 (B-D) + 20 (D-A) = 90 km.
+5)Selección del Mejor Vecino: Comparamos el costo de la nueva ruta con el costo
+del estado actual. Si es menor, actualizamos el estado actual con el nuevo estado.
+6)Iteración: Repetimos los pasos 4-6 hasta que no encontremos una mejora o hasta
+que alcancemos un número máximo de iteraciones.
+Resultado:
+Al final del proceso, se tendría una ruta que es una solución aproximada al
+problema del Viajante de Comercio. Es importante tener en cuenta que la búsqueda local
+podría no encontrar la solución óptima, pero generalmente encontrará una solución que
+es lo suficientemente buena en un tiempo razonable.
+[TITLE]: 3.3.2 Búsqueda de escalada de colinas
+La escalada de colinas (Hill Climbing) es una variante especializada de los
+algoritmos de búsqueda local, diseñada para encontrar soluciones óptimas en un espacio
+de estados (Minsky, 1961). En este enfoque, se parte de un estado inicial y se evalúan los
+estados vecinos utilizando una función específica, que puede ser una función objetivo
+para maximizar o una función de costo para minimizar. Si se encuentra un estado vecino
+que es mejor que el estado actual según la función de evaluación, se realiza un cambio, y
+ese estado vecino se convierte en el nuevo estado actual. Este proceso se repite
+iterativamente hasta que se alcanza un estado en el que ningún vecino ofrece una mejora,
+lo que se conoce como un máximo local en el caso de maximización o un mínimo local
+en el caso de minimización.
+Un algoritmo de escalada de colinas se verá de la siguiente manera en
+pseudocódigo:
+Función escaladaDeColinas(problema):
+actual = estadoInicialDelProblema()
+repetir:
+vecino = mejorVecino(actual)
+si valor(vecino) <= valor(actual):
+retornar actual
+actual = vecino
 En este algoritmo, se inicia con un estado actual, en algunos problemas se verá

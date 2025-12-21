@@ -1,69 +1,69 @@
-satisfaga un conjunto de restricciones definidas.  
-Después de las suficientes experiencias interaccionando con el entorno, el 
-comportamiento del agente racional será independiente del conocimiento que poseía 
-inicialmente.    Esto significa que el agente ha adquirido la capacidad de adaptarse y 
-responder de manera inteligente a diferentes situaciones sin depender únicamente de 
-su conocimiento previo. 
-1.7.1 Propiedades del entorno de trabajo 
-Las propiedades del entorno de trabajo se refieren a las características y cualidades 
-del ambiente en donde un agente o sistema de inteligencia artificial ejecuta sus acciones. 
-Las propiedades del entorno influyen en cómo un agente puede percibir y actuar, y pueden 
-variar ampliamente según la aplicación específica. Es necesario categorizar los entornos 
-de trabajo (Tabla 1-2) en los que el agente inteligente va a desenvolverse, esto ayuda en 
-su diseño. 
-Tabla 1-2 Propiedades del entorno de trabajo y ejemplos de agentes 
-ENTORNO 
-CARACTERÍSTICAS 
-EJEMPLOS 
-DE AGENTES 
-Totalmente 
-observable 
-   En un entorno totalmente observable, 
-los 
-sensores 
-del 
-agente 
-deben 
-proporcionar 
-una 
-representación 
-completa y fiable del estado del medio 
-ambiente en que se desenvuelve, en 
-cada momento. El agente debe detectar 
-y capturar todos los aspectos que son 
-relevantes en la toma de decisiones que 
-están en función de las medidas de 
-rendimiento (MacKay, 2003). En estos 
-entornos 
-el 
-agente 
-no 
-necesita 
-mantener ningún estado interno para 
-saber qué sucede en el mundo. 
-   Al existir una visión integral y 
-detallada del estado actual, se facilita la 
-toma de decisiones informadas sin 
-o Ayudante 
-de 
-matemáticas 
-o Juego de Ajedrez 
-o Sistema 
-de 
-Navegación GPS 
-o Laberinto 
-con 
-visibilidad completa  
-o Sistema 
-de 
-Monitoreo 
-de 
-Sensores 
-o Agente 
-de 
-reconocimiento de 
-voz 
-o seguimiento 
-de 
-objetos 
-o análisis de datos
+satisfaga un conjunto de restricciones definidas.
+Después de las suficientes experiencias interaccionando con el entorno, el
+comportamiento del agente racional será independiente del conocimiento que poseía
+inicialmente.    Esto significa que el agente ha adquirido la capacidad de adaptarse y
+responder de manera inteligente a diferentes situaciones sin depender únicamente de
+su conocimiento previo.
+[TITLE]: 1.7.1 Propiedades del entorno de trabajo
+Las propiedades del entorno de trabajo se refieren a las características y cualidades
+del ambiente en donde un agente o sistema de inteligencia artificial ejecuta sus acciones.
+Las propiedades del entorno influyen en cómo un agente puede percibir y actuar, y pueden
+variar ampliamente según la aplicación específica. Es necesario categorizar los entornos
+de trabajo (Tabla 1-2) en los que el agente inteligente va a desenvolverse, esto ayuda en
+su diseño.
+Tabla 1-2 Propiedades del entorno de trabajo y ejemplos de agentes
+ENTORNO
+CARACTERÍSTICAS
+EJEMPLOS
+DE AGENTES
+Totalmente
+observable
+En un entorno totalmente observable,
+los
+sensores
+del
+agente
+deben
+proporcionar
+una
+representación
+completa y fiable del estado del medio
+ambiente en que se desenvuelve, en
+cada momento. El agente debe detectar
+y capturar todos los aspectos que son
+relevantes en la toma de decisiones que
+están en función de las medidas de
+rendimiento (MacKay, 2003). En estos
+entornos
+el
+agente
+no
+necesita
+mantener ningún estado interno para
+saber qué sucede en el mundo.
+Al existir una visión integral y
+detallada del estado actual, se facilita la
+toma de decisiones informadas sin
+oAyudante
+de
+matemáticas
+oJuego de Ajedrez
+oSistema
+de
+Navegación GPS
+oLaberinto
+con
+visibilidad completa
+oSistema
+de
+Monitoreo
+de
+Sensores
+oAgente
+de
+reconocimiento de
+voz
+oseguimiento
+de
+objetos
+oanálisis de datos

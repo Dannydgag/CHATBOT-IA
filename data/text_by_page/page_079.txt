@@ -1,32 +1,32 @@
-la red) puede volverse inestable en redes profundas (Kowaliw et al., 2014). Sin embargo, 
-se han desarrollado técnicas como la normalización de lotes, funciones de activación 
-apropiadas y optimizadores avanzados para abordar estos desafíos y permitir el 
-entrenamiento eficiente. 
-Además de las redes neuronales estándar existen las Redes Neuronales 
-Convolucionales (CNN) que son excelentes para el procesamiento de datos estructurados 
-a través de matrices bidimensionales, como la clasificación y segmentación de imágenes 
-y las Redes Neuronales Recurrentes (RNN) que son efectivas para datos secuenciales, 
-como el procesamiento de lenguaje natural (Haykin, 2009).  
-El Aprendizaje por Reforzamiento Profundo (DRL) es un subcampo esencial en 
-el que los agentes emplean redes neuronales profundas para aprender a tomar decisiones 
-secuenciales en entornos interactivos, esto se logra a través de la retroalimentación de 
-recompensas, donde la red es entrenada con el objetivo de maximizar las recompensas 
-acumuladas a lo largo del tiempo. 
-g) Arquitectura de agente multiagente 
-La arquitectura multiagente (figura 1.14) representa un enfoque innovador y 
-fascinante en el campo de la inteligencia artificial y la robótica. Este enfoque se centra en 
-el diseño y la implementación de sistemas en los que múltiples agentes, ya sean entidades 
-autónomas como robots, programas de software o incluso seres humanos, colaboran para 
-alcanzar objetivos tanto individuales como colectivos (Franceschetti, 2018). A través de 
-su interacción y cooperación, estos agentes pueden abordar problemas y ejecutar tareas 
-con mayor eficacia que si operaran de forma aislada. 
-Esta arquitectura destaca por su potencial para crear sistemas inteligentes 
-altamente adaptativos, capaces de funcionar eficientemente en entornos cambiantes y 
-bajo condiciones complejas y dinámicas. Entre sus aplicaciones prácticas más relevantes 
-se encuentran el desarrollo de vehículos autónomos, la robótica avanzada, la planificación 
-logística, los sistemas de transporte inteligentes, la gestión de tráfico en ciudades 
-inteligentes, la simulación de sistemas complejos y el desarrollo de modelos financieros 
-sofisticados. 
-Cada agente dentro de una arquitectura multiagente opera como una entidad 
-autónoma, equipado con sus propias metas y capacidades de toma de decisiones. Esto 
+la red) puede volverse inestable en redes profundas (Kowaliw et al., 2014). Sin embargo,
+se han desarrollado técnicas como la normalización de lotes, funciones de activación
+apropiadas y optimizadores avanzados para abordar estos desafíos y permitir el
+entrenamiento eficiente.
+Además de las redes neuronales estándar existen las Redes Neuronales
+Convolucionales (CNN) que son excelentes para el procesamiento de datos estructurados
+a través de matrices bidimensionales, como la clasificación y segmentación de imágenes
+y las Redes Neuronales Recurrentes (RNN) que son efectivas para datos secuenciales,
+como el procesamiento de lenguaje natural (Haykin, 2009).
+El Aprendizaje por Reforzamiento Profundo (DRL) es un subcampo esencial en
+el que los agentes emplean redes neuronales profundas para aprender a tomar decisiones
+secuenciales en entornos interactivos, esto se logra a través de la retroalimentación de
+recompensas, donde la red es entrenada con el objetivo de maximizar las recompensas
+acumuladas a lo largo del tiempo.
+g)Arquitectura de agente multiagente
+La arquitectura multiagente (figura 1.14) representa un enfoque innovador y
+fascinante en el campo de la inteligencia artificial y la robótica. Este enfoque se centra en
+el diseño y la implementación de sistemas en los que múltiples agentes, ya sean entidades
+autónomas como robots, programas de software o incluso seres humanos, colaboran para
+alcanzar objetivos tanto individuales como colectivos (Franceschetti, 2018). A través de
+su interacción y cooperación, estos agentes pueden abordar problemas y ejecutar tareas
+con mayor eficacia que si operaran de forma aislada.
+Esta arquitectura destaca por su potencial para crear sistemas inteligentes
+altamente adaptativos, capaces de funcionar eficientemente en entornos cambiantes y
+bajo condiciones complejas y dinámicas. Entre sus aplicaciones prácticas más relevantes
+se encuentran el desarrollo de vehículos autónomos, la robótica avanzada, la planificación
+logística, los sistemas de transporte inteligentes, la gestión de tráfico en ciudades
+inteligentes, la simulación de sistemas complejos y el desarrollo de modelos financieros
+sofisticados.
+Cada agente dentro de una arquitectura multiagente opera como una entidad
+autónoma, equipado con sus propias metas y capacidades de toma de decisiones. Esto
 permite que cada agente tome decisiones de manera independiente, basándose en su

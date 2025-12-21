@@ -1,35 +1,35 @@
-• Prueba de objetivo: comprobar si a todas las variables se les asigna un valor y 
-se cumplen todas las restricciones. 
-• Función de coste del trayecto: todos los trayectos tienen el mismo coste. Como 
-se mencionó anteriormente, a diferencia de los típicos problemas de búsqueda, los 
-problemas de optimización se preocupan por la solución y no por la ruta a la solución. 
-Sin embargo, resolver ingenuamente un problema de satisfacción de 
-restricciones, como un problema de búsqueda regular, es enormemente ineficiente. En 
-cambio, se puede hacer uso de la estructura de un problema de satisfacción de 
-restricciones para resolverlo de manera más eficiente. 
-3.3.7 Búsqueda de retroceso 
-La búsqueda de retroceso es un algoritmo de búsqueda utilizado en problemas de 
-satisfacción de restricciones. Este algoritmo se basa en una función recursiva que asigna 
-valores a las variables del problema, respetando las restricciones establecidas. En caso de 
-que una asignación viole alguna restricción, el algoritmo intenta una asignación diferente. 
-A continuación, se presenta el pseudocódigo: 
-función Retroceder (asignación, psr): 
-1. Si la asignación está completa: 
-• Retornar asignación. 
-2. var = SeleccionarVariableSinAsignar(asignación, psr). 
-3. Para cada valor en DominioDeValores(var, asignación, psr): 
-• Si el valor es consistente con la asignación actual: 
-o Agregar {var = valor} a la asignación. 
-o resultado = Retroceder(asignación, psr). 
-o Si resultado ≠ falla: 
-▪ Retornar resultado. 
-o Eliminar {var = valor} de la asignación. 
-4. Retornar falla. 
-El algoritmo comienza verificando si la asignación actual está completa. Si es así, 
-retorna la asignación debido a que todas las variables han sido asignadas de forma 
-satisfactoria. Si la asignación no está completa, selecciona una variable sin asignar y 
-prueba cada valor posible en su dominio. Si un valor es consistente con las restricciones 
-actuales, lo agrega a la asignación y llama recursivamente a la función Retroceder con la 
-nueva asignación. Si esta llamada recursiva no resulta en un error, el algoritmo ha 
-encontrado una asignación válida y la retorna. En caso de que todas las asignaciones 
+• Prueba de objetivo: comprobar si a todas las variables se les asigna un valor y
+se cumplen todas las restricciones.
+• Función de coste del trayecto: todos los trayectos tienen el mismo coste. Como
+se mencionó anteriormente, a diferencia de los típicos problemas de búsqueda, los
+problemas de optimización se preocupan por la solución y no por la ruta a la solución.
+Sin embargo, resolver ingenuamente un problema de satisfacción de
+restricciones, como un problema de búsqueda regular, es enormemente ineficiente. En
+cambio, se puede hacer uso de la estructura de un problema de satisfacción de
+restricciones para resolverlo de manera más eficiente.
+[TITLE]: 3.3.7 Búsqueda de retroceso
+La búsqueda de retroceso es un algoritmo de búsqueda utilizado en problemas de
+satisfacción de restricciones. Este algoritmo se basa en una función recursiva que asigna
+valores a las variables del problema, respetando las restricciones establecidas. En caso de
+que una asignación viole alguna restricción, el algoritmo intenta una asignación diferente.
+A continuación, se presenta el pseudocódigo:
+función Retroceder (asignación, psr):
+1.Si la asignación está completa:
+•Retornar asignación.
+2.var = SeleccionarVariableSinAsignar(asignación, psr).
+3.Para cada valor en DominioDeValores(var, asignación, psr):
+•Si el valor es consistente con la asignación actual:
+oAgregar {var = valor} a la asignación.
+oresultado = Retroceder(asignación, psr).
+oSi resultado ≠ falla:
+▪Retornar resultado.
+oEliminar {var = valor} de la asignación.
+4.Retornar falla.
+El algoritmo comienza verificando si la asignación actual está completa. Si es así,
+retorna la asignación debido a que todas las variables han sido asignadas de forma
+satisfactoria. Si la asignación no está completa, selecciona una variable sin asignar y
+prueba cada valor posible en su dominio. Si un valor es consistente con las restricciones
+actuales, lo agrega a la asignación y llama recursivamente a la función Retroceder con la
+nueva asignación. Si esta llamada recursiva no resulta en un error, el algoritmo ha
+encontrado una asignación válida y la retorna. En caso de que todas las asignaciones
 posibles para una variable fallen, se elimina la asignación de esa variable y se retorna un

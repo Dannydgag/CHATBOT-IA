@@ -1,32 +1,32 @@
-SeleccionarKSolucionesTop(soluciones, k): Selecciona las mejores k soluciones entre 
-todas las soluciones generadas. 
-MejorSolucion(soluciones): Encuentra la mejor solución entre todas las soluciones 
-finales. 
-Empieza el algoritmo generando k soluciones iniciales aleatorias. A continuación, 
-se ejecuta un bucle durante un número determinado de iteraciones. En cada iteración, se 
-genera vecinos para cada solución en el conjunto de haces, encuentra el mejor vecino y 
-procede a agregarle a la lista de nuevas soluciones. 
-Al concluir cada iteración, se escogen las mejores k soluciones de la lista de 
-nuevas soluciones y se actualiza el conjunto de haces con esas soluciones. Finalmente, 
-después de todas las iteraciones, el algoritmo encuentra la mejor solución entre todas las 
-soluciones finales y la devuelve como resultado. 
-• Optimización por Enjambre de Partículas: Esta técnica, inspirada en el 
-comportamiento colectivo de aves y peces, utiliza "partículas" que representan soluciones 
-en un espacio de búsqueda. A diferencia de la búsqueda de haz local, en la optimización 
-por ejambre de particulas, las partículas ajustan su posición no solo en función de su 
-propia experiencia, sino también de la de sus vecinos. Cada partícula posee una posición, 
-que simboliza una solución potencial; una velocidad, que indica su movimiento; y una 
-memoria, que almacena su mejor posición hallada. Una particularidad distintiva es la 
-colaboración entre partículas, compartiendo información y orientando al enjambre hacia 
-zonas del espacio de búsqueda que muestran ser prometedoras, todo ello fundamentado 
-en las vivencias acumuladas por el conjunto de partículas (Benítez et al., 2014). 
-Funcionamiento: 
-1) Inicialización: Se crea un enjambre de partículas con posiciones y velocidades 
-aleatorias. 
-2) Evaluación: Cada partícula evalúa su posición actual utilizando una función 
-objetivo. 
-3) Actualización de la memoria: Si la posición actual de una partícula es mejor 
-(según la función objetivo) que su mejor posición conocida, se actualiza su 
-memoria. 
-4) Actualización de la velocidad y posición: La velocidad de cada partícula se ajusta 
+SeleccionarKSolucionesTop(soluciones, k): Selecciona las mejores k soluciones entre
+todas las soluciones generadas.
+MejorSolucion(soluciones): Encuentra la mejor solución entre todas las soluciones
+finales.
+Empieza el algoritmo generando k soluciones iniciales aleatorias. A continuación,
+se ejecuta un bucle durante un número determinado de iteraciones. En cada iteración, se
+genera vecinos para cada solución en el conjunto de haces, encuentra el mejor vecino y
+procede a agregarle a la lista de nuevas soluciones.
+Al concluir cada iteración, se escogen las mejores k soluciones de la lista de
+nuevas soluciones y se actualiza el conjunto de haces con esas soluciones. Finalmente,
+después de todas las iteraciones, el algoritmo encuentra la mejor solución entre todas las
+soluciones finales y la devuelve como resultado.
+• Optimización por Enjambre de Partículas: Esta técnica, inspirada en el
+comportamiento colectivo de aves y peces, utiliza "partículas" que representan soluciones
+en un espacio de búsqueda. A diferencia de la búsqueda de haz local, en la optimización
+por ejambre de particulas, las partículas ajustan su posición no solo en función de su
+propia experiencia, sino también de la de sus vecinos. Cada partícula posee una posición,
+que simboliza una solución potencial; una velocidad, que indica su movimiento; y una
+memoria, que almacena su mejor posición hallada. Una particularidad distintiva es la
+colaboración entre partículas, compartiendo información y orientando al enjambre hacia
+zonas del espacio de búsqueda que muestran ser prometedoras, todo ello fundamentado
+en las vivencias acumuladas por el conjunto de partículas (Benítez et al., 2014).
+Funcionamiento:
+1)Inicialización: Se crea un enjambre de partículas con posiciones y velocidades
+aleatorias.
+2)Evaluación: Cada partícula evalúa su posición actual utilizando una función
+objetivo.
+3)Actualización de la memoria: Si la posición actual de una partícula es mejor
+(según la función objetivo) que su mejor posición conocida, se actualiza su
+memoria.
+4)Actualización de la velocidad y posición: La velocidad de cada partícula se ajusta
 en función de su memoria y de la mejor posición encontrada por todo el enjambre.

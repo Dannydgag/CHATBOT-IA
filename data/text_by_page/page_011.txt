@@ -1,36 +1,32 @@
-Primera Edición, Julio 2024 
-FUNDAMENTOS DE LA INTELIGENCIA ARTIFICIAL: UNA VISION 
-INTRODUCTORIA 
-ISBN General: 978-631-6557-23-0 
-ISBN Tomo 1: 978-631-6557-25-4 
-ISBN Tomo 2: 978-631-6557-26-1 
-Editado por:  
-Sello editorial: 
-©Puerto Madero Editorial Académica 
-Nº de Alta:  
-933832 
-Editorial:  
-© Puerto Madero Editorial Académica 
-CUIL: 20630333971 
-Calle 45 N491 entre 4 y 5 
-Dirección de Publicaciones Científicas Puerto Madero Editorial 
-Académica 
-La Plata, Buenos Aires, Argentina  
-Teléfono:  
-+54 9 221 314 5902 
-+54 9 221 531 5142 
-Código Postal: AR1900 
-Este libro se sometió a arbitraje bajo el sistema de doble ciego (peer review)  
-Corrección y diseño: 
-Puerto Madero Editorial Académica  
-Diseñador Gráfico: José Luis Santillán Lima  
-Diseño, Montaje y Producción Editorial: 
-Puerto Madero Editorial Académica  
-Diseñador Gráfico: Santillán Lima, José Luis  
-Director del equipo editorial:  
-Santillán Lima, Juan Carlos  
-Editor: 
-Santillán Lima, Juan Carlos 
-Caichug Rivera, Daniela Margoth 
-Hecho en Argentina 
+Primera Edición, Julio 2024
+INTRODUCTORIA
+Editado por:
+Sello editorial:
+©Puerto Madero Editorial Académica
+Nº de Alta:
+933832
+Editorial:
+©Puerto Madero Editorial Académica
+CUIL: 20630333971
+Calle 45 N491 entre 4 y 5
+Dirección de Publicaciones Científicas Puerto Madero Editorial
+Académica
+La Plata, Buenos Aires, Argentina
+Teléfono:
++54 9 221 314 5902
++54 9 221 531 5142
+Código Postal: AR1900
+Este libro se sometió a arbitraje bajo el sistema de doble ciego (peer review)
+Corrección y diseño:
+Puerto Madero Editorial Académica
+Diseñador Gráfico: José Luis Santillán Lima
+Diseño, Montaje y Producción Editorial:
+Puerto Madero Editorial Académica
+Diseñador Gráfico: Santillán Lima, José Luis
+Director del equipo editorial:
+Santillán Lima, Juan Carlos
+Editor:
+Santillán Lima, Juan Carlos
+Caichug Rivera, Daniela Margoth
+Hecho en Argentina
 Made in Argentina

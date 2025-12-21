@@ -1,33 +1,32 @@
-de manera similar a cómo lo hace un ser humano.  
-La investigación en ciencia cognitiva también ha explorado el pensamiento 
-humano, incluyendo la resolución de problemas, la toma de decisiones y el razonamiento. 
-Estos procesos cognitivos han sido estudiados y modelados para desarrollar algoritmos y 
-sistemas de inteligencia artificial capaces de realizar tareas complejas de manera lógica y 
-eficiente. 
-Los descubrimientos, que detallan los procesos mediante los cuales los humanos 
-adquieren conocimientos (aprendizaje), los retienen (memoria) y los recuperan cuando es 
-necesario, proporcionan una base sólida para la creación de modelos sofisticados en el 
-campo del aprendizaje automático.  
-Se ha explorado el pensamiento humano en la búsqueda de entender cómo los 
-humanos abordan y solucionan situaciones complejas, y cómo procesan información para 
-llegar a conclusiones con el objetivo de crear máquinas con inteligencia artificial que 
-imiten el comportamiento humano. 
-Comprender qué es la conciencia y cómo funciona sigue siendo un desafío en 
-búsqueda de entender en profundidad la mente humana, a pesar de estos esfuerzos que se 
-han hecho en la inteligencia artificial, simular completamente la conciencia humana es 
-un desafío significativo y aún no se ha logrado. Los modelos actuales pueden aproximarse 
-a ciertos aspectos de la conciencia, pero la experiencia subjetiva y la autoconciencia plena 
-son elementos particularmente difíciles de replicar en una máquina (McDermott, 2007). 
-1.3 
- Areas de investigación de la inteligencia artificial 
-La inteligencia artificial (IA) representa un cambio significativo y un avance 
-considerable en el campo de la tecnología informática, muestra el progreso que ha tenido 
-en comparación con generaciones anteriores, que se centraban principalmente en realizar 
-cálculos numéricos (como los usados en aplicaciones científicas o comerciales), 
-actualmente la IA se orienta hacia tareas más complejas y abstractas, que incluyen la 
-manipulación simbólica (trabajar con información representada mediante símbolos, como 
-en el procesamiento del lenguaje) y la emulación de comportamientos inteligentes 
-(intentar replicar o simular formas de inteligencia similares a las humanas, como el 
-reconocimiento de patrones, la toma de decisiones, y el aprendizaje).  
-Las áreas de la IA en las cuales se está investigando en la actualidad son 
+de manera similar a cómo lo hace un ser humano.
+La investigación en ciencia cognitiva también ha explorado el pensamiento
+humano, incluyendo la resolución de problemas, la toma de decisiones y el razonamiento.
+Estos procesos cognitivos han sido estudiados y modelados para desarrollar algoritmos y
+sistemas de inteligencia artificial capaces de realizar tareas complejas de manera lógica y
+eficiente.
+Los descubrimientos, que detallan los procesos mediante los cuales los humanos
+adquieren conocimientos (aprendizaje), los retienen (memoria) y los recuperan cuando es
+necesario, proporcionan una base sólida para la creación de modelos sofisticados en el
+campo del aprendizaje automático.
+Se ha explorado el pensamiento humano en la búsqueda de entender cómo los
+humanos abordan y solucionan situaciones complejas, y cómo procesan información para
+llegar a conclusiones con el objetivo de crear máquinas con inteligencia artificial que
+imiten el comportamiento humano.
+Comprender qué es la conciencia y cómo funciona sigue siendo un desafío en
+búsqueda de entender en profundidad la mente humana, a pesar de estos esfuerzos que se
+han hecho en la inteligencia artificial, simular completamente la conciencia humana es
+un desafío significativo y aún no se ha logrado. Los modelos actuales pueden aproximarse
+a ciertos aspectos de la conciencia, pero la experiencia subjetiva y la autoconciencia plena
+son elementos particularmente difíciles de replicar en una máquina (McDermott, 2007).
+[TITLE]: 1.3 Areas de investigación de la inteligencia artificial
+La inteligencia artificial (IA) representa un cambio significativo y un avance
+considerable en el campo de la tecnología informática, muestra el progreso que ha tenido
+en comparación con generaciones anteriores, que se centraban principalmente en realizar
+cálculos numéricos (como los usados en aplicaciones científicas o comerciales),
+actualmente la IA se orienta hacia tareas más complejas y abstractas, que incluyen la
+manipulación simbólica (trabajar con información representada mediante símbolos, como
+en el procesamiento del lenguaje) y la emulación de comportamientos inteligentes
+(intentar replicar o simular formas de inteligencia similares a las humanas, como el
+reconocimiento de patrones, la toma de decisiones, y el aprendizaje).
+Las áreas de la IA en las cuales se está investigando en la actualidad son
 presentadas en la figura 1.2, se han agrupado partiendo de las formas de representación

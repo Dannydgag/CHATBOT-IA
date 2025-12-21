@@ -1,32 +1,32 @@
-falso, la implicación siempre es verdadera, independientemente del consecuente (q). Esto 
-a veces puede ser un concepto confuso.  
-Lógicamente, no se puede aprender nada de una implicación (p → q) si el 
-antecedente (p) es falso. Mirando nuestro ejemplo, si no está lloviendo, la implicación no 
-dice nada sobre si estoy adentro o no. Podría ser del tipo de interiores y nunca caminar 
-afuera, incluso cuando no llueve, o podría ser del tipo de exteriores y estar afuera todo el 
-tiempo cuando no llueve. Cuando el antecedente es falso, se dice que la implicación es 
-trivialmente verdadera. 
-Bicondicional (↔) es una implicación que va en ambas direcciones. Puedes leerlo 
-como “si y solo si”. P ↔ Q es lo mismo que P → Q y Q → P juntos. Por ejemplo, si P: 
-“Está lloviendo”. y Q: “Estoy adentro”, entonces P ↔ Q significa que “Si está lloviendo, 
-entonces estoy adentro”, y “si estoy adentro, entonces está lloviendo”. Esto significa que 
-podemos inferir más de lo que podríamos con una simple implicación. Si P es falso, 
-entonces Q también es falso; si no llueve, se sabe que tampoco estoy adentro, y esto por 
-tanto es también verdadero. 
-La lógica proposicional, permite la asignación de un valor verdadero o falso para 
-la sentencia completa, no tiene facilidad para analizar las palabras individuales que 
-componen la sentencia. Por este motivo, la representación de la sentencia del ejemplo “el 
-carro es lujoso” como proposición sería el_carro_es_lujoso. Si se combina esta 
-proposición con otra se pueden expresar conceptos más complejos el_carro_es_lujoso y 
-tiene_reconocimiento_de_voz. El problema de esta representación es que no es muy 
-expresiva. 
-El modelo entonces es una asignación de un valor de verdad a cada proposición. 
-Para reiterar, las proposiciones son declaraciones sobre el mundo que pueden ser 
-verdaderas o falsas. Sin embargo, el conocimiento sobre el mundo está representado en 
-los valores de verdad de estas proposiciones. El modelo es la asignación de valores de 
-verdad que proporciona información sobre el mundo. 
-Por ejemplo, si P: “Está lloviendo”. y Q: “Es miércoles”, un modelo podría ser la 
-siguiente asignación de valor de verdad: {P = Verdadero, Q = Falso}. Este modelo 
-significa que está lloviendo, pero no es miércoles. Sin embargo, hay más modelos 
-posibles en esta situación (por ejemplo, {P = Verdadero, Q = Verdadero}, donde está 
+falso, la implicación siempre es verdadera, independientemente del consecuente (q). Esto
+a veces puede ser un concepto confuso.
+Lógicamente, no se puede aprender nada de una implicación (p → q) si el
+antecedente (p) es falso. Mirando nuestro ejemplo, si no está lloviendo, la implicación no
+dice nada sobre si estoy adentro o no. Podría ser del tipo de interiores y nunca caminar
+afuera, incluso cuando no llueve, o podría ser del tipo de exteriores y estar afuera todo el
+tiempo cuando no llueve. Cuando el antecedente es falso, se dice que la implicación es
+trivialmente verdadera.
+Bicondicional (↔) es una implicación que va en ambas direcciones. Puedes leerlo
+como “si y solo si”. P ↔ Q es lo mismo que P → Q y Q → P juntos. Por ejemplo, si P:
+“Está lloviendo”. y Q: “Estoy adentro”, entonces P ↔ Q significa que “Si está lloviendo,
+entonces estoy adentro”, y “si estoy adentro, entonces está lloviendo”. Esto significa que
+podemos inferir más de lo que podríamos con una simple implicación. Si P es falso,
+entonces Q también es falso; si no llueve, se sabe que tampoco estoy adentro, y esto por
+tanto es también verdadero.
+La lógica proposicional, permite la asignación de un valor verdadero o falso para
+la sentencia completa, no tiene facilidad para analizar las palabras individuales que
+componen la sentencia. Por este motivo, la representación de la sentencia del ejemplo “el
+carro es lujoso” como proposición sería el_carro_es_lujoso. Si se combina esta
+proposición con otra se pueden expresar conceptos más complejos el_carro_es_lujoso y
+tiene_reconocimiento_de_voz. El problema de esta representación es que no es muy
+expresiva.
+El modelo entonces es una asignación de un valor de verdad a cada proposición.
+Para reiterar, las proposiciones son declaraciones sobre el mundo que pueden ser
+verdaderas o falsas. Sin embargo, el conocimiento sobre el mundo está representado en
+los valores de verdad de estas proposiciones. El modelo es la asignación de valores de
+verdad que proporciona información sobre el mundo.
+Por ejemplo, si P: “Está lloviendo”. y Q: “Es miércoles”, un modelo podría ser la
+siguiente asignación de valor de verdad: {P = Verdadero, Q = Falso}. Este modelo
+significa que está lloviendo, pero no es miércoles. Sin embargo, hay más modelos
+posibles en esta situación (por ejemplo, {P = Verdadero, Q = Verdadero}, donde está
 lloviendo un miércoles). De hecho, el número de modelos posibles es 2 elevado al número

@@ -1,32 +1,32 @@
-Supóngase que existe una persona llamada Luis que siempre llega tarde a 
-las reuniones. Un día, Luis llega tarde a una reunión nuevamente. Se puede utilizar 
-la abducción para generar una explicación probable de por qué Luis llega tarde. 
-Las observaciones son: 
-Observación1: Luis llegó tarde a la reunión. 
-Observación 2: Luis tiene un largo trayecto en automóvil para llegar al lugar de la 
-reunión. 
-Observación 3: Hubo un accidente en la carretera principal. 
-Hipótesis 1: Luis llegó tarde a la reunión por el accidente en la carretera 
-principal. 
-Hipótesis 2: Luis llegó tarde a la reunión porque se levanta muy tarde. 
-Hipótesis 3: Luis llegó tarde a la reunión por ir a dejar a sus hijos al colegio. 
-Ahora, se puede realizar un razonamiento abductivo para generar una 
-explicación, dada esta información, se podría abducir la siguiente explicación 
-probable: 
-Luis llegó tarde a la reunión (O1) porque (H1) hubo un accidente en la 
-carretera principal (O3), lo que causó retrasos en el tráfico y afectó su largo 
-trayecto en automóvil (O2). 
-En este ejemplo, la abducción permite generar una explicación probable 
-(el accidente en la carretera) para la hipótesis (porque, Luis llegó tarde a la 
-reunión) basada en las circunstancias conocidas (largo trayecto de Juan y el 
-accidente en la carretera). 
-Ejemplo 3 
-Imagine que usted es un detective y llega a una casa, donde encuentra una 
-ventana rota, una puerta forzada y un escritorio revuelto. Tiene las siguientes 
-observaciones: 
-Observación 1: La ventana está rota. 
-Observación 2: La puerta ha sido forzada. 
-Observación 3: El escritorio del cuarto de estudio está revuelto. 
-Observación 4: El propietario de la casa informa que algunas joyas han 
-desaparecido. 
+Supóngase que existe una persona llamada Luis que siempre llega tarde a
+las reuniones. Un día, Luis llega tarde a una reunión nuevamente. Se puede utilizar
+la abducción para generar una explicación probable de por qué Luis llega tarde.
+Las observaciones son:
+Observación1: Luis llegó tarde a la reunión.
+Observación 2: Luis tiene un largo trayecto en automóvil para llegar al lugar de la
+reunión.
+Observación 3: Hubo un accidente en la carretera principal.
+Hipótesis 1: Luis llegó tarde a la reunión por el accidente en la carretera
+principal.
+Hipótesis 2: Luis llegó tarde a la reunión porque se levanta muy tarde.
+Hipótesis 3: Luis llegó tarde a la reunión por ir a dejar a sus hijos al colegio.
+Ahora, se puede realizar un razonamiento abductivo para generar una
+explicación, dada esta información, se podría abducir la siguiente explicación
+probable:
+Luis llegó tarde a la reunión (O1) porque (H1) hubo un accidente en la
+carretera principal (O3), lo que causó retrasos en el tráfico y afectó su largo
+trayecto en automóvil (O2).
+En este ejemplo, la abducción permite generar una explicación probable
+(el accidente en la carretera) para la hipótesis (porque, Luis llegó tarde a la
+reunión) basada en las circunstancias conocidas (largo trayecto de Juan y el
+accidente en la carretera).
+Ejemplo 3
+Imagine que usted es un detective y llega a una casa, donde encuentra una
+ventana rota, una puerta forzada y un escritorio revuelto. Tiene las siguientes
+observaciones:
+Observación 1: La ventana está rota.
+Observación 2: La puerta ha sido forzada.
+Observación 3: El escritorio del cuarto de estudio está revuelto.
+Observación 4: El propietario de la casa informa que algunas joyas han
+desaparecido.
 Ahora, quieres abducir una explicación probable de lo que sucedió. Las

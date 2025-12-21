@@ -1,21 +1,21 @@
-del conocimiento en la inteligencia artificial que son: la representación simbólica y la 
-representación no simbólica y también se puede observar combinadas de las dos 
-representaciones. 
-La representación simbólica es un método para modelar y manipular el 
-conocimiento utilizando símbolos (palabras, números o iconos) que se eligen y se utilizan 
-de manera estructurada y lógica. Por ejemplo, en un sistema simbólico, una palabra como 
-"elefante" = “mamífero paquidermo de gran tamaño” es un símbolo que representa un 
-concepto específico en el mundo real. 
-La representación no simbólica, en lugar de usar reglas específicas y símbolos 
-definidos, utiliza patrones y modelos matemáticos o estadísticos que aprenden de los 
-ejemplos y datos. Por ejemplo, en una red neuronal utilizada para el reconocimiento de 
-imágenes, no hay un símbolo específico para "elefante", sino que el conocimiento sobre 
-qué constituyen estos animales se aprende (de muchas fotos de elefantes) y se almacena 
-en los patrones de conexión entre las neuronas de la red. 
-Figura 1.2 Áreas de investigación de la inteligencia artificial 
-Elaborado por los Autores 
-Se presenta una breve explicación de cada una de las áreas den investigación en 
-inteligencia artificial: 
-Representación Simbólica: 
-1. Sistemas Expertos:  Utilizan reglas para representar el conocimiento y la lógica 
+del conocimiento en la inteligencia artificial que son: la representación simbólica y la
+representación no simbólica y también se puede observar combinadas de las dos
+representaciones.
+La representación simbólica es un método para modelar y manipular el
+conocimiento utilizando símbolos (palabras, números o iconos) que se eligen y se utilizan
+de manera estructurada y lógica. Por ejemplo, en un sistema simbólico, una palabra como
+"elefante" = “mamífero paquidermo de gran tamaño” es un símbolo que representa un
+concepto específico en el mundo real.
+La representación no simbólica, en lugar de usar reglas específicas y símbolos
+definidos, utiliza patrones y modelos matemáticos o estadísticos que aprenden de los
+ejemplos y datos. Por ejemplo, en una red neuronal utilizada para el reconocimiento de
+imágenes, no hay un símbolo específico para "elefante", sino que el conocimiento sobre
+qué constituyen estos animales se aprende (de muchas fotos de elefantes) y se almacena
+en los patrones de conexión entre las neuronas de la red.
+Figura 1.2 Áreas de investigación de la inteligencia artificial
+Elaborado por los Autores
+Se presenta una breve explicación de cada una de las áreas den investigación en
+inteligencia artificial:
+Representación Simbólica:
+1.Sistemas Expertos:  Utilizan reglas para representar el conocimiento y la lógica
 para deducir nuevas informaciones.

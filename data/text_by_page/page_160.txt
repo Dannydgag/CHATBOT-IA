@@ -1,39 +1,39 @@
-situaciones cambiantes. A través de técnicas y algoritmos especializados, la IA puede 
-explorar y evaluar diferentes soluciones, identificando aquellas que maximizan o 
-minimizan un objetivo determinado.  
-3.3.1 Búsqueda local 
-La búsqueda local es una técnica de optimización que opera en el espacio de 
-soluciones de un problema, manteniendo un único nodo o solución en cada iteración. A 
-diferencia de otros algoritmos de búsqueda que exploran ampliamente el espacio de 
-estados, la búsqueda local se centra en explorar el entorno inmediato de la solución actual, 
-moviéndose iterativamente hacia soluciones vecinas que mejoren el criterio de 
-optimización (Michiels et al., 2007). 
-Esta estrategia es especialmente útil para problemas con espacios de estados muy 
-grandes o incluso infinitos, donde una búsqueda exhaustiva sería inviable. En lugar de 
-buscar un camino específico, como en la resolución de laberintos, la búsqueda local se 
-orienta a encontrar respuestas óptimas o subóptimas a preguntas complejas. Ejemplos de 
-estas preguntas podrían ser: "¿Cuál es la configuración más eficiente en la conducción de 
-un automóvil autónomo?" o "¿Cómo se optimiza la topología de una red de datos?". 
-Es importante destacar que, debido a su naturaleza, la búsqueda local no garantiza 
-encontrar la solución óptima global. Sin embargo, tiene la ventaja de ser 
-computacionalmente 
-eficiente 
-y, 
-en 
-muchos 
-casos, 
-proporciona 
-soluciones 
-"suficientemente buenas" en un tiempo razonable. Esta característica la hace valiosa en 
-aplicaciones prácticas donde el tiempo y los recursos computacionales son limitados. 
-Se define los siguientes términos en la búsqueda local: 
-Función Objetivo: Es la función que determina la calidad o el valor de una 
-solución en el espacio de búsqueda. El objetivo principal es maximizar esta función para 
-obtener la solución más óptima, es decir, encontrar un máximo global. 
-Función de Costo: A diferencia de la función objetivo, la función de costo se 
-centra en minimizar el valor asociado a una solución. El propósito es reducir al mínimo 
-el costo asociado a una solución, buscando así un mínimo global. 
-Estado Actual: Representa la solución o nodo que el algoritmo está evaluando en 
-un momento dado. Es el punto de referencia desde el cual se exploran las soluciones 
-vecinas. 
+situaciones cambiantes. A través de técnicas y algoritmos especializados, la IA puede
+explorar y evaluar diferentes soluciones, identificando aquellas que maximizan o
+minimizan un objetivo determinado.
+[TITLE]: 3.3.1 Búsqueda local
+La búsqueda local es una técnica de optimización que opera en el espacio de
+soluciones de un problema, manteniendo un único nodo o solución en cada iteración. A
+diferencia de otros algoritmos de búsqueda que exploran ampliamente el espacio de
+estados, la búsqueda local se centra en explorar el entorno inmediato de la solución actual,
+moviéndose iterativamente hacia soluciones vecinas que mejoren el criterio de
+optimización (Michiels et al., 2007).
+Esta estrategia es especialmente útil para problemas con espacios de estados muy
+grandes o incluso infinitos, donde una búsqueda exhaustiva sería inviable. En lugar de
+buscar un camino específico, como en la resolución de laberintos, la búsqueda local se
+orienta a encontrar respuestas óptimas o subóptimas a preguntas complejas. Ejemplos de
+estas preguntas podrían ser: "¿Cuál es la configuración más eficiente en la conducción de
+un automóvil autónomo?" o "¿Cómo se optimiza la topología de una red de datos?".
+Es importante destacar que, debido a su naturaleza, la búsqueda local no garantiza
+encontrar la solución óptima global. Sin embargo, tiene la ventaja de ser
+computacionalmente
+eficiente
+y,
+en
+muchos
+casos,
+proporciona
+soluciones
+"suficientemente buenas" en un tiempo razonable. Esta característica la hace valiosa en
+aplicaciones prácticas donde el tiempo y los recursos computacionales son limitados.
+Se define los siguientes términos en la búsqueda local:
+Función Objetivo: Es la función que determina la calidad o el valor de una
+solución en el espacio de búsqueda. El objetivo principal es maximizar esta función para
+obtener la solución más óptima, es decir, encontrar un máximo global.
+Función de Costo: A diferencia de la función objetivo, la función de costo se
+centra en minimizar el valor asociado a una solución. El propósito es reducir al mínimo
+el costo asociado a una solución, buscando así un mínimo global.
+Estado Actual: Representa la solución o nodo que el algoritmo está evaluando en
+un momento dado. Es el punto de referencia desde el cual se exploran las soluciones
+vecinas.
 Estado Vecino: Son aquellos estados o soluciones que están inmediatamente

@@ -1,80 +1,80 @@
-técnicas como el análisis de funciones 
-de valor, algoritmos de optimización 
-numérica y métodos basados en 
-modelos probabilísticos; que permiten 
-representar y aproximar los estados y 
-acciones de manera continua, esto 
-facilita la toma de decisiones mediante 
-la maximización de una función 
-objetivo o la adaptación a patrones y 
-cambios en el medio ambiente. 
-   En 
-los 
-entornos continuos, 
-el 
-aprendizaje 
-y 
-la 
-adaptación 
-es 
-importante. Los agentes inteligentes 
-deben ser capaces de aprender de la 
-experiencia y mejorar sus acciones en 
-función 
-de 
-la 
-retroalimentación 
-continúa proporcionada por el entorno 
-(Gelfond & Kahl, 2014).  
-   Es necesario el uso de técnicas de 
-aprendizaje automático y algoritmos de 
-control adaptativo para ajustar y 
-mejorar su rendimiento a medida que 
-interactúan con el medio ambiente. 
-de 
-energía 
-renovable 
-o Robot 
-de 
-manipulación 
-de 
-objetos 
-o Sistema de control 
-de tráfico aéreo 
-o Simulaciones 
-de 
-fluidos 
-o Optimización 
-de 
-carreteras 
-y 
-transporte 
-o Sistemas 
-de 
-recomendación 
-personalizados 
-o Control de sistemas 
-de 
-energía 
-renovable 
-Agente individual 
-   En los entornos de agente individual, 
-solo un agente interactúa de manera 
-autónoma con el medio ambiente. Por 
-lo tanto, no hay necesidad de 
-interacción o colaboración directa con 
-otros agentes, centrándose toda la 
-actividad en el agente principal. 
-   En estos escenarios, el agente 
-individual asume la responsabilidad 
-o Asistente virtual en 
-un 
-teléfono 
-inteligente 
-o Robot de limpieza 
-o Sistema 
-de 
-recomendación de 
-películas 
-o Agente de comercio 
+técnicas como el análisis de funciones
+de valor, algoritmos de optimización
+numérica y métodos basados en
+modelos probabilísticos; que permiten
+representar y aproximar los estados y
+acciones de manera continua, esto
+facilita la toma de decisiones mediante
+la maximización de una función
+objetivo o la adaptación a patrones y
+cambios en el medio ambiente.
+En
+los
+entornos continuos,
+el
+aprendizaje
+y
+la
+adaptación
+es
+importante. Los agentes inteligentes
+deben ser capaces de aprender de la
+experiencia y mejorar sus acciones en
+función
+de
+la
+retroalimentación
+continúa proporcionada por el entorno
+(Gelfond & Kahl, 2014).
+Es necesario el uso de técnicas de
+aprendizaje automático y algoritmos de
+control adaptativo para ajustar y
+mejorar su rendimiento a medida que
+interactúan con el medio ambiente.
+de
+energía
+renovable
+oRobot
+de
+manipulación
+de
+objetos
+oSistema de control
+de tráfico aéreo
+oSimulaciones
+de
+fluidos
+oOptimización
+de
+carreteras
+y
+transporte
+oSistemas
+de
+recomendación
+personalizados
+oControl de sistemas
+de
+energía
+renovable
+Agente individual
+En los entornos de agente individual,
+solo un agente interactúa de manera
+autónoma con el medio ambiente. Por
+lo tanto, no hay necesidad de
+interacción o colaboración directa con
+otros agentes, centrándose toda la
+actividad en el agente principal.
+En estos escenarios, el agente
+individual asume la responsabilidad
+oAsistente virtual en
+un
+teléfono
+inteligente
+oRobot de limpieza
+oSistema
+de
+recomendación de
+películas
+oAgente de comercio
 electrónico

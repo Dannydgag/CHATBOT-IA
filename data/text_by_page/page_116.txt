@@ -1,32 +1,32 @@
-y sabemos que una de las disyunciones (p) es falsa, entonces podemos concluir que la 
-otra disyunción (q) es verdadera. 
-Cuantificación Universal y Existencial: Utilizando los cuantificadores (∀ y ∃), 
-podemos realizar inferencias basadas en propiedades que se aplican a todos los elementos 
-del dominio o al menos a algunos de ellos. 
-Estas reglas de inferencia son fundamentales en la lógica de predicados y se 
-utilizan para derivar conclusiones válidas a partir de premisas dadas. La aplicación precisa 
-de estas reglas es esencial para el razonamiento lógico y la toma de decisiones en sistemas 
-inteligentes. 
-a) Modus ponens.- Es utilizada, en los sistemas basados en conocimiento; si 
-sabemos que una implicación y su antecedente son verdaderos, entonces el 
-consecuente también es verdadero, entonces se establece que: 
-Si se tiene una afirmación condicional (p → q) y se sabe que la afirmación 
-antecedente (p) es verdadera, entonces se puede concluir que la afirmación 
-consecuente (q) también es verdadera. 
-Ejemplo 1 
-“Hay luz en la lámpara” representa a la sentencia p si esta es verdadera. Si el condicional 
-siguiente es verdadero: “Si hay luz en la lámpara entonces el interruptor está encendido”. 
-La sentencia q “el interruptor esta encendido” es verdadero. En otras palabras, el uso de 
-esta regla, permite obtener sintácticamente nuevo conocimiento del viejo conocimiento. 
-En este ejemplo se puede pensar en p como el antecedente y en q como el consecuente. 
-Ejemplo 2 
-Premisa 1: Si llueve, entonces la calle estará mojada. 
-Premisa 2: Está lloviendo. 
-Conclusión: Por lo tanto, la calle estará mojada. 
-En este caso, se sabe que si está lloviendo (p es verdadero), entonces la afirmación 
-condicional "Si llueve, entonces la acera estará mojada" nos dice que la acera estará 
-mojada (q es verdadero). 
-Ejemplo 3 
-Premisa 1: Si estudias para el examen (p), entonces obtendrás una buena calificación (q). 
-Premisa 2: Estás estudiando para el examen (p es verdadero). 
+y sabemos que una de las disyunciones (p) es falsa, entonces podemos concluir que la
+otra disyunción (q) es verdadera.
+Cuantificación Universal y Existencial: Utilizando los cuantificadores (∀ y ∃),
+podemos realizar inferencias basadas en propiedades que se aplican a todos los elementos
+del dominio o al menos a algunos de ellos.
+Estas reglas de inferencia son fundamentales en la lógica de predicados y se
+utilizan para derivar conclusiones válidas a partir de premisas dadas. La aplicación precisa
+de estas reglas es esencial para el razonamiento lógico y la toma de decisiones en sistemas
+inteligentes.
+a)Modus ponens.- Es utilizada, en los sistemas basados en conocimiento; si
+sabemos que una implicación y su antecedente son verdaderos, entonces el
+consecuente también es verdadero, entonces se establece que:
+Si se tiene una afirmación condicional (p → q) y se sabe que la afirmación
+antecedente (p) es verdadera, entonces se puede concluir que la afirmación
+consecuente (q) también es verdadera.
+Ejemplo 1
+“Hay luz en la lámpara” representa a la sentencia p si esta es verdadera. Si el condicional
+siguiente es verdadero: “Si hay luz en la lámpara entonces el interruptor está encendido”.
+La sentencia q “el interruptor esta encendido” es verdadero. En otras palabras, el uso de
+esta regla, permite obtener sintácticamente nuevo conocimiento del viejo conocimiento.
+En este ejemplo se puede pensar en p como el antecedente y en q como el consecuente.
+Ejemplo 2
+Premisa 1: Si llueve, entonces la calle estará mojada.
+Premisa 2: Está lloviendo.
+Conclusión: Por lo tanto, la calle estará mojada.
+En este caso, se sabe que si está lloviendo (p es verdadero), entonces la afirmación
+condicional "Si llueve, entonces la acera estará mojada" nos dice que la acera estará
+mojada (q es verdadero).
+Ejemplo 3
+Premisa 1: Si estudias para el examen (p), entonces obtendrás una buena calificación (q).
+Premisa 2: Estás estudiando para el examen (p es verdadero).
 Conclusión: Por lo tanto, obtendrás una buena calificación (q es verdadero).

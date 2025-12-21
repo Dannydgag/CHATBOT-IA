@@ -1,76 +1,76 @@
-situación se debe incluir la utilización 
-de algoritmos de filtrado que procesen 
-secuencias 
-de 
-datos 
-ruidosos 
-o 
-incompletos y técnicas de fusión de 
-datos que combinen la información 
-entregada por los sensores de tal forma 
-que se pueda mejorar la precisión de la 
-percepción. 
-o Sistema 
-de 
-detección 
-y 
-prevención 
-de 
-fraudes 
-o diagnóstico médico 
-Determinista 
-   En los entornos deterministas, el 
-siguiente estado del medio ambiente 
-está totalmente determinado por la 
-acción realizada en el estado actual. Al 
-ejecutar una acción específica, el 
-resultado o estado siguiente del 
-entorno es predecible de manera 
-precisa y no hay incertidumbre 
-involucrada 
-(Samuel, 
-1959). 
-La 
-relación causa-efecto entre las acciones 
-del agente y los estados del entorno, 
-nos indica, que cualquier acción que el 
-agente realice tiene un resultado 
-específico y directo en el entorno. 
-o Ayudante 
-de 
-matemáticas 
-o Juego de ajedrez 
-o Laberinto 
-sin 
-obstáculos móviles 
-o Operaciones 
-matemáticas 
-o Control de sistemas 
-físicos 
-Estocástico 
-   En los entornos estocásticos, el 
-cambio del entorno está sujeto a cierto 
-grado de aleatoriedad o incertidumbre 
-debido a las acciones del agente; 
-aunque el agente tome una acción 
-específica, el resultado o estado 
-siguiente 
-del 
-entorno 
-no 
-pueda 
-predecirse con total certeza, este puede 
-variar debido a factores aleatorios o no 
-completamente 
-conocidos 
-así 
-se 
-o Robot que juega al 
-futbol. 
-o Robot clasificador 
-de baldosas 
-o Mercados 
-financieros 
-o Tráfico de vehículos 
-o Clima 
-o Juego de póker
+situación se debe incluir la utilización
+de algoritmos de filtrado que procesen
+secuencias
+de
+datos
+ruidosos
+o
+incompletos y técnicas de fusión de
+datos que combinen la información
+entregada por los sensores de tal forma
+que se pueda mejorar la precisión de la
+percepción.
+oSistema
+de
+detección
+y
+prevención
+de
+fraudes
+odiagnóstico médico
+Determinista
+En los entornos deterministas, el
+siguiente estado del medio ambiente
+está totalmente determinado por la
+acción realizada en el estado actual. Al
+ejecutar una acción específica, el
+resultado o estado siguiente del
+entorno es predecible de manera
+precisa y no hay incertidumbre
+involucrada
+(Samuel,
+1959).
+La
+relación causa-efecto entre las acciones
+del agente y los estados del entorno,
+nos indica, que cualquier acción que el
+agente realice tiene un resultado
+específico y directo en el entorno.
+oAyudante
+de
+matemáticas
+oJuego de ajedrez
+oLaberinto
+sin
+obstáculos móviles
+oOperaciones
+matemáticas
+oControl de sistemas
+físicos
+Estocástico
+En los entornos estocásticos, el
+cambio del entorno está sujeto a cierto
+grado de aleatoriedad o incertidumbre
+debido a las acciones del agente;
+aunque el agente tome una acción
+específica, el resultado o estado
+siguiente
+del
+entorno
+no
+pueda
+predecirse con total certeza, este puede
+variar debido a factores aleatorios o no
+completamente
+conocidos
+así
+se
+oRobot que juega al
+futbol.
+oRobot clasificador
+de baldosas
+oMercados
+financieros
+oTráfico de vehículos
+oClima
+oJuego de póker

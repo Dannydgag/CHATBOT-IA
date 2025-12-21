@@ -1,32 +1,32 @@
-alguna aserción acerca del mundo. Cada sentencia se expresa en un lenguaje llamado 
-lenguaje de representación del conocimiento. Cuando la sentencia se considera como un 
-hecho sin depender de otras sentencias, se le denomina axioma.  
-El mecanismo para añadir sentencias nuevas a la base de conocimiento y preguntar 
-qué se sabe en la base de conocimiento es la inferencia que permite derivar nuevas 
-sentencias de las antiguas. En los agentes lógicos basados en conocimiento la inferencia 
-debe cumplir con el requisito esencial de que cuando se pregunta a la base de 
-conocimiento, la respuesta debe ser producto del contenido existente en la base de 
-conocimiento. El proceso de inferencia no puede inventar cosas a medida que avanzan 
-las deducciones que realiza. 
-El siguiente ejemplo ilustra este concepto. Considerar las siguientes sentencias: 
-1. Si no llovió, Patricio visitó hoy a Victoria. 
-2. Patricio visitó hoy a Victoria o Benjamín, pero no a ambos. 
-3. Patricio visitó hoy a Benjamín. 
-Estas tres sentencias constituyen la descripción en el nivel de conocimiento, donde 
-solo se ha especificado lo que el agente conoce y en función de su objetivo se va a 
-determinar su comportamiento, que en este caso es dar respuesta a la pregunta "¿hoy 
-llovió?", aunque ninguna de las trese esentencias indica si hoy llovió. Así es como se 
-puede hacer: en base a la oración 3 si se sabe que es verdadera, se conoce que Patricio 
-visitó a Benjamín. Mirando la oración 2, se sabe que Patricio visitó a Victoria o Benjamín, 
-y por lo tanto podemos concluir que:  
-4. Patricio no visitó a Victoria. 
-Ahora, mirando la oración 1, se entiende que, si no hubiera llovido, Patricio habría 
-visitado a Victoria. Sin embargo, conociendo la oración 4, se sabe que este no es el caso. 
-Por lo tanto, podemos concluir 
-5. hoy llovió.  
-Para llegar a esta conclusión, se usa la lógica que se basa en la información 
-existente. Se han usado sentencias que son afirmaciones sobre el mundo en un lenguaje 
-de representación del conocimiento, que permite a la IA almacenar el conocimiento y lo 
-usa para inferir nueva información. 
-Un agente basado en conocimiento se puede desarrollar de manera efectiva al 
+alguna aserción acerca del mundo. Cada sentencia se expresa en un lenguaje llamado
+lenguaje de representación del conocimiento. Cuando la sentencia se considera como un
+hecho sin depender de otras sentencias, se le denomina axioma.
+El mecanismo para añadir sentencias nuevas a la base de conocimiento y preguntar
+qué se sabe en la base de conocimiento es la inferencia que permite derivar nuevas
+sentencias de las antiguas. En los agentes lógicos basados en conocimientola inferencia
+debe cumplir con el requisito esencial de que cuando se pregunta a la base de
+conocimiento, la respuesta debe ser producto del contenido existente en la base de
+conocimiento. El proceso de inferencia no puede inventar cosas a medida que avanzan
+las deducciones que realiza.
+El siguiente ejemplo ilustra este concepto. Considerar las siguientes sentencias:
+1. Si no llovió, Patricio visitó hoy a Victoria.
+2. Patricio visitó hoy a Victoria o Benjamín, pero no a ambos.
+3. Patricio visitó hoy a Benjamín.
+Estas tres sentencias constituyen la descripción en el nivel de conocimiento, donde
+solo se ha especificado lo que el agente conoce y en función de su objetivo se va a
+determinar su comportamiento, que en este caso es dar respuesta a la pregunta "¿hoy
+llovió?", aunque ninguna de las trese esentencias indica si hoy llovió. Así es como se
+puede hacer: en base a la oración 3 si se sabe que es verdadera, se conoce que Patricio
+visitó a Benjamín. Mirando la oración 2, se sabe que Patricio visitó a Victoria o Benjamín,
+y por lo tanto podemos concluir que:
+4. Patricio no visitó a Victoria.
+Ahora, mirando la oración 1, se entiende que, si no hubiera llovido, Patricio habría
+visitado a Victoria. Sin embargo, conociendo la oración 4, se sabe que este no es el caso.
+Por lo tanto, podemos concluir
+5. hoy llovió.
+Para llegar a esta conclusión, se usa la lógica que se basa en la información
+existente. Se han usado sentencias que son afirmaciones sobre el mundo en un lenguaje
+de representación del conocimiento, que permite a la IA almacenar el conocimiento y lo
+usa para inferir nueva información.
+Un agente basado en conocimiento se puede desarrollar de manera efectiva al
 proporcionarle el conocimiento necesario. Iniciando con una base de conocimiento vacía,

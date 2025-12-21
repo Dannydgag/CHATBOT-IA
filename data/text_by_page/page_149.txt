@@ -1,26 +1,26 @@
-El nodo B no constituye el 
-nodo objetivo por lo que 
-se procede a descender en 
-búsqueda del nodo hijo. 
-El nodo D no es el nodo 
-objetivo por lo que se 
-regresa al padre que es el 
-nodo B para ir al siguiente 
-sucesor. 
-El nodo E es el otro hijo del 
-nodo B pero no constituye 
-el nodo objetivo, al no tener 
-sucesores el nodo E se 
-regresa al nodo padre. El 
-nodo B no tiene más hijos 
-por lo cual se retrocede 
-hacia el padre del nodo B 
-regresando al nodo raíz nodo A. 
-El nodo A tiene además de 
-B otro sucesor que es el 
-nodo C pero este nodo 
-tampoco coincide con el 
-nodo objetivo; por lo cual se 
-procede a descender hacia 
-uno de sus sucesores, en 
+El nodo B no constituye el
+nodo objetivo por lo que
+se procede a descender en
+búsqueda del nodo hijo.
+El nodo D no es el nodo
+objetivo por lo que se
+regresa al padre que es el
+nodo B para ir al siguiente
+sucesor.
+El nodo E es el otro hijo del
+nodo B pero no constituye
+el nodo objetivo, al no tener
+sucesores el nodo E se
+regresa al nodo padre. El
+nodo B no tiene más hijos
+por lo cual se retrocede
+hacia el padre del nodo B
+regresando al nodo raíz nodo A.
+El nodo A tiene además de
+B otro sucesor que es el
+nodo C pero este nodo
+tampoco coincide con el
+nodo objetivo; por lo cual se
+procede a descender hacia
+uno de sus sucesores, en
 este caso siempre el que está

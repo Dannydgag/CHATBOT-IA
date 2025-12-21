@@ -1,22 +1,22 @@
-camino en el árbol de búsqueda antes de encontrar la solución, lo que resultaría en un 
-tiempo de ejecución significativamente más largo, especialmente en árboles con muchas 
-ramificaciones y profundidades. Aunque este enfoque es menos eficiente en términos de 
-memoria comparado con la búsqueda por amplitud, su simplicidad lo hace valioso en 
-ciertos contextos, como en la solución de laberintos o problemas que requieren explorar 
-todas las posibilidades hasta encontrar una solución viable. 
-Es importante destacar que, debido a su naturaleza, la búsqueda en profundidad 
-es más susceptible a quedar atrapada en ciclos o caminos sin salida, por lo que a menudo 
-se implementan mecanismos como la limitación de profundidad o la verificación de 
-estados repetidos para mejorar su eficacia y evitar la exploración innecesaria de caminos 
-ya evaluados.  
-Utilizando el mismo árbol empleado en la búsqueda preferentemente por amplitud 
-y siendo el nodo objetivo el nodo I se tiene: 
-El primer nodo en ser visitado es el nodo A, al no ser el nodo objetivo se 
-desciende al siguiente nivel (nivel 1) 
-En el nivel 1 se encuentra el nodo B que no es el objetivo y se 
-procede a bajar al nivel 2. 
-El nodo D que se encuentra en el nivel 2 tampoco es el 
-objetivo por lo cual se procede a bajar al nivel 3.  
-Al no ser el nodo H el nodo objetivo y no existir más 
-sucesores se retrocede al nodo D para ver si este tiene 
+camino en el árbol de búsqueda antes de encontrar la solución, lo que resultaría en un
+tiempo de ejecución significativamente más largo, especialmente en árboles con muchas
+ramificaciones y profundidades. Aunque este enfoque es menos eficiente en términos de
+memoria comparado con la búsqueda por amplitud, su simplicidad lo hace valioso en
+ciertos contextos, como en la solución de laberintos o problemas que requieren explorar
+todas las posibilidades hasta encontrar una solución viable.
+Es importante destacar que, debido a su naturaleza, la búsqueda en profundidad
+es más susceptible a quedar atrapada en ciclos o caminos sin salida, por lo que a menudo
+se implementan mecanismos como la limitación de profundidad o la verificación de
+estados repetidos para mejorar su eficacia y evitar la exploración innecesaria de caminos
+ya evaluados.
+Utilizando el mismo árbol empleado en la búsqueda preferentemente por amplitud
+y siendo el nodo objetivo el nodo I se tiene:
+El primer nodo en ser visitado es el nodo A, al no ser el nodo objetivo se
+desciende al siguiente nivel (nivel 1)
+En el nivel 1 se encuentra el nodo B que no es el objetivo y se
+procede a bajar al nivel 2.
+El nodo D que se encuentra en el nivel 2 tampoco es el
+objetivo por lo cual se procede a bajar al nivel 3.
+Al no ser el nodo H el nodo objetivo y no existir más
+sucesores se retrocede al nodo D para ver si este tiene
 otros sucesores, en este caso si tiene otros sucesores.

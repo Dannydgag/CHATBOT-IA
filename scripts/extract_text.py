@@ -1,140 +1,149 @@
-import fitz # PyMuPDF (Pipeline seleccionado)
+import fitz  # PyMuPDF: Biblioteca principal para la extracción de PDF
 from pathlib import Path 
-import sys 
-import re # Módulo de expresiones regulares para la limpieza
+import re 
 
 # ==============================================================================
-# CONFIGURACIÓN DEL PROYECTO
+# 1. CONFIGURACIÓN DE RUTAS Y CONSTANTES
 # ==============================================================================
-
-# Ruta relativa al documento PDF de entrada.
-PDF_FILENAME = "Intro_IA.pdf"
-PDF_PATH = Path("data") / "pdf" / PDF_FILENAME
-
-# Directorio de salida para los archivos de texto extraídos (producción).
+# Definimos las rutas de entrada y salida utilizando Path para compatibilidad entre SO
+PDF_PATH = Path("data") / "pdf" / "Intro_IA.pdf"
 OUTPUT_DIR = Path("data") / "text_by_page"
 
+# Lista de palabras clave para identificar y eliminar el encabezado del libro
+# Se eliminan líneas que contengan estos textos para limpiar ruido de ISBN y títulos repetitivos
+HEADER_KEYWORDS = [
+    "FUNDAMENTOS DE LA INTELIGENCIA ARTIFICIAL",
+    "UNA VISION INTRODUCTORIA",
+    "ISBN General",
+    "ISBN Tomo"
+]
+
+# Expresión regular para detectar numeración de página (árabes y romanos)
+# Detecta números del 1 al 999 o números romanos (I, II, V, X, etc.) que están solos en una línea
+CLEAN_NUMS_REGEX = re.compile(r'^\s*([MDCLXVI]+|\d{1,3})\s*$', re.MULTILINE)
+
+# Expresión regular para detectar jerarquías de títulos (Niveles 1, 2 y 3)
+# Ejemplos válidos: "1", "1.1", "1.1.1"
+NUM_SEC_REGEX = re.compile(r'^\d+(\.\d+){0,2}$') 
+
+# Patrón para ignorar etiquetas de figuras, tablas y gráficos
+# Evita que las descripciones de imágenes sean procesadas como títulos o texto principal
+IGNORE_LABELS = re.compile(r'^(Figura|Tabla|Gráfico|Imagen|Ilustración)\s+\d+', re.IGNORECASE)
+
 # ==============================================================================
-# PATRONES DE LIMPIEZA (Regex pre-compilados)
+# 2. FUNCIONES DE APOYO
 # ==============================================================================
 
-# Patrón del Encabezado (Título + ISBN)
-# Se usa re.escape para manejar correctamente los guiones y otros caracteres especiales.
-# Se añade '\s*' entre los elementos para permitir espacios/saltos de línea variables.
-HEADER_PATTERN = re.escape("FUNDAMENTOS DE LA INTELIGENCIA ARTIFICIAL: UNA VISION INTRODUCTORIA") + r'\s*' + \
-                 r'ISBN General: \d{3}-\d{3}-\d{4}-\d{2}-\d\s*' + \
-                 r'ISBN Tomo 1: \d{3}-\d{3}-\d{4}-\d{2}-\d'
-HEADER_REGEX = re.compile(HEADER_PATTERN, re.IGNORECASE | re.DOTALL) # re.DOTALL para que '.' incluya saltos de línea
-
-# Patrón para identificar líneas que contienen solo números arábigos o romanos.
-# Buscamos que toda la línea (^) hasta el final ($) contenga solo el número (y espacios opcionales).
-LINE_NUMBER_REGEX = re.compile(r'^\s*([IVXLCDM]+|\d{1,3})\s*$', re.MULTILINE)
+def is_bold(span):
+    """
+    Determina si un fragmento de texto (span) está en negrita.
+    Verifica tanto los metadatos técnicos (flags) como el nombre de la fuente.
+    """
+    return (span['flags'] & 2) or ("bold" in span['font'].lower())
 
 # ==============================================================================
-# FUNCIONES DE EXTRACCIÓN Y LIMPIEZA
+# 3. PROCESO PRINCIPAL DE EXTRACCIÓN
 # ==============================================================================
 
-def clean_page_text(text: str, page_num: int) -> str:
+def run_extraction_pipeline(pdf_path, output_dir):
     """
-    Realiza una limpieza avanzada del texto extraído, eliminando el ruido del encabezado
-    y los números de pie de página (romanos o arábigos) según el rango de la página.
+    Ejecuta el pipeline de extracción: lectura, limpieza, unión de títulos y guardado.
     """
-    
-    # --- 1. Eliminación del Encabezado Fijo ---
-    # Elimina el patrón de encabezado que incluye el título y los ISBN en cualquier parte del texto.
-    text = HEADER_REGEX.sub('', text)
-
-    # --- 2. Eliminación de Pie de Página (Numeración) ---
-    
-    # Separamos el texto en líneas para poder evaluar la posición de los números.
-    lines = text.splitlines()
-    cleaned_lines = []
-    
-    for line in lines:
-        line_stripped = line.strip()
-        
-        # Intentamos identificar si la línea contiene SOLO el número de página
-        if len(line_stripped) < 10 and LINE_NUMBER_REGEX.search(line):
-            
-            # Sub-regla 1: Numeración Romana (Páginas 4 a 22 del PDF)
-            if 4 <= page_num <= 22:
-                # Si la página está en el rango de Romanos y la línea es corta, la saltamos.
-                continue 
-            
-            # Sub-regla 2: Numeración Arábiga (Páginas 23 a 210 del PDF)
-            elif 23 <= page_num <= 210:
-                # Si la página está en el rango Arábigo y la línea es corta, la saltamos.
-                continue
-        
-        # Si la línea no es un número de página dentro de los rangos de ruido, la conservamos.
-        cleaned_lines.append(line)
-
-    # Volvemos a unir las líneas
-    text_cleaned = '\n'.join(cleaned_lines).strip()
-    
-    # --- 3. Normalización ---
-    # Eliminar saltos de línea excesivos (mantener un solo salto entre párrafos)
-    text_cleaned = re.sub(r'\n\s*\n', '\n', text_cleaned).strip()
-    
-    return text_cleaned
-
-def extract_all_pages_to_files(pdf_path: Path, output_dir: Path):
-    """
-    Extrae el texto de *todas* las páginas del PDF, aplica la limpieza y las guarda en archivos separados.
-    """
-    print(f"\n--- Iniciando Extracción y Limpieza de Producción de {pdf_path.name} ---")
-    
     try:
         doc = fitz.open(pdf_path)
-        total_pages = doc.page_count
-        #total_pages = 25
+        output_dir.mkdir(parents=True, exist_ok=True)
         
-        for i in range(total_pages):
-            page_num = i + 1
-            page = doc.load_page(i)
-            text_raw = page.get_text("text") 
-            
-            # Aplicamos la limpieza avanzada usando el número de página
-            text_cleaned = clean_page_text(text_raw, page_num)
+        print(f"🚀 Iniciando extracción...")
 
-            # Definir el nombre del archivo de salida: page_001.txt, page_002.txt, etc.
-            output_filename = output_dir / f"page_{page_num:03d}.txt" 
+        for page_num, page in enumerate(doc, start=1):
+            # Obtenemos el contenido de la página en formato diccionario para analizar estilos
+            blocks = page.get_text("dict")["blocks"]
+            raw_lines = []
+
+            # --- PASO 1: EXTRACCIÓN Y LIMPIEZA INICIAL ---
+            for b in blocks:
+                if "lines" in b:
+                    for l in b["lines"]:
+                        line_text = ""
+                        bold_found = False
+                        
+                        # Analizamos cada fragmento de la línea para detectar negritas
+                        for s in l["spans"]:
+                            if s["text"].strip():
+                                line_text += s["text"]
+                                if is_bold(s): bold_found = True
+                        
+                        line_text = line_text.strip()
+                        if not line_text: continue
+
+                        # Filtrar encabezados (ISBN) y numeración de página
+                        if any(key in line_text for key in HEADER_KEYWORDS): continue
+                        if CLEAN_NUMS_REGEX.match(line_text): continue
+
+                        raw_lines.append({"text": line_text, "bold": bold_found})
+
+            # --- PASO 2: IDENTIFICACIÓN DE TÍTULOS Y REPARACIÓN DE FORMATO ---
+            final_lines = []
+            i = 0
+            while i < len(raw_lines):
+                curr = raw_lines[i]
+                txt = curr["text"]
+
+                # Si la línea está en negrita y no es una etiqueta de figura...
+                if curr["bold"] and not IGNORE_LABELS.match(txt):
+                    
+                    # CASO 1: Reparación de Título Nivel 1 Pegado (Ej: "1INTRODUCCIÓN")
+                    # Busca un número de sección seguido de letras sin espacio
+                    match_pegado = re.match(r'^(\d+(\.\d+){0,2})([A-ZÁÉÍÓÚ].*)', txt)
+                    if match_pegado:
+                        num_part = match_pegado.group(1)
+                        text_part = match_pegado.group(3)
+                        final_lines.append(f"[TITLE]: {num_part} {text_part}")
+                        i += 1
+                        continue
+
+                    # CASO 2: Unión de Títulos Fragmentados (Número en una línea, Texto en la siguiente)
+                    if i + 1 < len(raw_lines):
+                        next_l = raw_lines[i+1]
+                        if NUM_SEC_REGEX.match(txt) and next_l["bold"]:
+                            # Unimos e insertamos el espacio de separación solicitado
+                            final_lines.append(f"[TITLE]: {txt} {next_l['text']}")
+                            i += 2
+                            continue
+                    
+                    # CASO 3: Título ya bien formateado (Ej: "1.1.1 Propiedades")
+                    if re.match(r'^\d+(\.\d+){0,2}\s+[A-ZÁÉÍÓÚ]', txt):
+                        final_lines.append(f"[TITLE]: {txt}")
+                        i += 1
+                        continue
+
+                    # --- CASO DESHABILITADO: Títulos por Mayúsculas (Para evitar ruido de tablas) ---
+                    # elif txt.isupper() and 5 < len(txt) < 60:
+                    #     final_lines.append(f"[TITLE]: {txt}")
+                    
+                    final_lines.append(txt)
+                else:
+                    final_lines.append(txt)
+                i += 1
+
+            # --- PASO 3: GUARDADO DE RESULTADOS ---
+            # Unimos las líneas y limpiamos espacios sobrantes
+            page_content = "\n".join(final_lines).strip()
             
-            # Guardar el texto limpio solo si hay contenido significativo restante
-            if text_cleaned:
-                with open(output_filename, "w", encoding="utf-8") as f:
-                    f.write(text_cleaned)
-            # Si la página queda vacía después de la limpieza (ej. portada, páginas solo de ruido), no se crea archivo
-            
-            # Progreso en la consola cada 50 páginas
-            if page_num % 50 == 0 or page_num == total_pages:
-                 print(f"Página {page_num}/{total_pages} procesada y limpia.")
+            # Solo guardamos si la página tiene contenido real (evita páginas de ruido)
+            if len(page_content) > 35:
+                output_file = output_dir / f"page_{page_num:03d}.txt"
+                with open(output_file, "w", encoding="utf-8") as f:
+                    f.write(page_content)
 
         doc.close()
-        print(f"\n✅ Extracción y Limpieza completa. Archivos guardados en {output_dir}")
+        print(f"✅ Proceso completado: Archivos estructurados en '{output_dir}'")
         
     except Exception as e:
-        print(f"ERROR: Fallo durante la extracción de producción: {e}")
-        return
+        print(f"❌ Error durante el procesamiento: {str(e)}")
 
-
-def main():
-    """Función principal para ejecutar el pipeline de extracción de producción."""
-    
-    # 1. Verificación Inicial de la Ruta
-    if not PDF_PATH.exists():
-        print(f"ERROR CRÍTICO: No se encontró el archivo PDF en la ruta: {PDF_PATH}")
-        sys.exit(1)
-        
-    print(f"✅ PDF encontrado en: {PDF_PATH}")
-    
-    # 2. Crear el directorio de salida si no existe
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    print(f"📂 Archivos de salida irán a: {OUTPUT_DIR}")
-    
-    # 3. Ejecución de la producción completa
-    extract_all_pages_to_files(PDF_PATH, OUTPUT_DIR)
-    
-    
-if __name__ == '__main__':
-    main()
+# ==============================================================================
+# 4. EJECUCIÓN
+# ==============================================================================
+if __name__ == "__main__":
+    run_extraction_pipeline(PDF_PATH, OUTPUT_DIR)

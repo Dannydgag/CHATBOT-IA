@@ -1,28 +1,28 @@
-Convertimos las premisas a cláusulas: 
-Premisa 1 (Cláusula 1): ¬p ∨ q 
-Premisa 2 (Cláusula 2): ¬q 
-Aplicamos la resolución: 
-(¬p ∨ q) ∧ (¬q)                 [Conjuntamos las cláusulas] 
-(¬p ∧ ¬q) ∨ (q ∧ ¬q)        [Distribución] 
-(¬p ∧ ¬q) ∨ F                   [q ∧ ¬q es F (falso)] 
-(¬p ∧ ¬q)                          [Identidad ((¬p ∧ ¬q)  ∨ F = (¬p ∧ ¬q))] 
-La resolución nos lleva a la conclusión de que ¬p es verdadero, lo que significa 
-que el estudiante no estudió para el examen. 
-En estos ejemplos, la resolución nos permite llegar a la misma conclusión que 
-obtuvimos utilizando el Modus Tollens. 
-d) Deducción.- Es un tipo de razonamiento que procede lógicamente de lo universal 
-a lo particular, a partir de premisas verdaderas garantiza conclusiones verdaderas. 
-Es la base de la lógica proposicional y de predicados.  
-Figura 2.1: Tamaño de recipientes 
-        Elaborado por los Autores 
-Ejemplo 1:  
-Se tienen tres recipientes (figura 1.17) de diferente tamaño x, y, z.   
- Si x es mayor que y y y es mayor que z  
-   entonces se puede deducir que x es mayor que z 
-Utilizando los cuantificadores esto se puede expresar como. 
-∀𝑥, ∀𝑦, ∀𝑧,[Mayor (x, y)^Mayor (y, z)→ Mayor (x, z)] 
-Ejemplo 2 
-Premisa 1: Todos los hombres son mortales. (Premisa general) 
-∀x(Hombre(x)→Mortal(x)) 
-Premisa 2: Platón es un hombre. (Premisa específica) 
+Convertimos las premisas a cláusulas:
+Premisa 1 (Cláusula 1): ¬p ∨ q
+Premisa 2 (Cláusula 2): ¬q
+Aplicamos la resolución:
+(¬p ∨ q) ∧ (¬q)                 [Conjuntamos las cláusulas]
+(¬p ∧ ¬q) ∨ (q ∧ ¬q)        [Distribución]
+(¬p ∧ ¬q) ∨ F                   [q ∧ ¬q es F (falso)]
+(¬p ∧ ¬q)                          [Identidad ((¬p ∧ ¬q)  ∨ F = (¬p ∧ ¬q))]
+La resolución nos lleva a la conclusión de que ¬p es verdadero, lo que significa
+que el estudiante no estudió para el examen.
+En estos ejemplos, la resolución nos permite llegar a la misma conclusión que
+obtuvimos utilizando el Modus Tollens.
+d)Deducción.- Es un tipo de razonamiento que procede lógicamente de lo universal
+a lo particular, a partir de premisas verdaderas garantiza conclusiones verdaderas.
+Es la base de la lógica proposicional y de predicados.
+Figura 2.1: Tamaño de recipientes
+Elaborado por los Autores
+Ejemplo 1:
+Se tienen tres recipientes (figura 1.17) de diferente tamaño x, y, z.
+Si x es mayor que y y y es mayor que z
+entonces se puede deducir que x es mayor que z
+Utilizando los cuantificadores esto se puede expresar como.
+∀𝑥, ∀𝑦, ∀𝑧,[Mayor (x, y)^Mayor (y, z)→ Mayor (x, z)]
+Ejemplo 2
+Premisa 1: Todos los hombres son mortales. (Premisa general)
+∀x(Hombre(x)→Mortal(x))
+Premisa 2: Platón es un hombre. (Premisa específica)
 Hombre(Platón)

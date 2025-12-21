@@ -1,32 +1,32 @@
-modelar situaciones del mundo real de manera precisa y eficiente.  
-Ejemplos del uso de cuantificadores: 
-A todos los niños les agrada los dulces.     
-∀x  Niño(x) → Agrada(x, Dulces)       
-Algunos estudiantes se matriculan en inteligencia artificial. 
-∃x Estudiante(x) ˄  Matricula(x, IA)    
-Hay un cocinero que cocina para todas las personas del barrio que no pueden 
-cocinar ellos mismos.  
- ∃x Cocinero(x) ˄  ∀y Persona(y) ˄  ¬ Cocina(y,y)  →  Cocina(x,y) 
-Para que dos personas sean hermanos. 
-∀x,y Hermano(x,y) →  ∃z  Padre(z,x)  ˄   Padre(z,y) 
-2.1.4 Razonamiento 
-El razonamiento es un proceso esencial en la toma de decisiones y la resolución 
-de problemas tanto en humanos como en sistemas de inteligencia artificial. El 
-razonamiento lógico y las teorías de razonamiento automatizado son esenciales en 
-campos como la inteligencia artificial, la programación, la verificación de la corrección 
-de programas y muchos otros. 
-En el contexto de la lógica de predicados, las inferencias son el proceso de derivar 
-nuevas sentencias lógicas o conclusiones a partir de un conjunto dado de sentencias 
-conocidas o premisas. Estas inferencias se realizan mediante reglas de inferencia que 
-garantizan la validez y la coherencia de las conclusiones. 
-Algunas de las reglas de inferencia más importantes en lógica de predicados 
-incluyen: 
-Modus Ponens: Si tenemos una afirmación condicional (p → q) y sabemos que la 
-afirmación antecedente (p) es verdadera, entonces podemos concluir que la afirmación 
-consecuente (q) también es verdadera. 
-Modus Tollens: Si tenemos una afirmación condicional (p → q) y sabemos que la 
-afirmación consecuente (q) es falsa, entonces podemos concluir que la afirmación 
-antecedente (p) también es falsa. 
-Silogismo Hipotético: Si tenemos dos afirmaciones condicionales (p → q) y (q → 
-r), entonces podemos inferir una nueva afirmación condicional (p → r). 
+modelar situaciones del mundo real de manera precisa y eficiente.
+Ejemplos del uso de cuantificadores:
+A todos los niños les agrada los dulces.
+∀x  Niño(x) → Agrada(x, Dulces)
+Algunos estudiantes se matriculan en inteligencia artificial.
+∃x Estudiante(x) ˄  Matricula(x, IA)
+Hay un cocinero que cocina para todas las personas del barrio que no pueden
+cocinar ellos mismos.
+∃x Cocinero(x) ˄  ∀y Persona(y) ˄  ¬ Cocina(y,y)  →  Cocina(x,y)
+Para que dos personas sean hermanos.
+∀x,y Hermano(x,y) →∃z  Padre(z,x)  ˄   Padre(z,y)
+[TITLE]: 2.1.4 Razonamiento
+El razonamiento es un proceso esencial en la toma de decisiones y la resolución
+de problemas tanto en humanos como en sistemas de inteligencia artificial. El
+razonamiento lógico y las teorías de razonamiento automatizado son esenciales en
+campos como la inteligencia artificial, la programación, la verificación de la corrección
+de programas y muchos otros.
+En el contexto de la lógica de predicados, las inferencias son el proceso de derivar
+nuevas sentencias lógicas o conclusiones a partir de un conjunto dado de sentencias
+conocidas o premisas. Estas inferencias se realizan mediante reglas de inferencia que
+garantizan la validez y la coherencia de las conclusiones.
+Algunas de las reglas de inferencia más importantes en lógica de predicados
+incluyen:
+Modus Ponens: Si tenemos una afirmación condicional (p → q) y sabemos que la
+afirmación antecedente (p) es verdadera, entonces podemos concluir que la afirmación
+consecuente (q) también es verdadera.
+Modus Tollens: Si tenemos una afirmación condicional (p → q) y sabemos que la
+afirmación consecuente (q) es falsa, entonces podemos concluir que la afirmación
+antecedente (p) también es falsa.
+Silogismo Hipotético: Si tenemos dos afirmaciones condicionales (p → q) y (q →
+r), entonces podemos inferir una nueva afirmación condicional (p → r).
 Silogismo Disyuntivo: Si tenemos una afirmación que es una disyunción (p ∨ q)

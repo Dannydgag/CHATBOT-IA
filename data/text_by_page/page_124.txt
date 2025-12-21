@@ -1,32 +1,32 @@
-Cada uno de estos enfoques aporta una dimensión única al campo de la IA, 
-permitiendo a los sistemas aprender y adaptarse de manera efectiva en una 
-variedad de contextos y aplicaciones. 
-A continuación, tenemos algunos ejemplos: 
-Ejemplo 1  
-Clasificación de correos electrónicos como spam o no spam 
-El proceso empieza con la recopilación de un conjunto de datos que 
-contiene una colección de correos electrónicos que se etiquetan previamente como 
-"spam" o "no spam". Cada correo electrónico en el conjunto de datos se representa 
-como un conjunto de características, como las palabras que contiene y otros 
-atributos relevantes. 
-Luego el conjunto de datos de entrenamiento se utilizzan para enseñar a 
-nuestro algoritmo de aprendizaje supervisado a reconocer patrones que distingan 
-entre correos electrónicos de spam y no spam. El algoritmo ajusta un modelo 
-matemático que relaciona las características de entrada (contenido del correo 
-electrónico) con las etiquetas de salida (spam o no spam). 
-Durante el proceso de entrenamiento, el algoritmo de aprendizaje inducirá 
-reglas o relaciones a partir de los ejemplos de entrenamiento. Por ejemplo, podría 
-aprender que, si un correo electrónico contiene ciertas palabras clave como 
-"oferta", "ganador" y "gratis", es más probable que sea spam. 
-Después de entrenar el modelo, se valida utilizando un conjunto de datos 
-de prueba independiente para verificar su capacidad para clasificar correctamente 
-correos electrónicos desconocidos. Si el modelo no tiene un rendimiento 
-satisfactorio, se puede ajustar los parámetros del algoritmo o recopilar más datos 
-de entrenamiento para mejorar su precisión. 
-Una vez que el modelo está entrenado y validado, se puede usarlo para 
-clasificar automáticamente nuevos correos electrónicos. Cuando llega un nuevo 
-correo electrónico, el modelo evalúa sus características y predice si es spam o no 
-spam en función de las reglas y patrones que ha aprendido. 
-Este es un ejemplo simplificado, debido a que en la práctica, los algoritmos 
-de aprendizaje supervisado pueden ser mucho más complejos y manejar una 
+Cada uno de estos enfoques aporta una dimensión única al campo de la IA,
+permitiendo a los sistemas aprender y adaptarse de manera efectiva en una
+variedad de contextos y aplicaciones.
+A continuación, tenemos algunos ejemplos:
+Ejemplo 1
+Clasificación de correos electrónicos como spam o no spam
+El proceso empieza con la recopilación de un conjunto de datos que
+contiene una colección de correos electrónicos que se etiquetan previamente como
+"spam" o "no spam". Cada correo electrónico en el conjunto de datos se representa
+como un conjunto de características, como las palabras que contiene y otros
+atributos relevantes.
+Luego el conjunto de datos de entrenamiento se utilizzan para enseñar a
+nuestro algoritmo de aprendizaje supervisado a reconocer patrones que distingan
+entre correos electrónicos de spam y no spam. El algoritmo ajusta un modelo
+matemático que relaciona las características de entrada (contenido del correo
+electrónico) con las etiquetas de salida (spam o no spam).
+Durante el proceso de entrenamiento, el algoritmo de aprendizaje inducirá
+reglas o relaciones a partir de los ejemplos de entrenamiento. Por ejemplo, podría
+aprender que, si un correo electrónico contiene ciertas palabras clave como
+"oferta", "ganador" y "gratis", es más probable que sea spam.
+Después de entrenar el modelo, se valida utilizando un conjunto de datos
+de prueba independiente para verificar su capacidad para clasificar correctamente
+correos electrónicos desconocidos. Si el modelo no tiene un rendimiento
+satisfactorio, se puede ajustar los parámetros del algoritmo o recopilar más datos
+de entrenamiento para mejorar su precisión.
+Una vez que el modelo está entrenado y validado, se puede usarlo para
+clasificar automáticamente nuevos correos electrónicos. Cuando llega un nuevo
+correo electrónico, el modelo evalúa sus características y predice si es spam o no
+spam en función de las reglas y patrones que ha aprendido.
+Este es un ejemplo simplificado, debido a que en la práctica, los algoritmos
+de aprendizaje supervisado pueden ser mucho más complejos y manejar una
 variedad de características y técnicas de procesamiento de datos. La clave de la

@@ -1,14 +1,14 @@
-Shi, Z. (2019). Advanced artificial intelligence (Vol. 4). World Scientific. 
-Shortliffe, E. H. (1977). Mycin: A knowledge-based computer program applied to 
-infectious diseases. Proceedings of the Annual Symposium on Computer Application 
-in Medical Care, 66. 
-Sipser, M. (1996). Introduction to the Theory of Computation. ACM Sigact News, 27(1), 
-27–29. 
-Turing, A. M. (2009). Computing machinery and intelligence. Springer. 
-Van Harmelen, F., Lifschitz, V., & Porter, B. (2008). Handbook of knowledge 
-representation. Elsevier. 
-Weller, K. (2010). Knowledge representation in the social semantic web. De Gruyter 
-Saur. 
-Whitby, B. (2009). Artificial intelligence. The Rosen Publishing Group, Inc. 
-Xiao, P. (2022). Artificial intelligence programming with Python: from zero to hero. John 
+Shi, Z. (2019). Advanced artificial intelligence (Vol. 4). World Scientific.
+Shortliffe, E. H. (1977). Mycin: A knowledge-based computer program applied to
+infectious diseases. Proceedings of the Annual Symposium on Computer Application
+in Medical Care, 66.
+Sipser, M. (1996). Introduction to the Theory of Computation. ACM Sigact News, 27(1),
+27–29.
+Turing, A. M. (2009). Computing machinery and intelligence. Springer.
+Van Harmelen, F., Lifschitz, V., & Porter, B. (2008). Handbook of knowledge
+representation. Elsevier.
+Weller, K. (2010). Knowledge representation in the social semantic web. De Gruyter
+Saur.
+Whitby, B. (2009). Artificial intelligence. The Rosen Publishing Group, Inc.
+Xiao, P. (2022). Artificial intelligence programming with Python: from zero to hero. John
 Wiley & Sons.

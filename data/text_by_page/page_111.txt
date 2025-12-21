@@ -1,32 +1,32 @@
-Ante estas limitaciones se desarrolló la lógica de primer orden, una evolución de 
-la lógica proposicional. Esta forma lógica más general permite representar todos los 
-detalles expresados en las sentencias de manera más rica y precisa. La lógica de primer 
-orden es capaz de expresar relaciones, cuantificadores, y reglas más complejas, lo que la 
-hace adecuada para representar conocimiento en entornos donde la información es más 
-elaborada y las interacciones entre objetos son más sofisticadas. 
-En el ámbito de la inteligencia artificial, la lógica de primer orden juega un rol 
-fundamental, proporcionando una base sólida para el desarrollo de sistemas inteligentes. 
-Su capacidad para representar conocimientos de manera detallada y estructurada la 
-convierte en una herramienta indispensable para abordar los desafíos de representación 
-del conocimiento en IA. 
-La lógica de primer orden se destaca especialmente en entornos de incertidumbre, 
-donde los agentes inteligentes deben operar con información fragmentada o incompleta 
-(Gelfond & Kahl, 2014). Esta lógica ofrece un marco robusto para la interpretación y el 
-manejo de estas situaciones, respaldado por un conjunto de axiomas y reglas bien 
-definidas. 
-La lógica de primer orden se convierte en un pilar esencial para la inteligencia 
-artificial, proporcionando una estructura para la representación del conocimiento que es 
-fundamental para el desarrollo de comportamientos inteligentes. 
-En la lógica de primer orden, la construcción del conocimiento se basa en tres 
-elementos fundamentales: 
-Constantes: Representan los objetos del conocimiento, que pueden ser personas, 
-objetos físicos o conceptos abstractos. Son los elementos básicos sobre los que se 
-construye el conocimiento. 
-Predicados: Son relaciones, cualidades o atributos que se aplican a los objetos del 
-conocimiento. Permiten expresar cómo se relacionan entre sí o qué características poseen. 
-Funciones: Las funciones en la lógica de primer orden son referencias indirectas 
-a otros elementos del conocimiento. Pueden utilizarse para representar transformaciones 
-o cálculos sobre los objetos y predicados. 
-Estos tres componentes trabajan en conjunto para representar de manera precisa y 
-estructurada el conocimiento en la lógica de primer orden, convirtiéndose en una 
+Ante estas limitaciones se desarrolló la lógica de primer orden, una evolución de
+la lógica proposicional. Esta forma lógica más general permite representar todos los
+detalles expresados en las sentencias de manera más rica y precisa. La lógica de primer
+orden es capaz de expresar relaciones, cuantificadores, y reglas más complejas, lo que la
+hace adecuada para representar conocimiento en entornos donde la información es más
+elaborada y las interacciones entre objetos son más sofisticadas.
+En el ámbito de la inteligencia artificial, la lógica de primer orden juega un rol
+fundamental, proporcionando una base sólida para el desarrollo de sistemas inteligentes.
+Su capacidad para representar conocimientos de manera detallada y estructurada la
+convierte en una herramienta indispensable para abordar los desafíos de representación
+del conocimiento en IA.
+La lógica de primer orden se destaca especialmente en entornos de incertidumbre,
+donde los agentes inteligentes deben operar con información fragmentada o incompleta
+(Gelfond & Kahl, 2014). Esta lógica ofrece un marco robusto para la interpretación y el
+manejo de estas situaciones, respaldado por un conjunto de axiomas y reglas bien
+definidas.
+La lógica de primer orden se convierte en un pilar esencial para la inteligencia
+artificial, proporcionando una estructura para la representación del conocimiento que es
+fundamental para el desarrollo de comportamientos inteligentes.
+En la lógica de primer orden, la construcción del conocimiento se basa en tres
+elementos fundamentales:
+Constantes: Representan los objetos del conocimiento, que pueden ser personas,
+objetos físicos o conceptos abstractos. Son los elementos básicos sobre los que se
+construye el conocimiento.
+Predicados: Son relaciones, cualidades o atributos que se aplican a los objetos del
+conocimiento. Permiten expresar cómo se relacionan entre sí o qué características poseen.
+Funciones: Las funciones en la lógica de primer orden son referencias indirectas
+a otros elementos del conocimiento. Pueden utilizarse para representar transformaciones
+o cálculos sobre los objetos y predicados.
+Estos tres componentes trabajan en conjunto para representar de manera precisa y
+estructurada el conocimiento en la lógica de primer orden, convirtiéndose en una
 herramienta poderosa para la representación y el razonamiento en la inteligencia artificial.

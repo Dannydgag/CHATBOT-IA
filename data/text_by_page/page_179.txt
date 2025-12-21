@@ -1,32 +1,32 @@
-5. Logística y Cadena de Suministro 
-Optimización de Rutas de Entrega: Para encontrar la ruta más eficiente para la entrega 
-de productos. 
-6. Diseño VLSI (Very Large Scale Integration) 
-Ubicación de Componentes: Para optimizar la disposición de componentes en un chip. 
-7. Bioinformática 
-Alineación de Secuencias: Para encontrar la mejor alineación entre dos secuencias de 
-ADN, ARN o proteínas. 
-8. Juegos y Estrategias 
+5. Logística y Cadena de Suministro
+Optimización de Rutas de Entrega: Para encontrar la ruta más eficiente para la entrega
+de productos.
+6. Diseño VLSI (Very Large Scale Integration)
+Ubicación de Componentes: Para optimizar la disposición de componentes en un chip.
+7. Bioinformática
+Alineación de Secuencias: Para encontrar la mejor alineación entre dos secuencias de
+ADN, ARN o proteínas.
+8. Juegos y Estrategias
 Resolución de Puzzles y Juegos de Tablero: Como el Sudoku o el problema de las N-
-reinas. 
-9. Energía y Medio Ambiente 
-Optimización de Sistemas de Energía: Para encontrar la configuración más eficiente en 
-sistemas de energía renovable. 
-10. Finanzas 
-Optimización de Portafolios: Para encontrar la combinación óptima de activos 
-financieros. 
-El Recocido Simulado es un algoritmo versátil que se adapta bien a problemas que 
-tienen un gran espacio de soluciones y donde se busca una solución óptima o cercana a la 
-óptima en un tiempo razonable. 
-3.3.5 Programación lineal 
-La programación lineal es una familia de problemas que optimizan una ecuación 
-lineal (una ecuación de la forma y = ax₁ + bx₂ + …). 
-La programación lineal tendrá los siguientes componentes: 
-• Una función de costo que se quiere minimizar: c₁x₁ + c₂x₂ + … + cₙxₙ. Aquí, cada x₋ es 
-una variable y está asociada con algún costo c₋. 
-• Una restricción que se representa como una suma de variables que es menor o igual a 
-un valor (a₁x₁ + a₂x₂ + … + aₙxₙ ≤ b) o exactamente igual a este valor (a₁x₁ + a₂x₂ + … + 
-aₙxₙ = b). En este caso, x₋ es una variable, y a₋ es algún recurso asociado a ella, y b es 
-cuántos recursos se puede dedicar a este problema. 
-• Límites individuales en las variables (por ejemplo, que una variable no puede ser 
+reinas.
+9. Energía y Medio Ambiente
+Optimización de Sistemas de Energía: Para encontrar la configuración más eficiente en
+sistemas de energía renovable.
+10. Finanzas
+Optimización de Portafolios: Para encontrar la combinación óptima de activos
+financieros.
+El Recocido Simulado es un algoritmo versátil que se adapta bien a problemas que
+tienen un gran espacio de soluciones y donde se busca una solución óptima o cercana a la
+óptima en un tiempo razonable.
+[TITLE]: 3.3.5 Programación lineal
+La programación lineal es una familia de problemas que optimizan una ecuación
+lineal (una ecuación de la forma y = ax₁ + bx₂ + …).
+La programación lineal tendrá los siguientes componentes:
+• Una función de costo que se quiere minimizar: c₁x₁ + c₂x₂ + … + cₙxₙ. Aquí, cada x₋ es
+una variable y está asociada con algún costo c₋.
+• Una restricción que se representa como una suma de variables que es menor o igual a
+un valor (a₁x₁ + a₂x₂ + … + aₙxₙ ≤ b) o exactamente igual a este valor (a₁x₁ + a₂x₂ + … +
+aₙxₙ = b). En este caso, x₋ es una variable, y a₋ es algún recurso asociado a ella, y b es
+cuántos recursos se puede dedicar a este problema.
+• Límites individuales en las variables (por ejemplo, que una variable no puede ser
 negativa) de la forma lᵢ ≤ xᵢ ≤ uᵢ.

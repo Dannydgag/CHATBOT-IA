@@ -1,34 +1,34 @@
-herramientas); el diseñador debe identificar posibles problemas que 
-el agente tiene que enfrentar y proceder a desarrollar estrategias y 
-algoritmos que permitan que pueda el agente realizar sus tareas de 
-manera eficiente y competitiva.   
-Percepciones 
-    Las percepciones es la capacidad del agente para obtener 
-información del medio ambiente que lo rodea a través de sensores. 
-Los sensores son los dispositivos que permiten al agente captar datos 
-y señales del entorno, que le proporcionan información al agente 
-sobre diferentes aspectos como el estado físico, la presencia de 
-objetos, eventos o cualquier otro tipo de estímulo relevante.  
-Mediante estos datos el agente pueda comprender y tomar decisiones 
-adecuadas en su entorno. 
-Acciones 
-    Las acciones representan el efecto que tiene el agente sobre su 
-medio ambiente, utilizando actuadores, estos son dispositivos o 
-mecanismos que permiten al agente interactuar físicamente con el 
-entorno y realizar cambios o ejecutar acciones específicas. Estos 
-actuadores pueden variar según el tipo de agente y la aplicación para 
-la cual están destinados, e incluir elementos como motores, brazos 
-robóticos, sistemas de manipulación, entre otros. 
-    La capacidad de realizar acciones al agente le permite manifestar 
-su comportamiento y llevar a cabo tareas en su entorno. El agente 
-mediante los actuadores, puede realizar acciones como mover 
-objetos, desplazarse en el espacio, modificar configuraciones o 
-ejecutar cualquier otra acción física requerida en el contexto. 
-Elaborado por los Autores 
-En el diseño del agente denominado robot que juega al futbol (figura 1.7) la 
-medida de rendimiento constituye: partidos ganados, partidos empatados, partidos 
-perdidos, goles a favor, goles en contra. El entorno de trabajo va a ser el campo de juego, 
-la pelota, sus compañeros de juego, los robots adversarios. Para que pueda realizar las 
-percepciones se requiere una cámara, sensores táctiles, acelerómetro, sensores de 
-orientación. Para efectuar acciones necesita dispositivos de locomoción como las piernas 
+herramientas); el diseñador debe identificar posibles problemas que
+el agente tiene que enfrentar y proceder a desarrollar estrategias y
+algoritmos que permitan que pueda el agente realizar sus tareas de
+manera eficiente y competitiva.
+Percepciones
+Las percepciones es la capacidad del agente para obtener
+información del medio ambiente que lo rodea a través de sensores.
+Los sensores son los dispositivos que permiten al agente captar datos
+y señales del entorno, que le proporcionan información al agente
+sobre diferentes aspectos como el estado físico, la presencia de
+objetos, eventos o cualquier otro tipo de estímulo relevante.
+Mediante estos datos el agente pueda comprender y tomar decisiones
+adecuadas en su entorno.
+Acciones
+Las acciones representan el efecto que tiene el agente sobre su
+medio ambiente, utilizando actuadores, estos son dispositivos o
+mecanismos que permiten al agente interactuar físicamente con el
+entorno y realizar cambios o ejecutar acciones específicas. Estos
+actuadores pueden variar según el tipo de agente y la aplicación para
+la cual están destinados, e incluir elementos como motores, brazos
+robóticos, sistemas de manipulación, entre otros.
+La capacidad de realizar acciones al agente le permite manifestar
+su comportamiento y llevar a cabo tareas en su entorno. El agente
+mediante los actuadores, puede realizar acciones como mover
+objetos, desplazarse en el espacio, modificar configuraciones o
+ejecutar cualquier otra acción física requerida en el contexto.
+Elaborado por los Autores
+En el diseño del agente denominado robot que juega al futbol (figura 1.7) la
+medida de rendimiento constituye: partidos ganados, partidos empatados, partidos
+perdidos, goles a favor, goles en contra. El entorno de trabajo va a ser el campo de juego,
+la pelota, sus compañeros de juego, los robots adversarios. Para que pueda realizar las
+percepciones se requiere una cámara, sensores táctiles, acelerómetro, sensores de
+orientación. Para efectuar acciones necesita dispositivos de locomoción como las piernas
 que le permitan trasladarse de un lugar a otro y dispositivos para patear el balón.

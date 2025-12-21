@@ -1,12 +1,12 @@
-el diseñador del agente puede introducir sentencias una a una, permitiendo al agente 
-adquirir gradualmente la capacidad de operar en su entorno. Este enfoque se conoce como 
-el método declarativo para construir el sistema. En contraposición, el enfoque 
-procedimental implica la codificación directa de comportamientos deseados como código 
-de programa. 
-Un agente exitoso a menudo combina elementos tanto declarativos como 
-procedimentales en su diseño, y el conocimiento declarativo a menudo se puede compilar 
-en un código procedimental más eficiente. 
-Asimismo, es posible dotar a un agente basado en conocimiento de mecanismos 
-que le permita aprender de manera autónoma, generando conocimiento general sobre su 
-entorno a partir de una secuencia de percepciones. Un agente de aprendizaje puede ser 
+el diseñador del agente puede introducir sentencias una a una, permitiendo al agente
+adquirir gradualmente la capacidad de operar en su entorno. Este enfoque se conoce como
+el método declarativo para construir el sistema. En contraposición, el enfoque
+procedimental implica la codificación directa de comportamientos deseados como código
+de programa.
+Un agente exitoso a menudo combina elementos tanto declarativos como
+procedimentales en su diseño, y el conocimiento declarativo a menudo se puede compilar
+en un código procedimental más eficiente.
+Asimismo, es posible dotar a un agente basado en conocimiento de mecanismos
+que le permita aprender de manera autónoma, generando conocimiento general sobre su
+entorno a partir de una secuencia de percepciones. Un agente de aprendizaje puede ser
 totalmente autónomo.

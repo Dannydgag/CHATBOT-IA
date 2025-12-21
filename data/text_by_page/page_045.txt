@@ -1,33 +1,32 @@
-conclusiones aun cuando existe incertidumbre. 
-El Aprendizaje automático permite a las máquinas adaptarse a nuevas 
-circunstancias, detectar y extrapolar patrones. Permite que las máquinas sean capaces de 
-aprender cosas nuevas, de adaptarse al medio; para lo cual en la actualidad se usan 
-técnicas basadas en redes neuronales y métodos probabilísticos como las redes bayesianas 
-o de Markov (Croitoru et al., 2018). 
-La Visión computacional, es una disciplina esencial, porque capacita a sistemas 
-inteligentes para percibir objetos y comprender su entorno a través de imágenes. Su 
-desarrollo persigue la ambiciosa meta de igualar la capacidad de percepción visual 
-humana utilizando medios electrónicos para interpretar y comprender imágenes. La 
-comprensión de la imagen se puede considerar como el proceso de esclareser información 
-simbólica a partir de los datos visuales, empleando modelos que se fundamentan en 
-principios de geometría, física, estadística y teoría del aprendizaje. 
-La Robótica, usada para manipular y mover objetos, tomando en cuenta el peso, 
-la forma, la presión que debe aplicarse para no dañar el objeto y saber los movimientos a 
-realizar para trasladar el objeto a su destino. En el presente constituyen máquinas 
-automatizadas que pueden tomar el lugar de los humanos en entornos peligrosos o 
-procesos de fabricación, o parecerse a los humanos en apariencia en el comportamiento 
-y la cognición. 
-1.6 
-Agentes inteligentes 
-El paradigma principal en el campo de la Inteligencia Artificial es el modelo 
-racional, que sostiene que una máquina es considerada inteligente si piensa y se comporta 
-de manera racional. Este enfoque se apoya en técnicas de lógica y en el concepto de 
-agentes desarrollado por Russell y Norvig. Los agentes toman decisiones basadas en el 
-razonamiento y las conclusiones extraídas de la información disponible, priorizando la 
-opción más conveniente en función de los datos y el tiempo disponible. 
-El agente humano tiene un cuerpo con un conjunto de sensores que incluye la 
-visión, la audición, el olfato, el gusto, la piel, el sentido vestibular para el equilibrio, la 
-nocicepción relacionada al dolor, también tiene una serie de sistemas actuadores que 
-incluyen dedos, brazos y piernas y otros sistemas de control motores como el cerebro y 
-el sistema nervioso central. 
+conclusiones aun cuando existe incertidumbre.
+El Aprendizaje automático permite a las máquinas adaptarse a nuevas
+circunstancias, detectar y extrapolar patrones. Permite que las máquinas sean capaces de
+aprender cosas nuevas, de adaptarse al medio; para lo cual en la actualidad se usan
+técnicas basadas en redes neuronales y métodos probabilísticos como las redes bayesianas
+o de Markov (Croitoru et al., 2018).
+La Visión computacional, es una disciplina esencial, porque capacita a sistemas
+inteligentes para percibir objetos y comprender su entorno a través de imágenes. Su
+desarrollo persigue la ambiciosa meta de igualar la capacidad de percepción visual
+humana utilizando medios electrónicos para interpretar y comprender imágenes. La
+comprensión de la imagen se puede considerar como el proceso de esclareser información
+simbólica a partir de los datos visuales, empleando modelos que se fundamentan en
+principios de geometría, física, estadística y teoría del aprendizaje.
+La Robótica,usadapara manipular y mover objetos, tomando en cuenta el peso,
+la forma, la presión que debe aplicarse para no dañar el objeto y saber los movimientos a
+realizar para trasladar el objeto a su destino. En el presente constituyen máquinas
+automatizadas que pueden tomar el lugar de los humanos en entornos peligrosos o
+procesos de fabricación, o parecerse a los humanos en apariencia en el comportamiento
+y la cognición.
+[TITLE]: 1.6 Agentes inteligentes
+El paradigma principal en el campo de la Inteligencia Artificial es el modelo
+racional, que sostiene que una máquina es considerada inteligente si piensa y se comporta
+de manera racional. Este enfoque se apoya en técnicas de lógica y en el concepto de
+agentes desarrollado por Russell y Norvig. Los agentes toman decisiones basadas en el
+razonamiento y las conclusiones extraídas de la información disponible, priorizando la
+opción más conveniente en función de los datos y el tiempo disponible.
+El agente humano tiene un cuerpo con un conjunto de sensores que incluye la
+visión, la audición, el olfato, el gusto, la piel, el sentido vestibular para el equilibrio, la
+nocicepción relacionada al dolor, también tiene una serie de sistemas actuadores que
+incluyen dedos, brazos y piernas y otros sistemas de control motores como el cerebro y
+el sistema nervioso central.
 En el ámbito de la Inteligencia Artificial, un agente inteligente, también conocido

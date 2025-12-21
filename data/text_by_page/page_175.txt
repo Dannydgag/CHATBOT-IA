@@ -1,35 +1,35 @@
-mejorVecino = NULL 
-        for cada vecino en vecindario: 
-            si vecino no está en listaTabú y aptitud(vecino) < aptitud(mejorVecino): 
-                mejorVecino = vecino 
-        si mejorVecino es NULL: 
-            detener  # No se encontró un mejor vecino válido 
-       soluciónActual = mejorVecino 
-       si aptitud(mejorVecino) < aptitud(mejorSolución): 
-            mejorSolución = mejorVecino 
-       agregar mejorVecino a listaTabú 
-        si tamaño de listaTabú > tamañoListaTabú: 
-            eliminar el elemento más antiguo de listaTabú 
- devolver mejorSolución 
-A continuación, se describe el pseudocódigo del algoritmo de Búsqueda Tabú, sus 
-variables y componentes importantes: 
-iteraciones: El número máximo de iteraciones que se ejecutarán. 
-tamañoListaTabú: El tamaño máximo de la lista tabú que almacena soluciones prohibidas 
-recientes. 
-GenerarSoluciónInicial(): Genera una solución inicial aleatoria. 
-GenerarVecindario(soluciónActual): Genera un vecindario de soluciones vecinas a partir 
-de la solución actual. 
-aptitud(solución): Evalúa la calidad de una solución dada (menos es mejor). 
-ListaVacia(): Inicializa una lista tabú vacía. 
-El algoritmo inicia con una solución aleatoria, considerándola como la mejor hasta 
-ese momento. En cada iteración, genera soluciones vecinas y selecciona el mejor vecino 
-que no este en la lista tabú con aptitud superior. Si este vecino supera la mejor solución 
-actual, se actualiza. Este vecino se añade a la lista tabú, eliminando el elemento más 
-antiguo si se excede el tamaño máximo de la lista. Tras un número determinado de 
-iteraciones, el algoritmo presenta la mejor solución hallada como la respuesta óptima o 
-aproximada al problema de optimización. 
-3.3.4 Recocido simulado 
-El algoritmo de Recocido Simulado, también conocido como Simulated 
-Annealing en inglés, se destaca como una estrategia robusta para abordar el problema de 
-quedar atrapado en óptimos locales en la búsqueda de escalada de colinas. Su concepto 
+mejorVecino = NULL
+for cada vecino en vecindario:
+si vecino no está en listaTabú y aptitud(vecino) < aptitud(mejorVecino):
+mejorVecino = vecino
+si mejorVecino es NULL:
+detener  # No se encontró un mejor vecino válido
+soluciónActual = mejorVecino
+si aptitud(mejorVecino) < aptitud(mejorSolución):
+mejorSolución = mejorVecino
+agregar mejorVecino a listaTabú
+si tamaño de listaTabú > tamañoListaTabú:
+eliminar el elemento más antiguo de listaTabú
+devolver mejorSolución
+A continuación, se describe el pseudocódigo del algoritmo de Búsqueda Tabú, sus
+variables y componentes importantes:
+iteraciones: El número máximo de iteraciones que se ejecutarán.
+tamañoListaTabú: El tamaño máximo de la lista tabú que almacena soluciones prohibidas
+recientes.
+GenerarSoluciónInicial(): Genera una solución inicial aleatoria.
+GenerarVecindario(soluciónActual): Genera un vecindario de soluciones vecinas a partir
+de la solución actual.
+aptitud(solución): Evalúa la calidad de una solución dada (menos es mejor).
+ListaVacia(): Inicializa una lista tabú vacía.
+El algoritmo inicia con una solución aleatoria, considerándola como la mejor hasta
+ese momento. En cada iteración, genera soluciones vecinas y selecciona el mejor vecino
+que no este en la lista tabú con aptitud superior. Si este vecino supera la mejor solución
+actual, se actualiza. Este vecino se añade a la lista tabú, eliminando el elemento más
+antiguo si se excede el tamaño máximo de la lista. Tras un número determinado de
+iteraciones, el algoritmo presenta la mejor solución hallada como la respuesta óptima o
+aproximada al problema de optimización.
+[TITLE]: 3.3.4 Recocido simulado
+El algoritmo de Recocido Simulado, también conocido como Simulated
+Annealing en inglés, se destaca como una estrategia robusta para abordar el problema de
+quedar atrapado en óptimos locales en la búsqueda de escalada de colinas. Su concepto
 se inspira en la metalurgia, donde se calienta un metal y luego se permite que se enfríe

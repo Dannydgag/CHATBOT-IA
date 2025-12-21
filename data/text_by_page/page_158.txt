@@ -1,11 +1,11 @@
-B. 
-El nodo B tiene 2 sucesores que son el nodo E y el nodo C, se procede a realizar 
-los cálculos para cada uno de estos nodos. El valor de g(E ) = 4,12 + 
-√(6 −4)2 + (4 −2)2 = 4,12 + 2,83 = 6,95  ; el cálculo de la heurística es  h(E) = 
-√(8 −6)2 + (10 −4)2 = 6,32 ; el valor de f(E) = 6,95 + 6,32 = 13,27 . El valor de g(C)= 
-4,12 +  √(10 −4)2 + (3 −2)2 = 4,12 + 6,08 = 10,2 ; se procede a calcular el valor de 
-h(C) = √(10 −8)2 + (10 −3)2 = 7,28 ; el valor de f(C) = 10,2 + 7,28 = 17,48  
-El nodo E es el de menor valor por lo que se despliega su sucesor que es el nodo 
-H; se calcula el valor de g(H) = 4,12 + 2,83 + √(6 −2)2 + (6 −4)2 = 4,12 + 2,83 + 4,47 
-= 11,42 ; el valor  h(H) = √(8 −2)2 + (10 −6)2= 7,21 ; el valor de f(H) = 11,42 + 7,21 
+B.
+El nodo B tiene 2 sucesores que son el nodo E y el nodo C, se procede a realizar
+los cálculos para cada uno de estos nodos. El valor de g(E ) = 4,12 +
+√(6 −4)2+ (4 −2)2 = 4,12 + 2,83 = 6,95  ; el cálculo de la heurística es  h(E) =
+√(8 −6)2+ (10 −4)2 = 6,32 ; el valor de f(E) = 6,95 + 6,32 = 13,27 . El valor de g(C)=
+4,12 +  √(10 −4)2+ (3 −2)2 = 4,12 + 6,08 = 10,2 ; se procede a calcular el valor de
+h(C) = √(10 −8)2+ (10 −3)2 = 7,28 ; el valor de f(C) = 10,2 + 7,28 = 17,48
+El nodo E es el de menor valor por lo que se despliega su sucesor que es el nodo
+H; se calcula el valor de g(H) = 4,12 + 2,83 + √(6 −2)2+ (6 −4)2 = 4,12 + 2,83 + 4,47
+= 11,42 ; el valor  h(H) = √(8 −2)2+ (10 −6)2= 7,21 ; el valor de f(H) = 11,42 + 7,21
 = 18,63.

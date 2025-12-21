@@ -1,34 +1,34 @@
-1) Establecer un número máximo de reinicios. 
-2) Para cada reinicio: 
-a. Seleccionar un estado inicial al azar. 
-b. Realizar la escalada de colinas desde ese estado inicial hasta que se encuentre 
-un máximo local. 
-c. Guardar la solución si es mejor que las soluciones anteriores. 
-3) Al final de todos los reinicios, devolver la mejor solución encontrada. 
-Pseudocódigo: 
-ReinicioAleatorio(iteraciones, tasaReinicio): 
-    mejorSolucion = SolucionAleatoria()  # Inicializar con una solución aleatoria 
-    para i en rango(iteraciones): 
-        solucionActual = MejorVecino(mejorSolucion)  # Encuentra el mejor vecino 
-       si solucionActual es mejor que mejorSolucion: 
-            mejorSolucion = solucionActual  # Actualiza la mejor solución 
-       si aleatorio() < tasaReinicio: 
-            mejorSolucion = SolucionAleatoria()  # Reinicia aleatoriamente 
-    devolver mejorSolucion 
-A continuación, se describen las funciones y componentes clave del pseudocódigo 
-de un algoritmo de Reinicio Aleatorio. 
-iteraciones: Es el número máximo de iteraciones que se ejecutarán. 
-tasaReinicio: La probabilidad de realizar un reinicio aleatorio en cada iteración. 
-SolucionAleatoria(): Se genera una solución inicial aleatoria. 
-MejorVecino(solucion): Encuentra el mejor vecino de la solución actual. Esto implica 
-explorar soluciones cercanas a la actual y seleccionar la mejor. 
-aleatorio(): Genera un valor aleatorio entre 0 y 1. 
-El algoritmo empieza con una solución inicial aleatoria. Luego, realiza un bucle 
-durante un número determinado de iteraciones. En cada iteración, busca el mejor vecino 
-de la solución actual y compara si es mejor que la mejor solución conocida hasta ese 
-instante. De ser el caso de que sea superior, actualiza la mejor solución. Además, en cada 
-iteración, hay una probabilidad (tasaReinicio) de realizar un reinicio aleatorio, esto 
-implica que la búsqueda se reinicia desde una solución aleatoria en lugar de continuar 
-desde la solución actual. 
-• Búsqueda de haz local: A diferencia de los algoritmos de búsqueda local 
+1)Establecer un número máximo de reinicios.
+2)Para cada reinicio:
+a.Seleccionar un estado inicial al azar.
+b.Realizar la escalada de colinas desde ese estado inicial hasta que se encuentre
+un máximo local.
+c.Guardar la solución si es mejor que las soluciones anteriores.
+3)Al final de todos los reinicios, devolver la mejor solución encontrada.
+Pseudocódigo:
+ReinicioAleatorio(iteraciones, tasaReinicio):
+mejorSolucion = SolucionAleatoria()  # Inicializar con una solución aleatoria
+para i en rango(iteraciones):
+solucionActual = MejorVecino(mejorSolucion)  # Encuentra el mejor vecino
+si solucionActual es mejor que mejorSolucion:
+mejorSolucion = solucionActual  # Actualiza la mejor solución
+si aleatorio() < tasaReinicio:
+mejorSolucion = SolucionAleatoria()  # Reinicia aleatoriamente
+devolver mejorSolucion
+A continuación, se describen las funciones y componentes clave del pseudocódigo
+de un algoritmo de Reinicio Aleatorio.
+iteraciones: Es el número máximo de iteraciones que se ejecutarán.
+tasaReinicio: La probabilidad de realizar un reinicio aleatorio en cada iteración.
+SolucionAleatoria(): Se genera una solución inicial aleatoria.
+MejorVecino(solucion): Encuentra el mejor vecino de la solución actual. Esto implica
+explorar soluciones cercanas a la actual y seleccionar la mejor.
+aleatorio(): Genera un valor aleatorio entre 0 y 1.
+El algoritmo empieza con una solución inicial aleatoria. Luego, realiza un bucle
+durante un número determinado de iteraciones. En cada iteración, busca el mejor vecino
+de la solución actual y compara si es mejor que la mejor solución conocida hasta ese
+instante. De ser el caso de que sea superior, actualiza la mejor solución. Además, en cada
+iteración, hay una probabilidad (tasaReinicio) de realizar un reinicio aleatorio, esto
+implica que la búsqueda se reinicia desde una solución aleatoria en lugar de continuar
+desde la solución actual.
+• Búsqueda de haz local: A diferencia de los algoritmos de búsqueda local
 convencionales que trabajan con un único nodo, este enfoque mantiene y evalúa múltiples

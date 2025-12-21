@@ -1,32 +1,32 @@
-audio.  
-En la robótica, son pieza clave para el procesamiento de datos sensoriales y la 
-toma de decisiones en vehículos autónomos (Eze, 2022). En el sector de la salud, las 
-RNA permiten el reconocimiento y diagnóstico preciso de enfermedades a través de 
-imágenes médicas, el análisis de secuencias genéticas y la identificación de patrones 
-en registros de salud electrónicos. Específicamente, las Redes Generativas Adversarias 
-(GAN) tienen la notable capacidad de generar imágenes, música y textos 
-indistinguibles de aquellos creados por seres humanos, abriendo así nuevas fronteras 
-en la creación de contenido digital. 
-k) Los Marcos Temporales, son sistemas de representación de conocimiento que se 
-enfocan específicamente en capturar y manejar la información relacionada con el 
-tiempo, como eventos que ocurren antes, después o durante otros eventos. La 
-temporalidad es una dimensión importante en muchos sistemas y aplicaciones, y 
-entender las relaciones temporales entre eventos puede ser vital para decisiones, 
-razonamientos y predicciones. Se aplican en la elaboración de planes, en los cuales es 
-esencial saber qué tarea precede o sigue a otra para asignar recursos o tiempo de 
-manera efectiva.  
-En el ámbito médico, la comprensión detallada de la cronología de los síntomas y 
-los tratamientos es esencial para el diagnóstico y la terapia adecuados, lo que subraya 
-la importancia del análisis de series temporales. Estas series son igualmente críticas en 
-la organización y secuenciación de tareas según la temporalidad, como ocurre en la 
-logística del transporte o en la programación de la producción industrial. En el terreno 
-de los videojuegos y las simulaciones, los agentes informáticos emplean marcos 
-temporales para determinar acciones, basándose en la interpretación de eventos 
-anteriores, actuales y proyectados. Las bases de datos especializadas en series 
-temporales son importantes en la gestión de datos dinámicos, como en el seguimiento 
-de transacciones financieras o en el mantenimiento de registros médicos. Este tipo de 
-análisis temporal es también fundamental en sistemas de reservación, como los de 
-hoteles y vuelos, que gestionan la disponibilidad y las reservas en distintos períodos. 
- En la industria, se utiliza para monitorear y evaluar el flujo de datos de sensores 
-y actuadores a lo largo del tiempo, proporcionando así información valiosa para el 
+audio.
+En la robótica, son pieza clave para el procesamiento de datos sensoriales y la
+toma de decisiones en vehículos autónomos (Eze, 2022). En el sector de la salud, las
+RNA permiten el reconocimiento y diagnóstico preciso de enfermedades a través de
+imágenes médicas, el análisis de secuencias genéticas y la identificación de patrones
+en registros de salud electrónicos. Específicamente, las Redes Generativas Adversarias
+(GAN) tienen la notable capacidad de generar imágenes, música y textos
+indistinguibles de aquellos creados por seres humanos, abriendo así nuevas fronteras
+en la creación de contenido digital.
+k)LosMarcos Temporales, son sistemas de representación de conocimiento que se
+enfocan específicamente en capturar y manejar la información relacionada con el
+tiempo, como eventos que ocurren antes, después o durante otros eventos. La
+temporalidad es una dimensión importante en muchos sistemas y aplicaciones, y
+entender las relaciones temporales entre eventos puede ser vital para decisiones,
+razonamientos y predicciones. Se aplican en la elaboración de planes, en los cuales es
+esencial saber qué tarea precede o sigue a otra para asignar recursos o tiempo de
+manera efectiva.
+En el ámbito médico, la comprensión detallada de la cronología de los síntomas y
+los tratamientos es esencial para el diagnóstico y la terapia adecuados, lo que subraya
+la importancia del análisis de series temporales. Estas series son igualmente críticas en
+la organización y secuenciación de tareas según la temporalidad, como ocurre en la
+logística del transporte o en la programación de la producción industrial. En el terreno
+de los videojuegos y las simulaciones, los agentes informáticos emplean marcos
+temporales para determinar acciones, basándose en la interpretación de eventos
+anteriores, actuales y proyectados. Las bases de datos especializadas en series
+temporales son importantes en la gestión de datos dinámicos, como en el seguimiento
+de transacciones financieras o en el mantenimiento de registros médicos. Este tipo de
+análisis temporal es también fundamental en sistemas de reservación, como los de
+hoteles y vuelos, que gestionan la disponibilidad y las reservas en distintos períodos.
+En la industria, se utiliza para monitorear y evaluar el flujo de datos de sensores
+y actuadores a lo largo del tiempo, proporcionando así información valiosa para el
 mantenimiento y la optimización de procesos. Además, es instrumental para el

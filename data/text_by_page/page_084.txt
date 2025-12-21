@@ -1,32 +1,32 @@
-aprendizaje y reconocimiento de patrones. 
-El conocimiento, que representa el conjunto de hechos e información acumulada 
-por la humanidad, es un elemento clave en la modelación de los diversos aspectos del 
-mundo que nos rodea. Su recopilación y procesamiento son esenciales para facilitar la 
-toma de decisiones adecuadas y oportunas, impulsando a su vez el aprendizaje y la 
-adquisición de nuevo conocimiento (Brachman & Levesque, 2004). 
-En el ámbito de la Inteligencia Artificial, el conocimiento adquiere una relevancia 
-crítica. Los sistemas inteligentes se basan en una amplia gama de datos y conocimientos 
-previos para ejecutar tareas complejas y tomar decisiones informadas. La adquisición y 
-gestión eficaz del conocimiento son fundamentales para que los agentes de IA puedan 
-aprender de sus experiencias y mejorar su rendimiento de manera continua. 
-Los progresos en el aprendizaje automático y la minería de datos han abierto 
-nuevas puertas para los sistemas de IA, permitiéndoles acceder a vastas cantidades de 
-información y extraer conocimientos valiosos. Modelos avanzados, como las redes 
-neuronales, son capaces de analizar datos para descubrir patrones ocultos, lo que les 
-permite aprender y adaptarse a nuevas circunstancias. 
-El proceso de aprendizaje en los sistemas de IA es paralelo al proceso de 
-adquisición de conocimiento humano. Mediante la exposición a datos variados y la 
-experiencia acumulada, los agentes de IA perfeccionan su rendimiento y alcanzan una 
-mayor precisión en sus predicciones y decisiones. 
-El conocimiento puede ser clasificado en tres formas: 
-1) Conocimiento declarativo: El conocimiento declarativo es aquel que se almacena 
-en la memoria en forma de hechos, conceptos e ideas estáticas, expresadas mediante 
-sentencias o proposiciones acerca del mundo que nos rodea. Estos conocimientos se 
-presentan como patrones que permiten encontrar relaciones entre fragmentos de 
-información. Un ejemplo de conocimiento declarativo podría ser la capacidad de 
-recordar el nombre de las personas, números de teléfono, direcciones, entre otros. 
-En el campo de la Inteligencia Artificial, la representación y utilización del 
-conocimiento declarativo son esenciales para que los sistemas inteligentes puedan 
-acceder a la información relevante y comprender el entorno en el que operan. 
-Mediante la utilización de patrones y relaciones almacenados, los algoritmos de IA 
+aprendizaje y reconocimiento de patrones.
+El conocimiento, que representa el conjunto de hechos e información acumulada
+por la humanidad, es un elemento clave en la modelación de los diversos aspectos del
+mundo que nos rodea. Su recopilación y procesamiento son esenciales para facilitar la
+toma de decisiones adecuadas y oportunas, impulsando a su vez el aprendizaje y la
+adquisición de nuevo conocimiento (Brachman & Levesque, 2004).
+En el ámbito de la Inteligencia Artificial, el conocimiento adquiere una relevancia
+crítica. Los sistemas inteligentes se basan en una amplia gama de datos y conocimientos
+previos para ejecutar tareas complejas y tomar decisiones informadas. La adquisición y
+gestión eficaz del conocimiento son fundamentales para que los agentes de IA puedan
+aprender de sus experiencias y mejorar su rendimiento de manera continua.
+Los progresos en el aprendizaje automático y la minería de datos han abierto
+nuevas puertas para los sistemas de IA, permitiéndoles acceder a vastas cantidades de
+información y extraer conocimientos valiosos. Modelos avanzados, como las redes
+neuronales, son capaces de analizar datos para descubrir patrones ocultos, lo que les
+permite aprender y adaptarse a nuevas circunstancias.
+El proceso de aprendizaje en los sistemas de IA es paralelo al proceso de
+adquisición de conocimiento humano. Mediante la exposición a datos variados y la
+experiencia acumulada, los agentes de IA perfeccionan su rendimiento y alcanzan una
+mayor precisión en sus predicciones y decisiones.
+El conocimiento puede ser clasificado en tres formas:
+1)Conocimiento declarativo: El conocimiento declarativo es aquel que se almacena
+en la memoria en forma de hechos, conceptos e ideas estáticas, expresadas mediante
+sentencias o proposiciones acerca del mundo que nos rodea. Estos conocimientos se
+presentan como patrones que permiten encontrar relaciones entre fragmentos de
+información. Un ejemplo de conocimiento declarativo podría ser la capacidad de
+recordar el nombre de las personas, números de teléfono, direcciones, entre otros.
+En el campo de la Inteligencia Artificial, la representación y utilización del
+conocimiento declarativo son esenciales para que los sistemas inteligentes puedan
+acceder a la información relevante y comprender el entorno en el que operan.
+Mediante la utilización de patrones y relaciones almacenados, los algoritmos de IA
 pueden identificar características significativas, realizar inferencias y resolver

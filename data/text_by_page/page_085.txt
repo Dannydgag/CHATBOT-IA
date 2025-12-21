@@ -1,32 +1,32 @@
-problemas específicos. Esta forma de conocimiento es fundamental para que los 
-agentes inteligentes tomen decisiones adecuadas y actúen de manera informada en un 
-amplio rango de situaciones (Baral, 2003). 
-2) Conocimiento procedimental: Este conocimiento implica la habilidad de realizar 
-procesos o acciones específicas para alcanzar objetivos concretos. Se centra en el 
-"saber hacer", esencial para ejecutar tareas y resolver problemas eficientemente. 
-Un ejemplo cotidiano sería el manejo de operaciones matemáticas básicas, 
-como sumar, restar, multiplicar o dividir, donde seguimos pasos concretos para llegar 
-a una solución. Similarmente, aprender a conducir implica dominar una serie de 
-procedimientos y técnicas para manejar un vehículo con seguridad. 
-En el ámbito de la Inteligencia Artificial (IA), el conocimiento procedimental 
-es vital para desarrollar sistemas avanzados capaces de realizar tareas complejas. Los 
-algoritmos de IA adquieren este conocimiento a través del entrenamiento con grandes 
-volúmenes de datos y la observación de patrones y ejemplos. Una vez internalizado, 
-este conocimiento permite a los sistemas de IA aplicar procedimientos aprendidos 
-para solucionar problemas y tomar decisiones en una variedad de contextos, imitando 
-la capacidad de adaptación y aprendizaje de un ser humano experimentado. 
-Este enfoque no solo mejora la claridad y precisión del texto, sino que también 
-incorpora aspectos clave de la IA, como el aprendizaje a partir de datos y la capacidad 
-de adaptación, para una comprensión más profunda del conocimiento procedimental 
-en este campo. 
-3) Conocimiento heurístico: Este conocimiento se refiere a las estrategias y reglas 
-empíricas utilizadas por los seres humanos para solucionar problemas complejos y 
-tomar decisiones de manera ágil y efectiva. Las heurísticas, consideradas atajos 
-mentales, se fundamentan en la experiencia y el juicio práctico, permitiendo alcanzar 
-soluciones adecuadas sin un análisis detallado de todas las posibles alternativas 
-(Edelkamp & Schrödl, 2011). 
-Un claro ejemplo de conocimiento heurístico es la resolución de 
-rompecabezas o acertijos mediante métodos previamente exitosos en situaciones 
-análogas. En la vida cotidiana, este tipo de conocimiento se manifiesta en decisiones 
-de compra, donde las personas recurren a reglas prácticas, como preferir marcas 
+problemas específicos. Esta forma de conocimiento es fundamental para que los
+agentes inteligentes tomen decisiones adecuadas y actúen de manera informada en un
+amplio rango de situaciones (Baral, 2003).
+2)Conocimiento procedimental: Este conocimiento implica la habilidad de realizar
+procesos o acciones específicas para alcanzar objetivos concretos. Se centra en el
+"saber hacer", esencial para ejecutar tareas y resolver problemas eficientemente.
+Un ejemplo cotidiano sería el manejo de operaciones matemáticas básicas,
+como sumar, restar, multiplicar o dividir, donde seguimos pasos concretos para llegar
+a una solución. Similarmente, aprender a conducir implica dominar una serie de
+procedimientos y técnicas para manejar un vehículo con seguridad.
+En el ámbito de la Inteligencia Artificial (IA), el conocimiento procedimental
+es vital para desarrollar sistemas avanzados capaces de realizar tareas complejas. Los
+algoritmos de IA adquieren este conocimiento a través del entrenamiento con grandes
+volúmenes de datos y la observación de patrones y ejemplos. Una vez internalizado,
+este conocimiento permite a los sistemas de IA aplicar procedimientos aprendidos
+para solucionar problemas y tomar decisiones en una variedad de contextos, imitando
+la capacidad de adaptación y aprendizaje de un ser humano experimentado.
+Este enfoque no solo mejora la claridad y precisión del texto, sino que también
+incorpora aspectos clave de la IA, como el aprendizaje a partir de datos y la capacidad
+de adaptación, para una comprensión más profunda del conocimiento procedimental
+en este campo.
+3)Conocimiento heurístico: Este conocimiento se refiere a las estrategias y reglas
+empíricas utilizadas por los seres humanos para solucionar problemas complejos y
+tomar decisiones de manera ágil y efectiva. Las heurísticas, consideradas atajos
+mentales, se fundamentan en la experiencia y el juicio práctico, permitiendo alcanzar
+soluciones adecuadas sin un análisis detallado de todas las posibles alternativas
+(Edelkamp & Schrödl, 2011).
+Un claro ejemplo de conocimiento heurístico es la resolución de
+rompecabezas o acertijos mediante métodos previamente exitosos en situaciones
+análogas. En la vida cotidiana, este tipo de conocimiento se manifiesta en decisiones
+de compra, donde las personas recurren a reglas prácticas, como preferir marcas
 reconocidas o buscar ofertas, para facilitar sus elecciones.

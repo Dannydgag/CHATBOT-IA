@@ -1,27 +1,27 @@
-El nodo D que se encuentra en el nivel 2 tampoco es el 
-objetivo por lo cual se procede a retroceder al nodo B en 
-vista de que se ha llegado al límite = 2 y por tanto se 
-considera que el nodo D ya no tiene más sucesores. 
-Se retrocede al nodo B y se tiene otro 
-sucesor que es el nodo E, este nodo es 
-visitado, pero al no ser la solución esto es 
-el objetivo nodo F, se procede a 
-retroceder al nodo del que desciende esto 
-es al nodo B, para observar si tiene otros 
-hijos, pero al no ser el caso se retrocede 
-aún más hasta llegar al nodo A. 
-El nodo A tiene además del nodo 
-B otro hijo que es el nodo C, el 
-cual no es la solución por lo cual 
-se procede a descender hacia el 
-nodo sucesor. 
-El nodo F que constituye el 
-sucesor del nodo C es el nodo 
-objetivo, por lo cual se detiene la 
-búsqueda y se encuentra la 
-solución, que es ir del nodo A al 
-nodo C y de ahí al nodo objetivo 
-que es el nodo F  (A-C-B).  Como 
-se puede observar nunca se utilizó el límite=3 para encontrar el nodo objetivo. 
-3.1.4 Búsqueda por profundización iterativa 
+El nodo D que se encuentra en el nivel 2 tampoco es el
+objetivo por lo cual se procede a retroceder al nodo B en
+vista de que se ha llegado al límite = 2 y por tanto se
+considera que el nodo D ya no tiene más sucesores.
+Se retrocede al nodo B y se tiene otro
+sucesor que es el nodo E, este nodo es
+visitado, pero al no ser la solución esto es
+el objetivo nodo F, se procede a
+retroceder al nodo del que desciende esto
+es al nodo B, para observar si tiene otros
+hijos, pero al no ser el caso se retrocede
+aún más hasta llegar al nodo A.
+El nodo A tiene además del nodo
+B otro hijo que es el nodo C, el
+cual no es la solución por lo cual
+se procede a descender hacia el
+nodo sucesor.
+El nodo F que constituye el
+sucesor del nodo C es el nodo
+objetivo, por lo cual se detiene la
+búsqueda y se encuentra la
+solución, que es ir del nodo A al
+nodo C y de ahí al nodo objetivo
+que es el nodo F  (A-C-B).  Como
+se puede observar nunca se utilizó el límite=3 para encontrar el nodo objetivo.
+[TITLE]: 3.1.4 Búsqueda por profundización iterativa
 La búsqueda por profundización iterativa es una estrategia innovadora que integra

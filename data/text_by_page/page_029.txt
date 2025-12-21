@@ -1,32 +1,32 @@
-dos pies, dar la mano y contestar a preguntas simples. En 2002, la empresa Cognitec 
-desarrolla el primer sistema comercial de reconocimiento facial a partir de imágenes o 
-videos. En 2006, se presentó el prototipo del robot programable y autónomo NAO. En 
-2009, se lograron desarrollar robots sociales que son capaces de detectar emociones e 
-interactuar con niños autistas.  
-A partir del 2010 hasta la actualidad, se ha desarrollado el aprendizaje profundo 
-(DL Deep Learning), que es un tipo especial de red neuronal que tiene más de una capa 
-oculta. Esto solo es posible con el aumento de la potencia informática, especialmente de 
-las unidades de procesamiento gráfico (GPU) y algoritmos mejorados. Hasta ahora, el DL 
-ha superado muchos otros algoritmos en un gran conjunto de datos.  
-En 2014, se produjo un acontecimiento importante en el campo de la inteligencia 
-artificial cuando el chatbot Eugene Goostman logró superar el test de Turing, considerado 
-un indicador crítico en la evaluación de la capacidad de las máquinas para imitar la 
-inteligencia humana en el diálogo. Este logro no solo demostró avances significativos en 
-el desarrollo de sistemas de conversación automatizados, sino que también abrió un 
-debate sobre la complejidad y la verosimilitud de las interacciones entre humanos y 
-máquinas, marcando un punto de referencia en la historia de la inteligencia artificial. 
-En el año 2016, AlphaGo, un programa de IA creado por DeepMind Technologies, 
-alcanzó notoriedad mundial al vencer a Lee Sedol, un campeón global en Go, un 
-milenario y desafiante juego de estrategia chino caracterizado por su alta complejidad y 
-las numerosas posibilidades que ofrece cada partida. Este logro marcó un punto de 
-inflexión, generando un renovado interés y avances significativos en el ámbito de la 
-inteligencia artificial, evidenciando así su capacidad para abordar tareas de gran 
-complejidad y para la toma de decisiones estratégicas. 
-Un hito importante en la intersección de la inteligencia artificial y la biología se 
-alcanzó en 2020 gracias a DeepMind, los creadores de AlphaGo. Desarrollaron 
-AlphaFold, una versión mejorada de su sistema de IA, que logró descifrar un desafío que 
-había perplejado a los biólogos por más de cinco décadas: el plegamiento de proteínas. 
-Este fenómeno, en el que las proteínas obtienen su forma tridimensional específica, es 
-importante para comprender su función dentro del organismo. Este avance es 
-fundamental, debido a que desentraña cómo las células operan y cómo se manifiestan 
+dos pies, dar la mano y contestar a preguntas simples. En 2002, la empresa Cognitec
+desarrolla el primer sistema comercial de reconocimiento facial a partir de imágenes o
+videos. En 2006, se presentó el prototipo del robot programable y autónomo NAO. En
+2009, se lograron desarrollar robots sociales que son capaces de detectar emociones e
+interactuar con niños autistas.
+A partir del 2010 hasta la actualidad, se ha desarrollado el aprendizaje profundo
+(DL Deep Learning), que es un tipo especial de red neuronal que tiene más de una capa
+oculta. Esto solo es posible con el aumento de la potencia informática, especialmente de
+las unidades de procesamiento gráfico (GPU) y algoritmos mejorados. Hasta ahora, el DL
+ha superado muchos otros algoritmos en un gran conjunto de datos.
+En 2014, se produjo un acontecimiento importante en el campo de la inteligencia
+artificial cuando el chatbot Eugene Goostman logró superar el test de Turing, considerado
+un indicador crítico en la evaluación de la capacidad de las máquinas para imitar la
+inteligencia humana en el diálogo. Este logro no solo demostró avances significativos en
+el desarrollo de sistemas de conversación automatizados, sino que también abrió un
+debate sobre la complejidad y la verosimilitud de las interacciones entre humanos y
+máquinas, marcando un punto de referencia en la historia de la inteligencia artificial.
+En el año 2016, AlphaGo, un programa de IA creado por DeepMind Technologies,
+alcanzó notoriedad mundial al vencer a Lee Sedol, un campeón global en Go, un
+milenario y desafiante juego de estrategia chino caracterizado por su alta complejidad y
+las numerosas posibilidades que ofrece cada partida. Este logro marcó un punto de
+inflexión, generando un renovado interés y avances significativos en el ámbito de la
+inteligencia artificial, evidenciando así su capacidad para abordar tareas de gran
+complejidad y para la toma de decisiones estratégicas.
+Un hito importante en la intersección de la inteligencia artificial y la biología se
+alcanzó en 2020 gracias a DeepMind, los creadores de AlphaGo. Desarrollaron
+AlphaFold, una versión mejorada de su sistema de IA, que logró descifrar un desafío que
+había perplejado a los biólogos por más de cinco décadas: el plegamiento de proteínas.
+Este fenómeno, en el que las proteínas obtienen su forma tridimensional específica, es
+importante para comprender su función dentro del organismo. Este avance es
+fundamental, debido a que desentraña cómo las células operan y cómo se manifiestan
 diversas enfermedades a nivel molecular, debido a la extraordinaria complejidad de este

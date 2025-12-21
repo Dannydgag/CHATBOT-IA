@@ -1,32 +1,32 @@
-En la lógica de primer orden, las constantes se utilizan para representar objetos 
-individuales en un dominio, estos objetos deben ser relevantes en el contexto del 
-conocimiento que estamos representando. 
-Ejemplos de constantes podrían ser: 
-• Juan 
-• Guillermina 
-• Bicicleta 
-• Automóvil 
-Cada una de estas constantes se refiere a un objeto específico en el dominio de 
-conocimiento y puede utilizarse en sentencias lógicas para expresar relaciones, 
-propiedades o hechos que involucran a estos objetos (Brachman & Levesque, 2004). Las 
-constantes son una parte fundamental de la representación del conocimiento en la lógica 
-de primer orden. 
-En la lógica de primer orden, los predicados se utilizan para expresar relaciones 
-entre objetos o para definir propiedades de esos objetos. Los predicados representan 
-afirmaciones sobre el mundo y se combinan con las constantes para formar frases 
-atómicas que describen hechos o relaciones específicas en un dominio de conocimiento. 
-Como ejemplo, se tiene el predicado "persona" que se utiliza para definir la 
-propiedad de ser una persona. Luego, se aplican este predicado a las constantes 
-"Guillermina" y "Juan" para afirmar que Guillermina y Juan son personas. Estas 
-afirmaciones se expresan como frases atómicas en la lógica de primer orden: 
-Persona (Guillermina) 
-Persona (Juan) 
-Estas frases atómicas representan hechos concretos sobre el dominio de 
-conocimiento y pueden utilizarse en inferencias y razonamientos lógicos dentro de un 
-sistema de lógica de primer orden. 
-De las expresiones anteriores la función es Persona, y el argumento Guillermina 
-y Juan. Se puede indicar que ellos se conocen 
-Conoce(Juan, Guillermina)              expresa: Juan conoce a Guillermina 
-Conoce(Guillermina, Juan)              expresa: Guillermina conoce a Juan 
-También se puede expresar: 
+En la lógica de primer orden, las constantes se utilizan para representar objetos
+individuales en un dominio, estos objetos deben ser relevantes en el contexto del
+conocimiento que estamos representando.
+Ejemplos de constantes podrían ser:
+•Juan
+•Guillermina
+•Bicicleta
+•Automóvil
+Cada una de estas constantes se refiere a un objeto específico en el dominio de
+conocimiento y puede utilizarse en sentencias lógicas para expresar relaciones,
+propiedades o hechos que involucran a estos objetos (Brachman & Levesque, 2004). Las
+constantes son una parte fundamental de la representación del conocimiento en la lógica
+de primer orden.
+En la lógica de primer orden, los predicados se utilizan para expresar relaciones
+entre objetos o para definir propiedades de esos objetos. Los predicados representan
+afirmaciones sobre el mundo y se combinan con las constantes para formar frases
+atómicas que describen hechos o relaciones específicas en un dominio de conocimiento.
+Como ejemplo, se tiene el predicado "persona" que se utiliza para definir la
+propiedad de ser una persona. Luego, se aplican este predicado a las constantes
+"Guillermina" y "Juan" para afirmar que Guillermina y Juan son personas. Estas
+afirmaciones se expresan como frases atómicas en la lógica de primer orden:
+Persona (Guillermina)
+Persona (Juan)
+Estas frases atómicas representan hechos concretos sobre el dominio de
+conocimiento y pueden utilizarse en inferencias y razonamientos lógicos dentro de un
+sistema de lógica de primer orden.
+De las expresiones anteriores la función es Persona, y el argumento Guillermina
+y Juan. Se puede indicar que ellos se conocen
+Conoce(Juan, Guillermina)              expresa: Juan conoce a Guillermina
+Conoce(Guillermina, Juan)              expresa: Guillermina conoce a Juan
+También se puede expresar:
 Pasea_en(Juan, bicicleta)                 expresa: Juan pasea en la bicicleta

@@ -1,36 +1,36 @@
-mamífero= si 
-come_carne = si 
-dientes_puntiagudos = 
-si 
-garras =si 
-ojos_adelante = si 
-carnívoro= si 
-color=leonado 
-13ma Ejecución: Se procede a probar la cuarta premisa de la regla 1 
-manchas_oscuras = si, primero se busca en los datos conocidos, al no existir valor alguno 
-se busca una regla que nos permita derivar dicho valor; como no  existe ninguna regla 
-que en su conclusión haga referencia a esta premisa el mecanismo de inferencia procede 
-a preguntar al usuario del sistema ¿Tiene manchas oscuras? En este caso la respuesta es 
-no, por lo que la premisa no se cumple y falla la regla 1, tomando prioridad la regla 6 que 
-está en la secuencia de las reglas aplicables. 
-Objetivos 
-Datos conocidos 
-Reglas aplicables Regla a utilizar 
-animal 
-posee_pelo = si 
-puede_dar_leche = si 
-mamífero= si 
-come_carne = si 
-dientes_puntiagudos = 
-si 
-garras =si 
-ojos_adelante = si 
-carnívoro= si 
-color=leonado 
-6,7,8,9,10,11 
-14ta Ejecución: Se procede a probar la primera premisa de la regla 6 mamífero = 
-si, como es parte de los datos conocidos, se procede con la segunda premisa  carnívoro = 
-si se encuentra en los datos conocidos como si existe entonces se procede con la tercera 
-premisa color=leonado  se encuentra en los datos conocidos como si existe entonces se 
-procede con la cuarta premisa rayas_negras = si al no estar presente en los datos 
+mamífero= si
+come_carne = si
+dientes_puntiagudos =
+si
+garras =si
+ojos_adelante = si
+carnívoro= si
+color=leonado
+13ma Ejecución: Se procede a probar la cuarta premisa de la regla 1
+manchas_oscuras = si, primero se busca en los datos conocidos, al no existir valor alguno
+se busca una regla que nos permita derivar dicho valor; como no  existe ninguna regla
+que en su conclusión haga referencia a esta premisa el mecanismo de inferencia procede
+a preguntar al usuario del sistema ¿Tiene manchas oscuras? En este caso la respuesta es
+no, por lo que la premisa no se cumple y falla la regla 1, tomando prioridad la regla 6 que
+está en la secuencia de las reglas aplicables.
+Objetivos
+Datos conocidos
+Reglas aplicables Regla a utilizar
+animal
+posee_pelo = si
+puede_dar_leche = si
+mamífero= si
+come_carne = si
+dientes_puntiagudos =
+si
+garras =si
+ojos_adelante = si
+carnívoro= si
+color=leonado
+6,7,8,9,10,11
+14ta Ejecución: Se procede a probar la primera premisa de la regla 6 mamífero =
+si, como es parte de los datos conocidos, se procede con la segunda premisa  carnívoro =
+si se encuentra en los datos conocidos como si existe entonces se procede con la tercera
+premisa color=leonado  se encuentra en los datos conocidos como si existe entonces se
+procede con la cuarta premisa rayas_negras = si al no estar presente en los datos
 conocidos, se busca una regla que nos permita derivar dicho valor; como no  existe

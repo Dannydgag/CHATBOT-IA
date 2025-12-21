@@ -1,31 +1,31 @@
-Conclusión: Por lo tanto, Sócrates es mortal. (Deducción basada en las dos 
-premisas anteriores y la regla lógica de que si todos los hombres son mortales y 
-Sócrates es un hombre, entonces Sócrates también es mortal). 
-Hombre(Platón) )→Mortal(Platón) 
-Ejemplo 3 
-Premisa 1: a=b (Premisa) 
-Premisa 2: b=c (Premisa) 
-Conclusión: Por lo tanto, a=c (Deducción basada en las dos premisas anteriores y 
-la propiedad transitiva de la igualdad en las matemáticas, que establece que si a=b 
-y b=c, entonces a=c). 
-(a=b ∧ b=c)→(a=c) 
-En estos ejemplos, la deducción implica llegar a una conclusión lógica o 
-matemática basada en premisas o información previamente establecida. La 
-deducción es un proceso importante en la lógica, donde se utilizan reglas y 
-principios para derivar conclusiones válidas a partir de información conocida. 
-e) Abducción.- Es un método de razonamiento utilizado en la generación de  
-explicaciones, el cual no garantiza que se puedan lograr conclusiones verdaderas, 
-por lo tanto no constituye un método sólido de inferencia (Kowalski, 2011). 
-En términos generales se puede expresar:    
-                 Si la sentencia (A→B) es verdadera y B es verdadera,  
-                     entonces A es posiblemente verdadera. 
-En la abducción, se parte de una conclusión y se busca identificar las 
-circunstancias que la justificarían. Es decir, se intenta hallar una razón o causa que 
-explique por qué la conclusión es correcta. Es comúnmente utilizado en 
-inteligencia artificial y razonamiento basado en casos, así como en diagnóstico 
-médico y resolución de problemas. 
-Ejemplo 1 
-Si se tiene una funda con esferográficos de color azul, y junto a la funda 
-están unos esferográficos de color azul, se deduce que proceden estos 
-esferográficos de la funda, esto último posiblemente puede ser verdadero. 
+Conclusión: Por lo tanto, Sócrates es mortal. (Deducción basada en las dos
+premisas anteriores y la regla lógica de que si todos los hombres son mortales y
+Sócrates es un hombre, entonces Sócrates también es mortal).
+Hombre(Platón) )→Mortal(Platón)
+Ejemplo 3
+Premisa 1: a=b (Premisa)
+Premisa 2: b=c (Premisa)
+Conclusión: Por lo tanto, a=c (Deducción basada en las dos premisas anteriores y
+la propiedad transitiva de la igualdad en las matemáticas, que establece que si a=b
+y b=c, entonces a=c).
+(a=b ∧ b=c)→(a=c)
+En estos ejemplos, la deducción implica llegar a una conclusión lógica o
+matemática basada en premisas o información previamente establecida. La
+deducción es un proceso importante en la lógica, donde se utilizan reglas y
+principios para derivar conclusiones válidas a partir de información conocida.
+e)Abducción.- Es un método de razonamiento utilizado en la generación de
+explicaciones, el cual no garantiza que se puedan lograr conclusiones verdaderas,
+por lo tanto no constituye un método sólido de inferencia (Kowalski, 2011).
+En términos generales se puede expresar:
+Si la sentencia (A→B) es verdadera y B es verdadera,
+entonces A es posiblemente verdadera.
+En la abducción, se parte de una conclusión y se busca identificar las
+circunstancias que la justificarían. Es decir, se intenta hallar una razón o causa que
+explique por qué la conclusión es correcta. Es comúnmente utilizado en
+inteligencia artificial y razonamiento basado en casos, así como en diagnóstico
+médico y resolución de problemas.
+Ejemplo 1
+Si se tiene una funda con esferográficos de color azul, y junto a la funda
+están unos esferográficos de color azul, se deduce que proceden estos
+esferográficos de la funda, esto último posiblemente puede ser verdadero.
 Ejemplo 2

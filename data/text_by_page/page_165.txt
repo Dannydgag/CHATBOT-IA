@@ -1,32 +1,32 @@
-generar nuevos tableros vecinos. 
-Evaluar Vecinos: Utiliza la función objetivo para evaluar qué tan bueno es cada 
-tablero vecino. 
-Seleccionar el Mejor Vecino: Escoge el tablero vecino con el menor número de 
-pares de reinas en conflicto. 
-Comparar con el Estado Actual: 
-▪ Si el mejor vecino es mejor que el estado actual, mueve a ese estado. 
-▪ Si no hay mejora, el algoritmo se detiene. 
-4. Resultado: El estado final es una solución al problema, aunque no necesariamente 
-la mejor solución posible. 
-Este algoritmo es bastante simple y rápido, su problema es que puede quedarse 
-detenido en óptimos locales, es decir, soluciones que son mejores que sus vecinos 
-inmediatos, pero no son las mejores soluciones posibles. 
-La Búsqueda de Escalada de Colinas es utiliza amplaimente en problemas de 
-optimización y búsqueda heurística, como el diseño de redes neuronales, la planificación 
-de rutas y la asignación de tareas (Haykin, 2009). 
-3.3.3 Variantes de escalada de colinas 
-Debido a las limitaciones de la búsqueda de escalada de colinas, se han pensado 
-múltiples variantes para superar el problema de quedarse atascado en mínimos y máximos 
-locales. Lo que todas las variaciones del algoritmo tienen en común es que, sin importar 
-la estrategia, cada uno todavía tiene el potencial de terminar en mínimos y máximos 
-locales y no hay medios para continuar optimizando. Los algoritmos a continuación están 
-redactados de tal manera que un valor más alto es mejor, pero también se aplican a las 
-funciones de costo, donde el objetivo es minimizar el costo. 
-• Ascenso más pronunciado: Enfatiza la selección del vecino con la mayor 
-mejora en el valor de aptitud (encontrar el máximo de una función) entre todos los vecinos 
-generados en cada paso. Esta variante se centra en realizar el movimiento cuesta arriba 
-más significativo en el paisaje de aptitud. Si bien puede ser efectiva para encontrar 
-rápidamente un máximo local, también puede quedar atrapada en regiones estrechas y 
-empinadas del paisaje. 
-Funcionamiento: 
-1) Comenzar con un estado inicial.
+generar nuevos tableros vecinos.
+Evaluar Vecinos: Utiliza la función objetivo para evaluar qué tan bueno es cada
+tablero vecino.
+Seleccionar el Mejor Vecino: Escoge el tablero vecino con el menor número de
+pares de reinas en conflicto.
+Comparar con el Estado Actual:
+▪Si el mejor vecino es mejor que el estado actual, mueve a ese estado.
+▪Si no hay mejora, el algoritmo se detiene.
+4.Resultado: El estado final es una solución al problema, aunque no necesariamente
+la mejor solución posible.
+Este algoritmo es bastante simple y rápido, su problema es que puede quedarse
+detenido en óptimos locales, es decir, soluciones que son mejores que sus vecinos
+inmediatos, pero no son las mejores soluciones posibles.
+La Búsqueda de Escalada de Colinas es utiliza amplaimente en problemas de
+optimización y búsqueda heurística, como el diseño de redes neuronales, la planificación
+de rutas y la asignación de tareas (Haykin, 2009).
+[TITLE]: 3.3.3 Variantes de escalada de colinas
+Debido a las limitaciones de la búsqueda de escalada de colinas, se han pensado
+múltiples variantes para superar el problema de quedarse atascado en mínimos y máximos
+locales. Lo que todas las variaciones del algoritmo tienen en común es que, sin importar
+la estrategia, cada uno todavía tiene el potencial de terminar en mínimos y máximos
+locales y no hay medios para continuar optimizando. Los algoritmos a continuación están
+redactados de tal manera que un valor más alto es mejor, pero también se aplican a las
+funciones de costo, donde el objetivo es minimizar el costo.
+• Ascenso más pronunciado: Enfatiza la selección del vecino con la mayor
+mejora en el valor de aptitud (encontrar el máximo de una función) entre todos los vecinos
+generados en cada paso. Esta variante se centra en realizar el movimiento cuesta arriba
+más significativo en el paisaje de aptitud. Si bien puede ser efectiva para encontrar
+rápidamente un máximo local, también puede quedar atrapada en regiones estrechas y
+empinadas del paisaje.
+Funcionamiento:
+1)Comenzar con un estado inicial.

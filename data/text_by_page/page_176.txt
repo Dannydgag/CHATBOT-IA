@@ -1,35 +1,35 @@
-gradualmente para mejorar sus propiedades mecánicas. De manera análoga, el algoritmo 
-de Recocido Simulado opera en la búsqueda de soluciones óptimas. 
-El proceso comienza con el algoritmo funcionando a una "temperatura" alta, lo 
-que implica que tiene una alta probabilidad de tomar decisiones aleatorias. A medida que 
-esta "temperatura" disminuye durante el proceso, el algoritmo se vuelve más "selectivo", 
-es decir, reduce la probabilidad de tomar decisiones aleatorias. Este mecanismo de 
-enfriamiento controlado es fundamental, ya que permite al algoritmo explorar estados 
-vecinos que podrían ser peores que el estado actual, lo que evita quedar atrapado en 
-máximos locales. 
-A continuación, se presenta un pseudocódigo para el algoritmo de Recocido 
-Simulado: 
-función RecocidoSimulado(problema, máx): 
-    actual = estadoInicial del problema 
-    para t de 1 a máx: 
-        T = Temperatura(t) 
-        vecino = vecinoAleatorio del actual 
-        ΔE = diferencia de aptitud entre el vecino y el estado actual 
-        si ΔE > 0: 
-            actual = vecino 
-        sino, con probabilidad e(ΔE/T) conjunto actual = vecino 
-    retornar actual 
-Este algoritmo toma como entrada un problema y el número máximo de 
-iteraciones a realizar. En cada iteración, se establece la temperatura T mediante una 
-función de temperatura. Esta función devuelve un valor más alto en las primeras 
-iteraciones (cuando t es bajo) y un valor más bajo en las iteraciones posteriores (cuando 
-t es alto). Luego, se selecciona un vecino aleatorio y se calcula ΔE, que mide cuánto mejor 
-es el vecino en comparación con el estado actual. 
-Si ΔE es positivo, lo que significa que el vecino es mejor que el estado actual, se 
-establece el estado actual como el vecino. Sin embargo, cuando ΔE es negativo, lo que 
-indica que el vecino es peor, aún existe la posibilidad de que el estado actual se establezca 
-como el vecino. Esta probabilidad se calcula mediante la fórmula e(ΔE/T). Cuanto más 
-negativo sea ΔE, menor será la probabilidad de seleccionar el vecino, y cuanto mayor sea 
-la temperatura T, mayor será la probabilidad de aceptar un vecino peor. 
-El Recocido Simulado es una estrategia eficaz para explorar soluciones en 
+gradualmente para mejorar sus propiedades mecánicas. De manera análoga, el algoritmo
+de Recocido Simulado opera en la búsqueda de soluciones óptimas.
+El proceso comienza con el algoritmo funcionando a una "temperatura" alta, lo
+que implica que tiene una alta probabilidad de tomar decisiones aleatorias. A medida que
+esta "temperatura" disminuye durante el proceso, el algoritmo se vuelve más "selectivo",
+es decir, reduce la probabilidad de tomar decisiones aleatorias. Este mecanismo de
+enfriamiento controlado es fundamental, ya que permite al algoritmo explorar estados
+vecinos que podrían ser peores que el estado actual, lo que evita quedar atrapado en
+máximos locales.
+A continuación, se presenta un pseudocódigo para el algoritmo de Recocido
+Simulado:
+función RecocidoSimulado(problema, máx):
+actual = estadoInicial del problema
+para t de 1 a máx:
+T = Temperatura(t)
+vecino = vecinoAleatorio del actual
+ΔE = diferencia de aptitud entre el vecino y el estado actual
+si ΔE > 0:
+actual = vecino
+sino, con probabilidad e(ΔE/T) conjunto actual = vecino
+retornar actual
+Este algoritmo toma como entrada un problema y el número máximo de
+iteraciones a realizar. En cada iteración, se establece la temperatura T mediante una
+función de temperatura. Esta función devuelve un valor más alto en las primeras
+iteraciones (cuando t es bajo) y un valor más bajo en las iteraciones posteriores (cuando
+t es alto). Luego, se selecciona un vecino aleatorio y se calcula ΔE, que mide cuánto mejor
+es el vecino en comparación con el estado actual.
+Si ΔE es positivo, lo que significa que el vecino es mejor que el estado actual, se
+establece el estado actual como el vecino. Sin embargo, cuando ΔE es negativo, lo que
+indica que el vecino es peor, aún existe la posibilidad de que el estado actual se establezca
+como el vecino. Esta probabilidad se calcula mediante la fórmula e(ΔE/T). Cuanto más
+negativo sea ΔE, menor será la probabilidad de seleccionar el vecino, y cuanto mayor sea
+la temperatura T, mayor será la probabilidad de aceptar un vecino peor.
+El Recocido Simulado es una estrategia eficaz para explorar soluciones en
 problemas de optimización, permitiendo movimientos hacia estados peores en busca de

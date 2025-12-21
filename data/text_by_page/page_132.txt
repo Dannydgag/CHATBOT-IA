@@ -1,53 +1,53 @@
-hacia atrás, siendo el objetivo determinar el animal del que se trata.  
-1era Ejecución: Se busca todas las reglas que en su conclusión (THEN) mencionen 
-al objetivo animal. Se parte sin datos conocidos. 
-Objetivos 
-Datos conocidos 
-Reglas aplicables 
-Regla a utilizar 
-Animal 
-Ninguno 
-1,6,7,8,9,10,11 
-2da Ejecución: Las reglas que hacen referencia al objetivo animal en las 
-conclusiones son: 1,6,7,8,9,10,11; se procede a probar la primera premisa de la regla 1 
-mamífero = si, como no existe valor alguno para mamífero en los datos conocidos, se 
-busca una regla que nos permita derivar dicho valor; se encuentra que la regla 2 en su 
-conclusión(THEN) hace referencia a mamífero = si; entonces esta regla se vuelve en la 
-prioridad, y el objetivo cambia a mamífero. 
-Objetivos 
-Datos conocidos 
-Reglas aplicables 
-Regla a utilizar 
-mamífero 
-animal 
-Ninguno 
-2,1,6,7,8,9,10,11 
-3ra Ejecución: Se busca determinar si la primera premisa posee_pelo = si de la 
-regla 2 se encuentra entre los datos conocidos, como no existe se busca determinar si 
-alguna conclusión de las reglas hace referencia, al no encontrarse tampoco el mecanismo 
-de inferencia procede a hacer la pregunta “¿Posee pelo?” al usuario. Ante una respuesta 
-afirmativa, se considera que la premisa es válida y se añade a los datos conocidos. 
-Objetivos 
-Datos conocidos 
-Reglas aplicables 
-Regla a utilizar 
-mamífero 
-animal 
-posee_pelo = si 
-2,1,6,7,8,9,10,11 
-4ta Ejecución: Se busca determinar si la segunda premisa puede_dar_leche = si de 
-la regla 2 se encuentra entre los datos conocidos, como no existe se busca determinar si 
-alguna conclusión (THEN) de las reglas hace referencia, al no encontrarse el mecanismo 
-de inferencia procede a hacer la pregunta “¿Puede dar leche?” al usuario del sistema. La 
-respuesta afirmativa del usuario confirma la premisa, que posteriormente se incorpora a 
-los datos conocidos. 
-Objetivos 
-Datos conocidos 
-Reglas aplicables 
-Regla a utilizar 
-mamífero 
-animal 
-posee_pelo = si 
-puede_dar_leche = si 
-2,1,6,7,8,9,10,11 
+hacia atrás, siendo el objetivo determinar el animal del que se trata.
+1era Ejecución: Se busca todas las reglas que en su conclusión (THEN) mencionen
+al objetivo animal. Se parte sin datos conocidos.
+Objetivos
+Datos conocidos
+Reglas aplicables
+Regla a utilizar
+Animal
+Ninguno
+1,6,7,8,9,10,11
+2da Ejecución: Las reglas que hacen referencia al objetivo animal en las
+conclusiones son: 1,6,7,8,9,10,11; se procede a probar la primera premisa de la regla 1
+mamífero = si, como no existe valor alguno para mamífero en los datos conocidos, se
+busca una regla que nos permita derivar dicho valor; se encuentra que la regla 2 en su
+conclusión(THEN) hace referencia a mamífero = si; entonces esta regla se vuelve en la
+prioridad, y el objetivo cambia a mamífero.
+Objetivos
+Datos conocidos
+Reglas aplicables
+Regla a utilizar
+mamífero
+animal
+Ninguno
+2,1,6,7,8,9,10,11
+3ra Ejecución: Se busca determinar si la primera premisa posee_pelo = si de la
+regla 2 se encuentra entre los datos conocidos, como no existe se busca determinar si
+alguna conclusión de las reglas hace referencia, al no encontrarse tampoco el mecanismo
+de inferencia procede a hacer la pregunta “¿Posee pelo?” al usuario. Ante una respuesta
+afirmativa, se considera que la premisa es válida y se añade a los datos conocidos.
+Objetivos
+Datos conocidos
+Reglas aplicables
+Regla a utilizar
+mamífero
+animal
+posee_pelo = si
+2,1,6,7,8,9,10,11
+4ta Ejecución: Se busca determinar si la segunda premisa puede_dar_leche = si de
+la regla 2 se encuentra entre los datos conocidos, como no existe se busca determinar si
+alguna conclusión (THEN) de las reglas hace referencia, al no encontrarse el mecanismo
+de inferencia procede a hacer la pregunta “¿Puede dar leche?” al usuario del sistema. La
+respuesta afirmativa del usuario confirma la premisa, que posteriormente se incorpora a
+los datos conocidos.
+Objetivos
+Datos conocidos
+Reglas aplicables
+Regla a utilizar
+mamífero
+animal
+posee_pelo = si
+puede_dar_leche = si
+2,1,6,7,8,9,10,11
 5ta Ejecución: Como las dos premisas de la regla 2 se cumplen entonces se llega a

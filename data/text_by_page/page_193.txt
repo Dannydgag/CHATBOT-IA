@@ -1,31 +1,31 @@
-elección de la métrica adecuada puede tener un impacto significativo en el rendimiento 
-del modelo, especialmente en la precisión con la que puede clasificar o predecir datos 
-nuevos. Examinaremos estas métricas detalladamente para entender cómo optimizan la 
-eficiencia y la exactitud de los árboles de decisión. 
-a) Ganancia de Información (Information Gain): Esta métrica se basa en el concepto de 
-entropía de la teoría de la información. La entropía mide el grado de incertidumbre o 
-impureza en un conjunto de datos (Poole & Mackworth, 2010). La Ganancia de 
-Información se calcula como la diferencia en entropía antes y después de la división 
-de un conjunto de datos. Se prefiere una división que resulte en la máxima reducción 
-de entropía, es decir, aquella que proporciona la mayor ganancia de información. Esto 
-significa que la división ha logrado hacer los subconjuntos de datos más homogéneos 
-o puros respecto a la variable objetivo (Bishop & Nasrabadi, 2006). 
-b) Índice Gini: El Índice Gini es otra medida de impureza o variabilidad y se usa 
-comúnmente en el algoritmo CART (Clasificación y Regresión de Árboles). Cuanto 
-menor es el valor de Gini, mayor es la pureza del nodo. El índice Gini para un nodo se 
-calcula sumando el cuadrado de la probabilidad de cada clase en el nodo y luego 
-restando el resultado de uno (Géron, 2022). Cuando se considera una división, se 
-evalúa el índice Gini para cada subconjunto resultante y se pondera por el tamaño del 
-subconjunto. La división que resulta en el menor valor ponderado de Gini es la elegida. 
-c) Reducción de la Varianza: Esta métrica se utiliza principalmente para problemas de 
-regresión en árboles de decisión. Busca minimizar la varianza de los valores objetivo 
-en cada nodo. La idea es elegir una división tal que los valores dentro de cada subgrupo 
-sean lo más similares posible, lo que se traduce en una baja varianza. Para cada división 
-potencial, se calcula la varianza en cada nodo hijo y se pondera por el número de 
-observaciones en el nodo. La división que resulta en la mayor reducción total de la 
-varianza es seleccionada. 
-Por lo tanto, la profundidad máxima es un parámetro que a menudo se ajusta 
-cuidadosamente para encontrar un equilibrio entre precisión y generalización. Este 
-enfoque permite una clasificación efectiva y una fácil interpretación del modelo, lo que 
-hace que los árboles de decisión sean una herramienta popular en el análisis de datos. A 
+elección de la métrica adecuada puede tener un impacto significativo en el rendimiento
+del modelo, especialmente en la precisión con la que puede clasificar o predecir datos
+nuevos. Examinaremos estas métricas detalladamente para entender cómo optimizan la
+eficiencia y la exactitud de los árboles de decisión.
+a)Ganancia de Información (Information Gain): Esta métrica se basa en el concepto de
+entropía de la teoría de la información. La entropía mide el grado de incertidumbre o
+impureza en un conjunto de datos (Poole & Mackworth, 2010). La Ganancia de
+Información se calcula como la diferencia en entropía antes y después de la división
+de un conjunto de datos. Se prefiere una división que resulte en la máxima reducción
+de entropía, es decir, aquella que proporciona la mayor ganancia de información. Esto
+significa que la división ha logrado hacer los subconjuntos de datos más homogéneos
+o puros respecto a la variable objetivo (Bishop & Nasrabadi, 2006).
+b)Índice Gini: El Índice Gini es otra medida de impureza o variabilidad y se usa
+comúnmente en el algoritmo CART (Clasificación y Regresión de Árboles). Cuanto
+menor es el valor de Gini, mayor es la pureza del nodo. El índice Gini para un nodo se
+calcula sumando el cuadrado de la probabilidad de cada clase en el nodo y luego
+restando el resultado de uno (Géron, 2022). Cuando se considera una división, se
+evalúa el índice Gini para cada subconjunto resultante y se pondera por el tamaño del
+subconjunto. La división que resulta en el menor valor ponderado de Gini es la elegida.
+c)Reducción de la Varianza: Esta métrica se utiliza principalmente para problemas de
+regresión en árboles de decisión. Busca minimizar la varianza de los valores objetivo
+en cada nodo. La idea es elegir una división tal que los valores dentro de cada subgrupo
+sean lo más similares posible, lo que se traduce en una baja varianza. Para cada división
+potencial, se calcula la varianza en cada nodo hijo y se pondera por el número de
+observaciones en el nodo. La división que resulta en la mayor reducción total de la
+varianza es seleccionada.
+Por lo tanto, la profundidad máxima es un parámetro que a menudo se ajusta
+cuidadosamente para encontrar un equilibrio entre precisión y generalización. Este
+enfoque permite una clasificación efectiva y una fácil interpretación del modelo, lo que
+hace que los árboles de decisión sean una herramienta popular en el análisis de datos. A
 continuación, se tiene un ejemplo (figura 3.15).

@@ -1,21 +1,21 @@
-error, lo que induce el "retroceso" a una asignación anterior y la reconsideración de otras 
-alternativas. 
-Considere el siguiente proceso de acción: 
-Se comienza con asignaciones vacías. Luego a la variable A (figura 3.11) se le 
-asigna un valor, por ejemplo, Lunes. A continuación, usando esta asignación, se ejecuta 
-el algoritmo nuevamente. Ahora que A ya tiene una asignación, el algoritmo considerará 
-B y le asignará el Lunes. Esta asignación devuelve falso, por lo que, en lugar de asignar 
-un valor a C dada la asignación anterior, el algoritmo intentará asignar un nuevo valor a 
-B, por ejemplo, Martes. Esta nueva asignación satisface las restricciones y, a 
-continuación, se considerará una nueva variable dada esta asignación.  
-Si, por ejemplo, asignar también Martes o Miércoles a B falla, entonces el 
-algoritmo retrocederá y volverá a considerar A, asignándole otro valor, por ejemplo 
-Martes. Si el martes y el miércoles también fallan, significa que se ha intentado todas las 
-asignaciones posibles y el problema no tiene solución. El algoritmo de retroceso se usa 
-ampliamente y, como tal, varias bibliotecas ya contienen una implementación del mismo. 
-Figura 3.11 Asignación de días a las variables 
-Elaborado por los Autores 
-3.3.8 Inferencia 
-Aunque la búsqueda de retroceso es más eficiente que la búsqueda simple, aún 
-requiere mucha potencia computacional. Hacer cumplir la consistencia del arco, por otro 
+error, lo que induce el "retroceso" a una asignación anterior y la reconsideración de otras
+alternativas.
+Considere el siguiente proceso de acción:
+Se comienza con asignaciones vacías. Luego a la variable A (figura 3.11) se le
+asigna un valor, por ejemplo, Lunes. A continuación, usando esta asignación, se ejecuta
+el algoritmo nuevamente. Ahora que A ya tiene una asignación, el algoritmo considerará
+B y le asignará el Lunes. Esta asignación devuelve falso, por lo que, en lugar de asignar
+un valor a C dada la asignación anterior, el algoritmo intentará asignar un nuevo valor a
+B, por ejemplo, Martes. Esta nueva asignación satisface las restricciones y, a
+continuación, se considerará una nueva variable dada esta asignación.
+Si, por ejemplo, asignar también Martes o Miércoles a B falla, entonces el
+algoritmo retrocederá y volverá a considerar A, asignándole otro valor, por ejemplo
+Martes. Si el martes y el miércoles también fallan, significa que se ha intentado todas las
+asignaciones posibles y el problema no tiene solución. El algoritmo de retroceso se usa
+ampliamente y, como tal, varias bibliotecas ya contienen una implementación del mismo.
+Figura 3.11 Asignación de días a las variables
+Elaborado por los Autores
+[TITLE]: 3.3.8 Inferencia
+Aunque la búsqueda de retroceso es más eficiente que la búsqueda simple, aún
+requiere mucha potencia computacional. Hacer cumplir la consistencia del arco, por otro
 lado, requiere menos recursos. Al intercalar la búsqueda de retroceso con la inferencia

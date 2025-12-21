@@ -1,35 +1,35 @@
-1. Para cada valor en el dominio de la primera variable, debe existir al menos un valor en 
-el dominio de la segunda variable que satisface la restricción binaria entre ambas. 
-2. Si no existe tal valor para algún valor de la primera variable, ese valor se elimina del 
-dominio de la primera variable. 
-Considérese el ejemplo de los estudiantes con los dominios revisados: A :{martes, 
-miércoles} y B:{miércoles}. Para que A tenga coherencia del arco con B, sin importar el 
-día en que se programe el examen de A (desde su dominio), B aún podrá programar un 
-examen. ¿Es A arco-consistente con B? Si A toma el valor martes, entonces B puede 
-tomar el valor miércoles. Sin embargo, si A toma el valor miércoles, entonces no hay 
-valor que B pueda tomar (recuerde que una de las restricciones es A ≠ B). Por lo tanto, A 
-no es arco-consistente con B. Para cambiar esto, se puede eliminar miércoles del dominio 
-de A. Entonces, cualquier valor que tome A (el martes es la única opción) deja un valor 
-para que lo tome B (miércoles). Ahora, A es consistente del arco con B. Veamos un 
-algoritmo en pseudocódigo que hace que una variable sea consistente con el arco con 
-respecto a alguna otra variable. En estos problemas, generalmente se tienen variables que 
-pueden tomar ciertos valores y restricciones que limitan las combinaciones posibles de 
-estos valores. El objetivo es encontrar una asignación de valores a las variables de manera 
-que se satisfagan todas las restricciones. 
-función Revisar(restrición, X, Y):    
-    revisado = falso 
-    # Iterar sobre cada valor en el dominio de X 
-    para cada x en X.dominio: 
-        # Verificar si existe algún valor y en el dominio de Y que satisface la restricción 
-       si no existe y en Y.dominio tal que restricción(x, y) sea verdadero: 
-               eliminar x de X.dominio 
-               revisado = verdadero 
-    # Retornar si se hizo alguna modificación en el dominio de X 
-    retorne revisado 
-Este algoritmo comienza rastreando si se realizó algún cambio en el dominio de 
-X, utilizando la variable revisado. Esto será útil en el próximo algoritmo que se examine. 
-Luego, el código se repite para cada valor en el dominio de X y ve si Y tiene un valor que 
-satisface las restricciones. Si es así, entonces no haga nada, si no, elimine este valor del 
-dominio de X. 
-A menudo se está interesado en hacer que todo el problema sea consistente y no 
+1.Para cada valor en el dominio de la primera variable, debe existir al menos un valor en
+el dominio de la segunda variable que satisface la restricción binaria entre ambas.
+2.Si no existe tal valor para algún valor de la primera variable, ese valor se elimina del
+dominio de la primera variable.
+Considérese el ejemplo de los estudiantes con los dominios revisados: A :{martes,
+miércoles} y B:{miércoles}. Para que A tenga coherencia del arco con B, sin importar el
+día en que se programe el examen de A (desde su dominio), B aún podrá programar un
+examen. ¿Es A arco-consistente con B? Si A toma el valor martes, entonces B puede
+tomar el valor miércoles. Sin embargo, si A toma el valor miércoles, entonces no hay
+valor que B pueda tomar (recuerde que una de las restricciones es A ≠ B). Por lo tanto, A
+no es arco-consistente con B. Para cambiar esto, se puede eliminar miércoles del dominio
+de A. Entonces, cualquier valor que tome A (el martes es la única opción) deja un valor
+para que lo tome B (miércoles). Ahora, A es consistente del arco con B. Veamos un
+algoritmo en pseudocódigo que hace que una variable sea consistente con el arco con
+respecto a alguna otra variable. En estos problemas, generalmente se tienen variables que
+pueden tomar ciertos valores y restricciones que limitan las combinaciones posibles de
+estos valores. El objetivo es encontrar una asignación de valores a las variables de manera
+que se satisfagan todas las restricciones.
+función Revisar(restrición, X, Y):
+revisado = falso
+# Iterar sobre cada valor en el dominio de X
+para cada x en X.dominio:
+# Verificar si existe algún valor y en el dominio de Y que satisface la restricción
+si no existe y en Y.dominio tal que restricción(x, y) sea verdadero:
+eliminar x de X.dominio
+revisado = verdadero
+# Retornar si se hizo alguna modificación en el dominio de X
+retorne revisado
+Este algoritmo comienza rastreando si se realizó algún cambio en el dominio de
+X, utilizando la variable revisado. Esto será útil en el próximo algoritmo que se examine.
+Luego, el código se repite para cada valor en el dominio de X y ve si Y tiene un valor que
+satisface las restricciones. Si es así, entonces no haga nada, si no, elimine este valor del
+dominio de X.
+A menudo se está interesado en hacer que todo el problema sea consistente y no
 solo una variable con respecto a otra. En este caso, se utiliza un algoritmo llamado PM,

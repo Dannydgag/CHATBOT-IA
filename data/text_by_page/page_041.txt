@@ -1,33 +1,32 @@
-7. Inteligencia Artificial Explicable (XAI): Busca desarrollar modelos de IA, 
-especialmente los basados en aprendizaje profundo, que puedan explicar sus 
-decisiones y procesos de una manera comprensible para los humanos, a menudo 
-integrando elementos simbólicos en la explicación de modelos no simbólicos. 
-1.4 
-Influencia significativa de la inteligencia artificial  
-La importancia de la inteligencia artificial radica en el hecho de que se relaciona 
-con la mayoría de campos de investigación a través de diferentes disciplinas tales como: 
-las ciencias de la ingeniería (ayuda a diseñar sistemas más eficientes y seguros), la 
-economía (permite analizar tendencias de mercado y predecir cambios económicos)  y la 
-medicina (contribuye al diagnóstico y tratamiento de enfermedades, e incluso en la 
-investigación de nuevos medicamentos), siendo usada la IA como un medio para hacer 
-frente a muy complicados y difíciles procesos de cómputo, así como a los problemas 
-cognitivos. Al ser la IA una de las principales corrientes de tratamiento de la información, 
-puede ahora ofrecer soluciones a los problemas utilizando los avances e innovaciones 
-entre una amplia gama de sub-áreas que inducen el pensamiento y razonamiento en los 
-modelos y sistemas desarrollados. 
-Se espera que las empresas que utilizan aplicaciones de Inteligencia Artificial 
-mejoren la capacidad de analizar los datos a través de múltiples variables, puedan detectar 
-fraudes y gestionen de mejor manera las relaciones con los clientes para obtener una 
-ventaja competitiva. 
-Altos directivos de muchas empresas utilizan sistemas de planificación estratégica 
-basados en IA para tener una asistencia en funciones como: análisis de la competencia, el 
-despliegue de tecnología y la asignación de recursos. También se utilizan programas para 
-ayudar en el diseño de la configuración de equipos, distribución de productos, 
-asesoramiento en el cumplimiento y evaluación de personal. La IA está contribuyendo en 
-gran medida en la organización, planificación de la gestión y control de las operaciones, 
-y continuará haciéndolo con más frecuencia a medida que se refinan los programas. 
-La IA también es influyente en la ciencia y la ingeniería, las aplicaciones 
-desarrolladas se utilizan para organizar y manipular las cantidades cada vez mayores de 
-información disponibles para los científicos e ingenieros, se emplea en clasificaciones 
-biológicas, en la creación de circuitos semiconductores y componentes de automóviles. 
+7.Inteligencia Artificial Explicable (XAI): Busca desarrollar modelos de IA,
+especialmente los basados en aprendizaje profundo, que puedan explicar sus
+decisiones y procesos de una manera comprensible para los humanos, a menudo
+integrando elementos simbólicos en la explicación de modelos no simbólicos.
+[TITLE]: 1.4 Influencia significativa de la inteligencia artificial
+La importancia de la inteligencia artificial radica en el hecho de que se relaciona
+con la mayoría de campos de investigación a través de diferentes disciplinas tales como:
+las ciencias de la ingeniería (ayuda a diseñar sistemas más eficientes y seguros), la
+economía (permite analizar tendencias de mercado y predecir cambios económicos) y la
+medicina (contribuye al diagnóstico y tratamiento de enfermedades, e incluso en la
+investigación de nuevos medicamentos), siendo usada la IA como un medio para hacer
+frente a muy complicados y difíciles procesos de cómputo, así como a los problemas
+cognitivos. Al ser la IA una de las principales corrientes de tratamiento de la información,
+puede ahora ofrecer soluciones a los problemas utilizando los avances e innovaciones
+entre una amplia gama de sub-áreas que inducen el pensamiento y razonamiento en los
+modelos y sistemas desarrollados.
+Se espera que las empresas que utilizan aplicaciones de Inteligencia Artificial
+mejoren la capacidad de analizar los datos a través de múltiples variables, puedan detectar
+fraudes y gestionen de mejor manera las relaciones con los clientes para obtener una
+ventaja competitiva.
+Altos directivos de muchas empresas utilizan sistemas de planificación estratégica
+basados en IA para tener una asistencia en funciones como: análisis de la competencia, el
+despliegue de tecnología y la asignación de recursos. También se utilizan programas para
+ayudar en el diseño de la configuración de equipos, distribución de productos,
+asesoramiento en el cumplimiento y evaluación de personal. La IA está contribuyendo en
+gran medida en la organización, planificación de la gestión y control de las operaciones,
+y continuará haciéndolo con más frecuencia a medida que se refinan los programas.
+La IA también es influyente en la ciencia y la ingeniería, las aplicaciones
+desarrolladas se utilizan para organizar y manipular las cantidades cada vez mayores de
+información disponibles para los científicos e ingenieros, se emplea en clasificaciones
+biológicas, en la creación de circuitos semiconductores y componentes de automóviles.
 La IA se utiliza en la difracción y análisis de imágenes, en las plantas de energía y en el

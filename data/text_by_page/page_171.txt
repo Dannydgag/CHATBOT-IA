@@ -1,36 +1,36 @@
-estados simultáneamente. En cada iteración, selecciona los k vecinos más prometedores. 
-Al operar con varias soluciones en paralelo, este método incrementa las probabilidades 
-de hallar un óptimo global, evitando quedar atrapado en óptimos locales, un problema 
-común en la escalada de colinas. No obstante, este beneficio viene acompañado de un 
-mayor costo computacional, ya que se requiere evaluar varias soluciones en cada iteración 
-(Russell & Norvig, 2021). 
-Funcionamiento: 
-1) Comienza con k estados iniciales generados aleatoriamente. 
-2) En cada iteración, se exploran todos los vecinos de todos los k estados en el haz. 
-3) De todos estos vecinos, se seleccionan los k mejores para formar el nuevo haz 
-para la siguiente iteración. 
-El proceso se repite hasta que no se encuentren mejoras en el haz o hasta que se 
-cumpla algún otro criterio de parada. 
-Pseudocódigo: 
-BúsquedaHazLocal(k, iteraciones): 
-    soluciones = GenerarKSolucionesIniciales(k)  # Genera k soluciones iniciales 
-aleatorias 
-    para i en rango(iteraciones): 
-        nuevasSoluciones = Vacío()  # Inicializa una lista vacía para almacenar las nuevas 
-soluciones 
-     para solucion en soluciones: 
-            vecinos = GenerarVecinos(solucion)  # Genera vecinos de la solución actual 
-            mejorVecino = MejorVecino(vecinos)  # Encuentra el mejor vecino 
-            agregar mejorVecino a nuevasSoluciones  # Agrega el mejor vecino a la lista de 
-nuevas soluciones 
-            soluciones = SeleccionarKSolucionesTop(nuevasSoluciones, k)  # Selecciona las 
-mejores k soluciones 
-     mejorSolucion = MejorSolucion(soluciones)  # Encuentra la mejor solución de todas 
-     devolver mejorSolucion 
-A continuación, se encuentra las funciones y componentes del pseudocódigo del 
-algoritmo de Búsqueda de Haz Local. 
-k: El número de soluciones en el conjunto de haces. 
-iteraciones: El número máximo de iteraciones que se ejecutarán. 
-GenerarKSolucionesIniciales(k): Genera k soluciones iniciales aleatorias. 
-GenerarVecinos(solucion): Genera los vecinos de una solución dada. 
+estados simultáneamente. En cada iteración, selecciona los k vecinos más prometedores.
+Al operar con varias soluciones en paralelo, este método incrementa las probabilidades
+de hallar un óptimo global, evitando quedar atrapado en óptimos locales, un problema
+común en la escalada de colinas. No obstante, este beneficio viene acompañado de un
+mayor costo computacional, ya que se requiere evaluar varias soluciones en cada iteración
+(Russell & Norvig, 2021).
+Funcionamiento:
+1)Comienza con k estados iniciales generados aleatoriamente.
+2)En cada iteración, se exploran todos los vecinos de todos los k estados en el haz.
+3)De todos estos vecinos, se seleccionan los k mejores para formar el nuevo haz
+para la siguiente iteración.
+El proceso se repite hasta que no se encuentren mejoras en el haz o hasta que se
+cumpla algún otro criterio de parada.
+Pseudocódigo:
+BúsquedaHazLocal(k, iteraciones):
+soluciones = GenerarKSolucionesIniciales(k)  # Genera k soluciones iniciales
+aleatorias
+para i en rango(iteraciones):
+nuevasSoluciones = Vacío()  # Inicializa una lista vacía para almacenar las nuevas
+soluciones
+para solucion en soluciones:
+vecinos = GenerarVecinos(solucion)  # Genera vecinos de la solución actual
+mejorVecino = MejorVecino(vecinos)  # Encuentra el mejor vecino
+agregar mejorVecino a nuevasSoluciones  # Agrega el mejor vecino a la lista de
+nuevas soluciones
+soluciones = SeleccionarKSolucionesTop(nuevasSoluciones, k)  # Selecciona las
+mejores k soluciones
+mejorSolucion = MejorSolucion(soluciones)  # Encuentra la mejor solución de todas
+devolver mejorSolucion
+A continuación, se encuentra las funciones y componentes del pseudocódigo del
+algoritmo de Búsqueda de Haz Local.
+k: El número de soluciones en el conjunto de haces.
+iteraciones: El número máximo de iteraciones que se ejecutarán.
+GenerarKSolucionesIniciales(k): Genera k soluciones iniciales aleatorias.
+GenerarVecinos(solucion): Genera los vecinos de una solución dada.
 MejorVecino(vecinos): Encuentra el mejor vecino entre un conjunto de vecinos.

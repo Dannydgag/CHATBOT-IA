@@ -1,31 +1,31 @@
-árboles de decisión, cada uno con sus características y métodos particulares. Entre los 
-más conocidos y utilizados se encuentran el algoritmo ID3, C4.5 y CART.  
-Estos algoritmos difieren en cómo seleccionan las variables para dividir el árbol, 
-cómo tratan los datos faltantes, cómo manejan variables continuas y categóricas, y en sus 
-estrategias de poda. La elección del algoritmo adecuado depende del tipo específico de 
-problema, la naturaleza de los datos y los objetivos del análisis. 
-a) ID3 (Iterative Dichotomiser 3): Desarrollado por Ross Quinlan en la década de 1980, 
-ID3 es uno de los primeros algoritmos utilizados para construir árboles de decisión. 
-Utiliza la Ganancia de Información como criterio para dividir los datos. ID3 se aplica 
-principalmente a tareas de clasificación y funciona bien con atributos categóricos. Sin 
-embargo, no es adecuado para atributos continuos y no maneja directamente los datos 
-faltantes ni la poda de árboles, que es decisivo para evitar el sobreajuste. 
-b) C4.5: También desarrollado por Ross Quinlan como una extensión y mejora de ID3, 
-C4.5 es capaz de manejar tanto datos categóricos como continuos. En lugar de la 
-Ganancia de Información, utiliza la Razón de Ganancia de Información, que normaliza 
-la Ganancia de Información. C4.5 introduce el concepto de poda del árbol para reducir 
-el tamaño del árbol y mejorar su capacidad de generalización. Además, maneja los 
-valores faltantes de los datos de manera más eficaz que ID3. 
-c) CART (Classification and Regression Trees): Desarrollado por Breiman, Friedman, 
-Olshen y Stone, CART es utilizado tanto para clasificación como para regresión. A 
-diferencia de ID3 y C4.5 que utilizan la entropía y la ganancia de información, CART 
-utiliza el Índice Gini para clasificación y la Reducción de la Varianza para regresión. 
-Una característica distintiva de CART es que produce árboles binarios (cada nodo tiene 
-exactamente dos hijos), mientras que ID3 y C4.5 pueden crear árboles con más de dos 
-hijos. CART también incluye procedimientos de poda más sofisticados para mejorar 
-la generalización del modelo. 
-Una vez que hemos explorado los algoritmos clave utilizados en la construcción 
-de árboles de decisión, es fundamental entender las métricas de división que determinan 
-la eficacia de cada nodo en el árbol. Estas métricas, como la Ganancia de Información, el 
-Índice Gini y la Reducción de la Varianza, son importantes en la evaluación de cómo cada 
+árboles de decisión, cada uno con sus características y métodos particulares. Entre los
+más conocidos y utilizados se encuentran el algoritmo ID3, C4.5 y CART.
+Estos algoritmos difieren en cómo seleccionan las variables para dividir el árbol,
+cómo tratan los datos faltantes, cómo manejan variables continuas y categóricas, y en sus
+estrategias de poda. La elección del algoritmo adecuado depende del tipo específico de
+problema, la naturaleza de los datos y los objetivos del análisis.
+a)ID3 (Iterative Dichotomiser 3): Desarrollado por Ross Quinlan en la década de 1980,
+ID3 es uno de los primeros algoritmos utilizados para construir árboles de decisión.
+Utiliza la Ganancia de Información como criterio para dividir los datos. ID3 se aplica
+principalmente a tareas de clasificación y funciona bien con atributos categóricos. Sin
+embargo, no es adecuado para atributos continuos y no maneja directamente los datos
+faltantes ni la poda de árboles, que es decisivo para evitar el sobreajuste.
+b)C4.5: También desarrollado por Ross Quinlan como una extensión y mejora de ID3,
+C4.5 es capaz de manejar tanto datos categóricos como continuos. En lugar de la
+Ganancia de Información, utiliza la Razón de Ganancia de Información, que normaliza
+la Ganancia de Información. C4.5 introduce el concepto de poda del árbol para reducir
+el tamaño del árbol y mejorar su capacidad de generalización. Además, maneja los
+valores faltantes de los datos de manera más eficaz que ID3.
+c)CART (Classification and Regression Trees): Desarrollado por Breiman, Friedman,
+Olshen y Stone, CART es utilizado tanto para clasificación como para regresión. A
+diferencia de ID3 y C4.5 que utilizan la entropía y la ganancia de información, CART
+utiliza el Índice Gini para clasificación y la Reducción de la Varianza para regresión.
+Una característica distintiva de CART es que produce árboles binarios (cada nodo tiene
+exactamente dos hijos), mientras que ID3 y C4.5 pueden crear árboles con más de dos
+hijos. CART también incluye procedimientos de poda más sofisticados para mejorar
+la generalización del modelo.
+Una vez que hemos explorado los algoritmos clave utilizados en la construcción
+de árboles de decisión, es fundamental entender las métricas de división que determinan
+la eficacia de cada nodo en el árbol. Estas métricas, como la Ganancia de Información, el
+Índice Gini y la Reducción de la Varianza, son importantes en la evaluación de cómo cada
 característica contribuye a la separación de los datos en categorías más homogéneas. La

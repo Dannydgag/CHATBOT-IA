@@ -1,29 +1,29 @@
-En la búsqueda informada, se utilizan diversas métricas para evaluar y priorizar 
-los nodos en el espacio de búsqueda. Estas métricas, basadas en heurísticas, permiten 
-ordenar o clasificar los nodos según su potencial o probabilidad de acercarse a la solución 
-óptima. De esta manera, la búsqueda se orienta hacia las opciones más prometedoras, 
-reduciendo el tiempo y los recursos necesarios para encontrar una solución. 
-Se tratarán dos formas de búsqueda informada: 
-✓ Búsqueda avara primero el mejor 
-✓ Búsqueda A* 
-3.2.1 Búsqueda avara (primero el mejor) 
-La estrategia de búsqueda avara, también conocida como "Primero el Mejor", se 
-centra en la exploración prioritaria de aquellos nodos que, según una función heurística, 
-parecen ser los más prometedores para alcanzar el objetivo de manera eficiente. Esta 
-función heurística, representada por ℎ(n), estima el costo desde el nodo actual n hasta el 
-nodo objetivo, basándose en conocimientos previos o heurísticos del problema en 
-cuestión (Kumar, 2013). 
-En cada paso de la búsqueda, se selecciona y expande el nodo cuyo valor de ℎ(n) 
-es el menor, es decir, aquel que se estima está más cerca del objetivo. Esta elección se 
-realiza con la esperanza y la premisa de que dirigirse hacia el nodo más prometedor 
-acelerará el proceso de encontrar la solución. 
-Es importante señalar que, una vez que se alcanza el nodo objetivo, el valor de 
-h(n) se convierte en cero, indicando que no hay más costo estimado pendiente desde ese 
-punto. 
-La efectividad de la búsqueda avara está intrínsecamente ligada a la precisión y 
-calidad de la función heurística empleada. Una función heurística bien diseñada puede 
-guiar al algoritmo directamente hacia la solución, mientras que una función imprecisa 
-podría desviar la búsqueda, aumentando el tiempo y los recursos necesarios para 
-encontrar la solución. 
-Se va a utilizar para ejemplificar esta búsqueda el grafo de búsqueda de costo 
+En la búsqueda informada, se utilizan diversas métricas para evaluar y priorizar
+los nodos en el espacio de búsqueda. Estas métricas, basadas en heurísticas, permiten
+ordenar o clasificar los nodos según su potencial o probabilidad de acercarse a la solución
+óptima. De esta manera, la búsqueda se orienta hacia las opciones más prometedoras,
+reduciendo el tiempo y los recursos necesarios para encontrar una solución.
+Se tratarán dos formas de búsqueda informada:
+✓Búsqueda avara primero el mejor
+✓Búsqueda A*
+[TITLE]: 3.2.1 Búsqueda avara (primero el mejor)
+La estrategia de búsqueda avara, también conocida como "Primero el Mejor", se
+centra en la exploración prioritaria de aquellos nodos que, según una función heurística,
+parecen ser los más prometedores para alcanzar el objetivo de manera eficiente. Esta
+función heurística, representada por ℎ(n), estima el costo desde el nodo actual n hasta el
+nodo objetivo, basándose en conocimientos previos o heurísticos del problema en
+cuestión (Kumar, 2013).
+En cada paso de la búsqueda, se selecciona y expande el nodo cuyo valor de ℎ(n)
+es el menor, es decir, aquel que se estima está más cerca del objetivo. Esta elección se
+realiza con la esperanza y la premisa de que dirigirse hacia el nodo más prometedor
+acelerará el proceso de encontrar la solución.
+Es importante señalar que, una vez que se alcanza el nodo objetivo, el valor de
+h(n) se convierte en cero, indicando que no hay más costo estimado pendiente desde ese
+punto.
+La efectividad de la búsqueda avara está intrínsecamente ligada a la precisión y
+calidad de la función heurística empleada. Una función heurística bien diseñada puede
+guiar al algoritmo directamente hacia la solución, mientras que una función imprecisa
+podría desviar la búsqueda, aumentando el tiempo y los recursos necesarios para
+encontrar la solución.
+Se va a utilizar para ejemplificar esta búsqueda el grafo de búsqueda de costo
 uniforme, con la métrica de que la distancia más corta entre dos puntos es la línea recta.

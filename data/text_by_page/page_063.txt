@@ -1,87 +1,87 @@
-completa de percibir su entorno, tomar 
-decisiones y ejecutar acciones que se 
-alinien 
-con 
-su 
-objetivo 
-y 
-las 
-condiciones específicas del entorno. La 
-ausencia de interacciones directas con 
-otros agentes reduce la complejidad de 
-las dinámicas de interacción y las 
-estrategias a considerar. 
-   Aunque el agente trabaja de forma 
-individual, puede estar inmerso en 
-esenarios donde existen otros agentes 
-de forma indirecta, como sistemas 
-automatizados 
-o 
-programas 
-de 
-software que son importantes en la 
-configuración o en el control del 
-entorno. 
-Aunque 
-no 
-interactúan 
-directamente con el agente principal, 
-estos 
-elementos 
-pueden 
-afectar 
-significativamente las condiciones y 
-restricciones del entorno, perjudicando 
-las decisiones y acciones del agente 
-individual. 
-o Chatbot de servicio 
-al cliente 
-o Robot clasificador 
-de baldosas 
-o Asistente personal 
-en un dispositivo 
-doméstico 
-inteligente 
-o Agente 
-de 
-salud 
-personal 
-o Agente 
-de 
-seguridad 
-doméstica 
-o Agente 
-de 
-entrenamiento 
-físico 
-o Agente 
-de 
-aprendizaje 
-de 
-idiomas 
-Multiagente 
-   En los entornos multiagente, están 
-presentes dos o más agentes que 
-interactúan 
-entre 
-sí, 
-pudiendo 
-competir, cooperar o una combinación 
-de ambos. Estos agentes perseguen 
-objetivos y acciones independientes, 
-pudiendo generar dinámicas complejas 
-y estratégicas en el entorno. 
-   En estos entornos, los agentes 
-pueden tener diferentes niveles de 
-o Tráfico inteligente 
-o Simulaciones 
-de 
-poblaciones 
-o Robot que juega al 
-futbol 
-o Ayudante 
-de 
-matemáticas. 
-o Juego del veintiuno 
-(Black jack) 
-o Juegos en línea
+completa de percibir su entorno, tomar
+decisiones y ejecutar acciones que se
+alinien
+con
+su
+objetivo
+y
+las
+condiciones específicas del entorno. La
+ausencia de interacciones directas con
+otros agentes reduce la complejidad de
+las dinámicas de interacción y las
+estrategias a considerar.
+Aunque el agente trabaja de forma
+individual, puede estar inmerso en
+esenarios donde existen otros agentes
+de forma indirecta, como sistemas
+automatizados
+o
+programas
+de
+software que son importantes en la
+configuración o en el control del
+entorno.
+Aunque
+no
+interactúan
+directamente con el agente principal,
+estos
+elementos
+pueden
+afectar
+significativamente las condiciones y
+restricciones del entorno, perjudicando
+las decisiones y acciones del agente
+individual.
+oChatbot de servicio
+al cliente
+oRobot clasificador
+de baldosas
+oAsistente personal
+en un dispositivo
+doméstico
+inteligente
+oAgente
+de
+salud
+personal
+oAgente
+de
+seguridad
+doméstica
+oAgente
+de
+entrenamiento
+físico
+oAgente
+de
+aprendizaje
+de
+idiomas
+Multiagente
+En los entornos multiagente, están
+presentes dos o más agentes que
+interactúan
+entre
+sí,
+pudiendo
+competir, cooperar o una combinación
+de ambos. Estos agentes perseguen
+objetivos y acciones independientes,
+pudiendo generar dinámicas complejas
+y estratégicas en el entorno.
+En estos entornos, los agentes
+pueden tener diferentes niveles de
+oTráfico inteligente
+oSimulaciones
+de
+poblaciones
+oRobot que juega al
+futbol
+oAyudante
+de
+matemáticas.
+oJuego del veintiuno
+(Black jack)
+oJuegos en línea

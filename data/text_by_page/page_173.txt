@@ -1,32 +1,32 @@
-Luego, se actualiza la posición de la partícula basándose en su velocidad. 
-5) Iteración: Los pasos 2 a 4 se repiten hasta que se cumpla un criterio de parada, 
-como un número máximo de iteraciones o una mejora mínima en la función 
-objetivo. 
-Pseudocódigo: 
-OptimizaciónEjambrePartículas(iteraciones, tamañoEnjambre, c1, c2): 
-    enjambre = InicializarEnjambreAleatoriamente(tamañoEnjambre)  # Inicializa el 
-enjambre con partículas aleatorias 
-    para i en rango(iteraciones): 
-        para cada partícula en enjambre: 
-            calcular la aptitud de la partícula  # Evalúa la calidad de la solución 
-            si la aptitud es mejor que la mejor aptitud personal de la partícula: 
-                actualizar la mejor aptitud personal de la partícula 
-                actualizar la mejor posición personal de la partícula 
-            encontrar la partícula con la mejor aptitud personal en todo el enjambre 
-            para cada partícula en enjambre: 
-                actualizar la velocidad y posición de la partícula: 
-                    velocidad = velocidad + c1 * rand() * (mejor posición personal - posición 
-actual) 
-                    velocidad = velocidad + c2 * rand() * (mejor posición global - posición 
-actual) 
-                    posición = posición + velocidad 
-   encontrar la partícula con la mejor aptitud global en todo el enjambre 
-    devolver la mejor posición global encontrada 
-El pseudocódigo describe el algoritmo Optimización por Enjambre de Partículas, 
-a continuación, se indican las variables y componentes importantes involucrados: 
-iteraciones: El número máximo de iteraciones que se ejecutarán. 
-tamañoEnjambre: El número de partículas en el enjambre. 
-c1 y c2: Coeficientes de aceleración que controlan la influencia de la mejor posición 
-personal y la mejor posición global en el movimiento de las partículas. 
-InicializarEnjambreAleatoriamente(tamañoEnjambre): Inicializa el enjambre con 
+Luego, se actualiza la posición de la partícula basándose en su velocidad.
+5)Iteración: Los pasos 2 a 4 se repiten hasta que se cumpla un criterio de parada,
+como un número máximo de iteraciones o una mejora mínima en la función
+objetivo.
+Pseudocódigo:
+OptimizaciónEjambrePartículas(iteraciones, tamañoEnjambre, c1, c2):
+enjambre = InicializarEnjambreAleatoriamente(tamañoEnjambre)  # Inicializa el
+enjambre con partículas aleatorias
+para i en rango(iteraciones):
+para cada partícula en enjambre:
+calcular la aptitud de la partícula  # Evalúa la calidad de la solución
+si la aptitud es mejor que la mejor aptitud personal de la partícula:
+actualizar la mejor aptitud personal de la partícula
+actualizar la mejor posición personal de la partícula
+encontrar la partícula con la mejor aptitud personal en todo el enjambre
+para cada partícula en enjambre:
+actualizar la velocidad y posición de la partícula:
+velocidad = velocidad + c1 * rand() * (mejor posición personal - posición
+actual)
+velocidad = velocidad + c2 * rand() * (mejor posición global - posición
+actual)
+posición = posición + velocidad
+encontrar la partícula con la mejor aptitud global en todo el enjambre
+devolver la mejor posición global encontrada
+El pseudocódigo describe el algoritmo Optimización por Enjambre de Partículas,
+a continuación, se indican las variables y componentes importantes involucrados:
+iteraciones: El número máximo de iteraciones que se ejecutarán.
+tamañoEnjambre: El número de partículas en el enjambre.
+c1 y c2: Coeficientes de aceleración que controlan la influencia de la mejor posición
+personal y la mejor posición global en el movimiento de las partículas.
+InicializarEnjambreAleatoriamente(tamañoEnjambre): Inicializa el enjambre con
 posiciones y velocidades aleatorias.

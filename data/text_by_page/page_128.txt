@@ -1,32 +1,32 @@
-situaciones específicas, lo que es necesario para la flexibilidad y la capacidad de 
-aprendizaje de estos sistemas. 
-En el ámbito del razonamiento computacional, se destacan principalmente dos 
-enfoques estratégicos: el encaminamiento hacia adelante y el encaminamiento hacia atrás. 
-El encaminamiento hacia adelante comienza con un conjunto exhaustivo de datos 
-conocidos, desde los cuales se desarrolla progresivamente hacia una solución. Este 
-método es especialmente eficaz en situaciones donde los datos fluyen de manera 
-secuencial y sistemática, permitiendo al sistema formular hipótesis y llegar a conclusiones 
-paso a paso. Se emplea comúnmente en sistemas expertos para realizar diagnósticos o en 
-procesos de toma de decisiones donde la información se acumula y se elabora 
-gradualmente. 
-Por otro lado, el encaminamiento hacia atrás adopta una aproximación inversa. 
-Aquí, se inicia con una hipotética solución o conclusión y luego se busca retroactivamente 
-evidencia o datos que la sustenten. Esta técnica es particularmente útil en contextos donde 
-el objetivo final es claro, pero el camino para alcanzarlo no lo es. Se utiliza en la solución 
-de problemas complejos, como en la programación lógica, donde se definen los objetivos 
-deseados y el sistema trabaja hacia atrás para encontrar las condiciones que deben 
-cumplirse para alcanzar esos objetivos. Esta estrategia es eficaz para reducir el espacio 
-de búsqueda y para centrarse en los aspectos relevantes de un problema, lo que resulta en 
-una solución más eficiente y dirigida. 
-2.2.1 Encaminamiento hacia adelante 
-Dentro del marco de los sistemas basados en conocimiento, se opera con un 
-conjunto de datos previamente conocidos. Estos datos se analizan en relación con cada 
-una de las reglas estructuradas en formato IF-THEN. El objetivo es determinar si los datos 
-cumplen con las premisas (IF) de alguna de estas reglas. Para este propósito, se emplea 
-la técnica de unificación. En situaciones donde múltiples reglas resultan ser compatibles, 
-se opta por aquella con la mayor prioridad asignada. Una vez seleccionada, la regla se 
-ejecuta, derivando nuevos hechos (THEN) (Feigenbaum & others, 1977). Estos hechos 
-recién derivados pueden, a su vez, ser empleados por otras reglas, generando así una 
-cascada de derivaciones adicionales. El motor de inferencia es el componente encargado 
-de interpretar y evaluar estos hechos dentro de la base de conocimiento, conduciendo al 
+situaciones específicas, lo que es necesario para la flexibilidad y la capacidad de
+aprendizaje de estos sistemas.
+En el ámbito del razonamiento computacional, se destacan principalmente dos
+enfoques estratégicos: el encaminamiento hacia adelante y el encaminamiento hacia atrás.
+El encaminamiento hacia adelante comienza con un conjunto exhaustivo de datos
+conocidos, desde los cuales se desarrolla progresivamente hacia una solución. Este
+método es especialmente eficaz en situaciones donde los datos fluyen de manera
+secuencial y sistemática, permitiendo al sistema formular hipótesis y llegar a conclusiones
+paso a paso. Se emplea comúnmente en sistemas expertos para realizar diagnósticos o en
+procesos de toma de decisiones donde la información se acumula y se elabora
+gradualmente.
+Por otro lado, el encaminamiento hacia atrás adopta una aproximación inversa.
+Aquí, se inicia con una hipotética solución o conclusión y luego se busca retroactivamente
+evidencia o datos que la sustenten. Esta técnica es particularmente útil en contextos donde
+el objetivo final es claro, pero el camino para alcanzarlo no lo es. Se utiliza en la solución
+de problemas complejos, como en la programación lógica, donde se definen los objetivos
+deseados y el sistema trabaja hacia atrás para encontrar las condiciones que deben
+cumplirse para alcanzar esos objetivos. Esta estrategia es eficaz para reducir el espacio
+de búsqueda y para centrarse en los aspectos relevantes de un problema, lo que resulta en
+una solución más eficiente y dirigida.
+[TITLE]: 2.2.1 Encaminamiento hacia adelante
+Dentro del marco de los sistemas basados en conocimiento, se opera con un
+conjunto de datos previamente conocidos. Estos datos se analizan en relación con cada
+una de las reglas estructuradas en formato IF-THEN. El objetivo es determinar si los datos
+cumplen con las premisas (IF) de alguna de estas reglas. Para este propósito, se emplea
+la técnica de unificación. En situaciones donde múltiples reglas resultan ser compatibles,
+se opta por aquella con la mayor prioridad asignada. Una vez seleccionada, la regla se
+ejecuta, derivando nuevos hechos (THEN) (Feigenbaum & others, 1977). Estos hechos
+recién derivados pueden, a su vez, ser empleados por otras reglas, generando así una
+cascada de derivaciones adicionales. El motor de inferencia es el componente encargado
+de interpretar y evaluar estos hechos dentro de la base de conocimiento, conduciendo al
 sistema hacia una respuesta coherente.

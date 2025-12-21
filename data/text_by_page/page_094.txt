@@ -1,32 +1,32 @@
-semánticas. En el comercio electrónico, las ontologías son utilizadas para la 
-organización y categorización de productos, posibilitando recomendaciones más 
-acertadas y una búsqueda más eficiente para los consumidores. Además, estas 
-estructuras son herramientas poderosas para la organización, clasificación y 
-recuperación de información; por ejemplo, pueden vincular términos de distintos 
-idiomas o establecer conexiones entre autores, sus obras y temáticas correspondientes. 
-En el ámbito empresarial, las ontologías se emplean para la modelización de 
-procesos de negocio, recursos y servicios, contribuyendo a optimizar la gestión y el 
-proceso de toma de decisiones. Son también aliadas en la integración y análisis de 
-datos de diversas fuentes, lo cual es decisivo para el estudio de fenómenos complejos 
-como el cambio climático. Las ontologías constituyen un pilar en el desarrollo de 
-sistemas expertos y asistentes virtuales, al permitir que las máquinas interpreten y 
-razonen sobre dominios específicos. En el sector turístico, se utilizan para modelar y 
-relacionar datos sobre destinos, actividades y alojamientos, entre otros, brindando así 
-recomendaciones personalizadas a los viajeros.  
-j) Las Redes Neuronales Artificiales, son modelos computacionales inspirados en cómo 
-funcionan las redes neuronales biológicas del cerebro humano. Se pueden ver como 
-un medio de representar el conocimiento a través de conexiones ponderadas entre 
-neuronas que están organizadas. Una neurona recibe uno o más inputs, los procesa y 
-produce un output. Cada conexión entre neuronas tiene un peso asociado, que puede 
-ser positivo (excitatorio) o negativo (inhibitorio). Estos pesos se ajustan durante el 
-proceso de aprendizaje. La distribución del conocimiento a través de la red permite a 
-las redes neuronales artificiales generalizar y hacer predicciones sobre datos nunca 
-antes vistos. 
-Las Redes Neuronales Artificiales (RNA), y en particular las Redes Neuronales 
-Convolucionales (CNN), son fundamentales en la identificación de objetos dentro de 
-imágenes, el reconocimiento facial y el diagnóstico médico mediante el análisis de 
-imágenes clínicas. Por otro lado, las Redes Neuronales Recurrentes (RNN), junto con 
-los modelos de atención y las arquitecturas Transformer, se destacan en aplicaciones 
-de procesamiento del lenguaje natural, tales como la traducción automática, la creación 
-de contenido textual y el análisis de sentimiento. Además, las RNA son trascendentales 
+semánticas. En el comercio electrónico, las ontologías son utilizadas para la
+organización y categorización de productos, posibilitando recomendaciones más
+acertadas y una búsqueda más eficiente para los consumidores. Además, estas
+estructuras son herramientas poderosas para la organización, clasificación y
+recuperación de información; por ejemplo, pueden vincular términos de distintos
+idiomas o establecer conexiones entre autores, sus obras y temáticas correspondientes.
+En el ámbito empresarial, las ontologías se emplean para la modelización de
+procesos de negocio, recursos y servicios, contribuyendo a optimizar la gestión y el
+proceso de toma de decisiones. Son también aliadas en la integración y análisis de
+datos de diversas fuentes, lo cual es decisivo para el estudio de fenómenos complejos
+como el cambio climático. Las ontologías constituyen un pilar en el desarrollo de
+sistemas expertos y asistentes virtuales, al permitir que las máquinas interpreten y
+razonen sobre dominios específicos. En el sector turístico, se utilizan para modelar y
+relacionar datos sobre destinos, actividades y alojamientos, entre otros, brindando así
+recomendaciones personalizadas a los viajeros.
+j)LasRedes Neuronales Artificiales, son modelos computacionales inspirados en cómo
+funcionan las redes neuronales biológicas del cerebro humano. Se pueden ver como
+un medio de representar el conocimiento a través de conexiones ponderadas entre
+neuronas que están organizadas. Una neurona recibe uno o más inputs, los procesa y
+produce un output. Cada conexión entre neuronas tiene un peso asociado, que puede
+ser positivo (excitatorio) o negativo (inhibitorio). Estos pesos se ajustan durante el
+proceso de aprendizaje. La distribución del conocimiento a través de la red permite a
+las redes neuronales artificiales generalizar y hacer predicciones sobre datos nunca
+antes vistos.
+Las Redes Neuronales Artificiales (RNA), y en particular las Redes Neuronales
+Convolucionales (CNN), son fundamentales en la identificación de objetos dentro de
+imágenes, el reconocimiento facial y el diagnóstico médico mediante el análisis de
+imágenes clínicas. Por otro lado, las Redes Neuronales Recurrentes (RNN), junto con
+los modelos de atención y las arquitecturas Transformer, se destacan en aplicaciones
+de procesamiento del lenguaje natural, tales como la traducción automática, la creación
+de contenido textual y el análisis de sentimiento. Además, las RNA son trascendentales
 en el desarrollo de asistentes virtuales y en la transcripción automática de señales de

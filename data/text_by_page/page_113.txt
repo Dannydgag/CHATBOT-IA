@@ -1,32 +1,32 @@
-Conduce(Guillermina, Automóvil) expresa: Guillermina conduce el automóvil 
-Si se aplica de la lógica proposicional los operadores booleanos se pueden 
-construir oraciones más complejas. De esta manera, se toman dos o más frases atómicas 
-y con los conectivos se construye una oración compuesta. 
-Conoce(Juan, Guillermina)  ˄  Conoce(Guillermina, Juan) 
-           expresa: Juan conoce a Guillermina y Guillermina conoce a Juan 
-Pasea_en(Juan, Bicicleta)  ˅ Pasea_en(Juan, Automóvil) 
-          expresa: Juan pasea en bicicleta o Juan pasea en automóvil  
-Conoce(Juan, Guillermina)  ˄  ¬ Conoce(Guillermina, Juan) 
-           expresa: Juan conoce a Guillermina o Guillermina no conoce a Juan 
-Conoce(Juan, Guillermina)   →  Conoce(Guillermina, Juan)       
-           expresa: Si Juan conoce a Guillermina entonces Guillermina conoce a Juan 
-Conoce(Juan, Guillermina)   ↔  Conoce(Guillermina, Juan)                  
-              expresa: Juan conoce a Guillermina si Guillermina conoce a Juan 
-En la lógica de primer orden, las variables son herramientas poderosas que 
-permiten representar información de manera abstracta y general, lo que facilita la 
-formulación de reglas y relaciones que son válidas para una amplia gama de objetos sin 
-especificar los objetos en sí. Esto es especialmente útil en la inteligencia artificial y la 
-representación del conocimiento, donde no siempre se conoce de antemano la identidad 
-exacta de los objetos involucrados. 
-Conoce(x, Guillermina)   →  Conoce(Guillermina, x) 
-Hermano(x, y)  → Padre(z, x) ˄ Padre(z, y) 
-Los predicados en la lógica de primer orden tienen un valor de veracidad que 
-depende de los términos específicos que se les asignen. Esto significa que un predicado 
-puede ser verdadero para ciertos términos y falso para otros, lo que le brinda una 
-capacidad de expresión muy flexible.  
-Esta característica es fundamental para la representación precisa y abstracta del 
-conocimiento en la inteligencia artificial y otros campos. 
-Los predicados permiten asignar cualidades abstractas o relaciones entre objetos 
-o conceptos. Por ejemplo, el predicado "Conoce (x, y)" podría representar la relación de 
-conocer entre dos personas, donde "x" y "y" son variables que pueden tomar cualquier 
+Conduce(Guillermina, Automóvil) expresa: Guillermina conduce el automóvil
+Si se aplica de la lógica proposicional los operadores booleanos se pueden
+construir oraciones más complejas. De esta manera, se toman dos o más frases atómicas
+y con los conectivos se construye una oración compuesta.
+Conoce(Juan, Guillermina)  ˄  Conoce(Guillermina, Juan)
+expresa: Juan conoce a Guillermina y Guillermina conoce a Juan
+Pasea_en(Juan, Bicicleta)  ˅ Pasea_en(Juan, Automóvil)
+expresa: Juan pasea en bicicleta o Juan pasea en automóvil
+Conoce(Juan, Guillermina)  ˄  ¬ Conoce(Guillermina, Juan)
+expresa: Juan conoce a Guillermina o Guillermina no conoce a Juan
+Conoce(Juan, Guillermina)   →  Conoce(Guillermina, Juan)
+expresa: Si Juan conoce a Guillermina entonces Guillermina conoce a Juan
+Conoce(Juan, Guillermina)   ↔  Conoce(Guillermina, Juan)
+expresa: Juan conoce a Guillermina si Guillermina conoce a Juan
+En la lógica de primer orden, las variables son herramientas poderosas que
+permiten representar información de manera abstracta y general, lo que facilita la
+formulación de reglas y relaciones que son válidas para una amplia gama de objetos sin
+especificar los objetos en sí. Esto es especialmente útil en la inteligencia artificial y la
+representación del conocimiento, donde no siempre se conoce de antemano la identidad
+exacta de los objetos involucrados.
+Conoce(x, Guillermina)   →  Conoce(Guillermina, x)
+Hermano(x, y)  → Padre(z, x) ˄ Padre(z, y)
+Los predicados en la lógica de primer orden tienen un valor de veracidad que
+depende de los términos específicos que se les asignen. Esto significa que un predicado
+puede ser verdadero para ciertos términos y falso para otros, lo que le brinda una
+capacidad de expresión muy flexible.
+Esta característica es fundamental para la representación precisa y abstracta del
+conocimiento en la inteligencia artificial y otros campos.
+Los predicados permiten asignar cualidades abstractas o relaciones entre objetos
+o conceptos. Por ejemplo, el predicado "Conoce (x, y)" podría representar la relación de
+conocer entre dos personas, donde "x" y "y" son variables que pueden tomar cualquier
 valor de individuos. Esto permite representar declaraciones como "Juan conoce a María"

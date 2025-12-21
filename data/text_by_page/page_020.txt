@@ -1,10 +1,10 @@
-ÍNDICE DE TABLAS 
-Tabla 1-1 Factores de diseño .......................................................................................... 28 
-Tabla 1-2 Propiedades del entorno de trabajo y ejemplos de agentes ............................ 31 
-Tabla 2-1 Conectores básicos de la lógica proposicional ............................................... 83 
-Tabla 2-2 Tablas de verdad para operadores lógicos ..................................................... 83 
-Tabla 2-3 Modelos posibles ............................................................................................ 86 
-Tabla 2-4 Base de conocimiento en base a P .................................................................. 87 
-Tabla 2-5 Base de conocimiento en base a Q ................................................................. 87 
-Tabla 2-6 Base de conocimiento en base a R ................................................................. 88 
+ÍNDICE DE TABLAS
+Tabla 1-1 Factores de diseño .......................................................................................... 28
+Tabla 1-2 Propiedades del entorno de trabajo y ejemplos de agentes ............................ 31
+Tabla 2-1 Conectores básicos de la lógica proposicional ............................................... 83
+Tabla 2-2 Tablas de verdad para operadores lógicos ..................................................... 83
+Tabla 2-3 Modelos posibles ............................................................................................ 86
+Tabla 2-4 Base de conocimiento en base a P .................................................................. 87
+Tabla 2-5 Base de conocimiento en base a Q ................................................................. 87
+Tabla 2-6 Base de conocimiento en base a R ................................................................. 88
 Tabla 2-7 Fases del proceso de encaminamiento hacia adelante .................................. 108

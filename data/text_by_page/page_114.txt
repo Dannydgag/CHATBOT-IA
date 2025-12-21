@@ -1,32 +1,32 @@
-(donde "x" toma el valor de Juan y "y" toma el valor de María) o "Xavier conoce a 
-Silvana" (donde "x" toma el valor de Xavier y "y" toma el valor de Silvana). 
-La lógica de primer orden se basa en reglas de inferencia sólidas para el 
-razonamiento lógico. Esta lógica se utiliza para deducir consecuencias verdaderas a partir 
-de un conjunto de predicados que se asumen como lógicamente verdaderos, generalmente 
-denominados axiomas o hechos iniciales. 
-Las reglas de inferencia son principios lógicos que determinan cómo se pueden 
-derivar nuevas afirmaciones o conclusiones de las afirmaciones o premisas existentes. 
-Estas reglas aseguran que las inferencias realizadas sean válidas y que las conclusiones 
-sean verdaderas si las premisas lo son. Algunos ejemplos de reglas de inferencia en la 
-lógica de primer orden incluyen el modus ponens, modus tollens, la introducción de 
-cuantificadores y otras. 
-2.1.3 Cuantificadores 
-Los cuantificadores son herramientas esenciales en la lógica de primer orden para 
-expresar afirmaciones que involucran variables y establecer si son verdaderas para todos 
-los elementos del dominio o al menos para algún elemento. 
-El cuantificador universal (∀) se utiliza para expresar una propiedad que es 
-verdadera para todos los elementos del dominio (Van Harmelen et al., 2008). Por 
-ejemplo, ∀x P(x) puede leerse como "Para todo x, P(x) es verdadero". Indica que la 
-propiedad P(x) es verdadera para cada elemento x en el dominio. 
-El cuantificador existencial (∃) se utiliza para expresar una propiedad que es 
-verdadera para al menos un elemento del dominio (Van Harmelen et al., 2008). Por 
-ejemplo, ∃x P(x) puede leerse como "Existe al menos un x para el cual P(x) es verdadero". 
-Indica que la propiedad P(x) es verdadera para al menos un elemento x en el dominio. 
-Estos cuantificadores se combinan con predicados para formar expresiones 
-lógicas más complejas y precisas. Por ejemplo, se pueden usar en afirmaciones como ∀x 
-(P(x) → Q(x)) que se lee como "Para todo x, si P(x) es verdadero, entonces Q(x) también 
-es verdadero". O ∃x (P(x) ∧ Q(x)) que se lee como "Existe al menos un x para el cual 
-P(x) y Q(x) son verdaderos". 
-La cuantificación es fundamental en la representación del conocimiento y el 
-razonamiento en la inteligencia artificial y otras áreas de la informática. Permite expresar 
+(donde "x" toma el valor de Juan y "y" toma el valor de María) o "Xavier conoce a
+Silvana" (donde "x" toma el valor de Xavier y "y" toma el valor de Silvana).
+La lógica de primer orden se basa en reglas de inferencia sólidas para el
+razonamiento lógico. Esta lógica se utiliza para deducir consecuencias verdaderas a partir
+de un conjunto de predicados que se asumen como lógicamente verdaderos, generalmente
+denominados axiomas o hechos iniciales.
+Las reglas de inferencia son principios lógicos que determinan cómo se pueden
+derivar nuevas afirmaciones o conclusiones de las afirmaciones o premisas existentes.
+Estas reglas aseguran que las inferencias realizadas sean válidas y que las conclusiones
+sean verdaderas si las premisas lo son. Algunos ejemplos de reglas de inferencia en la
+lógica de primer orden incluyen el modus ponens, modus tollens, la introducción de
+cuantificadores y otras.
+[TITLE]: 2.1.3 Cuantificadores
+Los cuantificadores son herramientas esenciales en la lógica de primer orden para
+expresar afirmaciones que involucran variables y establecer si son verdaderas para todos
+los elementos del dominio o al menos para algún elemento.
+El cuantificador universal (∀) se utiliza para expresar una propiedad que es
+verdadera para todos los elementos del dominio (Van Harmelen et al., 2008). Por
+ejemplo, ∀x P(x) puede leerse como "Para todo x, P(x) es verdadero". Indica que la
+propiedad P(x) es verdadera para cada elemento x en el dominio.
+El cuantificador existencial (∃) se utiliza para expresar una propiedad que es
+verdadera para al menos un elemento del dominio (Van Harmelen et al., 2008). Por
+ejemplo, ∃x P(x) puede leerse como "Existe al menos un x para el cual P(x) es verdadero".
+Indica que la propiedad P(x) es verdadera para al menos un elemento x en el dominio.
+Estos cuantificadores se combinan con predicados para formar expresiones
+lógicas más complejas y precisas. Por ejemplo, se pueden usar en afirmaciones como ∀x
+(P(x) → Q(x)) que se lee como "Para todo x, si P(x) es verdadero, entonces Q(x) también
+es verdadero". O ∃x (P(x) ∧ Q(x)) que se lee como "Existe al menos un x para el cual
+P(x) y Q(x) son verdaderos".
+La cuantificación es fundamental en la representación del conocimiento y el
+razonamiento en la inteligencia artificial y otras áreas de la informática. Permite expresar
 propiedades generales sobre objetos y relaciones entre ellos, lo que es importante para

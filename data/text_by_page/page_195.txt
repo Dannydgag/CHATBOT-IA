@@ -1,32 +1,32 @@
-Estos nodos son fundamentales en el proceso de toma de decisiones, debido a que 
-permiten que el árbol considere múltiples características y sus interacciones. Al evaluar 
-diferentes atributos en cada nivel del árbol, los Nodos Internos contribuyen a una mayor 
-precisión en la clasificación o predicción, permitiendo al modelo adaptarse y responder a 
-la complejidad inherente en los datos. 
-Nodos Hoja o Terminales: A diferencia de los nodos raíz y nodos internos, los 
-nodos hoja no contienen condiciones o preguntas. En lugar de ello, proporcionan la 
-respuesta final del árbol: asignan una etiqueta de clasificación o un valor predictivo a la 
-instancia de datos que ha seguido el camino desde el nodo raíz, pasando por varios nodos 
-internos, hasta llegar a este punto final. 
-En el contexto de la clasificación, cada nodo hoja corresponde a una categoría o 
-clase específica. La asignación de la clase se basa en las características predominantes de 
-las instancias de datos que llegan a este nodo, a menudo utilizando la clase mayoritaria 
-de estas instancias como la etiqueta asignada. En los problemas de regresión, el nodo hoja 
-típicamente representa el valor medio o mediano de las respuestas de las instancias de 
-datos que llegan a él. 
-Estos nodos son fundamentales, porque encapsulan la conclusión del análisis 
-realizado por el árbol de decisión. Proporcionan una salida clara y concreta, que es el 
-objetivo final del proceso de modelado. La simplicidad y claridad de los nodos hoja hacen 
-que los árboles de decisión sean herramientas altamente interpretables y transparentes en 
-la toma de decisiones basada en datos. 
-Además, los nodos hoja son indicativos de la capacidad del árbol para segmentar 
-y entender el conjunto de datos. Un equilibrio adecuado en el número y la distribución de 
-estos nodos es importante para evitar problemas como el sobreajuste o el subajuste, 
-asegurando así que el modelo sea generalizable y eficaz en la toma de decisiones sobre 
-nuevos datos. 
-La construcción de un árbol de decisión es un proceso meticuloso que involucra 
-varios criterios para asegurar que el modelo resultante sea tanto preciso como eficiente. 
-A continuación, se explican los criterios: 
-Criterio de Parada: Este criterio es fundamental para asegurar que el modelo sea 
-preciso y generalizable, y evitar el sobreajuste. Se establecen criterios de parada, como la 
+Estos nodos son fundamentales en el proceso de toma de decisiones, debido a que
+permiten que el árbol considere múltiples características y sus interacciones. Al evaluar
+diferentes atributos en cada nivel del árbol, los Nodos Internos contribuyen a una mayor
+precisión en la clasificación o predicción, permitiendo al modelo adaptarse y responder a
+la complejidad inherente en los datos.
+Nodos Hoja o Terminales: A diferencia de los nodos raíz y nodos internos, los
+nodos hoja no contienen condiciones o preguntas. En lugar de ello, proporcionan la
+respuesta final del árbol: asignan una etiqueta de clasificación o un valor predictivo a la
+instancia de datos que ha seguido el camino desde el nodo raíz, pasando por varios nodos
+internos, hasta llegar a este punto final.
+En el contexto de la clasificación, cada nodo hoja corresponde a una categoría o
+clase específica. La asignación de la clase se basa en las características predominantes de
+las instancias de datos que llegan a este nodo, a menudo utilizando la clase mayoritaria
+de estas instancias como la etiqueta asignada. En los problemas de regresión, el nodo hoja
+típicamente representa el valor medio o mediano de las respuestas de las instancias de
+datos que llegan a él.
+Estos nodos son fundamentales, porque encapsulan la conclusión del análisis
+realizado por el árbol de decisión. Proporcionan una salida clara y concreta, que es el
+objetivo final del proceso de modelado. La simplicidad y claridad de los nodos hoja hacen
+que los árboles de decisión sean herramientas altamente interpretables y transparentes en
+la toma de decisiones basada en datos.
+Además, los nodos hoja son indicativos de la capacidad del árbol para segmentar
+y entender el conjunto de datos. Un equilibrio adecuado en el número y la distribución de
+estos nodos es importante para evitar problemas como el sobreajuste o el subajuste,
+asegurando así que el modelo sea generalizable y eficaz en la toma de decisiones sobre
+nuevos datos.
+La construcción de un árbol de decisión es un proceso meticuloso que involucra
+varios criterios para asegurar que el modelo resultante sea tanto preciso como eficiente.
+A continuación, se explican los criterios:
+Criterio de Parada: Este criterio es fundamental para asegurar que el modelo sea
+preciso y generalizable, y evitar el sobreajuste. Se establecen criterios de parada, como la
 profundidad máxima del árbol, un número mínimo de muestras por hoja, o un umbral de

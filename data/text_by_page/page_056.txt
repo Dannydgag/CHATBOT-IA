@@ -1,77 +1,77 @@
-conozca el estado actual.  
-   Debido a la incertidumbre presente 
-en 
-el 
-entorno 
-estocástico, 
-la 
-probabilidad 
-de 
-los 
-diferentes 
-resultados puede modelarse utilizando 
-modelos probabilísticos para tomar 
-decisiones informadas y racionales. 
-Estratégico 
-   En los entornos estratégicos, el 
-medio ambiente es determinista para el 
-agente, lo que significa que el estado 
-siguiente 
-del 
-entorno 
-está 
-completamente determinado por las 
-acciones del agente.  
-   Al existir otros agentes en el entorno 
-se 
-introduce 
-cierto 
-nivel 
-de 
-incertidumbre estratégica, debido a que 
-las acciones de los otros agentes 
-pueden influir en el estado siguiente 
-del entorno de manera impredecible; 
-esto requiere que el agente considere 
-diferentes 
-estrategias 
-y 
-tome 
-decisiones adaptativas para enfrentar 
-los posibles resultados de las acciones 
-de los otros agentes.  
-   Para lograr el agente sus objetivos en 
-estos entornos que son dinámicos y 
-competitivos, deben poder analizar y 
-anticipar las acciones de los otros 
-agentes. 
-o Juego del veintiuno 
-(black jack) 
-o Ajedrez 
-o Poker 
-o Negociación 
-y 
-subastas 
-o Competencia 
-empresarial 
-o Estrategia militar 
-o Videojuegos 
-de 
-estrategia en tiempo 
-real (RTS) 
-o Planificación 
-logística 
-o Sistemas de gestión 
-de tráfico 
-o Simuladores 
-de 
-vuelo 
-Episódico 
-   En un entorno episódico, cada estado 
-en el que se encuentra el agente no 
-depende de los estados anteriores, por 
-o Búsqueda 
-en 
-laberintos 
-o Robot 
+conozca el estado actual.
+Debido a la incertidumbre presente
+en
+el
+entorno
+estocástico,
+la
+probabilidad
+de
+los
+diferentes
+resultados puede modelarse utilizando
+modelos probabilísticos para tomar
+decisiones informadas y racionales.
+Estratégico
+En los entornos estratégicos, el
+medio ambiente es determinista para el
+agente, lo que significa que el estado
+siguiente
+del
+entorno
+está
+completamente determinado por las
+acciones del agente.
+Al existir otros agentes en el entorno
+se
+introduce
+cierto
+nivel
+de
+incertidumbre estratégica, debido a que
+las acciones de los otros agentes
+pueden influir en el estado siguiente
+del entorno de manera impredecible;
+esto requiere que el agente considere
+diferentes
+estrategias
+y
+tome
+decisiones adaptativas para enfrentar
+los posibles resultados de las acciones
+de los otros agentes.
+Para lograr el agente sus objetivos en
+estos entornos que son dinámicos y
+competitivos, deben poder analizar y
+anticipar las acciones de los otros
+agentes.
+oJuego del veintiuno
+(black jack)
+oAjedrez
+oPoker
+oNegociación
+y
+subastas
+oCompetencia
+empresarial
+oEstrategia militar
+oVideojuegos
+de
+estrategia en tiempo
+real (RTS)
+oPlanificación
+logística
+oSistemas de gestión
+de tráfico
+oSimuladores
+de
+vuelo
+Episódico
+En un entorno episódico, cada estado
+en el que se encuentra el agente no
+depende de los estados anteriores, por
+oBúsqueda
+en
+laberintos
+oRobot
 clasificador

@@ -1,29 +1,28 @@
-experimentados y las máquinas. 
-La presencia de los métodos de Inteligencia artificial ha puesto a los seres 
-humanos a pensar en los riesgos potenciales de sus avances, piensan algunas personas 
-que los sistemas de IA se podrían convertir en superinteligentes y poner en peligro la 
-supervivencia de la humanidad, pero se tiene a la AAAI (Association for the 
-Advancement of Artificial Intelligence) que está encargada de incentivar el avance en la 
-ciencia y tecnología de la inteligencia artificial y promocionar su uso responsable. 
-Los errores de programación en software de inteligencia artificial deben ser 
-considerados, por lo que se requiere de la verificación y validación del software debido a 
-la creciente complejidad y el uso en funciones delicadas como en automóviles, robots 
-quirúrgicos y sistemas de armas.  Un desafío técnico es garantizar que los sistemas 
-integrados de forma automática a través de métodos estadísticos se comporten 
-correctamente en el proceso de aprendizaje automático. Otro desafío es garantizar el buen 
-comportamiento cuando un sistema de IA se encuentra con situaciones imprevistas. Los 
-vehículos automatizados, robots para el hogar, y los servicios inteligentes en la nube 
-deben funcionar bien, incluso cuando reciben insumos sorprendentes o confusos (Lalanda 
-et al., 2013). 
-Otro riesgo que está presente son los ciberataques a los cuales los programas de 
-IA son también vulnerables, y si se piensa en lo que podría suceder al estar los algoritmos 
-de IA encargados de tomar decisiones de alto poder. Por lo que se requiere la 
-investigación en seguridad cibernética para estar seguros que los algoritmos de IA y los 
-sistemas que se desarrollan basados en estos pueden sobrevivir los ataques cibernéticos a 
-gran escala. 
-Un aspecto importante de cualquier sistema de IA que interactúa con la gente es 
-que debe razonar sobre lo que las personas piensan en lugar de llevar a cabo los comandos 
-de manera literal, para juzgar si lo que se le pide que realice es normal o razonable para 
-la mayoría de la gente. 
-1.5 
-Turing y la Evaluación de la Inteligencia de las Máquinas
+experimentados y las máquinas.
+La presencia de los métodos de Inteligencia artificial ha puesto a los seres
+humanos a pensar en los riesgos potenciales de sus avances, piensan algunas personas
+que los sistemas de IA se podrían convertir en superinteligentes y poner en peligro la
+supervivencia de la humanidad, pero se tiene a la AAAI (Association for the
+Advancement of Artificial Intelligence) que está encargada de incentivar el avance en la
+ciencia y tecnología de la inteligencia artificial y promocionar su uso responsable.
+Los errores de programación en software de inteligencia artificial deben ser
+considerados, por lo que se requiere de la verificación y validación del software debido a
+la creciente complejidad y el uso en funciones delicadas como en automóviles, robots
+quirúrgicos y sistemas de armas.  Un desafío técnico es garantizar que los sistemas
+integrados de forma automática a través de métodos estadísticos se comporten
+correctamente en el proceso de aprendizaje automático. Otro desafío es garantizar el buen
+comportamiento cuando un sistema de IA se encuentra con situaciones imprevistas. Los
+vehículos automatizados, robots para el hogar, y los servicios inteligentes en la nube
+deben funcionar bien, incluso cuando reciben insumos sorprendentes o confusos (Lalanda
+et al., 2013).
+Otro riesgo que está presente son los ciberataques a los cuales los programas de
+IA son también vulnerables, y si se piensa en lo que podría suceder al estar los algoritmos
+de IA encargados de tomar decisiones de alto poder. Por lo que se requiere la
+investigación en seguridad cibernética para estar seguros que los algoritmos de IA y los
+sistemas que se desarrollan basados en estos pueden sobrevivir los ataques cibernéticos a
+gran escala.
+Un aspecto importante de cualquier sistema de IA que interactúa con la gente es
+que debe razonar sobre lo que las personas piensan en lugar de llevar a cabo los comandos
+de manera literal, para juzgar si lo que se le pide que realice es normal o razonable para
+la mayoría de la gente.
+[TITLE]: 1.5 Turing y la Evaluación de la Inteligencia de las Máquinas

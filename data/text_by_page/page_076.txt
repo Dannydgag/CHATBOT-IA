@@ -1,21 +1,21 @@
-principal para alcanzar una meta deseada. Para lograr esto, el agente necesita seleccionar 
-una o más acciones que modificarán el estado del medio ambiente con el fin de satisfacer 
-su necesidad de alcanzar la meta. Esta toma de decisiones se realiza considerando los 
-objetivos y evaluando cómo cada acción contribuirá a su logro. 
-Figura 1.11 Arquitectura Basado en el razonamiento humano 
-Elaborado por los Autores 
-La arquitectura es especialmente útil cuando existen objetivos conflictivos y se 
-requiere buscar un equilibrio entre ellos para alcanzar la meta deseada. También es 
-adecuada cuando hay múltiples objetivos y existe incertidumbre sobre la posibilidad de 
-alcanzarlos todos. En tales casos, el agente necesita evaluar las probabilidades de éxito 
-de cada objetivo y tomar decisiones que maximicen las posibilidades de alcanzar la meta 
-general. 
-e) Arquitectura de agente de reforzamiento 
-El agente por refuerzo emplea una técnica de aprendizaje automático que permite 
-a un agente aprender a tomar decisiones secuenciales óptimas a través de la interacción 
-con su medio ambiente. Las decisiones óptimas el agente las toma mediante la 
-maximización de una recompensa numérica. El agente interactúa con su medio ambiente 
-y recibe una señal de recompensa cada vez que realiza una acción. 
-El agente no se guía mediante instrucciones explícitas sobre las acciones a tomar, 
-en su lugar, adquiere conocimiento a través de la experiencia y el error. Cada vez que el 
+principal para alcanzar una meta deseada. Para lograr esto, el agente necesita seleccionar
+una o más acciones que modificarán el estado del medio ambiente con el fin de satisfacer
+su necesidad de alcanzar la meta. Esta toma de decisiones se realiza considerando los
+objetivos y evaluando cómo cada acción contribuirá a su logro.
+Figura 1.11 Arquitectura Basado en el razonamiento humano
+Elaborado por los Autores
+La arquitectura es especialmente útil cuando existen objetivos conflictivos y se
+requiere buscar un equilibrio entre ellos para alcanzar la meta deseada. También es
+adecuada cuando hay múltiples objetivos y existe incertidumbre sobre la posibilidad de
+alcanzarlos todos. En tales casos, el agente necesita evaluar las probabilidades de éxito
+de cada objetivo y tomar decisiones que maximicen las posibilidades de alcanzar la meta
+general.
+e)Arquitectura de agente de reforzamiento
+El agente por refuerzo emplea una técnica de aprendizaje automático que permite
+a un agente aprender a tomar decisiones secuenciales óptimas a través de la interacción
+con su medio ambiente. Las decisiones óptimas el agente las toma mediante la
+maximización de una recompensa numérica. El agente interactúa con su medio ambiente
+y recibe una señal de recompensa cada vez que realiza una acción.
+El agente no se guía mediante instrucciones explícitas sobre las acciones a tomar,
+en su lugar, adquiere conocimiento a través de la experiencia y el error. Cada vez que el
 agente realiza una acción, el entorno le otorga una recompensa numérica. La meta del

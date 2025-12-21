@@ -1,33 +1,32 @@
-CAPITULO 2 
-2 FUNDAMENTOS DE LÓGICA Y REGLAS DE PRODUCCIÓN 
-La lógica y las reglas de producción son los pilares fundamentales en el campo de 
-la inteligencia artificial, que proporcionan las bases lógicas y algorítmicas que permiten 
-a las máquinas razonar, tomar decisiones y resolv(Feigenbaum & others, 1977)iente y 
-eficaz (Feigenbaum & others, 1977). Se exploran a fondo, los fundamentos de la lógica 
-que constituye el lenguaje formal que se emplea para expresar declaraciones y razonar 
-sobre su verdad o falsedad, y las reglas de producción que permiten automatizar tareas 
-complejas. Comprender estos conceptos es importante para diseñar sistemas de IA y para 
-resolver problemas del mundo real. 
-Se parte de la lógica proposicional que se centra en la relación entre proposiciones 
-simples y cómo se combinan para formar proposiciones más complejas mediante 
-operadores lógicos.  Luego se avanza a la lógica de primer orden, que permite la 
-representación de estructuras más complejas y el uso de variables y cuantificadores para 
-expresar relaciones entre objetos (Brachman & Levesque, 2004a). 
-También se aborda el concepto de cuantificadores, que permiten cuantificar 
-conjuntos de elementos y expresar afirmaciones generales. Esto es esencial para el 
-razonamiento deductivo, que implica llegar a conclusiones lógicas a partir de premisas 
-dadas. Se examina las reglas de producción, un enfoque práctico en la IA que se basa en 
-el uso de reglas condicionales para tomar decisiones y realizar acciones. Estas reglas son 
-esenciales para la automatización de tareas y la toma de decisiones en sistemas 
-inteligentes. 
-2.1 
-Lógica 
-La lógica, como disciplina, tiene sus raíces en Aristóteles, pero fue Leibniz quien 
-la desarrolló desde una perspectiva matemática y la denominó "lógica matemática". Esta 
-disciplina es esencial en el ámbito de la inteligencia artificial, y su aplicación se extiende 
-ampliamente a diversas áreas, como semasiología, programación lógica, teoría de 
-especificación de software y validación, bases de datos, representación del conocimiento, 
-sistemas inteligentes y robótica. La lógica es fundamental en la construcción y desarrollo 
-de sistemas inteligentes y en la comprensión de la inteligencia artificial en general. 
-La lógica en la inteligencia artificial requiere de varias partes:   
+CAPITULO 2
+[TITLE]: 2 FUNDAMENTOS DE LÓGICA Y REGLAS DE PRODUCCIÓN
+La lógica y las reglas de producción son los pilares fundamentales en el campo de
+la inteligencia artificial, que proporcionan las bases lógicas y algorítmicas que permiten
+a las máquinas razonar, tomar decisiones y resolv(Feigenbaum & others, 1977)iente y
+eficaz (Feigenbaum & others, 1977). Se exploran a fondo, los fundamentos de la lógica
+que constituye el lenguaje formal que se emplea para expresar declaraciones y razonar
+sobre su verdad o falsedad, y las reglas de producción que permiten automatizar tareas
+complejas. Comprender estos conceptos es importante para diseñar sistemas de IA y para
+resolver problemas del mundo real.
+Se parte de la lógica proposicional que se centra en la relación entre proposiciones
+simples y cómo se combinan para formar proposiciones más complejas mediante
+operadores lógicos.  Luego se avanza a la lógica de primer orden, que permite la
+representación de estructuras más complejas y el uso de variables y cuantificadores para
+expresar relaciones entre objetos (Brachman & Levesque, 2004a).
+También se aborda el concepto de cuantificadores, que permiten cuantificar
+conjuntos de elementos y expresar afirmaciones generales. Esto es esencial para el
+razonamiento deductivo, que implica llegar a conclusiones lógicas a partir de premisas
+dadas. Se examina las reglas de producción, un enfoque práctico en la IA que se basa en
+el uso de reglas condicionales para tomar decisiones y realizar acciones. Estas reglas son
+esenciales para la automatización de tareas y la toma de decisiones en sistemas
+inteligentes.
+[TITLE]: 2.1 Lógica
+La lógica, como disciplina, tiene sus raíces en Aristóteles, pero fue Leibniz quien
+la desarrolló desde una perspectiva matemática y la denominó "lógica matemática". Esta
+disciplina es esencial en el ámbito de la inteligencia artificial, y su aplicación se extiende
+ampliamente a diversas áreas, como semasiología, programación lógica, teoría de
+especificación de software y validación, bases de datos, representación del conocimiento,
+sistemas inteligentes y robótica. La lógica es fundamental en la construcción y desarrollo
+de sistemas inteligentes y en la comprensión de la inteligencia artificial en general.
+La lógica en la inteligencia artificial requiere de varias partes:
 La sintaxis es importante en la determinación de la corrección formal de todas las

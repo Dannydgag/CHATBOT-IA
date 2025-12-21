@@ -1,32 +1,32 @@
-ambiente, ventas. 
-Los árboles de decisión trabajan dividiendo el conjunto de datos de entrada en 
-diferentes regiones, con el fin de que cada una de estas regiones contenga elementos que 
-pertenezcan a una única clase. De esta forma, la clase predominante en cada región se 
-convierte en el representante de esa región específica. 
-Si se encuentra una región que contiene elementos de más de una clase, el algoritmo 
-procede a subdividirla en regiones más pequeñas y más homogéneas, siguiendo el mismo 
-criterio de clasificación. Este proceso de subdivisión continúa hasta que todas las regiones 
-sean lo más homogéneas posible en términos de la clase de los elementos que contienen. 
-Un árbol de decisión opera mediante una serie de condiciones o preguntas que se 
-aplican a los datos de entrada. Cada condición dirige el flujo de datos hacia una rama 
-específica del árbol, donde se realiza otra pregunta o se toma una decisión final. Este 
-proceso se repite hasta llegar a una "hoja" del árbol, que es donde se toma la decisión 
-final respecto a la clasificación o valor de la variable objetivo. 
-La "profundidad máxima" del árbol se refiere al número máximo de condiciones o 
-preguntas que deben responderse para llegar a una hoja. Este es un parámetro importante 
-porque puede afectar tanto la precisión como la complejidad del modelo. Un árbol muy 
-profundo podría capturar detalles muy específicos de los datos de entrenamiento, pero 
-corre el riesgo de sobre ajustar, lo que significa que podría no generalizar bien a nuevos 
-datos. Por otro lado, un árbol muy superficial podría no capturar suficiente información, 
-resultando en un modelo poco preciso. 
-Además de la consideración de la profundidad máxima del árbol, otro aspecto 
-importante en la construcción de árboles de decisión es la “poda del árbol”. La poda se 
-refiere al proceso de eliminar partes del árbol, como ramas o subárboles, que no 
-contribuyen significativamente a la capacidad de predicción del modelo. Este proceso es 
-esencial para reducir la complejidad del modelo y evitar el sobreajuste. Mediante la poda, 
-se pueden eliminar las ramas que se basan en variables o divisiones que no son 
-informativas, lo que simplifica el modelo y mejora su capacidad para hacer predicciones 
-precisas y relevantes en datos no vistos anteriormente. 
-Tras comprender la estructura general y la importancia de la poda en los árboles de 
-decisión, es importante examinar los algoritmos específicos que permiten la creación y 
+ambiente, ventas.
+Los árboles de decisión trabajan dividiendo el conjunto de datos de entrada en
+diferentes regiones, con el fin de que cada una de estas regiones contenga elementos que
+pertenezcan a una única clase. De esta forma, la clase predominante en cada región se
+convierte en el representante de esa región específica.
+Si se encuentra una región que contiene elementos de más de una clase, el algoritmo
+procede a subdividirla en regiones más pequeñas y más homogéneas, siguiendo el mismo
+criterio de clasificación. Este proceso de subdivisión continúa hasta que todas las regiones
+sean lo más homogéneas posible en términos de la clase de los elementos que contienen.
+Un árbol de decisión opera mediante una serie de condiciones o preguntas que se
+aplican a los datos de entrada. Cada condición dirige el flujo de datos hacia una rama
+específica del árbol, donde se realiza otra pregunta o se toma una decisión final. Este
+proceso se repite hasta llegar a una "hoja" del árbol, que es donde se toma la decisión
+final respecto a la clasificación o valor de la variable objetivo.
+La "profundidad máxima" del árbol se refiere al número máximo de condiciones o
+preguntas que deben responderse para llegar a una hoja. Este es un parámetro importante
+porque puede afectar tanto la precisión como la complejidad del modelo. Un árbol muy
+profundo podría capturar detalles muy específicos de los datos de entrenamiento, pero
+corre el riesgo de sobre ajustar, lo que significa que podría no generalizar bien a nuevos
+datos. Por otro lado, un árbol muy superficial podría no capturar suficiente información,
+resultando en un modelo poco preciso.
+Además de la consideración de la profundidad máxima del árbol, otro aspecto
+importante en la construcción de árboles de decisión es la “poda del árbol”. La poda se
+refiere al proceso de eliminar partes del árbol, como ramas o subárboles, que no
+contribuyen significativamente a la capacidad de predicción del modelo. Este proceso es
+esencial para reducir la complejidad del modelo y evitar el sobreajuste. Mediante la poda,
+se pueden eliminar las ramas que se basan en variables o divisiones que no son
+informativas, lo que simplifica el modelo y mejora su capacidad para hacer predicciones
+precisas y relevantes en datos no vistos anteriormente.
+Tras comprender la estructura general y la importancia de la poda en los árboles de
+decisión, es importante examinar los algoritmos específicos que permiten la creación y
 optimización de estos modelos. Existen varios algoritmos destacados en el campo de los

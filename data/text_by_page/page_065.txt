@@ -1,32 +1,32 @@
-Agentes sintéticos: Estos agentes han revolucionado los entornos de realidad 
-virtual, especialmente en la industria del entretenimiento, como películas, programas de 
-televisión y publicidad, permitiendo generar imágenes por computadora que evitan la 
-necesidad de construir maquetas complicadas para efectos especiales o de alquilar 
-grandes cantidades de vestuario para escenas con multitudes. 
-La inteligencia artificial y las técnicas de generación de gráficos por computadora 
-permiten simular personajes y objetos virtuales de manera realista, adaptándose a las 
-necesidades de cada producción. La capacidad de trabajo autónomo que realizan estos 
-agentes agiliza el proceso de producción y reduce los costos asociados.  
-Ofrecen flexibilidad creativa al permitir la generación de mundos virtuales 
-detallados y escenas impactantes que antes serían difíciles o costosas de lograr, han 
-abierto nuevas posibilidades en la creación de efectos visuales y en la representación de 
-situaciones complejas. 
-Agentes conversacionales: Llamados también Chatterbots son programas 
-diseñados para llevar a cabo conversaciones de forma auditiva o textual. Estos agentes 
-encuentran aplicaciones en diversos campos, como el servicio al cliente y la adquisición 
-de información. Su objetivo principal es simular la interacción humana y brindar 
-respuestas relevantes y coherentes a través de la identificación de patrones en el lenguaje. 
-Los primeros chatterbots fuero Eliza (1966) y Parry (1972) permitían mantener 
-conversaciones básicas con los usuarios. En la actualidad debido a los avances en 
-inteligencia artificial y procesamiento del lenguaje natural, los modernos chatterbots son 
-capaces de comprender el contexto, analizar el tono y el significado de las palabras, e 
-incluso aprender de las interacciones previas para mejorar sus respuestas. 
-Los Chatterbots son ampliamente utilizados en aplicaciones de atención al cliente, 
-asistentes virtuales y plataformas de chat en línea. Su capacidad para mantener 
-conversaciones coherentes y proporcionar información relevante ha demostrado ser una 
-herramienta valiosa en la automatización de tareas y en la mejora de la experiencia del 
-usuario. 
-El lenguaje de marcas de Inteligencia Artificial (AIML - Artificial Intelligence 
-Markup Language) es un intérprete que se utiliza para construir agentes conversacionales. 
-AIML está especialmente diseñado para la creación de agentes de software con capacidad 
+Agentes sintéticos: Estos agentes han revolucionado los entornos de realidad
+virtual, especialmente en la industria del entretenimiento, como películas, programas de
+televisión y publicidad, permitiendo generar imágenes por computadora que evitan la
+necesidad de construir maquetas complicadas para efectos especiales o de alquilar
+grandes cantidades de vestuario para escenas con multitudes.
+La inteligencia artificial y las técnicas de generación de gráficos por computadora
+permiten simular personajes y objetos virtuales de manera realista, adaptándose a las
+necesidades de cada producción. La capacidad de trabajo autónomo que realizan estos
+agentes agiliza el proceso de producción y reduce los costos asociados.
+Ofrecen flexibilidad creativa al permitir la generación de mundos virtuales
+detallados y escenas impactantes que antes serían difíciles o costosas de lograr, han
+abierto nuevas posibilidades en la creación de efectos visuales y en la representación de
+situaciones complejas.
+Agentes conversacionales: Llamados también Chatterbots son programas
+diseñados para llevar a cabo conversaciones de forma auditiva o textual. Estos agentes
+encuentran aplicaciones en diversos campos, como el servicio al cliente y la adquisición
+de información. Su objetivo principal es simular la interacción humana y brindar
+respuestas relevantes y coherentes a través de la identificación de patrones en el lenguaje.
+Los primeros chatterbots fuero Eliza (1966) y Parry (1972) permitían mantener
+conversaciones básicas con los usuarios. En la actualidad debido a los avances en
+inteligencia artificial y procesamiento del lenguaje natural, los modernos chatterbots son
+capaces de comprender el contexto, analizar el tono y el significado de las palabras, e
+incluso aprender de las interacciones previas para mejorar sus respuestas.
+Los Chatterbots son ampliamente utilizados en aplicaciones de atención al cliente,
+asistentes virtuales y plataformas de chat en línea. Su capacidad para mantener
+conversaciones coherentes y proporcionar información relevante ha demostrado ser una
+herramienta valiosa en la automatización de tareas y en la mejora de la experiencia del
+usuario.
+El lenguaje de marcas de Inteligencia Artificial (AIML - Artificial Intelligence
+Markup Language) es un intérprete que se utiliza para construir agentes conversacionales.
+AIML está especialmente diseñado para la creación de agentes de software con capacidad
 de comprensión y generación de lenguaje natural, conocidos como Alicebots. Estos

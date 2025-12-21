@@ -1,32 +1,32 @@
-problema es bien estructurado y se pueden identificar claramente las reglas que guían el 
-comportamiento del agente. Estos agentes son utilizados en sistemas expertos, donde el 
-conocimiento de un experto en un campo específico se codifica en forma de reglas para 
-realizar tareas de diagnóstico, asesoramiento o toma de decisiones. 
-Agentes basados en comportamiento: Estos sistemas inteligentes son diseñados 
-para emular el comportamiento de seres vivos, ya sea humano u otros organismos. Estos 
-agentes se centran en replicar acciones y respuestas específicas en función de estímulos 
-del entorno, con el objetivo de generar un comportamiento realista y coherente. 
-El enfoque principal de estos agentes es la simulación de patrones de 
-comportamiento observados en seres vivos. Estos patrones pueden incluir movimientos, 
-reacciones a estímulos, toma de decisiones y acciones que se asemejan a las de 
-organismos reales. Para lograrlo, estos agentes suelen utilizar técnicas como los 
-algoritmos de inteligencia artificial y el modelado de sistemas complejos. 
-Los agentes basados en comportamiento son comunes en simulaciones y juegos, 
-donde se busca recrear entornos virtuales con comportamientos realistas. Por ejemplo: 
-juegos de simulación de vida, juegos de simulación de ciudades o de mascotas virtuales; 
-los agentes basados en comportamiento pueden imitar acciones y respuestas similares a 
-las de los seres vivos para proporcionar una experiencia de juego más inmersiva. 
-Estos agentes también se utilizan en aplicaciones de entrenamiento y aprendizaje, 
-donde se busca replicar comportamientos específicos para fines educativos o de 
-entrenamiento. Por ejemplo, en simuladores de vuelo, los agentes basados en 
-comportamiento pueden replicar las acciones y reacciones de pilotos reales para enseñar 
-a los usuarios cómo operar una aeronave. 
-Agentes híbridos: Estos agentes son sistemas inteligentes que combinan 
-características y técnicas de diferentes tipos de agentes que se mencionaron 
-anteriormente. Estos agentes aprovechan las fortalezas de múltiples enfoques para lograr 
-un desempeño óptimo en una variedad de situaciones. 
-La idea detrás de los agentes híbridos es capitalizar las ventajas de diferentes 
-paradigmas de agente para abordar de manera efectiva problemas complejos y dinámicos. 
-Por ejemplo, un agente híbrido puede combinar elementos de agentes reactivos y basados 
-en conocimiento. Esto significa que el agente toma decisiones rápidas y eficientes en 
+problema es bien estructurado y se pueden identificar claramente las reglas que guían el
+comportamiento del agente. Estos agentes son utilizados en sistemas expertos, donde el
+conocimiento de un experto en un campo específico se codifica en forma de reglas para
+realizar tareas de diagnóstico, asesoramiento o toma de decisiones.
+Agentes basados en comportamiento: Estos sistemas inteligentes son diseñados
+para emular el comportamiento de seres vivos, ya sea humano u otros organismos. Estos
+agentes se centran en replicar acciones y respuestas específicas en función de estímulos
+del entorno, con el objetivo de generar un comportamiento realista y coherente.
+El enfoque principal de estos agentes es la simulación de patrones de
+comportamiento observados en seres vivos. Estos patrones pueden incluir movimientos,
+reacciones a estímulos, toma de decisiones y acciones que se asemejan a las de
+organismos reales. Para lograrlo, estos agentes suelen utilizar técnicas como los
+algoritmos de inteligencia artificial y el modelado de sistemas complejos.
+Los agentes basados en comportamiento son comunes en simulaciones y juegos,
+donde se busca recrear entornos virtuales con comportamientos realistas. Por ejemplo:
+juegos de simulación de vida, juegos de simulación de ciudades o de mascotas virtuales;
+los agentes basados en comportamiento pueden imitar acciones y respuestas similares a
+las de los seres vivos para proporcionar una experiencia de juego más inmersiva.
+Estos agentes también se utilizan en aplicaciones de entrenamiento y aprendizaje,
+donde se busca replicar comportamientos específicos para fines educativos o de
+entrenamiento. Por ejemplo, en simuladores de vuelo, los agentes basados en
+comportamiento pueden replicar las acciones y reacciones de pilotos reales para enseñar
+a los usuarios cómo operar una aeronave.
+Agentes híbridos: Estos agentes son sistemas inteligentes que combinan
+características y técnicas de diferentes tipos de agentes que se mencionaron
+anteriormente. Estos agentes aprovechan las fortalezas de múltiples enfoques para lograr
+un desempeño óptimo en una variedad de situaciones.
+La idea detrás de los agentes híbridos es capitalizar las ventajas de diferentes
+paradigmas de agente para abordar de manera efectiva problemas complejos y dinámicos.
+Por ejemplo, un agente híbrido puede combinar elementos de agentes reactivos y basados
+en conocimiento. Esto significa que el agente toma decisiones rápidas y eficientes en
 situaciones conocidas utilizando reglas o conocimiento predefinido, y también puede

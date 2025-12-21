@@ -1,32 +1,32 @@
-legal, abogados y jueces pueden aprovechar el análisis de precedentes legales mediante 
-RBC para fundamentar decisiones judiciales o desarrollar argumentos robustos en 
-casos actuales. Las entidades financieras pueden mejorar la precisión en la evaluación 
-de solicitudes de crédito al comparar con historiales financieros análogos. Finalmente, 
-en la agricultura, el RBC puede ser dignificativo para identificar rápidamente y tratar 
-enfermedades o plagas, aplicando estrategias de manejo probadas en situaciones 
-similares previas, lo que resulta en una gestión agrícola más eficiente y efectiva. 
-Debido a la diversidad de formas que puede tomar el conocimiento, los desafíos 
-inherentes al desarrollo de una representación del conocimiento son complejos, 
-interrelacionados y dependen de los objetivos específicos. En términos generales, el 
-objetivo es lograr que el conocimiento esté representado de tal manera que: 
-1. Capturar generalizaciones significativas que faciliten la extrapolación y 
-aplicación en distintos contextos, manteniendo la pertinencia y la utilidad a pesar 
-de la variabilidad de las situaciones. 
-2. Ser accesible y comprensible tanto para los expertos que lo proporcionan como 
-para los sistemas que lo procesan, promoviendo una sinergia entre el 
-conocimiento humano experto y el procesamiento algorítmico. 
-3. Permitir modificaciones y actualizaciones de manera ágil y sin fricciones, 
-adaptándose a la evolución del conocimiento y a las nuevas informaciones que 
-surgen continuamente. 
-4. Ser aplicable en una amplia gama de situaciones, incluso en casos donde la 
-información no es completa o exacta, demostrando flexibilidad y robustez en la 
-inferencia bajo incertidumbre. 
-5. Servir como un filtro eficaz para acotar las alternativas durante la búsqueda de 
-soluciones, optimizando así los procesos de toma de decisiones y resolución de 
-problemas. 
-Estos principios buscan que la representación del conocimiento en IA sea una herramienta 
-dinámica y adaptativa, capaz de soportar procesos complejos de razonamiento y 
-aprendizaje automático. 
-En el extenso campo de la inteligencia artificial, la representación del 
-conocimiento es un pilar fundamental que adopta diversas formas para abordar distintos 
+legal, abogados y jueces pueden aprovechar el análisis de precedentes legales mediante
+RBC para fundamentar decisiones judiciales o desarrollar argumentos robustos en
+casos actuales. Las entidades financieras pueden mejorar la precisión en la evaluación
+de solicitudes de crédito al comparar con historiales financieros análogos. Finalmente,
+en la agricultura, el RBC puede ser dignificativo para identificar rápidamente y tratar
+enfermedades o plagas, aplicando estrategias de manejo probadas en situaciones
+similares previas, lo que resulta en una gestión agrícola más eficiente y efectiva.
+Debido a la diversidad de formas que puede tomar el conocimiento, los desafíos
+inherentes al desarrollo de una representación del conocimiento son complejos,
+interrelacionados y dependen de los objetivos específicos. En términos generales, el
+objetivo es lograr que el conocimiento esté representado de tal manera que:
+1.Capturar generalizaciones significativas que faciliten la extrapolación y
+aplicación en distintos contextos, manteniendo la pertinencia y la utilidad a pesar
+de la variabilidad de las situaciones.
+2.Ser accesible y comprensible tanto para los expertos que lo proporcionan como
+para los sistemas que lo procesan, promoviendo una sinergia entre el
+conocimiento humano experto y el procesamiento algorítmico.
+3.Permitir modificaciones y actualizaciones de manera ágil y sin fricciones,
+adaptándose a la evolución del conocimiento y a las nuevas informaciones que
+surgen continuamente.
+4.Ser aplicable en una amplia gama de situaciones, incluso en casos donde la
+información no es completa o exacta, demostrando flexibilidad y robustez en la
+inferencia bajo incertidumbre.
+5.Servir como un filtro eficaz para acotar las alternativas durante la búsqueda de
+soluciones, optimizando así los procesos de toma de decisiones y resolución de
+problemas.
+Estos principios buscan que la representación del conocimiento en IA sea una herramienta
+dinámica y adaptativa, capaz de soportar procesos complejos de razonamiento y
+aprendizaje automático.
+En el extenso campo de la inteligencia artificial, la representación del
+conocimiento es un pilar fundamental que adopta diversas formas para abordar distintos
 tipos de información y procesamiento:

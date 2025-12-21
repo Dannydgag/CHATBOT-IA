@@ -1,32 +1,32 @@
-inducción en este caso es que el modelo aprende a partir de ejemplos previos para 
-generalizar y hacer predicciones precisas sobre nuevos datos sin etiquetar. 
-Ejemplo 2  
-Clasificación de dígitos escritos a mano 
-Se desea construir un sistema de reconocimiento de dígitos del 0 al 9 
-escrito a mano, de forma que el sistema pueda identificar automáticamente el 
-dígito contenido en una imagen. 
-Se reúne un conjunto de datos de entrenamiento que incluye miles de 
-imágenes de dígitos manuscritos, donde cada imagen está marcada con la 
-identificación del dígito que representa, como "0", "1", "2", "3", ..., "9". 
-Cada imagen se transforma en un conjunto de características numéricas 
-que capturan distintas propiedades de la imagen, como la intensidad de los píxeles 
-y la forma de los trazos. Estas características se utilizan como la entrada de nuestro 
-modelo. 
-Este conjunto de datos de entrenamiento, junto con las etiquetas 
-correspondientes, se emplea para entrenar un modelo de aprendizaje supervisado, 
-como una red neuronal o un clasificador basado en máquinas de soporte vectorial 
-(SVM). El modelo aprenderá a identificar patrones en las características que 
-permitan distinguir entre los diversos dígitos. 
-En el proceso de entrenamiento, el modelo inducirá reglas o pesos óptimos 
-a cada característica, lo que le permitirá realizar una clasificación precisa de los 
-dígitos. 
-El modelo se somete a una validación utilizando un conjunto de datos de 
-prueba que no fue empleado durante el proceso de entrenamiento. En caso de que 
-el modelo no presente un desempeño satisfactorio, se procede a ajustar sus 
-parámetros o a considerar estrategias adicionales, como aumentar el tamaño del 
-conjunto de datos de entrenamiento o realizar modificaciones en las características 
-extraídas (McCarthy, 1981). 
-Una vez que el modelo ha sido entrenado y validado, está listo para realizar 
-predicciones en imágenes nuevas y desconocidas de manera automática. El 
-modelo examina las características de la imagen y emite una predicción sobre el 
+inducción en este caso es que el modelo aprende a partir de ejemplos previos para
+generalizar y hacer predicciones precisas sobre nuevos datos sin etiquetar.
+Ejemplo 2
+Clasificación de dígitos escritos a mano
+Se desea construir un sistema de reconocimiento de dígitos del 0 al 9
+escrito a mano, de forma que el sistema pueda identificar automáticamente el
+dígito contenido en una imagen.
+Se reúne un conjunto de datos de entrenamiento que incluye miles de
+imágenes de dígitos manuscritos, donde cada imagen está marcada con la
+identificación del dígito que representa, como "0", "1", "2", "3", ..., "9".
+Cada imagen se transforma en un conjunto de características numéricas
+que capturan distintas propiedades de la imagen, como la intensidad de los píxeles
+y la forma de los trazos. Estas características se utilizan como la entrada de nuestro
+modelo.
+Este conjunto de datos de entrenamiento, junto con las etiquetas
+correspondientes, se emplea para entrenar un modelo de aprendizaje supervisado,
+como una red neuronal o un clasificador basado en máquinas de soporte vectorial
+(SVM). El modelo aprenderá a identificar patrones en las características que
+permitan distinguir entre los diversos dígitos.
+En el proceso de entrenamiento, el modelo inducirá reglas o pesos óptimos
+a cada característica, lo que le permitirá realizar una clasificación precisa de los
+dígitos.
+El modelo se somete a una validación utilizando un conjunto de datos de
+prueba que no fue empleado durante el proceso de entrenamiento. En caso de que
+el modelo no presente un desempeño satisfactorio, se procede a ajustar sus
+parámetros o a considerar estrategias adicionales, como aumentar el tamaño del
+conjunto de datos de entrenamiento o realizar modificaciones en las características
+extraídas (McCarthy, 1981).
+Una vez que el modelo ha sido entrenado y validado, está listo para realizar
+predicciones en imágenes nuevas y desconocidas de manera automática. El
+modelo examina las características de la imagen y emite una predicción sobre el
 dígito que esta representa.

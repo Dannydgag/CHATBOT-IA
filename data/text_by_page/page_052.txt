@@ -1,25 +1,25 @@
-Figura 1.7 Robots jugando futbol 
-Fuente: El País España 
-El agente racional además de recopilar información debe aprender lo máximo 
-posible de lo que está percibiendo, la configuración inicial del agente debe reflejar un 
-conocimiento preliminar del entorno, pero a medida que adquiere experiencia el 
-conocimiento se debe modificar y aumentar. 
-Las funciones del agente se calculan en tres períodos que son: 
-• Durante el diseño de agente: Los encargados de diseñar el agente realizan cálculos, 
-para que el agente posea el conocimiento inicial requerido. 
-• El agente pensando en el próximo estado: Cuando el agente piensa en la siguiente 
-operación, realiza más cálculos. 
-• El agente aprende de la experiencia: Producto de la experiencia el agente lleva a cabo 
-más cálculos para decidir cómo modificar su forma de comportarse. 
-El agente racional debe tener un comportamiento autónomo que le permita 
-aprender a determinar cómo compensar el conocimiento incompleto o parcial inicial, 
-pudiendo de esta forma ser capaz de navegar en su entorno sin la guía de una entidad 
-externa (un operador humano), pueda buscar metas en su entorno, resolver 
-problemas. 
-El agente debe poder subsistir a través del tiempo en el medio ambiente que 
-se lo ubique, e interactuar con otros agentes para proporcionar información o que le 
-proporcionen información, o comunicarse con los usuarios. Tener movilidad le 
-permite al agente migrar entre sistemas a través de una red, tener la capacidad de 
-aprender y adaptarse al entorno. En el proceso de aprendizaje los sensores deben 
-mapear el entorno, para que el sistema de control de las órdenes adecuadas a los 
+Figura 1.7 Robots jugando futbol
+Fuente: El País España
+El agente racional además de recopilar información debe aprender lo máximo
+posible de lo que está percibiendo, la configuración inicial del agente debe reflejar un
+conocimiento preliminar del entorno, pero a medida que adquiere experiencia el
+conocimiento se debe modificar y aumentar.
+Las funciones del agente se calculan en tres períodos que son:
+•Durante el diseño de agente: Los encargados de diseñar el agente realizan cálculos,
+para que el agente posea el conocimiento inicial requerido.
+•El agente pensando en el próximo estado: Cuando el agente piensa en la siguiente
+operación, realiza más cálculos.
+•El agente aprende de la experiencia: Producto de la experiencia el agente lleva a cabo
+más cálculos para decidir cómo modificar su forma de comportarse.
+El agente racional debe tener un comportamiento autónomo que le permita
+aprender a determinar cómo compensar el conocimiento incompleto o parcial inicial,
+pudiendo de esta forma ser capaz de navegar en su entorno sin la guía de una entidad
+externa (un operador humano), pueda buscar metas en su entorno, resolver
+problemas.
+El agente debe poder subsistir a través del tiempo en el medio ambiente que
+se lo ubique, e interactuar con otros agentes para proporcionar información o que le
+proporcionen información, o comunicarse con los usuarios. Tener movilidad le
+permite al agente migrar entre sistemas a través de una red, tener la capacidad de
+aprender y adaptarse al entorno. En el proceso de aprendizaje los sensores deben
+mapear el entorno, para que el sistema de control de las órdenes adecuadas a los
 actuadores quienes demuestran una conducta o comportamiento inteligente que

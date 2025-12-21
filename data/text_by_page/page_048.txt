@@ -1,26 +1,26 @@
-opciones que pueden elegirse en cualquier estado dado, y su elección tiene un impacto 
-directo en cómo evoluciona el agente en el entorno. 
-Un agente racional debe tomar decisiones informadas y eficientes, considerando 
-las percepciones y el conocimiento disponible, con el fin de maximizar la consecución de 
-sus objetivos. Al observar el entorno y tomar de decisiones adecuadas, el agente puede 
-adaptarse y aprender a actuar de manera más inteligente en situaciones futuras. 
-La capacidad de un agente para seleccionar las acciones más apropiadas en cada 
-estado y lograr un rendimiento satisfactorio es un desafío importante en el campo de la 
-inteligencia artificial.  
-Los investigadores y expertos en IA se dedican a desarrollar algoritmos y técnicas 
-que permitan a los agentes racionales tomar decisiones óptimas en una amplia variedad 
-de situaciones, contribuyendo así al avance y aplicación de esta disciplina.  
-Figura 1.5 Rompecabezas 
-Fuente: Wikipedia 
-Un estado se refiere a una configuración específica en la que se encuentra un 
-agente dentro de su entorno. Tomemos como ejemplo un rompecabezas (figura 1.5) de 
-15 piezas: cada estado representa una disposición particular en la que los números están 
-ordenados en el tablero. Las acciones, por otro lado, son las elecciones que se pueden 
-realizar en un estado dado. 
-Cuando se recibe un estado como entrada, el sistema devuelve como salida el 
-conjunto de acciones que se pueden llevar a cabo en ese estado en particular. Siguiendo 
-el ejemplo del rompecabezas de 15, las acciones disponibles en un estado dado están 
-determinadas por las formas en que los cuadrados se pueden deslizar dentro de la 
-configuración actual. Por ejemplo, si el cuadrado vacío se encuentra en el medio, hay 4 
-acciones posibles; si está junto a un borde, hay 3 acciones disponibles; y si está en una 
+opciones que pueden elegirse en cualquier estado dado, y su elección tiene un impacto
+directo en cómo evoluciona el agente en el entorno.
+Un agente racional debe tomar decisiones informadas y eficientes, considerando
+las percepciones y el conocimiento disponible, con el fin de maximizar la consecución de
+sus objetivos. Al observar el entorno y tomar de decisiones adecuadas, el agente puede
+adaptarse y aprender a actuar de manera más inteligente en situaciones futuras.
+La capacidad de un agente para seleccionar las acciones más apropiadas en cada
+estado y lograr un rendimiento satisfactorio es un desafío importante en el campo de la
+inteligencia artificial.
+Los investigadores y expertos en IA se dedican a desarrollar algoritmos y técnicas
+que permitan a los agentes racionales tomar decisiones óptimas en una amplia variedad
+de situaciones, contribuyendo así al avance y aplicación de esta disciplina.
+Figura 1.5 Rompecabezas
+Fuente: Wikipedia
+Un estado se refiere a una configuración específica en la que se encuentra un
+agente dentro de su entorno. Tomemos como ejemplo un rompecabezas (figura 1.5) de
+15 piezas: cada estado representa una disposición particular en la que los números están
+ordenados en el tablero. Las acciones, por otro lado, son las elecciones que se pueden
+realizar en un estado dado.
+Cuando se recibe un estado como entrada, el sistema devuelve como salida el
+conjunto de acciones que se pueden llevar a cabo en ese estado en particular. Siguiendo
+el ejemplo del rompecabezas de 15, las acciones disponibles en un estado dado están
+determinadas por las formas en que los cuadrados se pueden deslizar dentro de la
+configuración actual. Por ejemplo, si el cuadrado vacío se encuentra en el medio, hay 4
+acciones posibles; si está junto a un borde, hay 3 acciones disponibles; y si está en una
 esquina, solo hay 2 acciones posibles.

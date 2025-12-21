@@ -1,32 +1,32 @@
-Representación Simbólica y Representación No-Simbólica: 
-1. Procesamiento del Lenguaje Natural (PLN) Híbrido: Estudia cómo hacer que las 
-computadoras sean capaces de analizar, entender y generar lenguaje humano de 
-forma automática. Usa métodos simbólicos como el análisis sintáctico basado en 
-reglas gramaticales y la representación semántica basada en reglas. Combina con 
-métodos no simbólicos, como el aprendizaje profundo. Se emplean en la 
-traducción automática entre idiomas, el análisis de sentimientos y la generación 
-de texto.  
-2. Sistemas Expertos Mejorados: Los sistemas expertos tradicionales, basados en 
-conocimiento simbólico y reglas, se pueden enriquecer con técnicas de 
-aprendizaje automático para manejar la incertidumbre, aprender patrones y 
-capturen excepciones al manejar grandes volúmenes de datos.  
-3. Robótica Cognitiva Avanzada: Los robots utilizan algoritmos de aprendizaje 
-profundo para interpretar lo que perciben a través de sus sensores y están 
-equipados con sistemas que siguen reglas predefinidas para planificar sus acciones 
-y tomar decisiones (Franceschetti, 2018). Estos robots pueden manejar una 
-variedad de situaciones y tareas en diferentes entornos, realizando ajustes según 
-sea necesario para adaptarse a cambios inesperados en su entorno. 
-4. Sistemas de Recomendación Híbridos: Combinan el análisis de patrones de 
-comportamiento de usuarios (aprendizaje no simbólico) con reglas basadas en 
-conocimiento específico del dominio (aprendizaje simbólico) para proporcionar 
-recomendaciones más precisas y contextuales. Son asistentes inteligentes que te 
-sugiere cosas basándose en lo que te gusta y en conocimientos específicos de un 
-área determinada. 
-5. Integración de Conocimiento en Aprendizaje Automático: Se utiliza en proyectos 
-que buscan integrar bases de conocimiento estructuradas (simbólicas) dentro de 
-modelos de aprendizaje automático (no simbólicos) para mejorar la interpretación 
-y generalización de los modelos. 
-6. Ontologías en Aprendizaje Automático: Se usa ontologías y estructuras de 
-conocimiento simbólico para guiar y mejorar el proceso de aprendizaje en 
-modelos no simbólicos, especialmente en dominios específicos como la medicina 
+Representación Simbólica y Representación No-Simbólica:
+1.Procesamiento del Lenguaje Natural (PLN) Híbrido: Estudia cómo hacer que las
+computadoras sean capaces de analizar, entender y generar lenguaje humano de
+forma automática. Usa métodos simbólicos como el análisis sintáctico basado en
+reglas gramaticales y la representación semántica basada en reglas. Combina con
+métodos no simbólicos, como el aprendizaje profundo. Se emplean en la
+traducción automática entre idiomas, el análisis de sentimientos y la generación
+de texto.
+2.Sistemas Expertos Mejorados: Los sistemas expertos tradicionales, basados en
+conocimiento simbólico y reglas, se pueden enriquecer con técnicas de
+aprendizaje automático para manejar la incertidumbre, aprender patrones y
+capturen excepciones al manejar grandes volúmenes de datos.
+3.Robótica Cognitiva Avanzada: Los robots utilizan algoritmos de aprendizaje
+profundo para interpretar lo que perciben a través de sus sensores y están
+equipados con sistemas que siguen reglas predefinidas para planificar sus acciones
+y tomar decisiones (Franceschetti, 2018). Estos robots pueden manejar una
+variedad de situaciones y tareas en diferentes entornos, realizando ajustes según
+sea necesario para adaptarse a cambios inesperados en su entorno.
+4.Sistemas de Recomendación Híbridos: Combinan el análisis de patrones de
+comportamiento de usuarios (aprendizaje no simbólico) con reglas basadas en
+conocimiento específico del dominio (aprendizaje simbólico) para proporcionar
+recomendaciones más precisas y contextuales. Son asistentes inteligentes que te
+sugiere cosas basándose en lo que te gusta y en conocimientos específicos de un
+área determinada.
+5.Integración de Conocimiento en Aprendizaje Automático: Se utiliza en proyectos
+que buscan integrar bases de conocimiento estructuradas (simbólicas) dentro de
+modelos de aprendizaje automático (no simbólicos) para mejorar la interpretación
+y generalización de los modelos.
+6.Ontologías en Aprendizaje Automático: Se usa ontologías y estructuras de
+conocimiento simbólico para guiar y mejorar el proceso de aprendizaje en
+modelos no simbólicos, especialmente en dominios específicos como la medicina
 o la biología (García Serrano, 2012).

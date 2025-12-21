@@ -1,22 +1,22 @@
-el agente desea llegar, de modo que pueda evaluar si los estados intermedios alcanzados 
-por las acciones tomadas lo acercarán o alejarán de su objetivo final. 
-Figura 1.10 Arquitectura por Finalidad 
-Elaborado por los Autores 
-En esta arquitectura, el agente tiene flexibilidad para modificar su conocimiento 
-y adaptarse en función de las decisiones que va tomando. El estado actual del entorno se 
-actualiza constantemente a través de los sensores del agente, y cuando se identifica una 
-acción que se puede realizar, el agente la lleva a cabo mediante el control de sus 
-actuadores. 
-Las estrategias de búsqueda son un ejemplo concreto de esta arquitectura. El 
-agente utiliza técnicas de búsqueda para explorar el espacio de posibles acciones y 
-encontrar una secuencia de acciones que lo lleve hacia su objetivo final. A medida que el 
-agente recopila información a través de la percepción y realiza acciones, puede evaluar si 
-se está acercando o alejando de su objetivo, y ajustar su estrategia en consecuencia. 
-d) Arquitectura basada en el razonamiento humano 
-La arquitectura que se muestra en la figura 1.11 es un ejemplo de una arquitectura 
-de agente basada en el razonamiento humano. En este caso, el agente opera en un entorno 
-parcialmente observable, lo que significa que no tiene acceso completo a toda la 
-información del entorno. Sin embargo, el agente es capaz de formarse una idea del estado 
-del medio ambiente en el que existe utilizando la información disponible a través de sus 
-sensores. 
+el agente desea llegar, de modo que pueda evaluar si los estados intermedios alcanzados
+por las acciones tomadas lo acercarán o alejarán de su objetivo final.
+Figura 1.10 Arquitectura por Finalidad
+Elaborado por los Autores
+En esta arquitectura, el agente tiene flexibilidad para modificar su conocimiento
+y adaptarse en función de las decisiones que va tomando. El estado actual del entorno se
+actualiza constantemente a través de los sensores del agente, y cuando se identifica una
+acción que se puede realizar, el agente la lleva a cabo mediante el control de sus
+actuadores.
+Las estrategias de búsqueda son un ejemplo concreto de esta arquitectura. El
+agente utiliza técnicas de búsqueda para explorar el espacio de posibles acciones y
+encontrar una secuencia de acciones que lo lleve hacia su objetivo final. A medida que el
+agente recopila información a través de la percepción y realiza acciones, puede evaluar si
+se está acercando o alejando de su objetivo, y ajustar su estrategia en consecuencia.
+d)Arquitectura basada en el razonamiento humano
+La arquitectura que se muestra en la figura 1.11 es un ejemplo de una arquitectura
+de agente basada en el razonamiento humano. En este caso, el agente opera en un entorno
+parcialmente observable, lo que significa que no tiene acceso completo a toda la
+información del entorno. Sin embargo, el agente es capaz de formarse una idea del estado
+del medio ambiente en el que existe utilizando la información disponible a través de sus
+sensores.
 En esta arquitectura, el agente tiene objetivos que actúan como su motivación

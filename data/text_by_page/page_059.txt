@@ -1,95 +1,95 @@
-sus propias acciones. 
-   El agente, debe poder adaptarse y 
-tomar decisiones en tiempo real a 
-medida que el entorno evoluciona.  
-Debe 
-ser 
-capaz 
-de 
-detectar 
-y 
-comprender los cambios en su entorno, 
-actualizar su conocimiento y ajustar su 
-comportamiento en consecuencia. 
-   Para hacer frente a los entornos 
-dinámicos, los agentes utilizan técnicas 
-como la monitorización constante del 
-entorno, la detección de cambios, la 
-planificación en tiempo real y el 
-aprendizaje adaptativo. Estas técnicas 
-hacen que el agente tome decisiones 
-informadas y adapte su estrategia a los 
-cambios del entorno. 
-o Simulaciones 
-de 
-vuelo 
-o Sistemas 
-de 
-atención 
-médica 
-personalizada 
-o Sistemas 
-de 
-recomendación 
-personalizada 
-o Sistemas 
-de 
-simulación de vida 
-artificial 
-o Sistemas de gestión 
-de energía 
-o Sistemas 
-de 
-logística 
-y 
-distribución 
-Semiestático 
-   El 
-entorno 
-semiestático 
-no 
-experimenta cambios significativos, se 
-mantiene relativamente constante a lo 
-largo del tiempo en términos de sus 
-características 
-físicas 
-y 
-de 
-configuración. 
-Sin 
-embargo, 
-el 
-rendimiento puede variar a medida que 
-se desarrolla el agente, esto se debe a la 
-capacidad que tiene de aprender, 
-adaptarse y mejorar en el tiempo. 
-   El 
-agente 
-puede 
-también 
-experimentar mejoras en su capacidad 
-de 
-tomar 
-decisiones, 
-resolver 
-problemas o alcanzar sus objetivos a 
-o Ayudante 
-de 
-matemáticas 
-o Juegos de mesa 
-o Sistemas de gestión 
-de inventario 
-o Planificación 
-de 
-rutas de transporte 
-o Configuración 
-de 
-redes 
-o Sistemas 
-de 
-recomendación 
-de 
-contenido 
-o Sistemas de gestión 
-de 
+sus propias acciones.
+El agente, debe poder adaptarse y
+tomar decisiones en tiempo real a
+medida que el entorno evoluciona.
+Debe
+ser
+capaz
+de
+detectar
+y
+comprender los cambios en su entorno,
+actualizar su conocimiento y ajustar su
+comportamiento en consecuencia.
+Para hacer frente a los entornos
+dinámicos, los agentes utilizan técnicas
+como la monitorización constante del
+entorno, la detección de cambios, la
+planificación en tiempo real y el
+aprendizaje adaptativo. Estas técnicas
+hacen que el agente tome decisiones
+informadas y adapte su estrategia a los
+cambios del entorno.
+oSimulaciones
+de
+vuelo
+oSistemas
+de
+atención
+médica
+personalizada
+oSistemas
+de
+recomendación
+personalizada
+oSistemas
+de
+simulación de vida
+artificial
+oSistemas de gestión
+de energía
+oSistemas
+de
+logística
+y
+distribución
+Semiestático
+El
+entorno
+semiestático
+no
+experimenta cambios significativos, se
+mantiene relativamente constante a lo
+largo del tiempo en términos de sus
+características
+físicas
+y
+de
+configuración.
+Sin
+embargo,
+el
+rendimiento puede variar a medida que
+se desarrolla el agente, esto se debe a la
+capacidad que tiene de aprender,
+adaptarse y mejorar en el tiempo.
+El
+agente
+puede
+también
+experimentar mejoras en su capacidad
+de
+tomar
+decisiones,
+resolver
+problemas o alcanzar sus objetivos a
+oAyudante
+de
+matemáticas
+oJuegos de mesa
+oSistemas de gestión
+de inventario
+oPlanificación
+de
+rutas de transporte
+oConfiguración
+de
+redes
+oSistemas
+de
+recomendación
+de
+contenido
+oSistemas de gestión
+de
 recursos

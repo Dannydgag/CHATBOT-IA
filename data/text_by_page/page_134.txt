@@ -1,48 +1,48 @@
-puntiagudos?” El usuario del sistema responde afirmativamente, validando así la premisa, 
-que se incorpora a la columna de datos conocidos. 
-Objetivos 
-Datos conocidos 
-Reglas aplicables Regla a utilizar 
-carnívoro 
-animal 
-posee_pelo = si 
-puede_dar_leche = si 
-mamífero= si 
-come_carne = si 
-dientes_puntiagudos = 
-si 
-3,1,6,7,8,9,10,11 
-9na Ejecución: Se busca determinar si la tercera premisa garras = si  de la regla 3 
-se encuentra entre los datos conocidos, como no existe se busca determinar si  alguna 
-conclusión de las reglas hace referencia a esta premisa, al no encontrarse tampoco  el 
-mecanismo de inferencia procede a hacer la pregunta “¿Tiene garras?” al usuario del 
-sistema. La respuesta afirmativa del usuario confirma la premisa, que posteriormente se 
-incorpora a los datos conocidos. 
-Objetivos 
-Datos conocidos 
-Reglas aplicables Regla a utilizar 
-carnívoro 
-animal 
-posee_pelo = si 
-puede_dar_leche = si 
-mamífero= si 
-come_carne = si 
-dientes_puntiagudos = 
-si 
-garras =si 
-3,1,6,7,8,9,10,11 
-10ma Ejecución: Se busca determinar si la cuarta premisa ojos_adelante = si de la 
-regla 3 se encuentra entre los datos conocidos, como no existe se busca determinar si 
-alguna conclusión de las reglas hace referencia a esta premisa, al no encontrarse tampoco 
-el mecanismo de inferencia procede a hacer la pregunta “¿Tiene ojos adelante?” al 
-usuario. La respuesta afirmativa del usuario confirma la premisa, que posteriormente se 
-incorpora a los datos conocidos. 
-Objetivos 
-Datos conocidos 
-Reglas aplicables 
-Regla a utilizar 
-carnívoro 
-animal 
-posee_pelo = si 
-puede_dar_leche = si 
+puntiagudos?” El usuario del sistema responde afirmativamente, validando así la premisa,
+que se incorpora a la columna de datos conocidos.
+Objetivos
+Datos conocidos
+Reglas aplicables Regla a utilizar
+carnívoro
+animal
+posee_pelo = si
+puede_dar_leche = si
+mamífero= si
+come_carne = si
+dientes_puntiagudos =
+si
+3,1,6,7,8,9,10,11
+9na Ejecución: Se busca determinar si la tercera premisa garras = si  de la regla 3
+se encuentra entre los datos conocidos, como no existe se busca determinar si  alguna
+conclusión de las reglas hace referencia a esta premisa, al no encontrarse tampoco  el
+mecanismo de inferencia procede a hacer la pregunta “¿Tiene garras?” al usuario del
+sistema. La respuesta afirmativa del usuario confirma la premisa, que posteriormente se
+incorpora a los datos conocidos.
+Objetivos
+Datos conocidos
+Reglas aplicables Regla a utilizar
+carnívoro
+animal
+posee_pelo = si
+puede_dar_leche = si
+mamífero= si
+come_carne = si
+dientes_puntiagudos =
+si
+garras =si
+3,1,6,7,8,9,10,11
+10ma Ejecución: Se busca determinar si la cuarta premisa ojos_adelante = si de la
+regla 3 se encuentra entre los datos conocidos, como no existe se busca determinar si
+alguna conclusión de las reglas hace referencia a esta premisa, al no encontrarse tampoco
+el mecanismo de inferencia procede a hacer la pregunta “¿Tiene ojos adelante?” al
+usuario. La respuesta afirmativa del usuario confirma la premisa, que posteriormente se
+incorpora a los datos conocidos.
+Objetivos
+Datos conocidos
+Reglas aplicables
+Regla a utilizar
+carnívoro
+animal
+posee_pelo = si
+puede_dar_leche = si
 3,1,6,7,8,9,10,11

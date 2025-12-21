@@ -1,32 +1,32 @@
-denota como α → β, lo que significa que, si la sentencia α es verdadera, entonces la 
-sentencia β también debe ser verdadera. En el contexto de una base de conocimiento que 
-contiene hechos verdaderos que representan un modelo del mundo, se pueden deducir 
-nuevas afirmaciones lógicas utilizando reglas y relaciones lógicas. 
-En el ejemplo, si la base de conocimiento contiene las sentencias Padre (Juan, 
-Alfonso) y Padre(Alfonso, Ximena), se puede deducir la relación de abuelo siguiendo el 
-concepto de que un abuelo es el padre del padre de una persona. Por lo tanto, se puede 
-concluir que Juan es el abuelo de Ximena, debido a que Alfonso es el padre de Ximena, 
-y Juan es el padre de Alfonso. Este tipo de razonamiento lógico es fundamental en la 
-representación del conocimiento y la inteligencia artificial para inferir nuevas relaciones 
-y conocimientos a partir de la información existente en una base de conocimiento. 
-La solidez del algoritmo de inferencia es fundamental para garantizar que las 
-implicaciones lógicas siempre sean verdaderas y coherentes (García Serrano, 2012). En 
-el ejemplo que se menciona, la inferencia de la relación de "abuelo" se basa en un 
-concepto sólido y bien definido: que un abuelo es el padre del padre de una persona. Si el 
-algoritmo de inferencia está diseñado correctamente y sigue reglas lógicas sólidas, 
-entonces esta deducción será siempre válida y producirá resultados precisos y coherentes. 
-La robustez y la solidez de los algoritmos de razonamiento lógico son aspectos 
-clave en la representación del conocimiento y la inteligencia artificial, debido a que 
-permiten que los sistemas deduzcan nuevas relaciones y conocimientos de manera 
-confiable a partir de la información disponible en la base de conocimiento. Esto es 
-esencial para tomar decisiones informadas y realizar tareas de razonamiento de manera 
-efectiva. 
-La completitud es una propiedad importante en un algoritmo de inferencia. Un 
-algoritmo de inferencia completo garantiza que todas las sentencias que están implicadas 
-lógicamente en la base de conocimiento se derivarán correctamente. En el ejemplo, si se 
-tiene las sentencias Padre (Juan, Alfonso) y Padre(Alfonso, Ximena) en la base de 
-conocimiento y se quiere inferir la relación de "abuelo", un algoritmo completo debería 
-ser capaz de derivar que Juan es el abuelo de Ximena, debido a que esto está implicado 
-lógicamente por las sentencias dadas. 
-La completitud asegura que no se omita ninguna inferencia válida, lo que es 
+denota como α → β, lo que significa que, si la sentencia α es verdadera, entonces la
+sentencia β también debe ser verdadera. En el contexto de una base de conocimiento que
+contiene hechos verdaderos que representan un modelo del mundo, se pueden deducir
+nuevas afirmaciones lógicas utilizando reglas y relaciones lógicas.
+En el ejemplo, si la base de conocimiento contiene las sentencias Padre (Juan,
+Alfonso) y Padre(Alfonso, Ximena), se puede deducir la relación de abuelo siguiendo el
+concepto de que un abuelo es el padre del padre de una persona. Por lo tanto, se puede
+concluir que Juan es el abuelo de Ximena, debido a que Alfonso es el padre de Ximena,
+y Juan es el padre de Alfonso. Este tipo de razonamiento lógico es fundamental en la
+representación del conocimiento y la inteligencia artificial para inferir nuevas relaciones
+y conocimientos a partir de la información existente en una base de conocimiento.
+La solidez del algoritmo de inferencia es fundamental para garantizar que las
+implicaciones lógicas siempre sean verdaderas y coherentes (García Serrano, 2012). En
+el ejemplo que se menciona, la inferencia de la relación de "abuelo" se basa en un
+concepto sólido y bien definido: que un abuelo es el padre del padre de una persona. Si el
+algoritmo de inferencia está diseñado correctamente y sigue reglas lógicas sólidas,
+entonces esta deducción será siempre válida y producirá resultados precisos y coherentes.
+La robustez y la solidez de los algoritmos de razonamiento lógico son aspectos
+clave en la representación del conocimiento y la inteligencia artificial, debido a que
+permiten que los sistemas deduzcan nuevas relaciones y conocimientos de manera
+confiable a partir de la información disponible en la base de conocimiento. Esto es
+esencial para tomar decisiones informadas y realizar tareas de razonamiento de manera
+efectiva.
+La completitud es una propiedad importante en un algoritmo de inferencia. Un
+algoritmo de inferencia completo garantiza que todas las sentencias que están implicadas
+lógicamente en la base de conocimiento se derivarán correctamente. En el ejemplo, si se
+tiene las sentencias Padre (Juan, Alfonso) y Padre(Alfonso, Ximena) en la base de
+conocimiento y se quiere inferir la relación de "abuelo", un algoritmo completo debería
+ser capaz de derivar que Juan es el abuelo de Ximena, debido a que esto está implicado
+lógicamente por las sentencias dadas.
+La completitud asegura que no se omita ninguna inferencia válida, lo que es
 esencial para que un sistema de representación del conocimiento sea confiable y preciso.

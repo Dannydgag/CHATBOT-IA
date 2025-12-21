@@ -1,41 +1,41 @@
-información general.  
-Error de clasificación es la frecuencia con la que el modelo de árbol de decisión 
-hace una predicción incorrecta. Es decir, cuántas veces el modelo clasifica 
-incorrectamente una instancia. Este error se puede medir de varias maneras, pero 
-generalmente se calcula como la suma de las predicciones incorrectas sobre el número 
-total de predicciones. 
- 𝐸𝑟𝑟𝑜𝑟=
+información general.
+Error de clasificación es la frecuencia con la que el modelo de árbol de decisión
+hace una predicción incorrecta. Es decir, cuántas veces el modelo clasifica
+incorrectamente una instancia. Este error se puede medir de varias maneras, pero
+generalmente se calcula como la suma de las predicciones incorrectas sobre el número
+total de predicciones.
+𝐸𝑟𝑟𝑜𝑟=
 FN +FP
-FN+FP+VP+VN 
-Exactitud (presición) es el número de predicciones correctas sobre el número 
-total de predicciones. 
- 𝐸𝑥𝑎𝑐𝑡𝑖𝑡𝑢𝑑=
+FN+FP+VP+VN
+Exactitud (presición) es el número de predicciones correctas sobre el número
+total de predicciones.
+𝐸𝑥𝑎𝑐𝑡𝑖𝑡𝑢𝑑=
 VP +VN
-FN+FP+VP+VN = 1 −𝐸𝑟𝑟𝑜𝑟 
-La precisión es importante, especialmente en situaciones donde los costos de los 
-falsos positivos son altos. Se utiliza especialmente en tareas de clasificación y 
-reconocimiento de patrones. Un ejemplo clásico de su uso es en los sistemas de filtrado 
-de correos electrónicos para identificar y separar los correos no deseados o spam. 
-Recall (o Sensibilidad): También conocida como tasa de verdaderos positivos, 
-mide la capacidad del modelo para identificar correctamente los casos positivos. Se 
-calcula como: 
+FN+FP+VP+VN= 1 −𝐸𝑟𝑟𝑜𝑟
+La precisión es importante, especialmente en situaciones donde los costos de los
+falsos positivos son altos. Se utiliza especialmente en tareas de clasificación y
+reconocimiento de patrones. Un ejemplo clásico de su uso es en los sistemas de filtrado
+de correos electrónicos para identificar y separar los correos no deseados o spam.
+Recall (o Sensibilidad): También conocida como tasa de verdaderos positivos,
+mide la capacidad del modelo para identificar correctamente los casos positivos. Se
+calcula como:
 𝑅𝑒𝑐𝑎𝑙𝑙=
 VP
-VP+FN  
-Es importante en contextos donde no detectar los casos positivos (como 
-enfermedades graves) es crítico. 
-Especificidad: Esta métrica mide la capacidad del modelo para identificar 
-correctamente los casos negativos. Se calcula como: 
+VP+FN
+Es importante en contextos donde no detectar los casos positivos (como
+enfermedades graves) es crítico.
+Especificidad: Esta métrica mide la capacidad del modelo para identificar
+correctamente los casos negativos. Se calcula como:
 𝐸𝑠𝑝𝑒𝑐𝑖𝑓𝑖𝑐𝑖𝑑𝑎𝑑=
 VN
-VN+FP 
-Es importante en escenarios donde es necesario no clasificar erróneamente los 
-negativos como positivos. Un ejemplo de uso de la métrica de especificidad es en el 
-diagnóstico médico, donde es importante no solo identificar correctamente las 
-condiciones presentes (sensibilidad) sino también confirmar con precisión la ausencia de 
-una condición (especificidad).  
-Valor Predictivo Negativo: Mide la proporción de identificaciones negativas que 
-fueron correctas. Se calcula como: 
+VN+FP
+Es importante en escenarios donde es necesario no clasificar erróneamente los
+negativos como positivos. Un ejemplo de uso de la métrica de especificidad es en el
+diagnóstico médico, donde es importante no solo identificar correctamente las
+condiciones presentes (sensibilidad) sino también confirmar con precisión la ausencia de
+una condición (especificidad).
+Valor Predictivo Negativo: Mide la proporción de identificaciones negativas que
+fueron correctas. Se calcula como:
 𝑉𝑃𝑁=
 VN
 VN+FN

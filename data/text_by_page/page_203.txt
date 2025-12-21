@@ -1,3 +1,3 @@
-de diagnóstico médico, la sensibilidad puede ser más crítica que la precisión, mientras 
-que, en un sistema de recomendación de productos, la precisión puede tener mayor 
+de diagnóstico médico, la sensibilidad puede ser más crítica que la precisión, mientras
+que, en un sistema de recomendación de productos, la precisión puede tener mayor
 importancia.

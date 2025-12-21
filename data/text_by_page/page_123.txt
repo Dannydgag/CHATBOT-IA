@@ -1,32 +1,32 @@
-cuando ha dado resultado se generaliza a la población, pero cuando ya está en el 
-mercado la medicina, hay ciertos pacientes a los cuales les es contraproducente.  
-En el contexto de los estudios experimentales, como la prueba de 
-medicamentos, se utiliza un enfoque inductivo. Este proceso comienza con la 
-selección de un grupo específico de pacientes que comparten ciertas 
-características, sobre los cuales se realizan pruebas. Los resultados positivos 
-obtenidos en este grupo limitado se extrapolan luego para aplicarlos a la población 
-general. Sin embargo, es importante reconocer que, incluso después de la 
-aprobación y distribución de un medicamento, pueden surgir casos individuales 
-de efectos adversos. Este fenómeno destaca la importancia de la vigilancia 
-continua y del análisis de datos post-lanzamiento, un área donde la inteligencia 
-artificial puede jugar un rol significativo, procesando y analizando grandes 
-volúmenes de datos para identificar patrones ocultos y predecir posibles 
-contraindicaciones en subgrupos específicos de pacientes. 
-La inducción en el ámbito de la inteligencia artificial abarca un espectro 
-amplio de técnicas y métodos, cada uno con sus aplicaciones y ventajas 
-específicas. Entre estas técnicas se incluyen: 
-Aprendizaje Supervisado: Donde los modelos de IA aprenden a partir de 
-conjuntos de datos etiquetados, mejorando su capacidad para hacer predicciones 
-o clasificaciones precisas. 
-Aprendizaje No Supervisado: Utilizado para analizar datos sin etiquetar, 
-descubriendo estructuras ocultas o patrones sin intervención humana previa (Xiao, 
-2022). 
-Minería de Datos: Esencial para descubrir correlaciones y tendencias en 
-grandes bases de datos, lo que permite una toma de decisiones más informada. 
-Razonamiento Inductivo: Se aplica para formular hipótesis y modelos a 
-partir de observaciones específicas. 
-Redes Neuronales: Sistemas que imitan la estructura y función del cerebro 
-humano para procesar información de manera eficiente. 
-Aprendizaje Profundo: Una forma avanzada de aprendizaje automático 
-que utiliza redes neuronales profundas para modelar y resolver problemas 
+cuando ha dado resultado se generaliza a la población, pero cuando ya está en el
+mercado la medicina, hay ciertos pacientes a los cuales les es contraproducente.
+En el contexto de los estudios experimentales, como la prueba de
+medicamentos, se utiliza un enfoque inductivo. Este proceso comienza con la
+selección de un grupo específico de pacientes que comparten ciertas
+características, sobre los cuales se realizan pruebas. Los resultados positivos
+obtenidos en este grupo limitado se extrapolan luego para aplicarlos a la población
+general. Sin embargo, es importante reconocer que, incluso después de la
+aprobación y distribución de un medicamento, pueden surgir casos individuales
+de efectos adversos. Este fenómeno destaca la importancia de la vigilancia
+continua y del análisis de datos post-lanzamiento, un área donde la inteligencia
+artificial puede jugar un rol significativo, procesando y analizando grandes
+volúmenes de datos para identificar patrones ocultos y predecir posibles
+contraindicaciones en subgrupos específicos de pacientes.
+La inducción en el ámbito de la inteligencia artificial abarca un espectro
+amplio de técnicas y métodos, cada uno con sus aplicaciones y ventajas
+específicas. Entre estas técnicas se incluyen:
+Aprendizaje Supervisado: Donde los modelos de IA aprenden a partir de
+conjuntos de datos etiquetados, mejorando su capacidad para hacer predicciones
+o clasificaciones precisas.
+Aprendizaje No Supervisado: Utilizado para analizar datos sin etiquetar,
+descubriendo estructuras ocultas o patrones sin intervención humana previa (Xiao,
+2022).
+Minería de Datos: Esencial para descubrir correlaciones y tendencias en
+grandes bases de datos, lo que permite una toma de decisiones más informada.
+Razonamiento Inductivo: Se aplica para formular hipótesis y modelos a
+partir de observaciones específicas.
+Redes Neuronales: Sistemas que imitan la estructura y función del cerebro
+humano para procesar información de manera eficiente.
+Aprendizaje Profundo: Una forma avanzada de aprendizaje automático
+que utiliza redes neuronales profundas para modelar y resolver problemas
 complejos.

@@ -1,34 +1,34 @@
-rayas_negras = si 
-2,3,6 
-Ninguna 
-        Elaborado por los Autores 
-1era Ejecución: Con los datos que se tienen se va a ver cuáles premisas de las 
-reglas se cumplen, encontrando que la regla 2 y 3 se ajustan a los datos dados. La regla 
-aplicable es la 2 por prioridad. Encontrándose el hecho de que se trata de un mamífero. 
-El nuevo hecho pasa a constituirse en un nuevo dato para la búsqueda de las reglas 
-aplicables.  
-2da Ejecución:   Las reglas 2 y 3 se ajustan de nuevo a los datos que se tienen, 
-pero como la regla 2 ya se ejecutó se procede a utilizar la regla 3; derivándose el nuevo 
-hecho que constituye un nuevo dato de que se trata de un animal carnívoro.  
-3era Ejecución: Las reglas aplicables son la 2,3,6 como las dos primeras ya se 
-utilizaron entonces queda por ejecutarse la regla 6 llegando a determinarse el hecho de 
-que el animal al que se refieren los datos dados es el tigre. 
-4ta Ejecución: Se vuelve a probar para ver si existe alguna otra regla que se pueda 
-ejecutar, pero como se observa en el cuadro no existe ninguna otra regla; además si 
-hubiese constituiría un error en las premisas de las reglas, pues no existen 2 animales en 
-el mundo con las mismas características.  
-2.2.2 Encaminamiento hacia atrás 
-En el enfoque del encaminamiento hacia atrás, el razonamiento se inicia desde la 
-conclusión (THEN) que se busca alcanzar. Inicialmente, no se dispone de datos 
-conocidos. Por ello, basándose en los objetivos presentes en las conclusiones (THEN), se 
-intenta deducir valores a través de cuestionamientos vinculados a las premisas (IF), 
-utilizando las reglas establecidas en la base de conocimientos. Es esencial priorizar estos 
-objetivos para determinar cuál de ellos puede ser satisfecho con las premisas que se van 
-identificando como pertinentes al objetivo en cuestión.  
-Si todas las premisas de una regla resultan ser verdaderas, se ejecuta dicha regla, 
-derivando así su conclusión y logrando el objetivo propuesto. Este objetivo satisfecho se 
-transforma en un hecho conocido. Sin embargo, si alguna premisa no se cumple, es 
-necesario identificar una regla cuya conclusión (THEN) tenga dicha premisa y, a partir 
-de ahí, trabajar en satisfacer sus premisas (IF) asociadas. 
-Como aplicación para un mejor entendimiento, con las mismas reglas utilizadas 
+rayas_negras = si
+2,3,6
+Ninguna
+Elaborado por los Autores
+1era Ejecución: Con los datos que se tienen se va a ver cuáles premisas de las
+reglas se cumplen, encontrando que la regla 2 y 3 se ajustan a los datos dados. La regla
+aplicable es la 2 por prioridad. Encontrándose el hecho de que se trata de un mamífero.
+El nuevo hecho pasa a constituirse en un nuevo dato para la búsqueda de las reglas
+aplicables.
+2da Ejecución:   Las reglas 2 y 3 se ajustan de nuevo a los datos que se tienen,
+pero como la regla 2 ya se ejecutó se procede a utilizar la regla 3; derivándose el nuevo
+hecho que constituye un nuevo dato de que se trata de un animal carnívoro.
+3era Ejecución: Las reglas aplicables son la 2,3,6 como las dos primeras ya se
+utilizaron entonces queda por ejecutarse la regla 6 llegando a determinarse el hecho de
+que el animal al que se refieren los datos dados es el tigre.
+4ta Ejecución: Se vuelve a probar para ver si existe alguna otra regla que se pueda
+ejecutar, pero como se observa en el cuadro no existe ninguna otra regla; además si
+hubiese constituiría un error en las premisas de las reglas, pues no existen 2 animales en
+el mundo con las mismas características.
+[TITLE]: 2.2.2 Encaminamiento hacia atrás
+En el enfoque del encaminamiento hacia atrás, el razonamiento se inicia desde la
+conclusión (THEN) que se busca alcanzar. Inicialmente, no se dispone de datos
+conocidos. Por ello, basándose en los objetivos presentes en las conclusiones (THEN), se
+intenta deducir valores a través de cuestionamientos vinculados a las premisas (IF),
+utilizando las reglas establecidas en la base de conocimientos. Es esencial priorizar estos
+objetivos para determinar cuál de ellos puede ser satisfecho con las premisas que se van
+identificando como pertinentes al objetivo en cuestión.
+Si todas las premisas de una regla resultan ser verdaderas, se ejecuta dicha regla,
+derivando así su conclusión y logrando el objetivo propuesto. Este objetivo satisfecho se
+transforma en un hecho conocido. Sin embargo, si alguna premisa no se cumple, es
+necesario identificar una regla cuya conclusión (THEN) tenga dicha premisa y, a partir
+de ahí, trabajar en satisfacer sus premisas (IF) asociadas.
+Como aplicación para un mejor entendimiento, con las mismas reglas utilizadas
 para el encaminamiento hacia adelante se va a proceder a realizar el encaminamiento

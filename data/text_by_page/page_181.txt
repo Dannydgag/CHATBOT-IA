@@ -1,25 +1,25 @@
-Los problemas de satisfacción de restricciones tienen las siguientes propiedades: 
-• Conjunto de variables (x₁, x₂, …, xₙ) 
-• Conjunto de dominios para cada variable {D₁, D₂, …, Dₙ} 
-• Conjunto de restricciones C 
-Considere el siguiente ejemplo (figura 3.9) en que cada uno de los estudiantes 
-1,2,3,4 está tomando tres cursos de los siguientes A, B, C, D, E, F, G. Cada curso debe 
-tener un examen, y los días posibles para los exámenes son los lunes, martes y miércoles. 
-Sin embargo, el mismo estudiante no puede tener dos exámenes el mismo día. En este 
-caso, las variables son los cursos, el dominio son los días y las restricciones son qué cursos 
-no se pueden programar para tener un examen el mismo día porque los está tomando el 
-mismo estudiante.  
-Figura 3.10 Grafo de los cursos 
-Elaborado por los Autores 
-Este problema se puede resolver empleando restricciones que se representan como 
-un gráfico. Cada nodo del gráfico (figura 3.10) es un curso distinto, y se pone la 
-restricción entre dos cursos que es de que no se pueden programar para el mismo día.  
-Algunos términos que vale la pena conocer sobre los problemas de satisfacción de 
-restricciones son: 
-• Una Restricción Fuerte es una restricción que debe ser satisfecha en una 
-solución correcta. 
-• Una Restricción Suave es una restricción que expresa qué solución se prefiere 
-sobre otras. 
-• Una Restricción Unaria es una restricción que involucra solo una variable. En 
-nuestro ejemplo, una restricción unaria sería decir que el curso A no puede tener un 
+Los problemas de satisfacción de restricciones tienen las siguientes propiedades:
+• Conjunto de variables (x₁, x₂, …, xₙ)
+• Conjunto de dominios para cada variable {D₁, D₂, …, Dₙ}
+• Conjunto de restricciones C
+Considere el siguiente ejemplo (figura 3.9) en que cada uno de los estudiantes
+1,2,3,4 está tomando tres cursos de los siguientes A, B, C, D, E, F, G. Cada curso debe
+tener un examen, y los días posibles para los exámenes son los lunes, martes y miércoles.
+Sin embargo, el mismo estudiante no puede tener dos exámenes el mismo día. En este
+caso, las variables son los cursos, el dominio son los días y las restricciones son qué cursos
+no se pueden programar para tener un examen el mismo día porque los está tomando el
+mismo estudiante.
+Figura 3.10 Grafo de los cursos
+Elaborado por los Autores
+Este problema se puede resolver empleando restricciones que se representan como
+un gráfico. Cada nodo del gráfico (figura 3.10) es un curso distinto, y se pone la
+restricción entre dos cursos que es de que no se pueden programar para el mismo día.
+Algunos términos que vale la pena conocer sobre los problemas de satisfacción de
+restricciones son:
+• Una Restricción Fuerte es una restricción que debe ser satisfecha en una
+solución correcta.
+• Una Restricción Suave es una restricción que expresa qué solución se prefiere
+sobre otras.
+• Una Restricción Unaria es una restricción que involucra solo una variable. En
+nuestro ejemplo, una restricción unaria sería decir que el curso A no puede tener un
 examen el lunes {A ≠ lunes}.

@@ -1,35 +1,35 @@
-que usa Revisar: 
-función PM(restricción): 
-    cola = todos los arcos con la restricción 
-    mientras cola no esté vacía: 
-        (X, Y) = Quitar de la cola (cola) 
-        si Revisar(restricción, X, Y): 
-            si tamaño del dominio de X == 0: 
-                retorne falso 
-            para cada Z en X.vecinos - {Y}: 
-                Poner en cola (Z, X) 
-    retorne verdadero 
-Este algoritmo agrega todos los arcos del problema a una cola. Cada vez que 
-considera un arco, lo elimina de la cola. Luego, ejecuta en el algoritmo Revisar para ver 
-si este arco es consistente. Si se hicieron cambios para hacerlo consistente, se necesitan 
-más acciones. Si el dominio resultante de X está vacío, significa que este problema de 
-satisfacción de restricciones no tiene solución (debido a que no hay valores que X pueda 
-tomar que permitan que Y tome cualquier valor dadas las restricciones). Si el problema 
-no se considera irresoluble en el paso anterior, entonces, dado que se cambió el dominio 
-de X, debemos ver si todos los arcos asociados con X aún son consistentes. Es decir, 
-tomamos todos los vecinos de X excepto Y, y agregamos los arcos entre ellos y X a la 
-cola. Sin embargo, si en el algoritmo Revisar devuelve falso, lo que significa que el 
-dominio no cambió, simplemente continuamos considerando los otros arcos. 
-Si bien el algoritmo para la consistencia del arco puede simplificar el problema, 
-no necesariamente lo resolverá, debido a que solo considera las restricciones binarias y 
-no cómo se pueden interconectar varios nodos. Nuestro ejemplo anterior, donde cada uno 
-de los 4 estudiantes está tomando 3 cursos, permanece sin cambios al ejecutar PM en él. 
-Un problema de satisfacción de restricciones puede verse como un problema de 
-búsqueda: 
-• Estado inicial: asignación vacía (todas las variables no tienen ningún valor 
-asignado). 
-• Acciones: agregue una {variable = valor} a la asignación; es decir, dar un valor 
-a alguna variable. 
-• Modelo de transición: muestra cómo al agregar la tarea cambia la tarea. No hay 
-mucha profundidad en esto: el modelo de transición devuelve el estado que incluye la 
+que usa Revisar:
+función PM(restricción):
+cola = todos los arcos con la restricción
+mientras cola no esté vacía:
+(X, Y) = Quitar de la cola (cola)
+si Revisar(restricción, X, Y):
+si tamaño del dominio de X == 0:
+retorne falso
+para cada Z en X.vecinos - {Y}:
+Poner en cola (Z, X)
+retorne verdadero
+Este algoritmo agrega todos los arcos del problema a una cola. Cada vez que
+considera un arco, lo elimina de la cola. Luego, ejecuta en el algoritmo Revisar para ver
+si este arco es consistente. Si se hicieron cambios para hacerlo consistente, se necesitan
+más acciones. Si el dominio resultante de X está vacío, significa que este problema de
+satisfacción de restricciones no tiene solución (debido a que no hay valores que X pueda
+tomar que permitan que Y tome cualquier valor dadas las restricciones). Si el problema
+no se considera irresoluble en el paso anterior, entonces, dado que se cambió el dominio
+de X, debemos ver si todos los arcos asociados con X aún son consistentes. Es decir,
+tomamos todos los vecinos de X excepto Y, y agregamos los arcos entre ellos y X a la
+cola. Sin embargo, si en el algoritmo Revisar devuelve falso, lo que significa que el
+dominio no cambió, simplemente continuamos considerando los otros arcos.
+Si bien el algoritmo para la consistencia del arco puede simplificar el problema,
+no necesariamente lo resolverá, debido a que solo considera las restricciones binarias y
+no cómo se pueden interconectar varios nodos. Nuestro ejemplo anterior, donde cada uno
+de los 4 estudiantes está tomando 3 cursos, permanece sin cambios al ejecutar PM en él.
+Un problema de satisfacción de restricciones puede verse como un problema de
+búsqueda:
+• Estado inicial: asignación vacía (todas las variables no tienen ningún valor
+asignado).
+• Acciones: agregue una {variable = valor} a la asignación; es decir, dar un valor
+a alguna variable.
+• Modelo de transición: muestra cómo al agregar la tarea cambia la tarea. No hay
+mucha profundidad en esto: el modelo de transición devuelve el estado que incluye la
 asignación después de la última acción.

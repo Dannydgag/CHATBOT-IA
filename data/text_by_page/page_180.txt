@@ -1,23 +1,23 @@
-Considere el siguiente ejemplo: 
-• Dos máquinas, X₁ y X₂. X₁ cuesta $40/hora para funcionar, X₂ cuesta $70/hora para 
-funcionar. El objetivo es minimizar el costo. Esto se puede formalizar como una función 
-de costo: 40x₁ + 70x₂. 
-• X₁ requiere 6 unidades de trabajo por hora. X₂ requiere 3 unidades de trabajo por hora. 
-Total de 22 unidades de mano de obra a gastar. Esto se puede formalizar como una 
-restricción: 6x₁ + 3x₂ ≤ 22. 
-• X₁ produce 10 unidades de salida por hora. X₂ produce 14 unidades de salida por hora. 
-La empresa necesita 95 unidades de producción. Esta es otra restricción. Literalmente, se 
-puede reescribir como 10x₁ + 14x₂ ≥ 95. Sin embargo, las restricciones deben tener la 
-forma (a₁x₁ + a₂x₂ + … + aₙxₙ ≤ b) o (a₁x₁ + a₂x₂ + … + aₙxₙ = b). Por lo tanto, 
+Considere el siguiente ejemplo:
+• Dos máquinas, X₁ y X₂. X₁ cuesta $40/hora para funcionar, X₂ cuesta $70/hora para
+funcionar. El objetivo es minimizar el costo. Esto se puede formalizar como una función
+de costo: 40x₁ + 70x₂.
+• X₁ requiere 6 unidades de trabajo por hora. X₂ requiere 3 unidades de trabajo por hora.
+Total de 22 unidades de mano de obra a gastar. Esto se puede formalizar como una
+restricción: 6x₁ + 3x₂ ≤ 22.
+• X₁ produce 10 unidades de salida por hora. X₂ produce 14 unidades de salida por hora.
+La empresa necesita 95 unidades de producción. Esta es otra restricción. Literalmente, se
+puede reescribir como 10x₁ + 14x₂ ≥ 95. Sin embargo, las restricciones deben tener la
+forma (a₁x₁ + a₂x₂ + … + aₙxₙ ≤ b) o (a₁x₁ + a₂x₂ + … + aₙxₙ = b). Por lo tanto,
 multiplicamos por (-1) para obtener una ecuación equivalente de la forma deseada: (-
-10x₁) + (-14x₂) ≤ -95. 
-Un algoritmo de optimización para programación lineal requiere conocimientos 
-previos en geometría y álgebra lineal que no queremos asumir, en su lugar, se puede usar 
-algoritmos que ya existen en diferentes lenguajes. 
-3.3.6 Satisfacción de restricciones 
-Los problemas de satisfacción de restricciones tienen un conjunto de variables, un 
-conjunto de dominios (cada uno asociado a una variable) y un conjunto de restricciones. 
-Son una clase de problemas en los que es necesario asignar valores a las variables 
-mientras se satisfacen algunas series de restricciones o condiciones.  
-Figura 3.9 Cursos que toman los estudiantes 
+10x₁) + (-14x₂) ≤ -95.
+Un algoritmo de optimización para programación lineal requiere conocimientos
+previos en geometría y álgebra lineal que no queremos asumir, en su lugar, se puede usar
+algoritmos que ya existen en diferentes lenguajes.
+[TITLE]: 3.3.6 Satisfacción de restricciones
+Los problemas de satisfacción de restricciones tienen un conjunto de variables, un
+conjunto de dominios (cada uno asociado a una variable) y un conjunto de restricciones.
+Son una clase de problemas en los que es necesario asignar valores a las variables
+mientras se satisfacen algunas series de restricciones o condiciones.
+Figura 3.9 Cursos que toman los estudiantes
 Elaborado por los Autores

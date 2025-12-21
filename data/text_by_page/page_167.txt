@@ -1,34 +1,34 @@
-2) Evaluar la aptitud (o función de costo) del estado actual. 
-3) Generar una lista de todos los vecinos que tienen una mejor aptitud que el 
-estado actual. 
-4) Seleccionar aleatoriamente uno de estos vecinos y moverse a ese estado. 
-5) Repetir los pasos 2-4 hasta que se cumpla un criterio de parada, como un 
-número máximo de iteraciones sin mejora o si no se encuentran vecinos 
-mejores. 
-Pseudocódigo: 
-Función Estocástico(estadoInicial, iteraciones): 
-    estadoActual = estadoInicial 
-    para i en rango(iteraciones): 
-        vecinoAleatorio = seleccionarVecinoAleatorio(estadoActual) 
-        si evaluar(vecinoAleatorio) > evaluar(estadoActual): 
-            estadoActual = vecinoAleatorio 
-    devolver estadoActual 
-Este pseudocódigo detalla un algoritmo estocástico básico. Inicia con un estado 
-inicial y ejecuta un número preestablecido de iteraciones. Durante cada iteración, 
-selecciona aleatoriamente un vecino del estado actual y evalúa si este vecino aleatorio es 
-superior al estado actual de acuerdo con la función objetivo. En caso de ser más óptimo, 
-el estado actual se reemplaza por el vecino aleatorio. Este procedimiento continúa durante 
-un número determinado de iteraciones. 
-• Primera elección: elige el primer vecino de mayor valor, sin necesidad de 
-evaluar a todos los vecinos, comparado con el estado actual que se generó aleatoriamente. 
-Tan pronto como se encuentra un vecino que es mejor que el estado actual, se realiza el 
-cambio. Los vecinos se suelen explorar en un orden aleatorio para evitar sesgos y para 
-darle al algoritmo una mayor capacidad de exploración. Este algoritmo es útil cuando el 
-número de vecinos es muy grande y evaluarlos todos sería computacionalmente costoso. 
-Funcionamiento:  
-1) Partir de un estado inicial. 
-2) Seleccionar aleatoriamente un vecino del estado actual. 
-3) Si este vecino mejora el estado actual según la función de evaluación, se adopta 
-como nuevo estado actual. 
-4) Si no mejora, se selecciona otro vecino aleatoriamente y se repite el proceso. 
-5) El algoritmo termina cuando se ha explorado un número determinado de vecinos
+2)Evaluar la aptitud (o función de costo) del estado actual.
+3)Generar una lista de todos los vecinos que tienen una mejor aptitud que el
+estado actual.
+4)Seleccionar aleatoriamente uno de estos vecinos y moverse a ese estado.
+5)Repetir los pasos 2-4 hasta que se cumpla un criterio de parada, como un
+número máximo de iteraciones sin mejora o si no se encuentran vecinos
+mejores.
+Pseudocódigo:
+Función Estocástico(estadoInicial, iteraciones):
+estadoActual = estadoInicial
+para i en rango(iteraciones):
+vecinoAleatorio = seleccionarVecinoAleatorio(estadoActual)
+si evaluar(vecinoAleatorio) > evaluar(estadoActual):
+estadoActual = vecinoAleatorio
+devolver estadoActual
+Este pseudocódigo detalla un algoritmo estocástico básico. Inicia con un estado
+inicial y ejecuta un número preestablecido de iteraciones. Durante cada iteración,
+selecciona aleatoriamente un vecino del estado actual y evalúa si este vecino aleatorio es
+superior al estado actual de acuerdo con la función objetivo. En caso de ser más óptimo,
+el estado actual se reemplaza por el vecino aleatorio. Este procedimiento continúa durante
+un número determinado de iteraciones.
+• Primera elección: elige el primer vecino de mayor valor, sin necesidad de
+evaluar a todos los vecinos, comparado con el estado actual que se generó aleatoriamente.
+Tan pronto como se encuentra un vecino que es mejor que el estado actual, se realiza el
+cambio. Los vecinos se suelen explorar en un orden aleatorio para evitar sesgos y para
+darle al algoritmo una mayor capacidad de exploración. Este algoritmo es útil cuando el
+número de vecinos es muy grande y evaluarlos todos sería computacionalmente costoso.
+Funcionamiento:
+1)Partir de un estado inicial.
+2)Seleccionar aleatoriamente un vecino del estado actual.
+3)Si este vecino mejora el estado actual según la función de evaluación, se adopta
+como nuevo estado actual.
+4)Si no mejora, se selecciona otro vecino aleatoriamente y se repite el proceso.
+5)El algoritmo termina cuando se ha explorado un número determinado de vecinos

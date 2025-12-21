@@ -1,32 +1,32 @@
-Búsqueda por Profundización Iterativa: Combina las ventajas de la búsqueda en 
-profundidad y la búsqueda por amplitud, incrementando gradualmente la profundidad 
-explorada. 
-Búsqueda de Costo Uniforme: Se enfoca en expandir el nodo con el menor costo 
-acumulado desde el estado inicial. 
-3.1.1 Búsqueda preferentemente por amplitud 
-La estrategia de búsqueda preferentemente por amplitud es un método sistemático 
-que comienza desde el nodo raíz y se extiende horizontalmente a través de los nodos 
-adyacentes, abarcando cada nivel de manera exhaustiva antes de descender al siguiente. 
-Esta exploración horizontal garantiza que todos los nodos en un nivel sean visitados y 
-examinados antes de pasar al nivel inferior. Operando bajo el principio FIFO (First In, 
-First Out), esta estrategia asegura que los nodos se expandan en el orden en que fueron 
-descubiertos, lo que facilita un proceso de búsqueda organizado y predecible (Chopra, 
-2012). 
-Cada conexión entre los nodos se considera con un costo uniforme, el algoritmo 
-avanza equitativamente en todas las direcciones posibles, un paso a la vez en cada ruta 
-viable. Esta búsqueda es particularmente eficaz en escenarios en los cuales  todas las rutas 
-deben ser evaluadas por igual o cuando la estructura del problema no proporciona pistas 
-claras sobre cuál podría ser la ruta más prometedora. 
-Aunque esta estrategia garantiza encontrar la solución óptima si existe dentro del 
-espacio de búsqueda, su exhaustividad puede resultar en un consumo de tiempo y recursos 
-mayor al mínimo necesario. Es especialmente efectiva en árboles de búsqueda con una 
-profundidad y número de ramas moderados, pero puede volverse menos práctica en 
-árboles con una gran cantidad de nodos o niveles, debido a que requiere almacenar y 
-procesar todos los nodos de un nivel antes de avanzar al siguiente. 
-La búsqueda por amplitud se aplica en diversos contextos de la inteligencia 
-artificial y la informática, como en la solución de puzzles, navegación en mapas, y en la 
-planificación de rutas. Su capacidad para dar una solución óptima y su naturaleza 
-sistemática la hacen una herramienta valiosa en problemas donde la precisión y la 
-exhaustividad son más críticas que la eficiencia en términos de tiempo o memoria (Russell 
-& Norvig, 2012). 
+Búsqueda por Profundización Iterativa: Combina las ventajas de la búsqueda en
+profundidad y la búsqueda por amplitud, incrementando gradualmente la profundidad
+explorada.
+Búsqueda de Costo Uniforme: Se enfoca en expandir el nodo con el menor costo
+acumulado desde el estado inicial.
+[TITLE]: 3.1.1 Búsqueda preferentemente por amplitud
+La estrategia de búsqueda preferentemente por amplitud es un método sistemático
+que comienza desde el nodo raíz y se extiende horizontalmente a través de los nodos
+adyacentes, abarcando cada nivel de manera exhaustiva antes de descender al siguiente.
+Esta exploración horizontal garantiza que todos los nodos en un nivel sean visitados y
+examinados antes de pasar al nivel inferior. Operando bajo el principio FIFO (First In,
+First Out), esta estrategia asegura que los nodos se expandan en el orden en que fueron
+descubiertos, lo que facilita un proceso de búsqueda organizado y predecible (Chopra,
+2012).
+Cada conexión entre los nodos se considera con un costo uniforme, el algoritmo
+avanza equitativamente en todas las direcciones posibles, un paso a la vez en cada ruta
+viable. Esta búsqueda es particularmente eficaz en escenarios en los cuales  todas las rutas
+deben ser evaluadas por igual o cuando la estructura del problema no proporciona pistas
+claras sobre cuál podría ser la ruta más prometedora.
+Aunque esta estrategia garantiza encontrar la solución óptima si existe dentro del
+espacio de búsqueda, su exhaustividad puede resultar en un consumo de tiempo y recursos
+mayor al mínimo necesario. Es especialmente efectiva en árboles de búsqueda con una
+profundidad y número de ramas moderados, pero puede volverse menos práctica en
+árboles con una gran cantidad de nodos o niveles, debido a que requiere almacenar y
+procesar todos los nodos de un nivel antes de avanzar al siguiente.
+La búsqueda por amplitud se aplica en diversos contextos de la inteligencia
+artificial y la informática, como en la solución de puzzles, navegación en mapas, y en la
+planificación de rutas. Su capacidad para dar una solución óptima y su naturaleza
+sistemática la hacen una herramienta valiosa en problemas donde la precisión y la
+exhaustividad son más críticas que la eficiencia en términos de tiempo o memoria (Russell
+& Norvig, 2012).
 Como ejemplo; se tiene un árbol binario (figura 3.1) donde el estado inicial es el

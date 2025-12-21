@@ -1,24 +1,24 @@
-más a la izquierda. 
-El nodo F es el nodo sucesor del 
-nodo C y constituye el nodo 
-objetivo por lo cual la búsqueda 
-termina y se tiene la solución 
-que constituye ir del nodo A al 
-nodo C y de ahí al nodo F. 
-3.1.5 Búsqueda de costo uniforme 
-Esta estrategia de búsqueda se diferencia de otras técnicas tradicionales en que no 
-se basa únicamente en la cantidad de pasos o nodos que se deben atravesar para llegar al 
-objetivo, sino en el costo acumulado asociado a esos pasos. Es especialmente relevante 
-en escenarios donde los enlaces entre nodos tienen costos variables y no unitarios. 
-En la búsqueda de costo uniforme, la prioridad no es la proximidad superficial al 
-objetivo (como podría ser el caso en una búsqueda primero en anchura), sino el camino 
-que representa el menor costo acumulado (Russell & Norvig, 2012).  
-En cada etapa de la búsqueda, se expande el nodo que, hasta ese momento, tiene 
-el camino de menor costo desde el nodo inicial. 
-Aunque a simple vista podría parecer similar a la búsqueda primero en anchura, 
-la búsqueda de costo uniforme mejora y refina este enfoque al considerar el costo de los 
-enlaces en su proceso de decisión.  
-No se trata simplemente de contar los pasos o nodos atravesados, sino de evaluar 
-y sumar los costos asociados a esos pasos. De esta manera, la estrategia garantiza que, al 
-alcanzar el nodo objetivo, se haya seguido el camino con el costo total más bajo, 
+más a la izquierda.
+El nodo F es el nodo sucesor del
+nodo C y constituye el nodo
+objetivo por lo cual la búsqueda
+termina y se tiene la solución
+que constituye ir del nodo A al
+nodo C y de ahí al nodo F.
+[TITLE]: 3.1.5 Búsqueda de costo uniforme
+Esta estrategia de búsqueda se diferencia de otras técnicas tradicionales en que no
+se basa únicamente en la cantidad de pasos o nodos que se deben atravesar para llegar al
+objetivo, sino en el costo acumulado asociado a esos pasos. Es especialmente relevante
+en escenarios donde los enlaces entre nodos tienen costos variables y no unitarios.
+En la búsqueda de costo uniforme, la prioridad no es la proximidad superficial al
+objetivo (como podría ser el caso en una búsqueda primero en anchura), sino el camino
+que representa el menor costo acumulado (Russell & Norvig, 2012).
+En cada etapa de la búsqueda, se expande el nodo que, hasta ese momento, tiene
+el camino de menor costo desde el nodo inicial.
+Aunque a simple vista podría parecer similar a la búsqueda primero en anchura,
+la búsqueda de costo uniforme mejora y refina este enfoque al considerar el costo de los
+enlaces en su proceso de decisión.
+No se trata simplemente de contar los pasos o nodos atravesados, sino de evaluar
+y sumar los costos asociados a esos pasos. De esta manera, la estrategia garantiza que, al
+alcanzar el nodo objetivo, se haya seguido el camino con el costo total más bajo,
 independientemente del número de nodos que se haya tenido que atravesar.

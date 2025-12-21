@@ -1,24 +1,24 @@
-Figura 3.17 Matriz de Confusión 
-Elaborado por los Autores 
-Verdadero Positivo (VP): Son los casos en los que el modelo predice 
-correctamente la presencia de una característica o condición. Es el número de 
-clasificaciones correctas en la Clase Positivos, son aquellos casos que en la clase 
-verdadera son positivos y en la clase predicha también son positivos. Por ejemplo, si el 
-modelo predice que ciertos individuos son hombres adultos y, efectivamente, lo son según 
-los datos reales. 
-Verdadero Negativo (VN): Son los casos en los que el modelo predice 
-correctamente la ausencia de una característica. Es el número de clasificaciones correctas 
-en la Clase Negativos, se predijo que eran No y realmente son No. En este caso, serían 
-los individuos que el modelo clasifica como no siendo hombres adultos, y que 
-efectivamente no lo son según los datos reales. 
-Falso Negativo (FN): Son los casos en los que el modelo predice incorrectamente 
-la ausencia de una característica. Es el número de clasificaciones incorrectas de clase 
-positiva clasificada como negativa, el modelo predijo que eran negativos, pero realmente 
-son positivos. Siguiendo el ejemplo, serían los individuos que el modelo clasifica como 
-no siendo hombres adultos, pero que en realidad sí lo son. 
-Falso Positivo (FP): Son los casos en los que el modelo predice incorrectamente 
-la presencia de una característica. Es el número de clasificaciones incorrectas de clase 
-negativa clasificada como positiva, se predijo que eran positivos, pero realmente son 
-negativos. En el ejemplo dado, serían los individuos que el modelo clasifica como 
-hombres adultos, pero que en realidad son niños. 
+Figura 3.17 Matriz de Confusión
+Elaborado por los Autores
+Verdadero Positivo (VP): Son los casos en los que el modelo predice
+correctamente la presencia de una característica o condición. Es el número de
+clasificaciones correctas en la Clase Positivos, son aquellos casos que en la clase
+verdadera son positivos y en la clase predicha también son positivos. Por ejemplo, si el
+modelo predice que ciertos individuos son hombres adultos y, efectivamente, lo son según
+los datos reales.
+Verdadero Negativo (VN): Son los casos en los que el modelo predice
+correctamente la ausencia de una característica. Es el número de clasificaciones correctas
+en la Clase Negativos, se predijo que eran No y realmente son No. En este caso, serían
+los individuos que el modelo clasifica como no siendo hombres adultos, y que
+efectivamente no lo son según los datos reales.
+Falso Negativo (FN): Son los casos en los que el modelo predice incorrectamente
+la ausencia de una característica. Es el número de clasificaciones incorrectas de clase
+positiva clasificada como negativa, el modelo predijo que eran negativos, pero realmente
+son positivos. Siguiendo el ejemplo, serían los individuos que el modelo clasifica como
+no siendo hombres adultos, pero que en realidad sí lo son.
+Falso Positivo (FP): Son los casos en los que el modelo predice incorrectamente
+la presencia de una característica. Es el número de clasificaciones incorrectas de clase
+negativa clasificada como positiva, se predijo que eran positivos, pero realmente son
+negativos. En el ejemplo dado, serían los individuos que el modelo clasifica como
+hombres adultos, pero que en realidad son niños.
 En el proceso de evaluación se usan las métricas las cuales proporcionan

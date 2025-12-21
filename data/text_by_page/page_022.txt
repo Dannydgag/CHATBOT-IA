@@ -1,32 +1,32 @@
-INTRODUCCIÓN 
-La inteligencia artificial se encarga de representar las diferentes formas de 
-conocimiento que posee el ser humano. Sus herramientas son la abstracción y la 
-inferencia que le permiten crear sistemas de computación no convencionales los cuales 
-son capaces de aprender nuevas tareas en base a la información proporcionada y tomar 
-decisiones en entornos diversos en los cuales debe actuar. 
-La base de la inteligencia artificial se encuentra en el influyente artículo de Alan 
-Turing, "Computing Machinery and Intelligence", el cual sostiene que las máquinas 
-deben considerarse inteligentes si pueden comportarse como humanos. 
-Este libro, está dividido en cuatro capítulos, en los cuales se explora los 
-fundamentos y usos de la inteligencia artificial. El primer capítulo profundiza en los 
-conceptos básicos de la inteligencia artificial. Analiza su evolución desde la década de 
-1950 y se examina cómo otras disciplinas han ayudado para su desarrollo; tales como las 
-matemáticas, filosofía, psicología, lingüística y ciencia de la computación. Se destaca el 
-impacto de la inteligencia artificial en numerosos sectores como la ciencia, ingeniería, 
-empresas, medicina y planificación estratégica. 
-Además, se trata sobre el concepto de agentes inteligentes, se explora sus diseños, 
-analizando su efectividad, identificando varias arquitecturas de programas para agentes. 
-Se busca resolver problemas mediante el razonamiento basado en el conocimiento y su 
-representación desde la perspectiva de la inteligencia simbólica. 
-La lógica es tratada en el capítulo II, constituye una técnica para la representación 
-del conocimiento utilizando proposiciones y operadores lógicos. Mediante las cláusulas 
-de Horn se representa el conocimiento, del cual, se parte para poder razonar y luego 
-ejecutar decisiones inteligentes. 
-El Capítulo III, está relacionado a las búsquedas, que constituyen estrategias 
-esenciales en la inteligencia artificial para alcanzar metas específicas. Se explora tanto las 
-formas de búsquedas no informadas como las informadas, destacando sus diferencias y 
-aplicaciones. También se aborda los conceptos de optimización y árboles de decisión. 
-Este libro está diseñado para ofrecerles a ustedes estimados lectores una sólida 
-comprensión de los fundamentos de la inteligencia artificial. Nuestro objetivo es 
-animarlos a que indaguen el potencial que posee la inteligencia artificial y contribuir a su 
+INTRODUCCIÓN
+La inteligencia artificial se encarga de representar las diferentes formas de
+conocimiento que posee el ser humano. Sus herramientas son la abstracción y la
+inferencia que le permiten crear sistemas de computación no convencionales los cuales
+son capaces de aprender nuevas tareas en base a la información proporcionada y tomar
+decisiones en entornos diversos en los cuales debe actuar.
+La base de la inteligencia artificial se encuentra en el influyente artículo de Alan
+Turing, "Computing Machinery and Intelligence", el cual sostiene que las máquinas
+deben considerarse inteligentes si pueden comportarse como humanos.
+Este libro, está dividido en cuatro capítulos, en los cuales se explora los
+fundamentos y usos de la inteligencia artificial. El primer capítulo profundiza en los
+conceptos básicos de la inteligencia artificial. Analiza su evolución desde la década de
+1950 y se examina cómo otras disciplinas han ayudado para su desarrollo; tales como las
+matemáticas, filosofía, psicología, lingüística y ciencia de la computación. Se destaca el
+impacto de la inteligencia artificial en numerosos sectores como la ciencia, ingeniería,
+empresas, medicina y planificación estratégica.
+Además, se trata sobre el concepto de agentes inteligentes, se explora sus diseños,
+analizando su efectividad, identificando varias arquitecturas de programas para agentes.
+Se busca resolver problemas mediante el razonamiento basado en el conocimiento y su
+representación desde la perspectiva de la inteligencia simbólica.
+La lógica es tratada en el capítulo II, constituye una técnica para la representación
+del conocimiento utilizando proposiciones y operadores lógicos. Mediante las cláusulas
+de Horn se representa el conocimiento, del cual, se parte para poder razonar y luego
+ejecutar decisiones inteligentes.
+El Capítulo III, está relacionado a las búsquedas, que constituyen estrategias
+esenciales en la inteligencia artificial para alcanzar metas específicas. Se explora tanto las
+formas de búsquedas no informadas como las informadas, destacando sus diferencias y
+aplicaciones. También se aborda los conceptos de optimización y árboles de decisión.
+Este libro está diseñado para ofrecerles a ustedes estimados lectores una sólida
+comprensión de los fundamentos de la inteligencia artificial. Nuestro objetivo es
+animarlos a que indaguen el potencial que posee la inteligencia artificial y contribuir a su
 desarrollo.

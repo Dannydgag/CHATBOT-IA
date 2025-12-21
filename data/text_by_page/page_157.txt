@@ -1,20 +1,20 @@
-Matemáticamente, esto se expresa como: para cada nodo n y su sucesor n’ con un costo 
-de paso c, debe cumplirse que h(n)≤h(n’)+c. 
-En esencia, A* es un algoritmo que combina lo mejor de las búsquedas informadas 
-y no informadas, proporcionando soluciones eficientes y precisas, siempre y cuando se 
-cuente con una heurística adecuada. 
-Para la demostración se utilizará el grafo de la búsqueda de costo 
-uniforme, el estado inicial es el nodo A y el nodo objetivo es el nodo G. 
-el valor de g(A) es 0 porque no existe ningún desplazamiento, mientras 
-que el valor de h(A) es (10 -1), por las posiciones que mantiene los nodos igual que en la 
-búsqueda avara primero el mejor. Entonces f(A) = g(A) +h(A)=0 + 9 = 9. 
-Se procede a expandir los nodos hijos del nodo A que son los nodos B y C, se 
-calcula el valor de f(B)= g(B)  + h(B) = √(8 −4)2 + (2 −1)2 + √(8 −4)2 + (10 −2)2 
-= 4,12 + 8,94 = 13,06, así mismo se procede a calcular el valor de f(C) = 
-√(10 −8)2 + (3 −1)2 + √(10 −8)2 + (10 −3)2 = 2,45 + 7,28 = 9,73. El nodo que 
-tiene el menor valor es C el cual se procede a expandir. 
-El nodo C tiene un solo sucesor que es el nodo D, se procede a calcula el valor de 
-g(D) que es la distancia de ir del nodo A al nodo C más la distancia de ir del nodo C al 
-nodo D, entonces g(D) = 2,45 + √(15 −10)2 + (5 −3)2 = 2,45 + 5,39 = 7,84 ; el valor 
-de h(D) = √(15 −8)2 + (10 −5)2 = 8,60. El valor de f(D) = 7,84 + 8,60 = 16,44. El 
+Matemáticamente, esto se expresa como: para cada nodo n y su sucesor n’ con un costo
+de paso c, debe cumplirse que h(n)≤h(n’)+c.
+En esencia, A* es un algoritmo que combina lo mejor de las búsquedas informadas
+y no informadas, proporcionando soluciones eficientes y precisas, siempre y cuando se
+cuente con una heurística adecuada.
+Para la demostración se utilizará el grafo de la búsqueda de costo
+uniforme, el estado inicial es el nodo A y el nodo objetivo es el nodo G.
+el valor de g(A) es 0 porque no existe ningún desplazamiento, mientras
+que el valor de h(A) es (10 -1), por las posiciones que mantiene los nodos igual que en la
+búsqueda avara primero el mejor. Entonces f(A) = g(A) +h(A)=0 + 9 = 9.
+Se procede a expandir los nodos hijos del nodo A que son los nodos B y C, se
+calcula el valor de f(B)= g(B)  + h(B) = √(8 −4)2+ (2 −1)2+ √(8 −4)2+ (10 −2)2
+= 4,12 + 8,94 = 13,06, así mismo se procede a calcular el valor de f(C) =
+√(10 −8)2+ (3 −1)2+ √(10 −8)2+ (10 −3)2 = 2,45 + 7,28 = 9,73. El nodo que
+tiene el menor valor es C el cual se procede a expandir.
+El nodo C tiene un solo sucesor que es el nodo D, se procede a calcula el valor de
+g(D) que es la distancia de ir del nodo A al nodo C más la distancia de ir del nodo C al
+nodo D, entonces g(D) = 2,45 + √(15 −10)2+ (5 −3)2 = 2,45 + 5,39 = 7,84 ; el valor
+de h(D) = √(15 −8)2+ (10 −5)2 = 8,60. El valor de f(D) = 7,84 + 8,60 = 16,44. El
 nodo que se procede a expandir es el que tiene el menor valor que en este caso es el nodo

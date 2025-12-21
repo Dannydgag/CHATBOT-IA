@@ -1,28 +1,26 @@
-ISBN General 
-Moreno Vallejo, Patricio Xavier 
-   Fundamentos de la inteligencia artificial : una visión introductoria / Patricio Xavier 
-Moreno Vallejo ; Gisel Katerine Bastidas Guacho ; Patricio Rene Moreno Costales ; 
-Editado por Juan Carlos Santillán Lima ;  Daniela Margoth Caichug Rivera. - 1a ed 
-revisada. - La Plata : Puerto Madero Editorial Académica, 2024. 
-   Libro digital, PDF 
-   Archivo Digital: descarga y online 
-   ISBN 978-631-6557-23-0 
-   1. Ingeniería Informática. 2. Inteligencia Artificial. I. Bastidas Guacho, Gisel Katerine. 
-II. Moreno Costales, Patricio Rene. III. Santillán Lima, Juan Carlos, ed. IV. Caichug 
-Rivera, Daniela Margoth, ed. V. Título. 
-   CDD 006.301 
-ISBN Tomo 1 
-Moreno Vallejo, Patricio Xavier 
-   Fundamentos de la inteligencia artificial : una visión introductoria / Patricio Xavier 
-Moreno Vallejo ; Gisel Katerine Bastidas Guacho ; Patricio Rene Moreno Costales ; 
-Editado por Juan Carlos Santillán Lima ;  Daniela Margoth Caichug Rivera. - 1a ed - La 
-Plata : Puerto Madero Editorial Académica, 2024. 
-   Libro digital, PDF 
-   Archivo Digital: descarga y online 
-   ISBN 978-631-6557-25-4 
-   1. Aplicaciones Informáticas. 2. Inteligencia Artificial. I. Bastidas Guacho, Gisel 
-Katerine. II. Moreno Costales, Patricio Rene. III. Santillán Lima, Juan Carlos, ed. IV. 
-Caichug Rivera, Daniela Margoth, ed. V. Título. 
-   CDD 006.301 
-Licencia Creative Commons:  
+Moreno Vallejo, Patricio Xavier
+Fundamentos de la inteligencia artificial : una visión introductoria / Patricio Xavier
+Moreno Vallejo ; Gisel Katerine Bastidas Guacho ; Patricio Rene Moreno Costales ;
+Editado por Juan Carlos Santillán Lima ;  Daniela Margoth Caichug Rivera. - 1a ed
+revisada. - La Plata : Puerto Madero Editorial Académica, 2024.
+Libro digital, PDF
+Archivo Digital: descarga y online
+ISBN 978-631-6557-23-0
+1. Ingeniería Informática. 2. Inteligencia Artificial. I. Bastidas Guacho, Gisel Katerine.
+II. Moreno Costales, Patricio Rene. III. Santillán Lima, Juan Carlos, ed. IV. Caichug
+Rivera, Daniela Margoth, ed. V. Título.
+CDD 006.301
+Moreno Vallejo, Patricio Xavier
+Fundamentos de la inteligencia artificial : una visión introductoria / Patricio Xavier
+Moreno Vallejo ; Gisel Katerine Bastidas Guacho ; Patricio Rene Moreno Costales ;
+Editado por Juan Carlos Santillán Lima ;  Daniela Margoth Caichug Rivera. - 1a ed - La
+Plata : Puerto Madero Editorial Académica, 2024.
+Libro digital, PDF
+Archivo Digital: descarga y online
+ISBN 978-631-6557-25-4
+1. Aplicaciones Informáticas. 2. Inteligencia Artificial. I. Bastidas Guacho, Gisel
+Katerine. II. Moreno Costales, Patricio Rene. III. Santillán Lima, Juan Carlos, ed. IV.
+Caichug Rivera, Daniela Margoth, ed. V. Título.
+CDD 006.301
+Licencia Creative Commons:
 Atribución-NoComercial-SinDerivar 4.0 Internacional (CC BY-NC-SA 4.0)

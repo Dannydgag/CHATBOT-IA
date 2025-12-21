@@ -1,27 +1,26 @@
-Otra forma de hacer que el algoritmo sea más eficiente es emplear otra heurística 
-cuando se selecciona un valor del dominio de una variable. Aquí, se puede usar la 
-heurística de Valores de Restricción Mínima, donde seleccionamos el valor que 
-restringirá la menor cantidad de otras variables. La idea aquí es que, mientras que en el 
-grado heurístico se quería usar la variable que es más probable que restrinja otras 
-variables, aquí queremos que esta variable imponga las menores restricciones sobre otras 
-variables. Es decir, se quiere localizar cuál podría ser la mayor fuente potencial de 
-problemas (la variable con el grado más alto) y luego convertirla en la menos 
-problemática que se pueda (asignarle el valor menos restrictivo). 
-Por ejemplo, considérese la variable C (figura 3.14). Si se le asigna el martes, se 
-pondrá una restricción en B, E y F. Sin embargo, si se elige el miércoles, se pondrá una 
-restricción solo en B y E. Por lo tanto, probablemente sea mejor ir con el miércoles. 
-     Figura 3.14 Asignación de día a la variable C 
-     Elaborado por los Autores 
-3.4 
-Arboles de decisión 
-Los árboles de decisión son una de las estructuras de datos más populares y 
-ampliamente investigadas, y son particularmente accesibles tanto para su creación como 
-para su comprensión. Estos árboles facilitan el desarrollo de algoritmos de aprendizaje 
-automático. Funcionan mediante la categorización de la información de entrada en 
-función de una variable de clasificación que tiene un rango limitado de posibles valores, 
-como "sí" o "no".  
-Se aplican en una variedad de áreas como en la predicción de accidentes, evaluación 
-de la solidez crediticia, identificación de la deserción de clientes, introducción de nuevos 
-productos en el mercado, consecución de objetivos de producción, reducción de la 
-deserción escolar, evaluación de riesgos en proyectos, toma de decisiones legales, 
+Otra forma de hacer que el algoritmo sea más eficiente es emplear otra heurística
+cuando se selecciona un valor del dominio de una variable. Aquí, se puede usar la
+heurística de Valores de Restricción Mínima, donde seleccionamos el valor que
+restringirá la menor cantidad de otras variables. La idea aquí es que, mientras que en el
+grado heurístico se quería usar la variable que es más probable que restrinja otras
+variables, aquí queremos que esta variable imponga las menores restricciones sobre otras
+variables. Es decir, se quiere localizar cuál podría ser la mayor fuente potencial de
+problemas (la variable con el grado más alto) y luego convertirla en la menos
+problemática que se pueda (asignarle el valor menos restrictivo).
+Por ejemplo, considérese la variable C (figura 3.14). Si se le asigna el martes, se
+pondrá una restricción en B, E y F. Sin embargo, si se elige el miércoles, se pondrá una
+restricción solo en B y E. Por lo tanto, probablemente sea mejor ir con el miércoles.
+Figura 3.14 Asignación de día a la variable C
+Elaborado por los Autores
+[TITLE]: 3.4 Arboles de decisión
+Los árboles de decisión son una de las estructuras de datos más populares y
+ampliamente investigadas, y son particularmente accesibles tanto para su creación como
+para su comprensión. Estos árboles facilitan el desarrollo de algoritmos de aprendizaje
+automático. Funcionan mediante la categorización de la información de entrada en
+función de una variable de clasificación que tiene un rango limitado de posibles valores,
+como "sí" o "no".
+Se aplican en una variedad de áreas como en la predicción de accidentes, evaluación
+de la solidez crediticia, identificación de la deserción de clientes, introducción de nuevos
+productos en el mercado, consecución de objetivos de producción, reducción de la
+deserción escolar, evaluación de riesgos en proyectos, toma de decisiones legales,
 planificación de inversiones, previsiones climáticas, planificación de la producción,

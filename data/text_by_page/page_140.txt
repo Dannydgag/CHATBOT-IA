@@ -1,16 +1,16 @@
-nodo A y el objetivo es poder llegar al nodo I utilizando la búsqueda preferentemente 
-por amplitud y pasando a través de los estados intermedios que son los nodos que forman 
-el camino hacia la meta. 
-Figura 3.1 Árbol binario 
-Elaborado por los Autores 
-Se empieza en el nivel 0 donde se encuentra el nodo raíz que para este caso es 
-el nodo A, como no coincide este nodo con el objetivo que es el nodo I se pasa 
-al siguiente nivel (nivel 1). 
-Se pasa al nodo que está a la izquierda del árbol binario que en este 
-caso es el nodo B, pero al no coincidir con el nodo objetivo, se 
-procede a pasar al nodo siguiente en horizontal. 
-El siguiente nodo en ser visitado es el nodo C, que tampoco 
-constituye el objetivo (nodo I), por lo cual se desciende al 
-siguiente nivel (nivel 2). 
-En el segundo nivel el primer nodo en ser visitado es el nodo D 
+nodo A y el objetivo es poder llegar al nodo I utilizando la búsqueda preferentemente
+por amplitud y pasando a través de los estados intermedios que son los nodos que forman
+el camino hacia la meta.
+Figura 3.1 Árbol binario
+Elaborado por los Autores
+Se empieza en el nivel 0 donde se encuentra el nodo raíz que para este caso es
+el nodo A, como no coincide este nodo con el objetivo que es el nodo I se pasa
+al siguiente nivel (nivel 1).
+Se pasa al nodo que está a la izquierda del árbol binario que en este
+caso es el nodo B, pero al no coincidir con el nodo objetivo, se
+procede a pasar al nodo siguiente en horizontal.
+El siguiente nodo en ser visitado es el nodo C, que tampoco
+constituye el objetivo (nodo I), por lo cual se desciende al
+siguiente nivel (nivel 2).
+En el segundo nivel el primer nodo en ser visitado es el nodo D
 al no ser el nodo objetivo es desechado.
