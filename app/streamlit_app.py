@@ -86,7 +86,7 @@ def load_chunks():
 def get_sample_text():
     """
     Carga texto de ejemplo desde los archivos extraídos.
-    En futuras semanas, esto se conectará al pipeline de Xander.
+    En futuras semanas, esto se conectará al pipeline.
     """
     sample_file = Path(__file__).parent.parent / "data" / "text_by_page" / "sample_pages_1-9.txt"
     try:
@@ -124,7 +124,7 @@ def stub_query_pipeline(query: str) -> dict:
 def stub_get_context(query: str) -> str:
     """
     Función stub que simula la recuperación de contexto relevante.
-    Será conectada al índice vectorial de Mateo.
+    Será conectada al índice vectorial.
     """
     return """
     [CONTEXTO SIMULADO]
@@ -215,7 +215,7 @@ def render_chatbot_ui():
             st.info("Las fuentes aparecerán aquí cuando realices una consulta.")
         
         # Mostrar ejemplo de texto extraído
-        with st.expander("👁️ Ver texto de ejemplo (Erik)"):
+        with st.expander("👁️ Ver texto de ejemplo"):
             st.caption("Primeras páginas extraídas del PDF:")
             sample_text = get_sample_text()
             st.text_area("", value=sample_text[:500] + "...", height=200, disabled=True)
@@ -550,7 +550,7 @@ def main():
 
     # Footer
     st.markdown("---")
-    st.caption("Semana 4 - Búsqueda Vectorial v2 | Autor: Joel")
+    
 
 # ==================== ENTRY POINT ====================
 
