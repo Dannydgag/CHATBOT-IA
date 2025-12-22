@@ -83,7 +83,7 @@ Si algo falla, revise la sección de solución de problemas en `SETUP.md`.
    - Si no se abre, copie la URL en su navegador.
 
 3. **Utilice el chatbot**:
-   - Seleccione el modo "🤖 Chatbot (Demo)" en el sidebar.
+   - Seleccione el modo "🔍 Búsqueda Vectorial" en el sidebar.
    - Escriba una pregunta sobre IA en el área de texto (ejemplo: "¿Qué es la inteligencia artificial?").
    - Haga clic en "🔍 Consultar".
    - Verá la respuesta simulada, fuentes y confianza.
