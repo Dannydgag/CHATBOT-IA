@@ -22,26 +22,29 @@ from urllib.parse import quote
 # Configurar path para imports
 sys.path.append(str(Path(__file__).parent.parent))
 
-# Intentar importar la API de recuperación real (Xander)
-# Si falla (porque falta el índice de Mateo), usamos un mock local
+# Intentar importar el pipeline completo (Semana 4 - Xander)
+# Si falla, usamos un mock local para no bloquear la UI.
 try:
-    from orchestration.retrieval_api import retrieve
-    RETRIEVAL_AVAILABLE = True
+    from orchestration.full_pipeline import run_pipeline
+    PIPELINE_AVAILABLE = True
 except ImportError:
-    RETRIEVAL_AVAILABLE = False
-    # Mock local para cuando no está listo el backend
-    def retrieve(query: str, top_k: int = 5):
-        time.sleep(0.5) # Simular latencia
-        return [
-            {
-                "id": f"mock_{i}",
-                "text": f"Resultado simulado #{i+1} para la búsqueda: '{query}'.\nEste es un texto de relleno que representa un chunk recuperado del índice vectorial.",
-                "page": 3 + i,
-                "score": 0.95 - (i * 0.05),
-                "metadata": {"source": "mock"}
-            }
-            for i in range(top_k)
-        ]
+    PIPELINE_AVAILABLE = False
+
+    def run_pipeline(query: str, top_k: int = 5):
+        time.sleep(0.5)
+        return {
+            "status": "ok",
+            "results": [
+                {
+                    "text": f"[MOCK] Resultado #{i+1} para: '{query}'.",
+                    "page": 3 + i,
+                    "score": 0.95 - (i * 0.05),
+                }
+                for i in range(top_k)
+            ],
+            "message": "",
+            "time": 0.5,
+        }
 
 # Configuración de la página
 st.set_page_config(
@@ -278,10 +281,10 @@ def render_search_ui():
     st.session_state.setdefault("selected_source_page", None)
     
     # Estado de la conexión
-    if RETRIEVAL_AVAILABLE:
-        st.caption("✅ Conectado al Pipeline de Recuperación")
+    if PIPELINE_AVAILABLE:
+        st.caption("✅ Conectado al Full Pipeline")
     else:
-        st.error("❌ API de Recuperación no disponible. Usando modo simulación.")
+        st.error("❌ Full Pipeline no disponible. Usando modo simulación.")
 
     # Área de búsqueda con estilo
     with st.container(border=True):
@@ -322,7 +325,7 @@ def render_search_ui():
                     time.sleep(0.3) 
                     
                     st.write("Buscando fragmentos similares...")
-                    response = retrieve(query=query, top_k=int(top_k))
+                    response = run_pipeline(query=query, top_k=int(top_k))
                     elapsed = time.time() - start_time
                     
                     # Procesar respuesta

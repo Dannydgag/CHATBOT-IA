@@ -11,14 +11,19 @@ Semana: 4
 
 import time
 import logging
+from pathlib import Path
 from typing import Dict, Any
 
 from orchestration.retrieval_api import retrieve
 
 
 # --- Logging ---
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+_LOG_DIR = _REPO_ROOT / "logs"
+_LOG_DIR.mkdir(parents=True, exist_ok=True)
+
 logging.basicConfig(
-    filename="logs/pipeline.log",
+    filename=str(_LOG_DIR / "pipeline.log"),
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s"
 )
