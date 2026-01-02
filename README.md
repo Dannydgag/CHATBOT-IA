@@ -12,7 +12,7 @@ Este proyecto implementa un chatbot de Inteligencia Artificial basado en un sist
 
 1. **Clone el repositorio** (si no lo ha hecho):
    ```bash
-   git clone https://github.com/tu-usuario/CHATBOT-IA.git
+   git clone https://github.com/Dannydgag/CHATBOT-IA.git
    cd CHATBOT-IA
    ```
 
