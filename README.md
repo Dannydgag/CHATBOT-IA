@@ -4,8 +4,6 @@
 
 Este proyecto implementa un chatbot de Inteligencia Artificial basado en un sistema RAG (Retrieval-Augmented Generation) para responder preguntas sobre el libro "Fundamentos de la Inteligencia Artificial: Una Visión Introductoria". El sistema extrae texto de un PDF, lo procesa en fragmentos, genera embeddings y permite búsquedas vectoriales para proporcionar respuestas precisas.
 
-**Estado del proyecto**: Semana 4 - Integración total y UX refinado.
-
 ---
 
 ## Guía de Inicio Rápido
@@ -39,7 +37,7 @@ Este proyecto implementa un chatbot de Inteligencia Artificial basado en un sist
 
    > **Nota**: Debería ver `(.venv)` al inicio de su línea de comandos.
 
-   Se recomienda utilizar Python versión 3.12.10 para una compatibilidad óptima.
+   Se recomienda utilizar Python versión 3.11 para una compatibilidad óptima.
 
 ### Paso 2: Instalar Dependencias
 
@@ -61,12 +59,16 @@ python verificar_entorno.py
 
 Debería ver un mensaje como:
 ```
-Verificando entorno...
-Python: 3.X.X ...
-✅ sentence_transformers - OK
-✅ faiss - OK
-✅ numpy - OK
-El entorno se ha configurado correctamente.
+=== Verificación del entorno del proyecto ===
+
+Python detectado: 3.11.9
+✔ Versión recomendada de Python detectada.
+✔ Entorno virtual detectado.
+
+Verificando dependencias...
+✔ Todas las dependencias están instaladas.
+
+✔ Verificación finalizada.
 ```
 
 Si algo falla, revise la sección de solución de problemas en `SETUP.md`.
@@ -137,13 +139,3 @@ CHATBOT-IA/
 - **Mateo**: Embeddings e indexado.
 
 Siga el plan en `docs/README-project-plan.md` para contribuciones.
-
----
-
-## Licencia
-
-Este proyecto es para fines educativos. Consulte el libro original para derechos de autor.
-
----
-
-**Contacto**: Equipo CHATBOT-IA | Semana 4 - Noviembre 2024
