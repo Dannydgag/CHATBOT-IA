@@ -523,17 +523,6 @@ def main():
         st.header("Navegación")
         page_mode = st.radio("Modo:", ["🤖 Chatbot (Demo)", "🧩 Inspector de Chunks", "🔍 Búsqueda Vectorial"])
         
-        st.markdown("---")
-        st.header("📚 Información")
-        st.markdown("""
-        **Estado**: Desarrollo Semana 4
-        
-        **Progreso**:
-        - ✅ UI Streamlit Base
-        - ✅ Extracción & Chunking
-        - ✅ Búsqueda Vectorial (v2)
-        - ⏳ Pipeline RAG Completo
-        """)
         
         if page_mode == "🤖 Chatbot (Demo)":
             st.subheader("⚙️ Configuración Chat")
