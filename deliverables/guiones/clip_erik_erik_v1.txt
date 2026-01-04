@@ -1,0 +1,11 @@
+(0:00 - 0:24)
+Buenas tardes, mi nombre es Erik Yumi y yo me encargué principalmente de lo que es la extracción y limpieza de la información del libro. En la fase de extracción, aquí se realizó la limpieza de lo que eran los encabezados y las numeraciones de cada una de las páginas. También se estableció un control para poder identificar los títulos que estaban definidos dentro del libro, otorgándoles una etiqueta llamada título al inicio de las líneas de este fragmento extraído de texto.
+
+(0:25 - 0:44)
+Con la ejecución de este script se generaron estos archivos de texto donde se encuentra la información de cada una de las páginas procesadas. Y aquí podemos verificar que se añadió correctamente la etiqueta a este título. En cuanto a la fase de generación de chunks, básicamente aquí se definió como un límite mil caracteres para cada chunk.
+
+(0:44 - 1:13)
+Una vez que un chunk superase el límite, se retrocederá a buscar el último punto detectado para poder cortar justo después del punto el chunk, dejando un chunk con un contenido de idea gramaticalmente correcto y con la idea completa, sin perder el contexto de dicha idea de la que se estaba tratando en ese chunk. Con la ejecución de este script, aquí se genera el archivo que contiene los chunks. Y aquí podemos observar la estructura que tiene cada uno de los chunks.
+
+(1:13 - 1:35)
+Un ID, la página a la que corresponde, la fuente de información de los archivos que extraímos anteriormente, el título que detectamos anteriormente para poder asignarlo correctamente al contenido asociado. Y como podemos ver al final, existe el corte en cada uno de los puntos que se detecta, manteniendo una idea completa para cada uno de los chunks.
