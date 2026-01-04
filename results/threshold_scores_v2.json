@@ -1,0 +1,583 @@
+{
+  "summary": {
+    "count_scores": 147,
+    "mean": 0.5608165714285713,
+    "std": 0.06621197984570795,
+    "p50": 0.55421,
+    "p75": 0.601626,
+    "p90": 0.650131
+  },
+  "data": [
+    {
+      "id": "q_0001",
+      "query": "¿Qué es un agente inteligente?",
+      "scores": [
+        0.559936,
+        0.555558,
+        0.557927
+      ],
+      "pages": [
+        46
+      ]
+    },
+    {
+      "id": "q_0002",
+      "query": "¿Qué es un agente racional?",
+      "scores": [
+        0.583287,
+        0.520226
+      ],
+      "pages": [
+        47,
+        48
+      ]
+    },
+    {
+      "id": "q_0003",
+      "query": "¿Qué es la prueba de Turing?",
+      "scores": [
+        0.610602,
+        0.548692
+      ],
+      "pages": [
+        44
+      ]
+    },
+    {
+      "id": "q_0004",
+      "query": "¿Qué es la búsqueda no informada?",
+      "scores": [
+        0.650947
+      ],
+      "pages": [
+        138
+      ]
+    },
+    {
+      "id": "q_0005",
+      "query": "¿Qué es la búsqueda de costo uniforme?",
+      "scores": [
+        0.664856,
+        0.638868,
+        0.558766,
+        0.484185,
+        0.494803,
+        0.549259,
+        0.53123,
+        0.529152
+      ],
+      "pages": [
+        150
+      ]
+    },
+    {
+      "id": "q_0006",
+      "query": "¿Qué es la búsqueda informada?",
+      "scores": [
+        0.652516
+      ],
+      "pages": [
+        153,
+        154
+      ]
+    },
+    {
+      "id": "q_0007",
+      "query": "¿Qué es la búsqueda A*?",
+      "scores": [
+        0.643664,
+        0.549724,
+        0.533182
+      ],
+      "pages": [
+        156,
+        157
+      ]
+    },
+    {
+      "id": "q_0008",
+      "query": "¿Qué es un entorno estático?",
+      "scores": [],
+      "pages": [
+        58
+      ]
+    },
+    {
+      "id": "q_0009",
+      "query": "¿Qué es un entorno determinista?",
+      "scores": [],
+      "pages": [
+        33
+      ]
+    },
+    {
+      "id": "q_0010",
+      "query": "¿Qué es el aprendizaje por refuerzo?",
+      "scores": [
+        0.518663
+      ],
+      "pages": [
+        77
+      ]
+    },
+    {
+      "id": "q_0011",
+      "query": "¿Qué son las redes bayesianas?",
+      "scores": [],
+      "pages": [
+        90
+      ]
+    },
+    {
+      "id": "q_0012",
+      "query": "¿Qué es modus ponens?",
+      "scores": [
+        0.538975
+      ],
+      "pages": [
+        116,
+        117
+      ]
+    },
+    {
+      "id": "q_0013",
+      "query": "¿Qué es modus tollens?",
+      "scores": [
+        0.573047
+      ],
+      "pages": [
+        117
+      ]
+    },
+    {
+      "id": "q_0014",
+      "query": "¿Qué son los agentes híbridos?",
+      "scores": [],
+      "pages": [
+        71
+      ]
+    },
+    {
+      "id": "q_0015",
+      "query": "¿Qué es un agente reactivo simple?",
+      "scores": [],
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": "q_0016",
+      "query": "¿Qué es la arquitectura deliberativa?",
+      "scores": [
+        0.55421
+      ],
+      "pages": [
+        52
+      ]
+    },
+    {
+      "id": "q_0017",
+      "query": "¿Qué es un agente multiagente?",
+      "scores": [],
+      "pages": [
+        69,
+        81
+      ]
+    },
+    {
+      "id": "q_0018",
+      "query": "¿Qué es la optimización?",
+      "scores": [
+        0.605674
+      ],
+      "pages": [
+        159
+      ]
+    },
+    {
+      "id": "q_0019",
+      "query": "¿Qué es la búsqueda local?",
+      "scores": [
+        0.582048
+      ],
+      "pages": [
+        160
+      ]
+    },
+    {
+      "id": "q_0020",
+      "query": "¿Qué es la escalada de colinas?",
+      "scores": [
+        0.549341,
+        0.523744,
+        0.555285,
+        0.534345,
+        0.500753,
+        0.529548
+      ],
+      "pages": [
+        162,
+        163
+      ]
+    },
+    {
+      "id": "q_0021",
+      "query": "¿Qué son los algoritmos genéticos?",
+      "scores": [],
+      "pages": [
+        168,
+        169
+      ]
+    },
+    {
+      "id": "q_0022",
+      "query": "¿Qué es un árbol de decisión?",
+      "scores": [
+        0.563218,
+        0.614356,
+        0.561966,
+        0.507567,
+        0.498592,
+        0.491745
+      ],
+      "pages": [
+        189,
+        194
+      ]
+    },
+    {
+      "id": "q_0023",
+      "query": "¿Qué es la función objetivo?",
+      "scores": [
+        0.587885
+      ],
+      "pages": [
+        160
+      ]
+    },
+    {
+      "id": "q_0024",
+      "query": "¿Qué es la lógica proposicional?",
+      "scores": [
+        0.696063,
+        0.718472,
+        0.697721,
+        0.695546,
+        0.693789,
+        0.630229,
+        0.649587,
+        0.623452,
+        0.71089,
+        0.674298,
+        0.611166
+      ],
+      "pages": [
+        82,
+        105
+      ]
+    },
+    {
+      "id": "q_0025",
+      "query": "¿Qué es la lógica de primer orden?",
+      "scores": [
+        0.692218,
+        0.618848,
+        0.5991,
+        0.565234,
+        0.530689,
+        0.595449,
+        0.57079,
+        0.5833,
+        0.510582,
+        0.461629,
+        0.471673
+      ],
+      "pages": [
+        88,
+        112
+      ]
+    },
+    {
+      "id": "q_0026",
+      "query": "¿Qué son las reglas de producción?",
+      "scores": [
+        0.515116,
+        0.482322
+      ],
+      "pages": [
+        104,
+        126
+      ]
+    },
+    {
+      "id": "q_0027",
+      "query": "¿Qué es el encaminamiento hacia adelante?",
+      "scores": [
+        0.579572,
+        0.577509,
+        0.521923,
+        0.50729,
+        0.502811
+      ],
+      "pages": [
+        128,
+        131
+      ]
+    },
+    {
+      "id": "q_0028",
+      "query": "¿Qué es el encaminamiento hacia atrás?",
+      "scores": [
+        0.529383,
+        0.522061,
+        0.540452,
+        0.498149
+      ],
+      "pages": [
+        131,
+        132
+      ]
+    },
+    {
+      "id": "q_0029",
+      "query": "¿Qué es un nodo raíz en un árbol de decisión?",
+      "scores": [
+        0.609864,
+        0.528414,
+        0.588906,
+        0.538108,
+        0.507703,
+        0.505225,
+        0.458753,
+        0.537234,
+        0.511455,
+        0.526759,
+        0.49762,
+        0.548699,
+        0.507725,
+        0.447879,
+        0.480868,
+        0.437613,
+        0.486631,
+        0.482035,
+        0.417437
+      ],
+      "pages": [
+        194
+      ]
+    },
+    {
+      "id": "q_0030",
+      "query": "¿Qué son los nodos internos en un árbol de decisión?",
+      "scores": [
+        0.591756,
+        0.619793,
+        0.540961,
+        0.600402,
+        0.571825,
+        0.529696,
+        0.479704,
+        0.60285,
+        0.525767,
+        0.565308,
+        0.533927,
+        0.505848,
+        0.514578,
+        0.573049,
+        0.478561,
+        0.44059,
+        0.493122,
+        0.497434,
+        0.467858,
+        0.424597
+      ],
+      "pages": [
+        194,
+        195
+      ]
+    },
+    {
+      "id": "q_0031",
+      "query": "¿Qué es AlphaGo?",
+      "scores": [],
+      "pages": [
+        29
+      ]
+    },
+    {
+      "id": "q_0032",
+      "query": "¿Qué es ELIZA?",
+      "scores": [],
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": "q_0033",
+      "query": "¿Qué es la matriz de confusión?",
+      "scores": [
+        0.445728,
+        0.487669
+      ],
+      "pages": [
+        199,
+        200
+      ]
+    },
+    {
+      "id": "q_0034",
+      "query": "¿Qué es el razonamiento automático?",
+      "scores": [],
+      "pages": [
+        44
+      ]
+    },
+    {
+      "id": "q_0035",
+      "query": "¿Qué caracteriza a un entorno episódico?",
+      "scores": [],
+      "pages": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "q_0036",
+      "query": "¿Qué es un agente basado en conocimiento?",
+      "scores": [
+        0.643315,
+        0.619041,
+        0.572887,
+        0.635542,
+        0.531073,
+        0.594924,
+        0.489108,
+        0.67554,
+        0.59089,
+        0.595752,
+        0.649023,
+        0.63279,
+        0.613609,
+        0.556966,
+        0.596372,
+        0.549747,
+        0.626231,
+        0.529391
+      ],
+      "pages": [
+        76,
+        98
+      ]
+    },
+    {
+      "id": "q_0037",
+      "query": "¿Qué es ChatGPT?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0038",
+      "query": "¿Qué son los transformers?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0039",
+      "query": "¿Qué es GPT-4?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0040",
+      "query": "¿Qué es BERT?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0041",
+      "query": "¿Qué es RAG?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0042",
+      "query": "¿Qué es una base vectorial Chroma?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0043",
+      "query": "¿Qué es fine-tuning?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0044",
+      "query": "¿Qué es el aprendizaje por transferencia?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0045",
+      "query": "¿Qué es un embedding?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0046",
+      "query": "¿Qué es prompt engineering?",
+      "scores": [],
+      "pages": []
+    },
+    {
+      "id": "q_0047",
+      "query": "¿Qué es la búsqueda primero en profundidad?",
+      "scores": [
+        0.675008,
+        0.769793,
+        0.607175,
+        0.597825,
+        0.573101,
+        0.53535,
+        0.563516,
+        0.553249,
+        0.529121
+      ],
+      "pages": [
+        142
+      ]
+    },
+    {
+      "id": "q_0048",
+      "query": "¿Qué es la búsqueda por amplitud?",
+      "scores": [
+        0.621625,
+        0.574071,
+        0.652893,
+        0.594273,
+        0.561991,
+        0.498119
+      ],
+      "pages": [
+        139
+      ]
+    },
+    {
+      "id": "q_0049",
+      "query": "¿Qué es el recocido simulado?",
+      "scores": [
+        0.535119
+      ],
+      "pages": [
+        175,
+        176
+      ]
+    },
+    {
+      "id": "q_0050",
+      "query": "¿Qué es LangChain?",
+      "scores": [],
+      "pages": []
+    }
+  ]
+}

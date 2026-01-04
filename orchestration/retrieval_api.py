@@ -4,13 +4,13 @@ from scripts.m11_search_hybrid import search
 # =========================
 # Threshold calibrado (Mateo)
 # =========================
-MIN_SCORE = 0.54  # percentil 75 según validation_set
+MIN_SCORE = 0.55
 
 
 def retrieve(
     query: str,
     top_k: int = 5,
-    alpha: float = 0.6
+    alpha: float = 0.9
 ) -> Dict[str, Any]:
     """
     API única de recuperación de información para la aplicación.
