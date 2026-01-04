@@ -1,0 +1,20 @@
+Hola, soy Joel y estuve a cargo del desarrollo de la interfaz de usuario con Streamlit. 
+Mi objetivo fue crear una experiencia donde el usuario pueda realizar preguntas, ver las respuestas con su evidencia, 
+y acceder directamente a la fuente en el PDF.
+
+Primero tenemos una sección de Demo, que es una pequeña introducción a lo que se tiene como producto final o chat final.
+Se muestra una opción de consultar, limpiar, y una pequeña sección donde se nos mostrará la respuesta del sistema.
+
+Ahora con la sección de inspector de chunks, aquí básicamente se nos va a mostrar el total de chunks, las páginas procesadas y un promedio de chunks por página.
+Y aquí directamente se van a mostrar todos los chunks generados de todas las páginas del PDF. También podemos ver los metadatos completos: id, page, source, title, text, que es de donde se va a sacar la información para nuestra sección final.
+
+En nuestra sección final tenemos un indicador que nos dice que nuestra UI está conectada al full pipeline de orquestación, lo que nos dice que está usando el backend final y no una simulación.
+
+Entonces, como primera pregunta vamos a buscar "¿Qué es un agente inteligente?" y le daremos en buscar. Se empezará a consultar en la base de conocimiento y nos dirá directamente "búsqueda completada en...", que es el tiempo que se demoró en buscar una respuesta.
+
+En base a nuestra pregunta "¿Qué es un agente inteligente?", nos dice "un agente inteligente se define como..." y se nos muestra toda la respuesta.
+Ahora la metadata técnica es de donde se sacó la información y la página, y podemos ver la fuente directamente en el PDF. Se nos generará una nueva ventana que se nos va a mostrar la página de donde se sacó.
+Por ejemplo, podemos ver que un agente inteligente se define como agente = arquitectura más programa, que es la respuesta que nos dio el sistema.
+
+Ahora, ¿qué pasa si preguntamos algo que no está en nuestro libro? Si buscamos algo que no está en nuestro libro nos dirá "no se encontró información relevante".
+Y así mismo empezará a buscar en la base de conocimiento y al final nos dirá: "Lo siento, no se encontró información relevante en el libro".
